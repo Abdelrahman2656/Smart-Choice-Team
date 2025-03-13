@@ -60,8 +60,10 @@ password:{
 phone: {
     type: String,
     unique: true,
-    default: " ",
-  },
+    sparse: true,  
+    default: null, 
+    trim: true     
+},
 role:{
     type:String,
     enum:Object.values(roles),
