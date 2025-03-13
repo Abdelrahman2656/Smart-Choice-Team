@@ -33,11 +33,11 @@ exports.signInVal = joi_1.default.object({
     email: generalFields_1.generalFields.email.required(),
     provider: joi_1.default.string()
         .valid(enum_1.providers.SYSTEM, enum_1.providers.GOOGLE),
-    password: generalFields_1.generalFields.password.when("provider", {
+    password: joi_1.default.alternatives().conditional("provider", {
         is: enum_1.providers.SYSTEM,
-        then: joi_1.default.required(),
-        otherwise: joi_1.default.forbidden()
-    }),
+        then: generalFields_1.generalFields.password.required(), // Required for SYSTEM
+        otherwise: joi_1.default.optional()
+    }), // Removes password from request if provider is GOOGLE
 });
 //refresh token
 exports.refreshTokenVal = joi_1.default.object({

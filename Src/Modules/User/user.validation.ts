@@ -27,10 +27,10 @@ export const signInVal = joi.object({
     email:generalFields.email.required(),
         provider: joi.string()
     .valid(providers.SYSTEM, providers.GOOGLE),
-        password:generalFields.password.when("provider", {
-            is: providers.SYSTEM,
-            then: joi.required(),
-            otherwise: joi.forbidden()}),
+    password: joi.alternatives().conditional("provider", {
+        is: providers.SYSTEM,
+        then: generalFields.password.required(), // Required for SYSTEM
+        otherwise: joi.optional()}), // Removes password from request if provider is GOOGLE
     })
 //refresh token
 export const refreshTokenVal = joi.object({
