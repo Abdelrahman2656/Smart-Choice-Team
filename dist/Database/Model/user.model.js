@@ -33,10 +33,10 @@ const userSchema = new mongoose_1.Schema({
         type: String,
         validate: {
             validator: function (value) {
-                if (this.provider === enum_1.providers.SYSTEM && !value) {
-                    return true; // Password is required for SYSTEM
+                if (this.provider === enum_1.providers.SYSTEM) {
+                    return !!value; // Password is required for SYSTEM (must be truthy)
                 }
-                return false; // Otherwise, it's optional
+                return true; // If provider is Google, password is optional
             },
             message: "Password is required for SYSTEM provider",
         },

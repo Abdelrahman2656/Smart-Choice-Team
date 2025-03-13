@@ -48,13 +48,13 @@ password:{
     type:String,
     validate: {
         validator: function (this: IUser, value: string) {
-          if (this.provider === providers.SYSTEM && !value) {
-            return true; // Password is required for SYSTEM
-          }
-          return false; // Otherwise, it's optional
+            if (this.provider === providers.SYSTEM) {
+                return !!value; // Password is required for SYSTEM (must be truthy)
+            }
+            return true; // If provider is Google, password is optional
         },
         message: "Password is required for SYSTEM provider",
-      },
+    },
     trim:true
 },
 phone: {

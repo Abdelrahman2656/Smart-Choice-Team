@@ -45,7 +45,7 @@ exports.refreshTokenVal = joi_1.default.object({
 }).required();
 //forget password 
 exports.forgetPasswordVal = joi_1.default.object({
-    email: generalFields_1.generalFields.email.required()
+    email: generalFields_1.generalFields.email.required(),
 });
 //change password 
 exports.changePasswordVal = joi_1.default.object({

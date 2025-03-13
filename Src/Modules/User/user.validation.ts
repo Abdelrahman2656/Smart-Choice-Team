@@ -38,7 +38,8 @@ export const refreshTokenVal = joi.object({
 }).required()
 //forget password 
 export const forgetPasswordVal = joi.object({
-    email:generalFields.email.required()
+    email:generalFields.email.required(),
+    
 })
 //change password 
 export const changePasswordVal =joi.object({
