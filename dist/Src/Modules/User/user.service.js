@@ -21,6 +21,9 @@ const signUp = async (req, res, next) => {
         if (userExist.isConfirmed) {
             return next(new AppError_1.AppError(messages_1.messages.user.alreadyExist, 400)); // Prevent duplicate accounts
         }
+        if (userExist.provider == enum_1.providers.GOOGLE) {
+            return next(new AppError_1.AppError('User Already Login With Google', 400));
+        }
         if (userExist?.otpEmail && userExist?.expiredDateOtp?.getTime() > Date.now()) {
             return next(new AppError_1.AppError(messages_1.messages.user.AlreadyHasOtp, 400));
         }

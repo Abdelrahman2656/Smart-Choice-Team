@@ -29,7 +29,9 @@ export const signUp = async (
     if (userExist.isConfirmed) {
       return next(new AppError(messages.user.alreadyExist, 400)); // Prevent duplicate accounts
     }
-
+    if(userExist.provider == providers.GOOGLE){
+      return next (new AppError('User Already Login With Google',400))
+    }
     if (userExist?.otpEmail && userExist?.expiredDateOtp?.getTime() > Date.now()) {
       return next(new AppError(messages.user.AlreadyHasOtp, 400));
     }
