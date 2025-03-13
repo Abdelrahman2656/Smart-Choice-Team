@@ -41,13 +41,13 @@ email:{
 provider:{
     type:String,
     enum:Object.values(provider),
-default:provider.SYSTEM
+ default:provider.SYSTEM
 },
 password:{
     type:String,
-    required:function(){
-    return this.provider == provider.SYSTEM ? true : false
-    },
+    required: function (this: any) {
+        return this.provider === provider.SYSTEM; 
+      },
     trim:true
 },
 

@@ -32,7 +32,7 @@ const userSchema = new mongoose_1.Schema({
     password: {
         type: String,
         required: function () {
-            return this.provider == enum_1.provider.SYSTEM ? true : false;
+            return this.provider === enum_1.provider.SYSTEM;
         },
         trim: true
     },
