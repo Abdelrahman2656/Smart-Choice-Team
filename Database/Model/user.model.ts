@@ -1,12 +1,12 @@
 import { model, Schema } from "mongoose";
-import { gender, provider, roles } from "../../Src/Utils/constant/enum";
+import {  provider, roles } from "../../Src/Utils/constant/enum";
 
 //schema
 interface IUser{
 firstName:string,
 lastName:string,
 email:string,
-password:String,
+password?:String,
 isConfirmed:boolean,
 isDeleted:boolean;
 role:string
@@ -41,12 +41,12 @@ email:{
 provider:{
     type:String,
     enum:Object.values(provider),
- default:provider.SYSTEM
+    default:provider.SYSTEM
 },
 password:{
     type:String,
-    required: function (this: any) {
-        return this.provider === provider.SYSTEM; 
+    required: function(this: any) {
+        return this.provider === provider.SYSTEM;
       },
     trim:true
 },

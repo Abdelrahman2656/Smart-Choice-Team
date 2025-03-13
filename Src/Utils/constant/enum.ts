@@ -11,16 +11,7 @@ export const roles:Roles={
 
 }
 Object.freeze(roles)
-//user gender
-interface Gender{
-    MALE:string,
-    FEMALE:string
-}
-export const gender:Gender={
-    MALE:'male',
-    FEMALE:'female'
-}
-Object.freeze(gender)
+//user provider
 interface Provider{
     SYSTEM:string,
     GOOGLE:string

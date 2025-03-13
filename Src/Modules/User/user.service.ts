@@ -129,8 +129,8 @@ export const login = async (
   //compare password
   let match = comparePassword({
     password,
-    hashPassword: userExist.password.toString(),
-  });
+    hashPassword: userExist.password?.toString() || "",
+  })
   if (!match) {
     return next(new AppError(messages.user.Incorrect, 400));
   }

@@ -102,7 +102,7 @@ const login = async (req, res, next) => {
     //compare password
     let match = (0, encryption_1.comparePassword)({
         password,
-        hashPassword: userExist.password.toString(),
+        hashPassword: userExist.password?.toString() || "",
     });
     if (!match) {
         return next(new AppError_1.AppError(messages_1.messages.user.Incorrect, 400));

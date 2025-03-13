@@ -10,7 +10,7 @@ cPassword:generalFields.cPassword.required(),
 DOB:generalFields.DOB,
 otpEmail:generalFields.otpEmail
 
-}).required()
+})
 //confirm Email
 export const confirmEmailVal = joi.object({
     email:generalFields.email.required(),

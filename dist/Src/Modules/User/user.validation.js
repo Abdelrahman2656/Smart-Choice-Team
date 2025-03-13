@@ -15,7 +15,7 @@ exports.signUpVal = joi_1.default.object({
     cPassword: generalFields_1.generalFields.cPassword.required(),
     DOB: generalFields_1.generalFields.DOB,
     otpEmail: generalFields_1.generalFields.otpEmail
-}).required();
+});
 //confirm Email
 exports.confirmEmailVal = joi_1.default.object({
     email: generalFields_1.generalFields.email.required(),
