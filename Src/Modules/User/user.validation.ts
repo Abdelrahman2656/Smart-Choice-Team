@@ -1,4 +1,4 @@
-import { provider } from "../../Utils/constant/enum";
+import { providers } from "../../Utils/constant/enum";
 import { generalFields } from "../../Utils/generalFields/generalFields";
 import joi from 'joi'
 //sign up
@@ -6,8 +6,10 @@ export const signUpVal = joi.object({
 firstName:generalFields.firstName.required(),
 lastName:generalFields.lastName.required(),
 email:generalFields.email.required(),
+provider: joi.string()
+.valid(providers.SYSTEM, providers.GOOGLE),
 password:generalFields.password.when("provider", {
-    is: provider.SYSTEM,
+    is: providers.SYSTEM,
     then: joi.string().min(6).required(), // Password required for SYSTEM
     otherwise: joi.string().optional()}), // Not required for Google,
 cPassword:generalFields.cPassword.required(),
@@ -23,8 +25,13 @@ export const confirmEmailVal = joi.object({
 //sign in
 export const signInVal = joi.object({
     email:generalFields.email.required(),
-    password:generalFields.password.required()
-}).required()
+        provider: joi.string()
+    .valid(providers.SYSTEM, providers.GOOGLE),
+        password:generalFields.password.when("provider", {
+            is: providers.SYSTEM,
+            then: joi.required(),
+            otherwise: joi.forbidden()}),
+    })
 //refresh token
 export const refreshTokenVal = joi.object({
     refreshToken:generalFields.refreshToken.required()

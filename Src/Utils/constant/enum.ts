@@ -16,8 +16,8 @@ interface Provider{
     SYSTEM:string,
     GOOGLE:string
 }
-export const provider:Provider={
+export const providers:Provider={
     SYSTEM:"system",
     GOOGLE:"google"
 }
-Object.freeze(provider)
+Object.freeze(providers)

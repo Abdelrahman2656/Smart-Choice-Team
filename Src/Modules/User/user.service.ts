@@ -8,6 +8,7 @@ import { generateToken, verifyToken } from "../../Utils/Token/token";
 import { AppNext, AppRequest, AppResponse } from "../../Utils/type";
 import { generateOTP } from "../../Utils/otp";
 import { verifyGoogleToken } from "../../Utils/verifyGoogle/verifyGoogle";
+import { providers } from "../../Utils/constant/enum";
 
 
 //---------------------------------------------------Sign Up --------------------------------------------------------------
@@ -165,7 +166,9 @@ if(!userExist){
   userExist=await User.create({
     email,
     firstName:given_name,
-    lastName:family_name
+    lastName:family_name,
+    provider:providers.GOOGLE,
+    isConfirmed:true
   })
 }
   //generate token

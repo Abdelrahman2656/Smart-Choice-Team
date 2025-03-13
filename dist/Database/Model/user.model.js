@@ -26,15 +26,26 @@ const userSchema = new mongoose_1.Schema({
     },
     provider: {
         type: String,
-        enum: Object.values(enum_1.provider),
-        default: enum_1.provider.SYSTEM
+        enum: Object.values(enum_1.providers),
+        default: enum_1.providers.SYSTEM
     },
     password: {
         type: String,
-        required: function () {
-            return this.provider === enum_1.provider.SYSTEM;
+        validate: {
+            validator: function (value) {
+                if (this.provider === enum_1.providers.SYSTEM && !value) {
+                    return true; // Password is required for SYSTEM
+                }
+                return false; // Otherwise, it's optional
+            },
+            message: "Password is required for SYSTEM provider",
         },
         trim: true
+    },
+    phone: {
+        type: String,
+        unique: true,
+        default: "",
     },
     role: {
         type: String,

@@ -1,5 +1,5 @@
 import { model, Schema } from "mongoose";
-import {  provider, roles } from "../../Src/Utils/constant/enum";
+import {  providers, roles } from "../../Src/Utils/constant/enum";
 
 //schema
 interface IUser{
@@ -13,7 +13,8 @@ role:string
 otpEmail:String
 expiredDateOtp:Date
 DOB:string,
-provider:string
+provider:string,
+phone:String
 }
 
 const userSchema = new Schema<IUser>({
@@ -40,17 +41,27 @@ email:{
 },
 provider:{
     type:String,
-    enum:Object.values(provider),
-    default:provider.SYSTEM
+    enum:Object.values(providers),
+    default:providers.SYSTEM
 },
 password:{
     type:String,
-    required: function(this: any) {
-        return this.provider === provider.SYSTEM;
+    validate: {
+        validator: function (this: IUser, value: string) {
+          if (this.provider === providers.SYSTEM && !value) {
+            return true; // Password is required for SYSTEM
+          }
+          return false; // Otherwise, it's optional
+        },
+        message: "Password is required for SYSTEM provider",
       },
     trim:true
 },
-
+phone: {
+    type: String,
+    unique: true,
+    default: "",
+  },
 role:{
     type:String,
     enum:Object.values(roles),

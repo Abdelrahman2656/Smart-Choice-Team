@@ -12,8 +12,10 @@ exports.signUpVal = joi_1.default.object({
     firstName: generalFields_1.generalFields.firstName.required(),
     lastName: generalFields_1.generalFields.lastName.required(),
     email: generalFields_1.generalFields.email.required(),
+    provider: joi_1.default.string()
+        .valid(enum_1.providers.SYSTEM, enum_1.providers.GOOGLE),
     password: generalFields_1.generalFields.password.when("provider", {
-        is: enum_1.provider.SYSTEM,
+        is: enum_1.providers.SYSTEM,
         then: joi_1.default.string().min(6).required(), // Password required for SYSTEM
         otherwise: joi_1.default.string().optional()
     }), // Not required for Google,
@@ -29,8 +31,14 @@ exports.confirmEmailVal = joi_1.default.object({
 //sign in
 exports.signInVal = joi_1.default.object({
     email: generalFields_1.generalFields.email.required(),
-    password: generalFields_1.generalFields.password.required()
-}).required();
+    provider: joi_1.default.string()
+        .valid(enum_1.providers.SYSTEM, enum_1.providers.GOOGLE),
+    password: generalFields_1.generalFields.password.when("provider", {
+        is: enum_1.providers.SYSTEM,
+        then: joi_1.default.required(),
+        otherwise: joi_1.default.forbidden()
+    }),
+});
 //refresh token
 exports.refreshTokenVal = joi_1.default.object({
     refreshToken: generalFields_1.generalFields.refreshToken.required()

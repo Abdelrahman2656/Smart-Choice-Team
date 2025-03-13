@@ -9,6 +9,7 @@ const encryption_1 = require("../../Utils/encryption");
 const token_1 = require("../../Utils/Token/token");
 const otp_1 = require("../../Utils/otp");
 const verifyGoogle_1 = require("../../Utils/verifyGoogle/verifyGoogle");
+const enum_1 = require("../../Utils/constant/enum");
 //---------------------------------------------------Sign Up --------------------------------------------------------------
 const signUp = async (req, res, next) => {
     //get data from req
@@ -139,7 +140,9 @@ const loginWithGoogle = async (req, res, next) => {
         userExist = await Database_1.User.create({
             email,
             firstName: given_name,
-            lastName: family_name
+            lastName: family_name,
+            provider: enum_1.providers.GOOGLE,
+            isConfirmed: true
         });
     }
     //generate token
