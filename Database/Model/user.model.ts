@@ -60,7 +60,7 @@ password:{
 phone: {
     type: String,
     unique: true,
-    default: "",
+    default: " ",
   },
 role:{
     type:String,
