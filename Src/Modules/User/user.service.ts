@@ -158,13 +158,14 @@ export const loginWithGoogle = async(req:AppRequest,res:AppResponse,next:AppNext
 //get data from req 
 let {idToken}=req.body
 //check token from google 
-let {email, name}= await verifyGoogleToken(idToken)
+let {email, given_name ,family_name}= await verifyGoogleToken(idToken)
 //check user exist
 let userExist =await User.findOne({email})
 if(!userExist){
   userExist=await User.create({
     email,
-    firstName:name
+    firstName:given_name,
+    lastName:family_name
   })
 }
   //generate token

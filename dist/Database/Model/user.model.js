@@ -13,9 +13,7 @@ const userSchema = new mongoose_1.Schema({
     },
     lastName: {
         type: String,
-        required: function () {
-            return this.provider == enum_1.provider.SYSTEM ? true : false;
-        },
+        required: true,
         trim: true,
         minlength: 3,
         maxlength: 40

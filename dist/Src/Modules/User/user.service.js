@@ -132,13 +132,14 @@ const loginWithGoogle = async (req, res, next) => {
     //get data from req 
     let { idToken } = req.body;
     //check token from google 
-    let { email, name } = await (0, verifyGoogle_1.verifyGoogleToken)(idToken);
+    let { email, given_name, family_name } = await (0, verifyGoogle_1.verifyGoogleToken)(idToken);
     //check user exist
     let userExist = await Database_1.User.findOne({ email });
     if (!userExist) {
         userExist = await Database_1.User.create({
             email,
-            firstName: name
+            firstName: given_name,
+            lastName: family_name
         });
     }
     //generate token
