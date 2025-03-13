@@ -12,7 +12,7 @@ export const bootstrap = (
   //-----------------------------------------------parse------------------------------------------------------------
   app.use(express.json());
 
-  dotenv.config({ path: path.resolve("./.env") });
+  dotenv.config({ path: path.resolve("./.env") })
   app.use(cors({
    origin: '*', 
  }));
