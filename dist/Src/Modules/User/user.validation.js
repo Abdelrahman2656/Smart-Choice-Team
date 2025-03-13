@@ -4,6 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.loginWithGoogleVal = exports.changePasswordVal = exports.forgetPasswordVal = exports.refreshTokenVal = exports.signInVal = exports.confirmEmailVal = exports.signUpVal = void 0;
+const enum_1 = require("../../Utils/constant/enum");
 const generalFields_1 = require("../../Utils/generalFields/generalFields");
 const joi_1 = __importDefault(require("joi"));
 //sign up
@@ -11,7 +12,11 @@ exports.signUpVal = joi_1.default.object({
     firstName: generalFields_1.generalFields.firstName.required(),
     lastName: generalFields_1.generalFields.lastName.required(),
     email: generalFields_1.generalFields.email.required(),
-    password: generalFields_1.generalFields.password.required(),
+    password: generalFields_1.generalFields.password.when("provider", {
+        is: enum_1.provider.SYSTEM,
+        then: joi_1.default.string().min(6).required(), // Password required for SYSTEM
+        otherwise: joi_1.default.string().optional()
+    }), // Not required for Google,
     cPassword: generalFields_1.generalFields.cPassword.required(),
     DOB: generalFields_1.generalFields.DOB,
     otpEmail: generalFields_1.generalFields.otpEmail

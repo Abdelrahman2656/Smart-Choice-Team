@@ -1,3 +1,4 @@
+import { provider } from "../../Utils/constant/enum";
 import { generalFields } from "../../Utils/generalFields/generalFields";
 import joi from 'joi'
 //sign up
@@ -5,7 +6,10 @@ export const signUpVal = joi.object({
 firstName:generalFields.firstName.required(),
 lastName:generalFields.lastName.required(),
 email:generalFields.email.required(),
-password:generalFields.password.required(),
+password:generalFields.password.when("provider", {
+    is: provider.SYSTEM,
+    then: joi.string().min(6).required(), // Password required for SYSTEM
+    otherwise: joi.string().optional()}), // Not required for Google,
 cPassword:generalFields.cPassword.required(),
 DOB:generalFields.DOB,
 otpEmail:generalFields.otpEmail
