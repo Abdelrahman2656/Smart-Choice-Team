@@ -21,7 +21,8 @@ exports.signUpVal = joi_1.default.object({
     }), // Not required for Google,
     cPassword: generalFields_1.generalFields.cPassword.required(),
     DOB: generalFields_1.generalFields.DOB,
-    otpEmail: generalFields_1.generalFields.otpEmail
+    otpEmail: generalFields_1.generalFields.otpEmail,
+    phone: joi_1.default.optional()
 });
 //confirm Email
 exports.confirmEmailVal = joi_1.default.object({

@@ -14,7 +14,8 @@ password:generalFields.password.when("provider", {
     otherwise: joi.string().optional()}), // Not required for Google,
 cPassword:generalFields.cPassword.required(),
 DOB:generalFields.DOB,
-otpEmail:generalFields.otpEmail
+otpEmail:generalFields.otpEmail,
+phone:joi.optional()
 
 })
 //confirm Email
