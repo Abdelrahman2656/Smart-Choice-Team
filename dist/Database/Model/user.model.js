@@ -24,6 +24,11 @@ const userSchema = new mongoose_1.Schema({
         unique: true,
         required: true
     },
+    provider: {
+        type: String,
+        enum: Object.values(enum_1.provider),
+        default: enum_1.provider.SYSTEM
+    },
     password: {
         type: String,
         required: function () {
@@ -47,11 +52,6 @@ const userSchema = new mongoose_1.Schema({
     DOB: {
         type: String,
         default: () => new Date().toISOString()
-    },
-    provider: {
-        type: String,
-        enum: Object.values(enum_1.provider),
-        default: enum_1.provider.SYSTEM
     },
     otpEmail: String,
     expiredDateOtp: Date

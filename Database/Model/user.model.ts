@@ -38,6 +38,11 @@ email:{
     unique:true,
     required:true
 },
+provider:{
+    type:String,
+    enum:Object.values(provider),
+default:provider.SYSTEM
+},
 password:{
     type:String,
     required:function(){
@@ -63,11 +68,6 @@ isDeleted: {
 DOB: {
     type: String,
     default: () => new Date().toISOString() 
-},
-provider:{
-    type:String,
-    enum:Object.values(provider),
-default:provider.SYSTEM
 },
 otpEmail:String,
 expiredDateOtp:Date
