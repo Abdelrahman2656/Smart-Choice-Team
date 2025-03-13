@@ -62,7 +62,7 @@ isDeleted: {
 },
 DOB: {
     type: String,
-    default: () => new Date().toISOString() // ISO format string of the current date and time
+    default: () => new Date().toISOString() 
 },
 provider:{
     type:String,

@@ -1,1 +1,1 @@
-export * from './Model/user.mode'
+export * from './Model/user.model'
