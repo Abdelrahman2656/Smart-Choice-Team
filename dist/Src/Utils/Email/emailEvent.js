@@ -41,7 +41,7 @@ const sendOTPForgetPassword = async (email, firstName, lastName, otpEmail) => {
     // Send email after updating the database
     await (0, email_1.sendEmail)({
         to: email,
-        subject: "Resend Forget Password",
+        subject: "Forget Password",
         html: (0, emailHtml_1.emailHtml)(otpEmail, `${firstName} ${lastName}`),
     });
 };
