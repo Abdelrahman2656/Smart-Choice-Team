@@ -27,7 +27,9 @@ firstName:{
 },
 lastName:{
     type:String,
-    required:true,
+    required:function(){
+        return this.provider == provider.SYSTEM ? true : false
+        },
     trim:true,
     minlength:3,
     maxlength:40
