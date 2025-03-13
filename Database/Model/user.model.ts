@@ -22,7 +22,7 @@ firstName:{
     required:true,
     trim:true,
     minlength:3,
-    maxlength:15
+    maxlength:40
 
 },
 lastName:{
@@ -30,7 +30,7 @@ lastName:{
     required:true,
     trim:true,
     minlength:3,
-    maxlength:15
+    maxlength:40
 },
 email:{
     type:String,

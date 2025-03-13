@@ -1,8 +1,8 @@
 import joi from 'joi'
 import { gender, roles } from '../constant/enum'
 export const generalFields={
-    firstName:joi.string().max(15).min(3),
-    lastName:joi.string().max(15).min(3),
+    firstName:joi.string().max(40).min(3),
+    lastName:joi.string().max(40).min(3),
     email:joi.string().email(),
     password:joi.string().pattern(new RegExp(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/)),
     cPassword:joi.string().valid(joi.ref('password')),

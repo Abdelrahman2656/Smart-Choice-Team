@@ -9,14 +9,14 @@ const userSchema = new mongoose_1.Schema({
         required: true,
         trim: true,
         minlength: 3,
-        maxlength: 15
+        maxlength: 40
     },
     lastName: {
         type: String,
         required: true,
         trim: true,
         minlength: 3,
-        maxlength: 15
+        maxlength: 40
     },
     email: {
         type: String,
