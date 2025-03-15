@@ -1,11 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.globalErrorHandling = exports.asyncHandler = void 0;
-const AppError_1 = require("../Utils/AppError/AppError");
 const asyncHandler = (fn) => {
     return (req, res, next) => {
         Promise.resolve(fn(req, res, next)).catch((err) => {
-            next(new AppError_1.AppError(err.message, err.statusCode || 500));
+            next(err);
         });
     };
 };

@@ -48,7 +48,7 @@ const signUp = async (req, res, next) => {
         firstName,
         lastName,
         email,
-        phone: cipherText,
+        phone: cipherText || undefined,
         password,
         role,
     });

@@ -59,7 +59,7 @@ let cipherText=Encrypt({key :phone,secretKey:process.env.SECRET_CRYPTO })
     firstName,
     lastName,
     email,
-    phone:cipherText,
+    phone:cipherText || undefined,
     password,
     role,
     

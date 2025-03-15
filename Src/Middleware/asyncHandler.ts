@@ -4,7 +4,7 @@ import { AppNext, AppRequest, AppResponse } from "../Utils/type";
 export const asyncHandler=( fn: (req:AppRequest,res:AppResponse,next:AppNext) => Promise<any>)=>{
     return(req:AppRequest,res:AppResponse,next:AppNext)=>{
         Promise.resolve(fn(req, res, next)).catch((err) => {
-            next(new AppError(err.message, err.statusCode || 500));
+            next(err);
           });
 
     }

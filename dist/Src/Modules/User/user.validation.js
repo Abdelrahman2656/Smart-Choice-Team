@@ -39,6 +39,7 @@ exports.signInVal = joi_1.default.object({
         then: generalFields_1.generalFields.password.required(),
         otherwise: joi_1.default.optional()
     }),
+    phone: generalFields_1.generalFields.phone.optional()
 });
 //refresh token
 exports.refreshTokenVal = joi_1.default.object({

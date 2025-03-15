@@ -32,7 +32,7 @@ export const signInVal = joi.object({
         is: providers.SYSTEM,
         then: generalFields.password.required(), 
         otherwise: joi.optional()}), 
-       
+       phone:generalFields.phone.optional()
     })
     
 //refresh token

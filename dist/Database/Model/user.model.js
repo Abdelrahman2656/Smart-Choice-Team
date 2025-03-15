@@ -9,25 +9,25 @@ const userSchema = new mongoose_1.Schema({
         required: true,
         trim: true,
         minlength: 3,
-        maxlength: 15
+        maxlength: 15,
     },
     lastName: {
         type: String,
         required: true,
         trim: true,
         minlength: 3,
-        maxlength: 15
+        maxlength: 15,
     },
     email: {
         type: String,
         lowercase: true,
         unique: true,
-        required: true
+        required: true,
     },
     provider: {
         type: String,
         enum: Object.values(enum_1.providers),
-        default: enum_1.providers.SYSTEM
+        default: enum_1.providers.SYSTEM,
     },
     password: {
         type: String,
@@ -40,33 +40,33 @@ const userSchema = new mongoose_1.Schema({
             },
             message: "Password is required for SYSTEM provider",
         },
-        trim: true
+        trim: true,
     },
     phone: {
         type: String,
-        //    unique:true,
+        unique: true,
         trim: true,
         sparse: true,
     },
     role: {
         type: String,
         enum: Object.values(enum_1.roles),
-        default: enum_1.roles.USER
+        default: enum_1.roles.USER,
     },
     isConfirmed: {
         type: Boolean,
-        default: false
+        default: false,
     },
     isDeleted: {
         type: Boolean,
-        default: false
+        default: false,
     },
     DOB: {
         type: String,
-        default: () => new Date().toISOString()
+        default: () => new Date().toISOString(),
     },
     otpEmail: String,
-    expiredDateOtp: Date
+    expiredDateOtp: Date,
 });
 //model
-exports.User = (0, mongoose_1.model)('User', userSchema);
+exports.User = (0, mongoose_1.model)("User", userSchema);
