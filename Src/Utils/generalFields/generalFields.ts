@@ -11,5 +11,6 @@ export const generalFields={
     DOB:joi.string(),
     objectId:joi.string().hex().length(24),
     refreshToken:joi.string(),
-    idToken:joi.string()
+    idToken:joi.string(),
+    phone:joi.string().pattern(new RegExp(/^(00201|\+201|01)[0-2,5]{1}[0-9]{8}$/)),
 }

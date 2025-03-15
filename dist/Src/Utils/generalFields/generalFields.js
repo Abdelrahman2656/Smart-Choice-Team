@@ -17,5 +17,6 @@ exports.generalFields = {
     DOB: joi_1.default.string(),
     objectId: joi_1.default.string().hex().length(24),
     refreshToken: joi_1.default.string(),
-    idToken: joi_1.default.string()
+    idToken: joi_1.default.string(),
+    phone: joi_1.default.string().pattern(new RegExp(/^(00201|\+201|01)[0-2,5]{1}[0-9]{8}$/)),
 };

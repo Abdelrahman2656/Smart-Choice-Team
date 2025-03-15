@@ -15,7 +15,7 @@ password:generalFields.password.when("provider", {
 cPassword:generalFields.cPassword.required(),
 DOB:generalFields.DOB,
 otpEmail:generalFields.otpEmail,
-phone:joi.optional()
+phone:generalFields.phone.optional()
 
 })
 //confirm Email
@@ -32,7 +32,9 @@ export const signInVal = joi.object({
         is: providers.SYSTEM,
         then: generalFields.password.required(), // Required for SYSTEM
         otherwise: joi.optional()}), // Removes password from request if provider is GOOGLE
+        phone:generalFields.phone.optional()
     })
+    
 //refresh token
 export const refreshTokenVal = joi.object({
     refreshToken:generalFields.refreshToken.required()

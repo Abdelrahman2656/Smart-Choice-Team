@@ -58,10 +58,8 @@ password:{
     trim:true
 },
 phone: {
-    type: String,
-    unique: true,
-    sparse: true,  
-    default: null, 
+    type: String, 
+   unique:true,
     trim: true     
 },
 role:{

@@ -22,7 +22,7 @@ exports.signUpVal = joi_1.default.object({
     cPassword: generalFields_1.generalFields.cPassword.required(),
     DOB: generalFields_1.generalFields.DOB,
     otpEmail: generalFields_1.generalFields.otpEmail,
-    phone: joi_1.default.optional()
+    phone: generalFields_1.generalFields.phone.optional()
 });
 //confirm Email
 exports.confirmEmailVal = joi_1.default.object({
@@ -39,6 +39,7 @@ exports.signInVal = joi_1.default.object({
         then: generalFields_1.generalFields.password.required(), // Required for SYSTEM
         otherwise: joi_1.default.optional()
     }), // Removes password from request if provider is GOOGLE
+    phone: generalFields_1.generalFields.phone.optional()
 });
 //refresh token
 exports.refreshTokenVal = joi_1.default.object({
