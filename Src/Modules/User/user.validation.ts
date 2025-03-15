@@ -30,9 +30,9 @@ export const signInVal = joi.object({
     .valid(providers.SYSTEM, providers.GOOGLE),
     password: joi.alternatives().conditional("provider", {
         is: providers.SYSTEM,
-        then: generalFields.password.required(), // Required for SYSTEM
-        otherwise: joi.optional()}), // Removes password from request if provider is GOOGLE
-        phone:generalFields.phone.optional()
+        then: generalFields.password.required(), 
+        otherwise: joi.optional()}), 
+       
     })
     
 //refresh token

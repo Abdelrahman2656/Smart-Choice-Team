@@ -13,7 +13,7 @@ const enum_1 = require("../../Utils/constant/enum");
 //---------------------------------------------------Sign Up --------------------------------------------------------------
 const signUp = async (req, res, next) => {
     //get data from req
-    let { firstName, lastName, email, password, role } = req.body;
+    let { firstName, phone, lastName, email, password, role } = req.body;
     //check userExist
     let userExist = await Database_1.User.findOne({ email });
     //send email
@@ -36,6 +36,8 @@ const signUp = async (req, res, next) => {
             });
         }
     }
+    //crypt phone
+    let cipherText = (0, encryption_1.Encrypt)({ key: phone, secretKey: process.env.SECRET_CRYPTO });
     //hash password
     password = await (0, encryption_1.Hash)({
         key: password,
@@ -46,6 +48,7 @@ const signUp = async (req, res, next) => {
         firstName,
         lastName,
         email,
+        phone: cipherText,
         password,
         role,
     });

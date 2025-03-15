@@ -3,7 +3,7 @@ import { User } from "../../../Database";
 import { AppError } from "../../Utils/AppError/AppError";
 import { messages } from "../../Utils/constant/messages";
 import {  generateAndSecondSendOTP, generateAndSendOTP, secondOTPForgetPassword, sendOTPForgetPassword } from "../../Utils/Email/emailEvent";
-import { comparePassword, Hash } from "../../Utils/encryption";
+import { comparePassword, Encrypt, Hash } from "../../Utils/encryption";
 import { generateToken, verifyToken } from "../../Utils/Token/token";
 import { AppNext, AppRequest, AppResponse } from "../../Utils/type";
 import { generateOTP } from "../../Utils/otp";
@@ -18,7 +18,7 @@ export const signUp = async (
   next: AppNext
 ) => {
   //get data from req
-  let { firstName, lastName, email, password, role} = req.body;
+  let { firstName,phone ,lastName, email, password, role} = req.body;
   //check userExist
   let userExist = await User.findOne({ email });
   
@@ -45,8 +45,9 @@ export const signUp = async (
       });
     }
   }
+  //crypt phone
   
-  
+let cipherText=Encrypt({key :phone,secretKey:process.env.SECRET_CRYPTO }) 
   //hash password
   password = await Hash({
     key: password,
@@ -58,7 +59,7 @@ export const signUp = async (
     firstName,
     lastName,
     email,
-    
+    phone:cipherText,
     password,
     role,
     
