@@ -171,7 +171,8 @@ if(!userExist){
     firstName:given_name,
     lastName:family_name,
     provider:providers.GOOGLE,
-    isConfirmed:true
+    isConfirmed:true,
+    phone: undefined,
   })
 }
   //generate token

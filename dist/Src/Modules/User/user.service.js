@@ -148,7 +148,8 @@ const loginWithGoogle = async (req, res, next) => {
             firstName: given_name,
             lastName: family_name,
             provider: enum_1.providers.GOOGLE,
-            isConfirmed: true
+            isConfirmed: true,
+            phone: undefined,
         });
     }
     //generate token
