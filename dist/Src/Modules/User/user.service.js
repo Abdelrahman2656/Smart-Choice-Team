@@ -232,14 +232,14 @@ const forgetPassword = async (req, res, next) => {
     //hash
     userExist.otpEmail = forgetOTP;
     userExist.expiredDateOtp = new Date(Date.now() + 5 * 60 * 1000);
+    //save to db
+    await userExist.save();
     //update
     setTimeout(async () => {
         await Database_1.User.updateOne({ _id: userExist._id, expiredDateOtp: { $lte: Date.now() } }, { $unset: { otpEmail: "", expiredDateOtp: "" } });
     }, 5 * 60 * 1000);
-    (0, emailEvent_1.sendOTPForgetPassword)(email, userExist.firstName, userExist.lastName, forgetOTP);
-    //save to db
-    await userExist.save();
     //send email
+    await (0, emailEvent_1.sendOTPForgetPassword)(email, userExist.firstName, userExist.lastName, forgetOTP);
     //send response
     return res
         .status(200)
@@ -270,7 +270,7 @@ const changePassword = async (req, res, next) => {
         //save to db
         await userExist.save();
         //send resend email
-        (0, emailEvent_1.secondOTPForgetPassword)(email, userExist.firstName, userExist.lastName, secondForgetPassword);
+        await (0, emailEvent_1.secondOTPForgetPassword)(email, userExist.firstName, userExist.lastName, secondForgetPassword);
     }
     //if every thing good then
     let hashPassword = (0, encryption_1.Hash)({
