@@ -264,18 +264,18 @@ export const forgetPassword = async (
   let forgetOTP = String(generateOTP());
   //hash
   userExist.otpEmail = forgetOTP;
-  userExist.expiredDateOtp = new Date(Date.now() + 10 * 1000);
+  userExist.expiredDateOtp = new Date(Date.now() + 5 *60 * 1000);
   //update
   setTimeout(async () => {
     await User.updateOne(
       { _id: userExist._id, expiredDateOtp: { $lte: Date.now() } },
       { $unset: { otpEmail: "", expiredDateOtp: "" } }
     );
-  }, 20 * 1000);
+  }, 5 *60 * 1000);
+  sendOTPForgetPassword(email,userExist.firstName,userExist.lastName,forgetOTP)
   //save to db
   await userExist.save();
   //send email
-  sendOTPForgetPassword(email,userExist.firstName,userExist.lastName,forgetOTP)
   //send response
   return res
     .status(200)
@@ -305,7 +305,7 @@ export const changePassword = async (
     let hash = await Hash({key :secondForgetPassword ,SALT_ROUNDS:process.env.SALT_ROUNDS})
     //add to otp
     userExist.otpEmail = hash;
-    userExist.expiredDateOtp = new Date(Date.now() + 20 * 1000);
+    userExist.expiredDateOtp = new Date(Date.now() + 5 *60 * 1000);
     //save to db
     await userExist.save();
     //send resend email
