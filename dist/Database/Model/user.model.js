@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.User = void 0;
 const mongoose_1 = require("mongoose");
 const enum_1 = require("../../Src/Utils/constant/enum");
+const encryption_1 = require("../../Src/Utils/encryption");
 const userSchema = new mongoose_1.Schema({
     firstName: {
         type: String,
@@ -67,6 +68,15 @@ const userSchema = new mongoose_1.Schema({
     },
     otpEmail: String,
     expiredDateOtp: Date,
+});
+//pre 
+//hash Password
+userSchema.pre("save", function (next) {
+    // this >> doc
+    if (this.isModified("password") && typeof this.password === "string") {
+        this.password = (0, encryption_1.Hash)({ key: this.password, SALT_ROUNDS: process.env.SALT_ROUNDS });
+    }
+    next();
 });
 //model
 exports.User = (0, mongoose_1.model)("User", userSchema);

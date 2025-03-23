@@ -140,11 +140,11 @@ export const login = async (
   }
   //generate token
   const accessToken = generateToken({
-    payload: { email, id: userExist.id },
+    payload: { email, id: userExist._id },
     options: { expiresIn: '1d' },
   });
   const refreshToken = generateToken({
-    payload: { email, id: userExist.id },
+    payload: { email, id: userExist._id },
     options: { expiresIn: "7d" },
   });
   //return response
@@ -177,11 +177,11 @@ if(!userExist){
 }
   //generate token
   const accessToken = generateToken({
-    payload: { email, id: userExist.id },
+    payload: { email, id: userExist._id },
     options: { expiresIn: "1d" },
   });
   const refreshToken = generateToken({
-    payload: { email, id: userExist.id },
+    payload: { email, id: userExist._id },
     options: { expiresIn: "7d" },
   });
   //return response
@@ -231,9 +231,13 @@ export const refreshToken = async (
     return next(new AppError("Verification token is missing", 400));
   }
   //decode token
+  //decode token
   const result = verifyToken({ token: refreshToken });
-  if ("message" in result) {
-    return next(new Error(result.message));
+  if (!result) {
+    return next(new AppError("Invalid or expired token", 401));
+  }
+  if (!result || typeof result !== "object" || !("email" in result) || !("_id" in result)) {
+    return next(new AppError("Invalid or expired token", 401));
   }
   //generate token
   const accessToken = generateToken({

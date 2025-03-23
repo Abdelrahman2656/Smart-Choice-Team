@@ -1,5 +1,5 @@
 import jwt, { JwtPayload, SignOptions } from 'jsonwebtoken'
-import { AppError } from '../AppError/AppError'
+
 interface Token {
     [key:string]:any
 }
@@ -11,15 +11,33 @@ interface GenerateToken {
 export const generateToken =({payload , secretKey = process.env.SECRET_TOKEN as string,options}:GenerateToken):string=>{
 return jwt.sign(payload,secretKey,options)
 }
-//verify
+//verify Token
 interface VerifyToken {
     token:string,
     secretKey?:string
 }
-export const verifyToken =({token ,secretKey = process.env.SECRET_TOKEN as string }:VerifyToken):JwtPayload  | { message: string }=>{
-try{
-    return jwt.verify(token,secretKey) as JwtPayload
-}catch(error){
-return {message:(error as AppError).message}
-}
-}
+export const verifyToken = ({ token, secretKey = process.env.SECRET_TOKEN as string }: VerifyToken): JwtPayload | null => {
+    try {
+        if (!token) {
+            console.error("❌ Token is missing");
+            return null;
+        }
+
+        const decoded = jwt.verify(token, secretKey) as JwtPayload;
+        console.log("✅ Decoded Token:", decoded);
+
+        if (!decoded || (!("_id" in decoded) && !("id" in decoded))) {
+            console.error("❌ Token missing 'id' or '_id' field");
+            return null;
+        }
+
+        // Ensure consistency: Always use "_id"
+        decoded._id = decoded._id || decoded.id;
+        delete decoded.id;
+
+        return decoded;  // ✅ Add this return statement
+    } catch (error) {
+        console.error("❌ Token Verification Error:", error);
+        return null;  // Return null instead of throwing an error
+    }
+};

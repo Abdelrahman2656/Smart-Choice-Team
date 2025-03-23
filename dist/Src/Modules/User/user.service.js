@@ -116,11 +116,11 @@ const login = async (req, res, next) => {
     }
     //generate token
     const accessToken = (0, token_1.generateToken)({
-        payload: { email, id: userExist.id },
+        payload: { email, id: userExist._id },
         options: { expiresIn: '1d' },
     });
     const refreshToken = (0, token_1.generateToken)({
-        payload: { email, id: userExist.id },
+        payload: { email, id: userExist._id },
         options: { expiresIn: "7d" },
     });
     //return response
@@ -154,11 +154,11 @@ const loginWithGoogle = async (req, res, next) => {
     }
     //generate token
     const accessToken = (0, token_1.generateToken)({
-        payload: { email, id: userExist.id },
+        payload: { email, id: userExist._id },
         options: { expiresIn: "1d" },
     });
     const refreshToken = (0, token_1.generateToken)({
-        payload: { email, id: userExist.id },
+        payload: { email, id: userExist._id },
         options: { expiresIn: "7d" },
     });
     //return response
@@ -201,9 +201,13 @@ const refreshToken = async (req, res, next) => {
         return next(new AppError_1.AppError("Verification token is missing", 400));
     }
     //decode token
+    //decode token
     const result = (0, token_1.verifyToken)({ token: refreshToken });
-    if ("message" in result) {
-        return next(new Error(result.message));
+    if (!result) {
+        return next(new AppError_1.AppError("Invalid or expired token", 401));
+    }
+    if (!result || typeof result !== "object" || !("email" in result) || !("_id" in result)) {
+        return next(new AppError_1.AppError("Invalid or expired token", 401));
     }
     //generate token
     const accessToken = (0, token_1.generateToken)({
