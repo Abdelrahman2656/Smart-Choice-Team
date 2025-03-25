@@ -12,6 +12,10 @@ const Modules_1 = require("./Modules");
 const dbconnection_1 = require("../Database/dbconnection");
 const seed_1 = require("../Database/seed");
 const bootstrap = async (app, express) => {
+    //-----------------------------------------------DataBase Connection------------------------------------------------------------
+    console.log("⏳LOADING");
+    await (0, dbconnection_1.dbconnection)();
+    console.log("✅✌️ تم الاتصال بقاعدة البيانات بنجاح!");
     //-----------------------------------------------parse------------------------------------------------------------
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
@@ -19,9 +23,6 @@ const bootstrap = async (app, express) => {
     app.use((0, cors_1.default)({
         origin: '*',
     }));
-    //-----------------------------------------------DataBase Connection------------------------------------------------------------
-    //  seedDatabase();
-    await (0, dbconnection_1.dbconnection)();
     await (0, seed_1.startSeeding)();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);

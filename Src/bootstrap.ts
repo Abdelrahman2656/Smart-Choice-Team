@@ -10,6 +10,10 @@ export const bootstrap = async(
   app: Application,
   express: typeof import("express")
 ) => {
+  //-----------------------------------------------DataBase Connection------------------------------------------------------------
+  console.log("⏳LOADING");
+ await dbconnection()
+ console.log("✅✌️ تم الاتصال بقاعدة البيانات بنجاح!");
   //-----------------------------------------------parse------------------------------------------------------------
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
@@ -17,9 +21,6 @@ export const bootstrap = async(
   app.use(cors({
    origin: '*', 
  }));
- //-----------------------------------------------DataBase Connection------------------------------------------------------------
-//  seedDatabase();
-await dbconnection()
  await startSeeding()
  //----------------------------------------------- Use the auth router------------------------------------------------------------
 
