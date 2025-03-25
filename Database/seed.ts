@@ -6,7 +6,7 @@ import { dbconnection } from "./dbconnection";
 import { Product } from "../Database/";
 
 dotenv.config({ path: path.resolve("./.env") }); // Load environment variables
-dbconnection(); 
+ dbconnection(); 
 console.log(process.env.DATABASE_DB);
 // Connect to MongoDB
 

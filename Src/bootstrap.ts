@@ -21,7 +21,7 @@ export const bootstrap = async(
   app.use(cors({
    origin: '*', 
  }));
- await startSeeding()
+  startSeeding()
  //----------------------------------------------- Use the auth router------------------------------------------------------------
 
  app.use('/api/v1',userRouter);

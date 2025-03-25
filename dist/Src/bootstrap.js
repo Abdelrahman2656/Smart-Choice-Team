@@ -23,7 +23,7 @@ const bootstrap = async (app, express) => {
     app.use((0, cors_1.default)({
         origin: '*',
     }));
-    await (0, seed_1.startSeeding)();
+    (0, seed_1.startSeeding)();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);
