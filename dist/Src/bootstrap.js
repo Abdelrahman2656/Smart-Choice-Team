@@ -11,7 +11,7 @@ const asyncHandler_1 = require("./Middleware/asyncHandler");
 const Modules_1 = require("./Modules");
 const dbconnection_1 = require("../Database/dbconnection");
 const seed_1 = require("../Database/seed");
-const bootstrap = (app, express) => {
+const bootstrap = async (app, express) => {
     //-----------------------------------------------parse------------------------------------------------------------
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
@@ -21,8 +21,8 @@ const bootstrap = (app, express) => {
     }));
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
     //  seedDatabase();
-    (0, seed_1.startSeeding)();
-    (0, dbconnection_1.dbconnection)();
+    await (0, dbconnection_1.dbconnection)();
+    await (0, seed_1.startSeeding)();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);

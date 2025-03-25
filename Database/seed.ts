@@ -6,7 +6,9 @@ import { dbconnection } from "./dbconnection";
 import { Product } from "../Database/";
 
 dotenv.config({ path: path.resolve("./.env") }); // Load environment variables
-dbconnection(); // Connect to MongoDB
+dbconnection(); 
+console.log(process.env.DATABASE_DB);
+// Connect to MongoDB
 
 // ✅ File Paths
 const filePath1 = path.join(process.cwd(), "Database/path/dataset_product.json");

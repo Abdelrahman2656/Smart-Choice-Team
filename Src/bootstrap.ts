@@ -6,7 +6,7 @@ import { globalErrorHandling } from "./Middleware/asyncHandler";
 import { productRouter, userRouter } from "./Modules";
 import { dbconnection } from '../Database/dbconnection';
 import { startSeeding } from '../Database/seed';
-export const bootstrap = (
+export const bootstrap = async(
   app: Application,
   express: typeof import("express")
 ) => {
@@ -19,8 +19,8 @@ export const bootstrap = (
  }));
  //-----------------------------------------------DataBase Connection------------------------------------------------------------
 //  seedDatabase();
-startSeeding()
- dbconnection()
+await dbconnection()
+ await startSeeding()
  //----------------------------------------------- Use the auth router------------------------------------------------------------
 
  app.use('/api/v1',userRouter);

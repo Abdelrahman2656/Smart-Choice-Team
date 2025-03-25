@@ -11,7 +11,9 @@ const dotenv_1 = __importDefault(require("dotenv"));
 const dbconnection_1 = require("./dbconnection");
 const Database_1 = require("../Database/");
 dotenv_1.default.config({ path: path_1.default.resolve("./.env") }); // Load environment variables
-(0, dbconnection_1.dbconnection)(); // Connect to MongoDB
+(0, dbconnection_1.dbconnection)();
+console.log(process.env.DATABASE_DB);
+// Connect to MongoDB
 // ✅ File Paths
 const filePath1 = path_1.default.join(process.cwd(), "Database/path/dataset_product.json");
 // const filePath2 = path.join(process.cwd(), "Database/path/lab_top.json");
