@@ -1,5 +1,4 @@
 import { Router } from "express";
-
 import * as amazonService from "./product.service";
 import { asyncHandler } from "../../Middleware/asyncHandler";
 import { isAuthentication } from "../../Middleware/authentication";
