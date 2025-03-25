@@ -124,8 +124,8 @@ const login = async (req, res, next) => {
         .json({
         message: messages_1.messages.user.loginSuccessfully,
         success: true,
-        accessToken,
-        refreshToken,
+        access_token: accessToken,
+        refresh_token: refreshToken,
     });
 };
 exports.login = login;
@@ -162,8 +162,8 @@ const loginWithGoogle = async (req, res, next) => {
         .json({
         message: messages_1.messages.user.loginSuccessfully,
         success: true,
-        accessToken,
-        refreshToken,
+        access_token: accessToken,
+        refresh_token: refreshToken,
     });
 };
 exports.loginWithGoogle = loginWithGoogle;

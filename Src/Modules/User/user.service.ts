@@ -149,8 +149,8 @@ export const login = async (
     .json({
       message: messages.user.loginSuccessfully,
       success: true,
-      accessToken,
-      refreshToken,
+      access_token:accessToken,
+      refresh_token:refreshToken  ,
     });
 };
 //---------------------------------------------------Login With Google --------------------------------------------------------------
@@ -186,8 +186,8 @@ if(!userExist){
     .json({
       message: messages.user.loginSuccessfully,
       success: true,
-      accessToken,
-      refreshToken,
+      access_token:accessToken,
+      refresh_token:refreshToken,
     });
 };
 

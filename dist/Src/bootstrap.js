@@ -7,20 +7,25 @@ exports.bootstrap = void 0;
 const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const path_1 = __importDefault(require("path"));
-const dbconnection_1 = require("../Database/dbconnection");
 const asyncHandler_1 = require("./Middleware/asyncHandler");
 const Modules_1 = require("./Modules");
+const dbconnection_1 = require("../Database/dbconnection");
+const seed_1 = require("../Database/seed");
 const bootstrap = (app, express) => {
     //-----------------------------------------------parse------------------------------------------------------------
     app.use(express.json());
+    app.use(express.urlencoded({ extended: true }));
     dotenv_1.default.config({ path: path_1.default.resolve("./.env") });
     app.use((0, cors_1.default)({
         origin: '*',
     }));
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
+    //  seedDatabase();
+    (0, seed_1.startSeeding)();
     (0, dbconnection_1.dbconnection)();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
+    app.use("/api/v1/products", Modules_1.productRouter);
     //-----------------------------------------------globalErrorHandling------------------------------------------------------------
     app.use(asyncHandler_1.globalErrorHandling);
 };

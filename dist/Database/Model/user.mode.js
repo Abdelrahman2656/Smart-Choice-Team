@@ -46,7 +46,7 @@ const userSchema = new mongoose_1.Schema({
     },
     DOB: {
         type: String,
-        default: () => new Date().toISOString()
+        default: () => new Date().toISOString() // ISO format string of the current date and time
     },
     provider: {
         type: String,
