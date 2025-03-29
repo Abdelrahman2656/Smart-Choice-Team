@@ -5,7 +5,7 @@ import path from "path";
 import { globalErrorHandling } from "./Middleware/asyncHandler";
 import { productRouter, userRouter } from "./Modules";
 import { dbconnection } from '../Database/dbconnection';
-import { startSeeding } from '../Database/seed';
+// import { startSeeding } from '../Database/seed';
 export const bootstrap = async(
   app: Application,
   express: typeof import("express")
@@ -21,7 +21,7 @@ export const bootstrap = async(
   app.use(cors({
     origin: '*', 
   }));
-  startSeeding()
+  // startSeeding()
   //----------------------------------------------- Use the auth router------------------------------------------------------------
 
  app.use('/api/v1',userRouter);
