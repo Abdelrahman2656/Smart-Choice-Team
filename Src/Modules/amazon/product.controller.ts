@@ -24,7 +24,7 @@ productRouter.get(
 
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
 productRouter.get(
-  "/:id",
+  "/get-amazon-product/:id",
   asyncHandler(productService.getProductById)
 );
 

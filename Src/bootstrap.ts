@@ -16,7 +16,7 @@ export const bootstrap = async ( // ✅ إضافة async هنا
   //-----------------------------------------------parse------------------------------------------------------------
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
-  dotenv.config({ path: path.resolve("./config/.env") });
+  dotenv.config({ path: path.resolve("./.env") });
 
   app.use(cors({
     origin: '*', 
