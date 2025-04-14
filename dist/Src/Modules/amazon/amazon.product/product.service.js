@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.deleteProduct = exports.updateProduct = exports.getProductById = exports.getAllProducts = exports.createProduct = void 0;
-const Database_1 = require("../../../Database");
+const Database_1 = require("../../../../Database");
 // قائمة الفئات المسموح بها
 const ALLOWED_CATEGORIES = ["Laptop", "Smartphone", "TV", "GPU", "Monitor", "Tablet"];
 // 🟢 إنشاء منتج جديد

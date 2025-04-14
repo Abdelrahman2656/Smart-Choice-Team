@@ -4,7 +4,7 @@ import { Application } from "express";
 import path from "path";
 
 import { dbconnection } from '../Database/dbconnection';
-// import { startSeeding } from '../Database/seed';
+import { startSeeding } from '../Database/seed';
 
 import { globalErrorHandling } from "./Middleware/asyncHandler";
 import { productRouter, userRouter } from "./Modules";
@@ -16,16 +16,16 @@ export const bootstrap = async ( // ✅ إضافة async هنا
   //-----------------------------------------------parse------------------------------------------------------------
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
-  dotenv.config({ path: path.resolve("./.env") });
+  dotenv.config({ path: path.resolve("./config/.env") });
 
   app.use(cors({
     origin: '*', 
   }));
 
   //-----------------------------------------------DataBase Connection------------------------------------------------------------
-  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
-//  await startSeeding();
+ await startSeeding();
   
+  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
 
   //----------------------------------------------- Use the auth router------------------------------------------------------------
   app.use('/api/v1', userRouter);
