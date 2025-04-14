@@ -2,30 +2,36 @@ import cors from 'cors';
 import dotenv from "dotenv";
 import { Application } from "express";
 import path from "path";
+
+import { dbconnection } from '../Database/dbconnection';
+import { startSeeding } from '../Database/seed';
+
 import { globalErrorHandling } from "./Middleware/asyncHandler";
 import { productRouter, userRouter } from "./Modules";
-import { dbconnection } from '../Database/dbconnection';
-// import { startSeeding } from '../Database/seed';
-export const bootstrap = async(
+
+export const bootstrap = async ( // ✅ إضافة async هنا
   app: Application,
   express: typeof import("express")
 ) => {
-  dotenv.config({ path: path.resolve("./.env") });
-  //-----------------------------------------------DataBase Connection------------------------------------------------------------
-  console.log("⏳LOADING");
-  dbconnection()
- console.log("✅✌️ تم الاتصال بقاعدة البيانات بنجاح!");
   //-----------------------------------------------parse------------------------------------------------------------
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
+  dotenv.config({ path: path.resolve("./config/.env") });
+
   app.use(cors({
     origin: '*', 
   }));
-  // startSeeding()
-  //----------------------------------------------- Use the auth router------------------------------------------------------------
 
- app.use('/api/v1',userRouter);
- app.use("/api/v1/products", productRouter);
+  //-----------------------------------------------DataBase Connection------------------------------------------------------------
+ await startSeeding();
+  
+  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
+
+  //----------------------------------------------- Use the auth router------------------------------------------------------------
+  app.use('/api/v1', userRouter);
+  app.use("/api/v1/products", productRouter);
+
+
   //-----------------------------------------------globalErrorHandling------------------------------------------------------------
   app.use(globalErrorHandling as any);
 };

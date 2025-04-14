@@ -33,56 +33,42 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Product = void 0;
+exports.Jumia = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
-const ProductSchema = new mongoose_1.Schema({
+const jumiaSchema = new mongoose_1.Schema({
+    sku: { type: String, required: true },
     title: { type: String, required: true },
-    urls: {
-        amazon: { type: String },
-        jumia: { type: String },
-    },
-    category: { type: String, required: true },
-    manufacturer: { type: String },
-    asin: { type: String, unique: true, sparse: true },
-    sku: { type: String, unique: true, sparse: true },
-    priceAmazon: { type: Number, required: true },
-    priceJumia: { type: Number },
-    currency: { type: String, required: true },
+    url: { type: String, required: true },
+    price: { type: Number, required: true },
+    oldPrice: { type: Number, required: true },
+    discount: { type: String, required: true },
+    currency: { type: String, required: true, default: "جنيه" },
     inStock: { type: Boolean, required: true },
     brand: { type: String, required: true },
     rating: { type: Number, required: true },
     reviewsCount: { type: Number, required: true },
-    questionsCount: { type: Number },
     thumbnailImage: { type: String, required: true },
     description: { type: String, required: true },
-    features: { type: [String] },
-    attributes: [
+    category: { type: String, required: true },
+    tags: { type: String, required: true },
+    badges: {
+        campaign: {
+            name: { type: String, default: "No Campaign" },
+            identifier: { type: String, default: "N/A" },
+            url: { type: String, default: "N/A" },
+            txtColor: { type: String, default: "#000000" },
+            bgColor: { type: String, default: "#FFFFFF" },
+        },
+    },
+    isBuyable: { type: Boolean, required: true },
+    simples: [
         {
-            key: { type: String },
-            value: { type: String },
+            sku: { type: String, required: true },
+            isBuyable: { type: Boolean, required: true },
+            price: { type: Number, required: true },
+            oldPrice: { type: Number, required: true },
+            discount: { type: String, required: true },
         },
     ],
-    storageCapacity: { type: String },
-    ram: { type: String },
-    screenSize: { type: String },
-    resolution: { type: String },
-    battery: { type: String },
-    refreshRate: { type: String },
-    processor: { type: String },
-    graphicsCard: { type: String },
-    graphicsBrand: { type: String },
-    graphicsType: { type: String },
-    salesRank: [
-        {
-            category: { type: String },
-            rank: { type: Number },
-        },
-    ],
-    deliveryInfo: { type: String },
-    stars: { type: Number },
-    starsBreakdown: { type: Map, of: Number },
-    galleryThumbnails: { type: [String] },
-    highResolutionImages: { type: [String] },
-    source: { type: String },
-}, { timestamps: true });
-exports.Product = mongoose_1.default.model("Product", ProductSchema);
+});
+exports.Jumia = mongoose_1.default.model("Jumia", jumiaSchema);

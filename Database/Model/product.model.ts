@@ -2,55 +2,95 @@ import mongoose, { Schema, Document } from "mongoose";
 
 interface IProduct extends Document {
   title: string;
-  url: string;
-  asin?: string;  // اجعل `asin` اختياريًا
-  sku?: string;   // ✅ أضف `sku` كبديل اختياري
-  price: number;
+  urls: string;
+  category: string;
+  manufacturer?: string;
+  asin?: string;
+  sku?: string;
+  priceAmazon: number;
+  priceJumia?: number;
   currency: string;
   inStock: boolean;
   brand: string;
   rating: number;
   reviewsCount: number;
+  questionsCount?: number;
   thumbnailImage: string;
   description: string;
-  features: string[];
-  attributes: { key: string; value: string }[];
+  features?: string[];
+  attributes?: { key: string; value: string }[];
   storageCapacity?: string;
   ram?: string;
   screenSize?: string;
   resolution?: string;
   battery?: string;
+  refreshRate?: string;
+  processor?: string;
+  graphicsCard?: string;
+  graphicsBrand?: string;
+  graphicsType?: string;
+  salesRank?: { category: string; rank: number }[];
+  deliveryInfo?: string;
+  stars?: number;
+  starsBreakdown?: { [key: string]: number };
+  galleryThumbnails?: string[];
+  highResolutionImages?: string[];
+  source?: string;
 }
 
-const ProductSchema = new Schema<IProduct>({
-  title: { type: String, required: true },
-  url: { type: String, required: true },
-  asin: { type: String, unique: true, sparse: true },  // ✅ `asin` غير مطلوب، ولكن يجب أن يكون فريدًا إذا وجد
-  sku: { type: String, unique: true, sparse: true },   // ✅ `sku` غير مطلوب، ولكن يجب أن يكون فريدًا إذا وجد
-  price: { type: Number, required: true },
-  currency: { type: String, required: true },
-  inStock: { type: Boolean, required: true },
-  brand: { type: String, required: true },
-  rating: { type: Number, required: true },
-  reviewsCount: { type: Number, required: true },
-  thumbnailImage: { type: String, required: true },
-  description: { type: String, required: true },
-  features: { type: [String], required: true },
-  attributes: [
-    {
-      key: { type: String, required: true },
-      value: { type: String, required: true },
+const ProductSchema = new Schema<IProduct>(
+  {
+    title: { type: String, required: true },
+    urls: {
+      amazon: { type: String },
+      jumia: { type: String },
     },
-  ],
-  storageCapacity: { type: String },
-  ram: { type: String },
-  screenSize: { type: String },
-  resolution: { type: String },
-  battery: { type: String },
-});
-
-// ✅ أضف `sparse: true` لمنع مشاكل الفهارس عند غياب `sku` أو `asin`
+    
+    category: { type: String, required: true },
+    manufacturer: { type: String },
+    asin: { type: String, unique: true, sparse: true },
+    sku: { type: String, unique: true, sparse: true },
+    priceAmazon: { type: Number, required: true },
+    priceJumia: { type: Number },
+    currency: { type: String, required: true },
+    inStock: { type: Boolean, required: true },
+    brand: { type: String, required: true },
+    rating: { type: Number, required: true },
+    reviewsCount: { type: Number, required: true },
+    questionsCount: { type: Number },
+    thumbnailImage: { type: String, required: true },
+    description: { type: String, required: true },
+    features: { type: [String] },
+    attributes: [
+      {
+        key: { type: String },
+        value: { type: String },
+      },
+    ],
+    storageCapacity: { type: String },
+    ram: { type: String },
+    screenSize: { type: String },
+    resolution: { type: String },
+    battery: { type: String },
+    refreshRate: { type: String },
+    processor: { type: String },
+    graphicsCard: { type: String },
+    graphicsBrand: { type: String },
+    graphicsType: { type: String },
+    salesRank: [
+      {
+        category: { type: String },
+        rank: { type: Number },
+      },
+    ],
+    deliveryInfo: { type: String },
+    stars: { type: Number },
+    starsBreakdown: { type: Map, of: Number },
+    galleryThumbnails: { type: [String] },
+    highResolutionImages: { type: [String] },
+    source: { type: String },
+  },
+  { timestamps: true }
+);
 
 export const Product = mongoose.model<IProduct>("Product", ProductSchema);
-
-
