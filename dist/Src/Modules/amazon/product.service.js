@@ -35,7 +35,6 @@ const getAllProducts = async (req, res, next) => {
     try {
         const { search, sortBy, order, select, category, page = 1, limit = 10 } = req.query;
         let filter = {};
-        // إضافة عوامل الفلترة بناءً على البحث
         if (search) {
             filter.$or = [
                 { title: { $regex: search, $options: "i" } },
@@ -44,34 +43,30 @@ const getAllProducts = async (req, res, next) => {
                 { manufacturer: { $regex: search, $options: "i" } }
             ];
         }
-        // إضافة عامل الفلترة بناءً على الفئة
         if (category) {
             filter.category = category;
         }
-        // ترتيب النتائج
         let sortOptions = {};
         if (typeof sortBy === "string") {
             sortOptions[sortBy] = order === "desc" ? -1 : 1;
         }
-        // تحديد الحقول التي سيتم إرجاعها
         let selectFields = "";
         if (select) {
-            selectFields = select.split(",").join(" ");
+            const allowedFields = ["title", "brand", "priceAmazon", "category", "asin", "rating"];
+            selectFields = select
+                .split(",")
+                .filter((field) => allowedFields.includes(field))
+                .join(" ");
         }
-        // حساب الصفحة التي سيتم جلبها والحد الأقصى للمنتجات في الصفحة
         const skip = (parseInt(page) - 1) * parseInt(limit);
         const limitValue = parseInt(limit);
-        // حساب إجمالي عدد المنتجات
         const totalProducts = await Database_1.Product.countDocuments(filter);
-        // جلب المنتجات بناءً على الفلاتر
         const products = await Database_1.Product.find(filter)
             .sort(sortOptions)
             .select(selectFields)
             .skip(skip)
             .limit(limitValue);
-        // حساب عدد الصفحات
         const totalPages = Math.ceil(totalProducts / limitValue);
-        // إرسال الاستجابة مع معلومات الـ pagination
         res.status(200).json({
             products,
             totalProducts,
@@ -81,7 +76,12 @@ const getAllProducts = async (req, res, next) => {
         });
     }
     catch (error) {
-        res.status(500).json({ message: "Error fetching products", error });
+        console.error("❌ Error fetching products:", error);
+        res.status(500).json({
+            message: "Error fetching products",
+            error: error.message,
+            stack: error.stack,
+        });
     }
 };
 exports.getAllProducts = getAllProducts;

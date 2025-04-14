@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import fs from "fs";
 import mongoose from "mongoose";
 import path from "path";
-import { Product } from "../Database"; // ✅ عدل المسار لو مختلف
+import { Product } from "../Database"; 
 import { dbconnection } from "./dbconnection";
 
 dotenv.config({ path: path.resolve("./.env") });

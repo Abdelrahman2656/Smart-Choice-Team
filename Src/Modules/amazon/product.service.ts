@@ -39,9 +39,9 @@ export const createProduct = async (req: AppRequest, res: AppResponse, next: App
 export const getAllProducts = async (req: AppRequest, res: AppResponse, next: AppNext) => {
   try {
     const { search, sortBy, order, select, category, page = 1, limit = 10 } = req.query;
+
     let filter: any = {};
 
-    // إضافة عوامل الفلترة بناءً على البحث
     if (search) {
       filter.$or = [
         { title: { $regex: search, $options: "i" } },
@@ -51,41 +51,37 @@ export const getAllProducts = async (req: AppRequest, res: AppResponse, next: Ap
       ];
     }
 
-    // إضافة عامل الفلترة بناءً على الفئة
     if (category) {
       filter.category = category;
     }
 
-    // ترتيب النتائج
     let sortOptions: any = {};
     if (typeof sortBy === "string") {
       sortOptions[sortBy] = order === "desc" ? -1 : 1;
     }
 
-    // تحديد الحقول التي سيتم إرجاعها
     let selectFields = "";
     if (select) {
-      selectFields = (select as string).split(",").join(" ");
+      const allowedFields = ["title", "brand", "priceAmazon", "category", "asin", "rating"];
+      selectFields = (select as string)
+        .split(",")
+        .filter((field) => allowedFields.includes(field))
+        .join(" ");
     }
 
-    // حساب الصفحة التي سيتم جلبها والحد الأقصى للمنتجات في الصفحة
     const skip = (parseInt(page as string) - 1) * parseInt(limit as string);
     const limitValue = parseInt(limit as string);
 
-    // حساب إجمالي عدد المنتجات
     const totalProducts = await Product.countDocuments(filter);
 
-    // جلب المنتجات بناءً على الفلاتر
     const products = await Product.find(filter)
       .sort(sortOptions)
       .select(selectFields)
       .skip(skip)
       .limit(limitValue);
 
-    // حساب عدد الصفحات
     const totalPages = Math.ceil(totalProducts / limitValue);
 
-    // إرسال الاستجابة مع معلومات الـ pagination
     res.status(200).json({
       products,
       totalProducts,
@@ -93,10 +89,16 @@ export const getAllProducts = async (req: AppRequest, res: AppResponse, next: Ap
       currentPage: parseInt(page as string),
       perPage: limitValue
     });
-  } catch (error) {
-    res.status(500).json({ message: "Error fetching products", error });
+  } catch (error: any) {
+    console.error("❌ Error fetching products:", error);
+    res.status(500).json({
+      message: "Error fetching products",
+      error: error.message,
+      stack: error.stack,
+    });
   }
 };
+
 
 
 // 🟢 جلب منتج حسب ID

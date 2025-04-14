@@ -7,7 +7,7 @@ exports.startSeeding = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
-const Database_1 = require("../Database"); // ✅ عدل المسار لو مختلف
+const Database_1 = require("../Database");
 const dbconnection_1 = require("./dbconnection");
 dotenv_1.default.config({ path: path_1.default.resolve("./.env") });
 const loadJsonFilesFromDir = (dirPath) => {
