@@ -1,15 +1,16 @@
-import cors from 'cors';
+import cors from "cors";
 import dotenv from "dotenv";
 import { Application } from "express";
 import path from "path";
 
-import { dbconnection } from '../Database/dbconnection';
-import { startSeeding } from '../Database/seed';
+import { dbconnection } from "../Database/dbconnection";
+import { startSeeding } from "../Database/seed";
 
 import { globalErrorHandling } from "./Middleware/asyncHandler";
 import { productRouter, userRouter } from "./Modules";
 
-export const bootstrap = async ( // ✅ إضافة async هنا
+export const bootstrap = async (
+  // ✅ إضافة async هنا
   app: Application,
   express: typeof import("express")
 ) => {
@@ -18,19 +19,18 @@ export const bootstrap = async ( // ✅ إضافة async هنا
   app.use(express.urlencoded({ extended: true }));
   dotenv.config({ path: path.resolve("./.env") });
   //-----------------------------------------------DataBase Connection------------------------------------------------------------
-  await dbconnection(); 
- await startSeeding();
-  
+  await startSeeding();
+  await dbconnection();
 
-  app.use(cors({
-    origin: '*', 
-  }));
-
+  app.use(
+    cors({
+      origin: "*",
+    })
+  );
 
   //----------------------------------------------- Use the auth router------------------------------------------------------------
-  app.use('/api/v1', userRouter);
+  app.use("/api/v1", userRouter);
   app.use("/api/v1/products", productRouter);
-
 
   //-----------------------------------------------globalErrorHandling------------------------------------------------------------
   app.use(globalErrorHandling as any);
