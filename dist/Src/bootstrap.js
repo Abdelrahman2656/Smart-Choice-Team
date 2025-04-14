@@ -8,7 +8,7 @@ const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const path_1 = __importDefault(require("path"));
 const dbconnection_1 = require("../Database/dbconnection");
-const seed_1 = require("../Database/seed");
+// import { startSeeding } from '../Database/seed';
 const asyncHandler_1 = require("./Middleware/asyncHandler");
 const Modules_1 = require("./Modules");
 const bootstrap = async (// ✅ إضافة async هنا
@@ -22,7 +22,7 @@ app, express) => {
     }));
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
     await (0, dbconnection_1.dbconnection)(); // ✅ الآن يمكن استخدام await بدون مشاكل
-    await (0, seed_1.startSeeding)();
+    //  await startSeeding();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);

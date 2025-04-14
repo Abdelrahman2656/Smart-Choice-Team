@@ -4,7 +4,7 @@ import { Application } from "express";
 import path from "path";
 
 import { dbconnection } from '../Database/dbconnection';
-import { startSeeding } from '../Database/seed';
+// import { startSeeding } from '../Database/seed';
 
 import { globalErrorHandling } from "./Middleware/asyncHandler";
 import { productRouter, userRouter } from "./Modules";
@@ -24,7 +24,7 @@ export const bootstrap = async ( // ✅ إضافة async هنا
 
   //-----------------------------------------------DataBase Connection------------------------------------------------------------
   await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
- await startSeeding();
+//  await startSeeding();
   
 
   //----------------------------------------------- Use the auth router------------------------------------------------------------
