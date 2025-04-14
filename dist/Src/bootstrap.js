@@ -16,7 +16,7 @@ app, express) => {
     //-----------------------------------------------parse------------------------------------------------------------
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
-    dotenv_1.default.config({ path: path_1.default.resolve("./config/.env") });
+    dotenv_1.default.config({ path: path_1.default.resolve("./.env") });
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
     await (0, seed_1.startSeeding)();
     await (0, dbconnection_1.dbconnection)(); // ✅ الآن يمكن استخدام await بدون مشاكل

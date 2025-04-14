@@ -10,7 +10,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const path_1 = __importDefault(require("path"));
 const Database_1 = require("../Database"); // ✅ عدل المسار لو مختلف
 const dbconnection_1 = require("./dbconnection");
-dotenv_1.default.config({ path: path_1.default.resolve("./config/.env") });
+dotenv_1.default.config({ path: path_1.default.resolve("./.env") });
 const loadJsonFilesFromDir = (dirPath) => {
     const files = fs_1.default.readdirSync(dirPath).filter((file) => file.endsWith(".json"));
     let allData = [];
