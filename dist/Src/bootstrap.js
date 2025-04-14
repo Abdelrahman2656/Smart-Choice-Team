@@ -21,8 +21,8 @@ app, express) => {
         origin: '*',
     }));
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
-    await (0, seed_1.startSeeding)();
     await (0, dbconnection_1.dbconnection)(); // ✅ الآن يمكن استخدام await بدون مشاكل
+    await (0, seed_1.startSeeding)();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);

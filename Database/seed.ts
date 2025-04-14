@@ -5,7 +5,7 @@ import fs from "fs";
 import mongoose from "mongoose";
 import path from "path";
 import { Product } from "../Database"; 
-import { dbconnection } from "./dbconnection";
+
 
 dotenv.config({ path: path.resolve("./.env") });
 
@@ -34,7 +34,7 @@ const extractAttribute = (attributes: any[], keyIncludes: string): string | unde
 };
 
 export const startSeeding = async () => {
-  await dbconnection();
+  // await dbconnection();
 
   const amazonData = loadJsonFilesFromDir(
     path.join(process.cwd(), "Database/path/amazon")

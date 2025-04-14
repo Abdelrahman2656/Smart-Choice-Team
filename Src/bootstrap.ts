@@ -23,9 +23,9 @@ export const bootstrap = async ( // ✅ إضافة async هنا
   }));
 
   //-----------------------------------------------DataBase Connection------------------------------------------------------------
+  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
  await startSeeding();
   
-  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
 
   //----------------------------------------------- Use the auth router------------------------------------------------------------
   app.use('/api/v1', userRouter);

@@ -8,7 +8,6 @@ const dotenv_1 = __importDefault(require("dotenv"));
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const Database_1 = require("../Database");
-const dbconnection_1 = require("./dbconnection");
 dotenv_1.default.config({ path: path_1.default.resolve("./.env") });
 const loadJsonFilesFromDir = (dirPath) => {
     const files = fs_1.default.readdirSync(dirPath).filter((file) => file.endsWith(".json"));
@@ -30,7 +29,7 @@ const extractAttribute = (attributes, keyIncludes) => {
     return found?.value;
 };
 const startSeeding = async () => {
-    await (0, dbconnection_1.dbconnection)();
+    // await dbconnection();
     const amazonData = loadJsonFilesFromDir(path_1.default.join(process.cwd(), "Database/path/amazon"));
     const amazonProducts = amazonData.map((p) => ({ ...p, source: "amazon" }));
     console.log(`📊 Total products loaded: ${amazonProducts.length}`);
