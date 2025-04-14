@@ -181,6 +181,6 @@ export const startSeeding = async () => {
   } catch (error) {
     console.error("❌ Error inserting products:", error);
   } finally {
-    mongoose.connection.close();
+    // mongoose.connection.close();
   }
 };

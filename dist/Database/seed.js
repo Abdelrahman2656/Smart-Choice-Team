@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.startSeeding = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const fs_1 = __importDefault(require("fs"));
-const mongoose_1 = __importDefault(require("mongoose"));
 const path_1 = __importDefault(require("path"));
 const Database_1 = require("../Database"); // ✅ عدل المسار لو مختلف
 const dbconnection_1 = require("./dbconnection");
@@ -158,7 +157,7 @@ const startSeeding = async () => {
         console.error("❌ Error inserting products:", error);
     }
     finally {
-        mongoose_1.default.connection.close();
+        // mongoose.connection.close();
     }
 };
 exports.startSeeding = startSeeding;
