@@ -7,7 +7,7 @@ import path from "path";
 import { Product } from "../Database"; // ✅ عدل المسار لو مختلف
 import { dbconnection } from "./dbconnection";
 
-dotenv.config({ path: path.resolve("./.env") });
+dotenv.config({ path: path.resolve("./config/.env") });
 
 const loadJsonFilesFromDir = (dirPath: string): any[] => {
   const files = fs.readdirSync(dirPath).filter((file) => file.endsWith(".json"));
