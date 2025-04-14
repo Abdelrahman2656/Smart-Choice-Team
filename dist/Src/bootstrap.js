@@ -18,8 +18,8 @@ app, express) => {
     app.use(express.urlencoded({ extended: true }));
     dotenv_1.default.config({ path: path_1.default.resolve("./.env") });
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
+    await (0, dbconnection_1.dbconnection)();
     await (0, seed_1.startSeeding)();
-    await (0, dbconnection_1.dbconnection)(); // ✅ الآن يمكن استخدام await بدون مشاكل
     app.use((0, cors_1.default)({
         origin: '*',
     }));

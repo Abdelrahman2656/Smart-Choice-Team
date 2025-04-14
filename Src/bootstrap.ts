@@ -18,9 +18,9 @@ export const bootstrap = async ( // ✅ إضافة async هنا
   app.use(express.urlencoded({ extended: true }));
   dotenv.config({ path: path.resolve("./.env") });
   //-----------------------------------------------DataBase Connection------------------------------------------------------------
+  await dbconnection(); 
  await startSeeding();
   
-  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
 
   app.use(cors({
     origin: '*', 
