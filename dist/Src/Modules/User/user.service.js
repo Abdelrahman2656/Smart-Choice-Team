@@ -210,7 +210,7 @@ const refreshToken = async (req, res, next) => {
         options: { expiresIn: "7d" },
     });
     //send response
-    return res.status(200).json({ success: true, accessToken });
+    return res.status(200).json({ success: true, access_token: accessToken });
 };
 exports.refreshToken = refreshToken;
 //---------------------------------------------------Forget Password--------------------------------------------------------------
