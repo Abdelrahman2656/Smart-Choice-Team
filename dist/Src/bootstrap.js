@@ -17,12 +17,12 @@ app, express) => {
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
     dotenv_1.default.config({ path: path_1.default.resolve("./config/.env") });
-    app.use((0, cors_1.default)({
-        origin: '*',
-    }));
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
     await (0, seed_1.startSeeding)();
     await (0, dbconnection_1.dbconnection)(); // ✅ الآن يمكن استخدام await بدون مشاكل
+    app.use((0, cors_1.default)({
+        origin: '*',
+    }));
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);

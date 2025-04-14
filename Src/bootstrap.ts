@@ -17,15 +17,15 @@ export const bootstrap = async ( // ✅ إضافة async هنا
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
   dotenv.config({ path: path.resolve("./config/.env") });
+  //-----------------------------------------------DataBase Connection------------------------------------------------------------
+ await startSeeding();
+  
+  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
 
   app.use(cors({
     origin: '*', 
   }));
 
-  //-----------------------------------------------DataBase Connection------------------------------------------------------------
- await startSeeding();
-  
-  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
 
   //----------------------------------------------- Use the auth router------------------------------------------------------------
   app.use('/api/v1', userRouter);
