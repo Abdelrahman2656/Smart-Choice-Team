@@ -25,11 +25,11 @@ import { mobileRouter, productRouter, tabletRouter, televisionRouter, userRouter
   }));
 
   //-----------------------------------------------DataBase Connection------------------------------------------------------------
+  dbconnection(); 
   await startSeeding();
   await startSeedingTv()
   await startSeedingMobile()
   await startSeedingTablet()
-  await dbconnection(); 
   
 
   //----------------------------------------------- Use the auth router------------------------------------------------------------
