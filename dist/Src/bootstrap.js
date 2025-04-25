@@ -3,12 +3,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.bootstrap = void 0;
 const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const path_1 = __importDefault(require("path"));
-const dbconnection_1 = require("../Database/dbconnection");
+const dbconnection_1 = __importDefault(require("../Database/dbconnection"));
 const seed_1 = require("../Database/seed");
+const seedMobile_1 = require("../Database/seedMobile");
+const seedTablet_1 = require("../Database/seedTablet");
+const seedTv_1 = require("../Database/seedTv");
 const asyncHandler_1 = require("./Middleware/asyncHandler");
 const Modules_1 = require("./Modules");
 const bootstrap = async (// ✅ إضافة async هنا
@@ -22,11 +24,18 @@ app, express) => {
     }));
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
     await (0, seed_1.startSeeding)();
-    await (0, dbconnection_1.dbconnection)(); // ✅ الآن يمكن استخدام await بدون مشاكل
+    await (0, seedTv_1.startSeedingTv)();
+    await (0, seedMobile_1.startSeedingMobile)();
+    await (0, seedTablet_1.startSeedingTablet)();
+    await (0, dbconnection_1.default)();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);
+    app.use("/api/v1/mobiles", Modules_1.mobileRouter);
+    app.use("/api/v1/tablets", Modules_1.tabletRouter);
+    app.use("/api/v1/televisions", Modules_1.televisionRouter);
+    app.use("/api/v1", Modules_1.wishlistRouter);
     //-----------------------------------------------globalErrorHandling------------------------------------------------------------
     app.use(asyncHandler_1.globalErrorHandling);
 };
-exports.bootstrap = bootstrap;
+exports.default = bootstrap;

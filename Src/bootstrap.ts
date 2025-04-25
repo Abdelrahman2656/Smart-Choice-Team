@@ -2,14 +2,16 @@ import cors from 'cors';
 import dotenv from "dotenv";
 import { Application } from "express";
 import path from "path";
-
-import { dbconnection } from '../Database/dbconnection';
+import dbconnection from '../Database/dbconnection';
 import { startSeeding } from '../Database/seed';
-
+import { startSeedingMobile } from '../Database/seedMobile';
+import { startSeedingTablet } from '../Database/seedTablet';
+import { startSeedingTv } from '../Database/seedTv';
 import { globalErrorHandling } from "./Middleware/asyncHandler";
-import { productRouter, userRouter } from "./Modules";
+import { mobileRouter, productRouter, tabletRouter, televisionRouter, userRouter, wishlistRouter } from "./Modules";
 
-export const bootstrap = async ( // ✅ إضافة async هنا
+
+ const bootstrap = async ( // ✅ إضافة async هنا
   app: Application,
   express: typeof import("express")
 ) => {
@@ -23,15 +25,23 @@ export const bootstrap = async ( // ✅ إضافة async هنا
   }));
 
   //-----------------------------------------------DataBase Connection------------------------------------------------------------
- await startSeeding();
+  await startSeeding();
+  await startSeedingTv()
+  await startSeedingMobile()
+  await startSeedingTablet()
+  await dbconnection(); 
   
-  await dbconnection(); // ✅ الآن يمكن استخدام await بدون مشاكل
 
   //----------------------------------------------- Use the auth router------------------------------------------------------------
   app.use('/api/v1', userRouter);
   app.use("/api/v1/products", productRouter);
-
+  app.use("/api/v1/mobiles", mobileRouter);
+  app.use("/api/v1/tablets", tabletRouter);
+  app.use("/api/v1/televisions", televisionRouter);
+  app.use("/api/v1",wishlistRouter)
+  
 
   //-----------------------------------------------globalErrorHandling------------------------------------------------------------
   app.use(globalErrorHandling as any);
 };
+export default bootstrap

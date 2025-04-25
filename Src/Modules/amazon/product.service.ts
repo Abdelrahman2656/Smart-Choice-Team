@@ -1,5 +1,5 @@
 
-import { Product } from "../../../Database";
+import { Laptop } from "../../../Database";
 import { AppNext, AppRequest, AppResponse } from "../../Utils/type";
 
 
@@ -22,12 +22,12 @@ export const createProduct = async (req: AppRequest, res: AppResponse, next: App
     }
 
     // ✅ منع تكرار المنتجات بنفس الـ ASIN أو العنوان
-    const existingProduct = await Product.findOne({ $or: [{ title }, { asin }] });
+    const existingProduct = await Laptop.findOne({ $or: [{ title }, { asin }] });
     if (existingProduct) {
       return res.status(409).json({ message: "Product with this title or ASIN already exists" });
     }
 
-    const product = new Product(req.body);
+    const product = new Laptop(req.body);
     await product.save();
     res.status(201).json(product);
   } catch (error) {
@@ -38,23 +38,38 @@ export const createProduct = async (req: AppRequest, res: AppResponse, next: App
 // 🟢 جلب كل المنتجات مع دعم البحث والفرز والتصفية والتقسيم إلى صفحات
 export const getAllProducts = async (req: AppRequest, res: AppResponse, next: AppNext) => {
   try {
-    const { search, sortBy, order, select, category, page = 1, limit = 10 } = req.query;
+    const {
+      search,
+      sortBy,
+      order,
+      select,
+      category,
+      page = 1,
+      limit = 10,
+    } = req.query;
+
     let filter: any = {};
 
-    // إضافة عوامل الفلترة بناءً على البحث
+    // فلترة على حسب البحث
     if (search) {
       filter.$or = [
         { title: { $regex: search, $options: "i" } },
         { brand: { $regex: search, $options: "i" } },
         { category: { $regex: search, $options: "i" } },
-        { manufacturer: { $regex: search, $options: "i" } }
+        { manufacturer: { $regex: search, $options: "i" } },
       ];
     }
 
-    // إضافة عامل الفلترة بناءً على الفئة
+    // فلترة على حسب الفئة
     if (category) {
       filter.category = category;
     }
+
+    // فلترة على حسب السعر (يستخدم priceAmazon مش price)
+    const minPrice = parseFloat(req.query.minPrice as string) || 0;
+    const maxPrice =
+      parseFloat(req.query.maxPrice as string) || Number.MAX_SAFE_INTEGER;
+    filter.priceAmazon = { $gte: minPrice, $lte: maxPrice };
 
     // ترتيب النتائج
     let sortOptions: any = {};
@@ -62,21 +77,21 @@ export const getAllProducts = async (req: AppRequest, res: AppResponse, next: Ap
       sortOptions[sortBy] = order === "desc" ? -1 : 1;
     }
 
-    // تحديد الحقول التي سيتم إرجاعها
+    // تحديد الحقول اللي هتترجع
     let selectFields = "";
     if (select) {
       selectFields = (select as string).split(",").join(" ");
     }
 
-    // حساب الصفحة التي سيتم جلبها والحد الأقصى للمنتجات في الصفحة
+    // حساب skip و limit للـ pagination
     const skip = (parseInt(page as string) - 1) * parseInt(limit as string);
     const limitValue = parseInt(limit as string);
 
-    // حساب إجمالي عدد المنتجات
-    const totalProducts = await Product.countDocuments(filter);
+    // إجمالي عدد المنتجات المطابقة
+    const totalProducts = await Laptop.countDocuments(filter);
 
-    // جلب المنتجات بناءً على الفلاتر
-    const products = await Product.find(filter)
+    // جلب المنتجات
+    const products = await Laptop.find(filter)
       .sort(sortOptions)
       .select(selectFields)
       .skip(skip)
@@ -85,16 +100,19 @@ export const getAllProducts = async (req: AppRequest, res: AppResponse, next: Ap
     // حساب عدد الصفحات
     const totalPages = Math.ceil(totalProducts / limitValue);
 
-    // إرسال الاستجابة مع معلومات الـ pagination
+    // إرسال الرد
     res.status(200).json({
       products,
       totalProducts,
       totalPages,
       currentPage: parseInt(page as string),
-      perPage: limitValue
+      perPage: limitValue,
     });
   } catch (error) {
-    res.status(500).json({ message: "Error fetching products", error });
+    res.status(500).json({
+      message: "Error fetching products",
+      error: error instanceof Error ? error.message : error,
+    });
   }
 };
 
@@ -102,7 +120,7 @@ export const getAllProducts = async (req: AppRequest, res: AppResponse, next: Ap
 // 🟢 جلب منتج حسب ID
 export const getProductById = async (req: AppRequest, res: AppResponse, next: AppNext) => {
   try {
-    const product = await Product.findById(req.params.id);
+    const product = await Laptop.findById(req.params.id);
     if (!product) {
       return res.status(404).json({ message: "Product not found" });
     }
@@ -122,7 +140,7 @@ export const updateProduct = async (req: AppRequest, res: AppResponse, next: App
       return res.status(400).json({ message: "ASIN and SKU cannot be updated" });
     }
 
-    const updatedProduct = await Product.findByIdAndUpdate(req.params.id, updateData, { new: true });
+    const updatedProduct = await Laptop.findByIdAndUpdate(req.params.id, updateData, { new: true });
     if (!updatedProduct) {
       return res.status(404).json({ message: "Product not found" });
     }
@@ -135,7 +153,7 @@ export const updateProduct = async (req: AppRequest, res: AppResponse, next: App
 // 🟢 حذف منتج معين
 export const deleteProduct = async (req: AppRequest, res: AppResponse, next: AppNext) => {
   try {
-    const deletedProduct = await Product.findByIdAndDelete(req.params.id);
+    const deletedProduct = await Laptop.findByIdAndDelete(req.params.id);
     if (!deletedProduct) {
       return res.status(404).json({ message: "Product not found" });
     }

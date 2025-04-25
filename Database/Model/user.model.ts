@@ -1,10 +1,13 @@
-import { model, Schema, Types } from "mongoose";
-import { providers, roles } from "../../Src/Utils/constant/enum";
+import mongoose, { model, Schema, Types } from "mongoose";
+import {  providers, roles } from "../../Src/Utils/constant/enum";
 import { Hash } from "../../Src/Utils/encryption";
 
+export interface WishListItem {
+  productId: Types.ObjectId;
+  modelType: 'Mobile' | 'Tv' | 'Laptop' | 'Tablet';
+}
 //schema
 interface IUser {
-  
   firstName: string;
   lastName: string;
   email: string;
@@ -17,9 +20,12 @@ interface IUser {
   DOB: string;
   provider: string;
   phone: String;
+  wishList: WishListItem[];
 }
 // Mongoose Document Type
-export interface UserDocument extends IUser, Document { _id: Schema.Types.ObjectId;}
+export interface UserDocument extends IUser, Document {
+  _id: Schema.Types.ObjectId;
+}
 const userSchema = new Schema<UserDocument>({
   firstName: {
     type: String,
@@ -83,19 +89,36 @@ const userSchema = new Schema<UserDocument>({
     type: String,
     default: () => new Date().toISOString(),
   },
+  wishList: [
+    {
+      productId: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+      },
+      modelType: {
+        type: String,
+        enum: ['Mobile', 'Tv', 'Laptop', 'Tablet'],
+        required: true,
+      },
+      _id:false
+    }
+  ]
+,  
   otpEmail: String,
   expiredDateOtp: Date,
 });
-//pre 
+//pre
 //hash Password
-userSchema.pre("save",function(next){
-// this >> doc
-if(this.isModified("password") && typeof this.password === "string"){
-this.password = Hash({key:this.password  , SALT_ROUNDS:process.env.SALT_ROUNDS})
-}
-next()
-})
-
+userSchema.pre("save", function (next) {
+  // this >> doc
+  if (this.isModified("password") && typeof this.password === "string") {
+    this.password = Hash({
+      key: this.password,
+      SALT_ROUNDS: process.env.SALT_ROUNDS,
+    });
+  }
+  next();
+});
 
 //model
 export const User = model<UserDocument>("User", userSchema);

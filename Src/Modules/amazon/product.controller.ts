@@ -18,13 +18,13 @@ productRouter.post(
 
 // 🟢 جلب كل المنتجات (متاح للجميع)
 productRouter.get(
-  "/all-amazon-product",
+  "/all-amazon-laptop",
   asyncHandler(productService.getAllProducts)
 );
 
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
 productRouter.get(
-  "/:id",
+  "/amazon-laptop/:id",
   asyncHandler(productService.getProductById)
 );
 

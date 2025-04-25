@@ -33,7 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Product = void 0;
+exports.Laptop = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
 const ProductSchema = new mongoose_1.Schema({
     title: { type: String, required: true },
@@ -62,6 +62,10 @@ const ProductSchema = new mongoose_1.Schema({
             value: { type: String },
         },
     ],
+    listPrice: {
+        value: { type: Number, default: 0 },
+        currency: { type: String, default: "EGP" },
+    },
     storageCapacity: { type: String },
     ram: { type: String },
     screenSize: { type: String },
@@ -84,5 +88,32 @@ const ProductSchema = new mongoose_1.Schema({
     galleryThumbnails: { type: [String] },
     highResolutionImages: { type: [String] },
     source: { type: String },
+    productPageReviews: [
+        {
+            username: { type: String, required: true },
+            userId: { type: String },
+            userProfileLink: { type: String },
+            ratingScore: { type: Number, required: true },
+            reviewTitle: { type: String },
+            reviewDescription: { type: String },
+            date: { type: String, default: null },
+            position: { type: Number },
+            reviewedIn: { type: String },
+            reviewId: { type: String },
+            reviewUrl: { type: String },
+            reviewImages: [{ type: String }],
+            reviewReaction: { type: String, default: null },
+            isVerified: { type: Boolean },
+            isAmazonVine: { type: Boolean },
+            avatar: { type: String, default: null },
+            variant: { type: String },
+            variantAttributes: [
+                {
+                    key: { type: String },
+                    value: { type: String }
+                }
+            ], // Change to an array of objects with 'key' and 'value'
+        },
+    ],
 }, { timestamps: true });
-exports.Product = mongoose_1.default.model("Product", ProductSchema);
+exports.Laptop = mongoose_1.default.model("Laptop", ProductSchema);

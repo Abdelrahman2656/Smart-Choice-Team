@@ -1,5 +1,6 @@
 
-import { bootstrap } from "./Src/bootstrap"
+
+import bootstrap from "./Src/bootstrap"
 import { AppRequest, AppResponse } from "./Src/Utils/type"
 const express = require('express')
 const app = express()

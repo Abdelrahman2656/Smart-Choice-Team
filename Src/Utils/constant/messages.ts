@@ -27,5 +27,6 @@ const generateMessage = (entity :string) => ({
       Incorrect:"Incorrect In Email Or Password",
       AlreadyVerified:"You Already Verified"
     },
+    wishlist:generateMessage('WishList')
    
   };

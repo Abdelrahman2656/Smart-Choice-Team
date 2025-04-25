@@ -17,11 +17,11 @@ const createProduct = async (req, res, next) => {
             return res.status(400).json({ message: `Invalid category. Allowed categories: ${ALLOWED_CATEGORIES.join(", ")}` });
         }
         // ✅ منع تكرار المنتجات بنفس الـ ASIN أو العنوان
-        const existingProduct = await Database_1.Product.findOne({ $or: [{ title }, { asin }] });
+        const existingProduct = await Database_1.Laptop.findOne({ $or: [{ title }, { asin }] });
         if (existingProduct) {
             return res.status(409).json({ message: "Product with this title or ASIN already exists" });
         }
-        const product = new Database_1.Product(req.body);
+        const product = new Database_1.Laptop(req.body);
         await product.save();
         res.status(201).json(product);
     }
@@ -33,62 +33,69 @@ exports.createProduct = createProduct;
 // 🟢 جلب كل المنتجات مع دعم البحث والفرز والتصفية والتقسيم إلى صفحات
 const getAllProducts = async (req, res, next) => {
     try {
-        const { search, sortBy, order, select, category, page = 1, limit = 10 } = req.query;
+        const { search, sortBy, order, select, category, page = 1, limit = 10, } = req.query;
         let filter = {};
-        // إضافة عوامل الفلترة بناءً على البحث
+        // فلترة على حسب البحث
         if (search) {
             filter.$or = [
                 { title: { $regex: search, $options: "i" } },
                 { brand: { $regex: search, $options: "i" } },
                 { category: { $regex: search, $options: "i" } },
-                { manufacturer: { $regex: search, $options: "i" } }
+                { manufacturer: { $regex: search, $options: "i" } },
             ];
         }
-        // إضافة عامل الفلترة بناءً على الفئة
+        // فلترة على حسب الفئة
         if (category) {
             filter.category = category;
         }
+        // فلترة على حسب السعر (يستخدم priceAmazon مش price)
+        const minPrice = parseFloat(req.query.minPrice) || 0;
+        const maxPrice = parseFloat(req.query.maxPrice) || Number.MAX_SAFE_INTEGER;
+        filter.priceAmazon = { $gte: minPrice, $lte: maxPrice };
         // ترتيب النتائج
         let sortOptions = {};
         if (typeof sortBy === "string") {
             sortOptions[sortBy] = order === "desc" ? -1 : 1;
         }
-        // تحديد الحقول التي سيتم إرجاعها
+        // تحديد الحقول اللي هتترجع
         let selectFields = "";
         if (select) {
             selectFields = select.split(",").join(" ");
         }
-        // حساب الصفحة التي سيتم جلبها والحد الأقصى للمنتجات في الصفحة
+        // حساب skip و limit للـ pagination
         const skip = (parseInt(page) - 1) * parseInt(limit);
         const limitValue = parseInt(limit);
-        // حساب إجمالي عدد المنتجات
-        const totalProducts = await Database_1.Product.countDocuments(filter);
-        // جلب المنتجات بناءً على الفلاتر
-        const products = await Database_1.Product.find(filter)
+        // إجمالي عدد المنتجات المطابقة
+        const totalProducts = await Database_1.Laptop.countDocuments(filter);
+        // جلب المنتجات
+        const products = await Database_1.Laptop.find(filter)
             .sort(sortOptions)
             .select(selectFields)
             .skip(skip)
             .limit(limitValue);
         // حساب عدد الصفحات
         const totalPages = Math.ceil(totalProducts / limitValue);
-        // إرسال الاستجابة مع معلومات الـ pagination
+        // إرسال الرد
         res.status(200).json({
             products,
             totalProducts,
             totalPages,
             currentPage: parseInt(page),
-            perPage: limitValue
+            perPage: limitValue,
         });
     }
     catch (error) {
-        res.status(500).json({ message: "Error fetching products", error });
+        res.status(500).json({
+            message: "Error fetching products",
+            error: error instanceof Error ? error.message : error,
+        });
     }
 };
 exports.getAllProducts = getAllProducts;
 // 🟢 جلب منتج حسب ID
 const getProductById = async (req, res, next) => {
     try {
-        const product = await Database_1.Product.findById(req.params.id);
+        const product = await Database_1.Laptop.findById(req.params.id);
         if (!product) {
             return res.status(404).json({ message: "Product not found" });
         }
@@ -107,7 +114,7 @@ const updateProduct = async (req, res, next) => {
         if (asin || sku) {
             return res.status(400).json({ message: "ASIN and SKU cannot be updated" });
         }
-        const updatedProduct = await Database_1.Product.findByIdAndUpdate(req.params.id, updateData, { new: true });
+        const updatedProduct = await Database_1.Laptop.findByIdAndUpdate(req.params.id, updateData, { new: true });
         if (!updatedProduct) {
             return res.status(404).json({ message: "Product not found" });
         }
@@ -121,7 +128,7 @@ exports.updateProduct = updateProduct;
 // 🟢 حذف منتج معين
 const deleteProduct = async (req, res, next) => {
     try {
-        const deletedProduct = await Database_1.Product.findByIdAndDelete(req.params.id);
+        const deletedProduct = await Database_1.Laptop.findByIdAndDelete(req.params.id);
         if (!deletedProduct) {
             return res.status(404).json({ message: "Product not found" });
         }

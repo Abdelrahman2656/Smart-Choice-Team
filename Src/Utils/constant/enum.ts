@@ -21,3 +21,16 @@ export const providers:Provider={
     GOOGLE:"google"
 }
 Object.freeze(providers)
+interface Productes{
+    MOBILE:"Mobile",
+    TV:"Tv",
+    LAPTOP:"Laptop",
+    TABLET:"Tablet"
+}
+export const productModel:Productes={
+    MOBILE:"Mobile",
+    TV:"Tv",
+    LAPTOP:"Laptop",
+    TABLET:"Tablet"
+}
+Object.freeze(productModel)

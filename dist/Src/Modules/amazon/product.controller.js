@@ -43,9 +43,9 @@ const productRouter = (0, express_1.Router)();
 // 🟢 إنشاء منتج (متاح فقط للمسؤولين)
 productRouter.post("/", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(productService.createProduct));
 // 🟢 جلب كل المنتجات (متاح للجميع)
-productRouter.get("/all-amazon-product", (0, asyncHandler_1.asyncHandler)(productService.getAllProducts));
+productRouter.get("/all-amazon-laptop", (0, asyncHandler_1.asyncHandler)(productService.getAllProducts));
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
-productRouter.get("/:id", (0, asyncHandler_1.asyncHandler)(productService.getProductById));
+productRouter.get("/amazon-laptop/:id", (0, asyncHandler_1.asyncHandler)(productService.getProductById));
 // 🟢 تحديث منتج معين (متاح فقط لـ ADMIN)
 productRouter.put("/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(productService.updateProduct));
 // 🟢 حذف منتج معين (متاح فقط لـ ADMIN)

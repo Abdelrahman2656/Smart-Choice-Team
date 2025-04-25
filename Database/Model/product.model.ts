@@ -36,6 +36,36 @@ interface IProduct extends Document {
   galleryThumbnails?: string[];
   highResolutionImages?: string[];
   source?: string;
+  listPrice: {
+    value: { type: Number, default: 0 },
+    currency: { type: String, default: "EGP" },
+  }
+  productPageReviews?: {
+    username: string;
+    userId: string;
+    userProfileLink: string;
+    ratingScore: number;
+    reviewTitle: string;
+    reviewDescription: string;
+    date: string | null;
+ 
+    position: number;
+    reviewedIn: string;
+    reviewId: string;
+    reviewUrl: string;
+    reviewImages: string[];
+    reviewReaction?: string | null;
+    isVerified: boolean;
+    isAmazonVine: boolean;
+    avatar?: string | null;
+    variant?: string;
+    variantAttributes: [
+      {
+        key: String,
+        value: String
+      }
+    ]  //
+  }[];
 }
 
 const ProductSchema = new Schema<IProduct>(
@@ -44,6 +74,7 @@ const ProductSchema = new Schema<IProduct>(
     urls: {
       amazon: { type: String },
       jumia: { type: String },
+     
     },
     
     category: { type: String, required: true },
@@ -67,6 +98,10 @@ const ProductSchema = new Schema<IProduct>(
         value: { type: String },
       },
     ],
+    listPrice: {
+      value: { type: Number, default: 0 },
+      currency: { type: String, default: "EGP" },
+    },
     storageCapacity: { type: String },
     ram: { type: String },
     screenSize: { type: String },
@@ -89,8 +124,37 @@ const ProductSchema = new Schema<IProduct>(
     galleryThumbnails: { type: [String] },
     highResolutionImages: { type: [String] },
     source: { type: String },
+    productPageReviews: [
+      {
+        username: { type: String, required: true },
+        userId: { type: String },
+        userProfileLink: { type: String },
+        ratingScore: { type: Number, required: true },
+        reviewTitle: { type: String },
+        reviewDescription: { type: String },
+        date: { type: String, default: null },
+        position: { type: Number },
+        reviewedIn: { type: String },
+        reviewId: { type: String },
+        reviewUrl: { type: String },
+        reviewImages: [{ type: String }],
+        reviewReaction: { type: String, default: null },
+        isVerified: { type: Boolean },
+        isAmazonVine: { type: Boolean },
+        avatar: { type: String, default: null },
+        variant: { type: String },
+        variantAttributes: [
+          {
+            key: { type: String },
+            value: { type: String }
+          }
+        ], // Change to an array of objects with 'key' and 'value'
+      },
+    ],
+    
   },
   { timestamps: true }
 );
 
-export const Product = mongoose.model<IProduct>("Product", ProductSchema);
+
+export const Laptop = mongoose.model<IProduct>("Laptop", ProductSchema);

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.providers = exports.roles = void 0;
+exports.productModel = exports.providers = exports.roles = void 0;
 exports.roles = {
     USER: 'user',
     ADMIN: "admin"
@@ -11,3 +11,10 @@ exports.providers = {
     GOOGLE: "google"
 };
 Object.freeze(exports.providers);
+exports.productModel = {
+    MOBILE: "Mobile",
+    TV: "Tv",
+    LAPTOP: "Laptop",
+    TABLET: "Tablet"
+};
+Object.freeze(exports.productModel);
