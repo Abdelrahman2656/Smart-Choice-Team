@@ -13,8 +13,7 @@ const seedTablet_1 = require("../Database/seedTablet");
 const seedTv_1 = require("../Database/seedTv");
 const asyncHandler_1 = require("./Middleware/asyncHandler");
 const Modules_1 = require("./Modules");
-const bootstrap = async (// ✅ إضافة async هنا
-app, express) => {
+const bootstrap = async (app, express) => {
     //-----------------------------------------------parse------------------------------------------------------------
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));

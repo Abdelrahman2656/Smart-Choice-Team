@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import fs from "fs";
 import mongoose from "mongoose";
 import path from "path";
-import { Mobile } from "../Database"; 
+import { Mobile } from "../Database";
 import dbconnection from "./dbconnection";
 
 
