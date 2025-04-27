@@ -42,13 +42,17 @@ export interface AppResponse extends Response {
   app.use("/api/v1",wishlistRouter)
   
   //-----------------------------------------------DataBase Connection------------------------------------------------------------
-  await startSeeding();
-  await startSeedingTv()
-  await startSeedingMobile()
-  await startSeedingTablet()
-   dbconnection(); 
-  
-
+  try {
+    await dbconnection();
+    await startSeeding();
+    await startSeedingTv();
+    await startSeedingMobile();
+    await startSeedingTablet();
+    console.log('Seeding and Database connection successful');
+  } catch (error) {
+    console.error('Error during database connection or seeding:', error);
+    return;
+  }
   //-----------------------------------------------globalErrorHandling------------------------------------------------------------
   app.use(globalErrorHandling as any);
 };

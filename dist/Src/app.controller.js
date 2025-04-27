@@ -33,11 +33,18 @@ app, express) => {
     app.use("/api/v1/televisions", Modules_1.televisionRouter);
     app.use("/api/v1", Modules_1.wishlistRouter);
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
-    await (0, seed_1.startSeeding)();
-    await (0, seedTv_1.startSeedingTv)();
-    await (0, seedMobile_1.startSeedingMobile)();
-    await (0, seedTablet_1.startSeedingTablet)();
-    (0, dbconnection_1.default)();
+    try {
+        await (0, dbconnection_1.default)();
+        await (0, seed_1.startSeeding)();
+        await (0, seedTv_1.startSeedingTv)();
+        await (0, seedMobile_1.startSeedingMobile)();
+        await (0, seedTablet_1.startSeedingTablet)();
+        console.log('Seeding and Database connection successful');
+    }
+    catch (error) {
+        console.error('Error during database connection or seeding:', error);
+        return;
+    }
     //-----------------------------------------------globalErrorHandling------------------------------------------------------------
     app.use(asyncHandler_1.globalErrorHandling);
 };
