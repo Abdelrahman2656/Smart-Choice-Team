@@ -5,8 +5,8 @@ import { connect } from "mongoose";
     await connect(process.env.DATABASE_DB as string).then(()=>{
         console.log('db connected successfully');
         
-    }).catch(()=>{
-        console.log('failed to connected to db');
+    }).catch((error)=>{
+        console.log('Failed to connect to DB', error);
         
     })
 }
