@@ -10,9 +10,12 @@ const port = process.env.PORT||3001
 const app = express();
 
 
-  bootstrap(app, express);
 
-  app.get('/', (req:AppRequest, res:AppResponse) => res.send('Hello World In My Smart Choice App'))
+(async () => {
+    await bootstrap(app, express);
+  
+    app.get('/', (req: AppRequest, res: AppResponse) => res.send('Hello World In My Smart Choice App'));
+  })();
 
 
-export default app; // ✅ خلي بالك: ده أهم حاجة
+export default app; 
