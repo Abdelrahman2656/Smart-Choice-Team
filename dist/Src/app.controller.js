@@ -22,12 +22,9 @@ app, express) => {
     app.use((0, cors_1.default)({
         origin: '*',
     }));
-    //-----------------------------------------------DataBase Connection------------------------------------------------------------
-    await (0, seed_1.startSeeding)();
-    await (0, seedTv_1.startSeedingTv)();
-    await (0, seedMobile_1.startSeedingMobile)();
-    await (0, seedTablet_1.startSeedingTablet)();
-    (0, dbconnection_1.default)();
+    app.get('/', (req, res) => {
+        res.send('Hello World In My Smart Choice App');
+    });
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);
@@ -35,9 +32,12 @@ app, express) => {
     app.use("/api/v1/tablets", Modules_1.tabletRouter);
     app.use("/api/v1/televisions", Modules_1.televisionRouter);
     app.use("/api/v1", Modules_1.wishlistRouter);
-    app.get('/', (req, res) => {
-        res.send('Hello World In My Smart Choice App');
-    });
+    //-----------------------------------------------DataBase Connection------------------------------------------------------------
+    await (0, seed_1.startSeeding)();
+    await (0, seedTv_1.startSeedingTv)();
+    await (0, seedMobile_1.startSeedingMobile)();
+    await (0, seedTablet_1.startSeedingTablet)();
+    (0, dbconnection_1.default)();
     //-----------------------------------------------globalErrorHandling------------------------------------------------------------
     app.use(asyncHandler_1.globalErrorHandling);
 };

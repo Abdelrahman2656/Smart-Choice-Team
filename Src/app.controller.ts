@@ -30,14 +30,9 @@ export interface AppResponse extends Response {
     origin: '*', 
   }));
 
-  //-----------------------------------------------DataBase Connection------------------------------------------------------------
-  await startSeeding();
-  await startSeedingTv()
-  await startSeedingMobile()
-  await startSeedingTablet()
-   dbconnection(); 
-  
-
+  app.get('/', (req: AppRequest, res: AppResponse) => {
+    res.send('Hello World In My Smart Choice App');
+  });
   //----------------------------------------------- Use the auth router------------------------------------------------------------
   app.use('/api/v1', userRouter);
   app.use("/api/v1/products", productRouter);
@@ -46,9 +41,14 @@ export interface AppResponse extends Response {
   app.use("/api/v1/televisions", televisionRouter);
   app.use("/api/v1",wishlistRouter)
   
-  app.get('/', (req: AppRequest, res: AppResponse) => {
-    res.send('Hello World In My Smart Choice App');
-  });
+  //-----------------------------------------------DataBase Connection------------------------------------------------------------
+  await startSeeding();
+  await startSeedingTv()
+  await startSeedingMobile()
+  await startSeedingTablet()
+   dbconnection(); 
+  
+
   //-----------------------------------------------globalErrorHandling------------------------------------------------------------
   app.use(globalErrorHandling as any);
 };
