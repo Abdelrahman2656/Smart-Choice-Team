@@ -23,11 +23,11 @@ app, express) => {
         origin: '*',
     }));
     //-----------------------------------------------DataBase Connection------------------------------------------------------------
+    await (0, dbconnection_1.default)();
     await (0, seed_1.startSeeding)();
     await (0, seedTv_1.startSeedingTv)();
     await (0, seedMobile_1.startSeedingMobile)();
     await (0, seedTablet_1.startSeedingTablet)();
-    await (0, dbconnection_1.default)();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);
