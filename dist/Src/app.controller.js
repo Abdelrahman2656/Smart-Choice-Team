@@ -35,6 +35,9 @@ app, express) => {
     app.use("/api/v1/tablets", Modules_1.tabletRouter);
     app.use("/api/v1/televisions", Modules_1.televisionRouter);
     app.use("/api/v1", Modules_1.wishlistRouter);
+    app.get('/', (req, res) => {
+        res.send('Hello World In My Smart Choice App');
+    });
     //-----------------------------------------------globalErrorHandling------------------------------------------------------------
     app.use(asyncHandler_1.globalErrorHandling);
 };

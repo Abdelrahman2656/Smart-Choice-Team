@@ -1,6 +1,6 @@
 import cors from 'cors';
 import dotenv from "dotenv";
-import { Application } from "express";
+import { Application, Request, Response } from "express";
 import path from "path";
 import dbconnection from '../Database/dbconnection';
 import { startSeeding } from '../Database/seed';
@@ -10,7 +10,13 @@ import { startSeedingTv } from '../Database/seedTv';
 import { globalErrorHandling } from "./Middleware/asyncHandler";
 import { mobileRouter, productRouter, tabletRouter, televisionRouter, userRouter, wishlistRouter } from "./Modules";
 
+export interface AppRequest extends Request {
+  // إذا كنت محتاج تضيف حاجات مخصصة هنا
+}
 
+export interface AppResponse extends Response {
+  // إذا كنت محتاج تضيف حاجات مخصصة هنا
+}
  const bootstrap = async ( // ✅ إضافة async هنا
   app: Application,
   express: typeof import("express")
@@ -40,7 +46,9 @@ import { mobileRouter, productRouter, tabletRouter, televisionRouter, userRouter
   app.use("/api/v1/televisions", televisionRouter);
   app.use("/api/v1",wishlistRouter)
   
-
+  app.get('/', (req: AppRequest, res: AppResponse) => {
+    res.send('Hello World In My Smart Choice App');
+  });
   //-----------------------------------------------globalErrorHandling------------------------------------------------------------
   app.use(globalErrorHandling as any);
 };
