@@ -19,6 +19,7 @@ interface IProduct extends Document {
   description: string;
   features?: string[];
   attributes?: { key: string; value: string }[];
+  productOverview?: { key: string; value: string }[];
   storageCapacity?: string;
   ram?: string;
   screenSize?: string;
@@ -93,6 +94,12 @@ const ProductSchema = new Schema<IProduct>(
     description: { type: String, required: true },
     features: { type: [String] },
     attributes: [
+      {
+        key: { type: String },
+        value: { type: String },
+      },
+    ],
+    productOverview: [
       {
         key: { type: String },
         value: { type: String },

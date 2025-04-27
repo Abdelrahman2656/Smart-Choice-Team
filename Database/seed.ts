@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import fs from "fs";
 import mongoose from "mongoose";
 import path from "path";
-import { Laptop } from "../Database"; 
+import { Laptop } from "../Database/Model/product.model";
 import dbconnection from "./dbconnection";
 
 
@@ -52,6 +52,10 @@ export const startSeeding = async () => {
 
       const attributes = Array.isArray(p.attributes)
         ? p.attributes.map((attr: any) => ({ key: attr.key, value: attr.value }))
+        : [];
+
+        const productOverview = Array.isArray(p.productOverview)
+        ? p.productOverview.map((attr: any) => ({ key: attr.key, value: attr.value }))
         : [];
 
       const variantAttributes = Array.isArray(p.variantAttributes)
@@ -106,7 +110,7 @@ export const startSeeding = async () => {
         features: Array.isArray(p.features) ? p.features : [],
         attributes,
         variantAttributes,
-        category: p.category ?? "Mobile",
+        category: p.category ?? "Laptop",
         manufacturer: p.manufacturer ?? "Unknown",
         galleryThumbnails: Array.isArray(p.galleryThumbnails) ? p.galleryThumbnails : ["default-thumbnail.jpg"],
         highResolutionImages: Array.isArray(p.highResolutionImages) ? p.highResolutionImages : ["default-image.jpg"],
@@ -122,6 +126,18 @@ export const startSeeding = async () => {
         graphicsBrand: extractAttribute(attributes, "Graphics Chip Brand"),
         graphicsType: extractAttribute(attributes, "Graphics Card Interface"),
         productPageReviews,
+        productOverview: [
+          { key: "Screen Size", value: extractAttribute(productOverview, "Screen Size") ?? "Unknown" },
+          { key: "Brand Name", value: p.brand ?? "Unknown" },
+          { key: "Display Technology", value: extractAttribute(productOverview, "Display Technology") ?? "Unknown" },
+          { key: "Resolution", value: extractAttribute(productOverview, "Resolution") ?? "Unknown" },
+          { key: "Refresh Rate", value: extractAttribute(productOverview, "Refresh Rate") ?? "Unknown" },
+          { key: "Special Features", value: extractAttribute(productOverview, "Special Features") ?? "Unknown" },
+          { key: "Included Components", value: extractAttribute(productOverview, "Included Components") ?? "Unknown" },
+          { key: "Connectivity Technology", value: extractAttribute(productOverview, "Connectivity Technology") ?? "Unknown" },
+          { key: "Aspect Ratio", value: extractAttribute(productOverview, "Aspect Ratio") ?? "Unknown" },
+          { key: "Product Dimensions (Depth x Width x Height)", value: extractAttribute(productOverview, "Product Dimensions (Depth x Width x Height)") ?? "Unknown" },
+        ]
       };
     });
 
@@ -136,7 +152,7 @@ export const startSeeding = async () => {
     const existingAsins = await Laptop.find({ asin: { $in: validProducts.map((p) => p.asin) } }).select("asin");
 
     const newProducts = validProducts.filter(
-      (p) => !existingAsins.some((existing) => existing.asin === p.asin)
+      (p) => !existingAsins.some((existing: any) => existing.asin === p.asin)
     );
 
     if (newProducts.length === 0) {

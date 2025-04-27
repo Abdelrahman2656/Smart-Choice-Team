@@ -34,24 +34,54 @@ exports.createTelevision = createTelevision;
 const getAllTelevisions = async (req, res, next) => {
     try {
         const { search, sortBy, order, select, category, page = 1, limit = 10, } = req.query;
-        let filter = {};
+        let filter = [];
         // فلترة على حسب البحث
         if (search) {
-            filter.$or = [
-                { title: { $regex: search, $options: "i" } },
-                { brand: { $regex: search, $options: "i" } },
-                { category: { $regex: search, $options: "i" } },
-                { manufacturer: { $regex: search, $options: "i" } },
-            ];
+            filter.push({
+                $or: [
+                    { title: { $regex: search, $options: "i" } },
+                    { brand: { $regex: search, $options: "i" } },
+                    { category: { $regex: search, $options: "i" } },
+                    { manufacturer: { $regex: search, $options: "i" } },
+                ],
+            });
         }
         // فلترة على حسب الفئة
         if (category) {
-            filter.category = category;
+            filter.push({ category: category });
         }
-        // فلترة على حسب السعر (يستخدم priceAmazon مش price)
+        // فلترة على حسب السعر
         const minPrice = parseFloat(req.query.minPrice) || 0;
         const maxPrice = parseFloat(req.query.maxPrice) || Number.MAX_SAFE_INTEGER;
-        filter.priceAmazon = { $gte: minPrice, $lte: maxPrice };
+        filter.push({ priceAmazon: { $gte: minPrice, $lte: maxPrice } });
+        // فلترة لكل attribute موجود
+        // فلترة الـ productOverview
+        const overviewFieldsMapping = {
+            screenSize: "Screen Size",
+            brandName: "Brand Name",
+            displayTechnology: "Display Technology",
+            resolution: "Resolution",
+            refreshRate: "Refresh Rate",
+            specialFeatures: "Special Features",
+            includedComponents: "Included Components",
+            connectivityTechnology: "Connectivity Technology",
+            aspectRatio: "Aspect Ratio",
+            productDimensionsOverview: "Product Dimensions (Depth x Width x Height)",
+        };
+        Object.keys(overviewFieldsMapping).forEach((param) => {
+            const overviewKey = overviewFieldsMapping[param];
+            const overviewValue = req.query[param];
+            if (overviewValue) {
+                filter.push({
+                    productOverview: {
+                        $elemMatch: {
+                            key: overviewKey,
+                            value: overviewValue, // تطابق حرفي case-sensitive
+                        },
+                    },
+                });
+            }
+        });
         // ترتيب النتائج
         let sortOptions = {};
         if (typeof sortBy === "string") {
@@ -62,20 +92,20 @@ const getAllTelevisions = async (req, res, next) => {
         if (select) {
             selectFields = select.split(",").join(" ");
         }
-        // حساب skip و limit للـ pagination
+        // pagination
         const skip = (parseInt(page) - 1) * parseInt(limit);
         const limitValue = parseInt(limit);
         // إجمالي عدد المنتجات المطابقة
-        const totalProducts = await Database_1.Tv.countDocuments(filter);
+        const totalProducts = await Database_1.Tv.countDocuments({ $and: filter });
         // جلب المنتجات
-        const products = await Database_1.Tv.find(filter)
+        const products = await Database_1.Tv.find({ $and: filter })
             .sort(sortOptions)
             .select(selectFields)
             .skip(skip)
             .limit(limitValue);
+        console.log('Fetched Products:', products);
         // حساب عدد الصفحات
         const totalPages = Math.ceil(totalProducts / limitValue);
-        // إرسال الرد
         res.status(200).json({
             products,
             totalProducts,

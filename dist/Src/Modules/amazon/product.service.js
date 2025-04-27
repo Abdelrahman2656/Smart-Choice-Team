@@ -34,24 +34,133 @@ exports.createProduct = createProduct;
 const getAllProducts = async (req, res, next) => {
     try {
         const { search, sortBy, order, select, category, page = 1, limit = 10, } = req.query;
-        let filter = {};
+        let filter = [];
         // فلترة على حسب البحث
         if (search) {
-            filter.$or = [
-                { title: { $regex: search, $options: "i" } },
-                { brand: { $regex: search, $options: "i" } },
-                { category: { $regex: search, $options: "i" } },
-                { manufacturer: { $regex: search, $options: "i" } },
-            ];
+            filter.push({
+                $or: [
+                    { title: { $regex: search, $options: "i" } },
+                    { brand: { $regex: search, $options: "i" } },
+                    { category: { $regex: search, $options: "i" } },
+                    { manufacturer: { $regex: search, $options: "i" } },
+                ],
+            });
         }
         // فلترة على حسب الفئة
         if (category) {
-            filter.category = category;
+            filter.push({ category: category });
+        }
+        // فلترة على حسب التوفر
+        if (req.query.inStock) {
+            filter.push({ inStock: req.query.inStock === "true" });
+        }
+        // فلترة البراند
+        if (req.query.brand) {
+            filter.push({ brand: req.query.brand });
+        }
+        // فلترة على حسب نوع المعالج Processor Type
+        if (req.query.processorType) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "Processor Type",
+                        value: req.query.processorType,
+                    },
+                },
+            });
+        }
+        // فلترة على حسب الرام RAM Size
+        if (req.query.ramSize) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "RAM Size",
+                        value: req.query.ramSize,
+                    },
+                },
+            });
+        }
+        // فلترة على حسب الشاشة Display Screen Size
+        if (req.query.screenSize) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "Display Screen Size",
+                        value: req.query.screenSize,
+                    },
+                },
+            });
+        }
+        // فلترة على حسب كارت الشاشة Graphics Coprocessor
+        if (req.query.graphicsCoprocessor) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "Graphics Coprocessor",
+                        value: req.query.graphicsCoprocessor,
+                    },
+                },
+            });
+        }
+        // فلترة على حسب نوع كارت الشاشة Graphics Card Description
+        if (req.query.graphicsCardDescription) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "Graphics Card Description",
+                        value: req.query.graphicsCardDescription,
+                    },
+                },
+            });
+        }
+        // فلترة على حسب نظام التشغيل Operating System
+        if (req.query.operatingSystem) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "Operating System",
+                        value: req.query.operatingSystem,
+                    },
+                },
+            });
+        }
+        // فلترة على حسب حجم التخزين الداخلي Internal Storage
+        if (req.query.internalStorage) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "Hard Drive Size",
+                        value: req.query.internalStorage,
+                    },
+                },
+            });
+        }
+        // فلترة على حسب عمر البطارية Battery Life
+        if (req.query.batteryLife) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "Average Battery Life (in hours)",
+                        value: req.query.batteryLife,
+                    },
+                },
+            });
+        }
+        // فلترة على حسب السلسلة Series
+        if (req.query.series) {
+            filter.push({
+                "attributes": {
+                    $elemMatch: {
+                        key: "Series",
+                        value: req.query.series,
+                    },
+                },
+            });
         }
         // فلترة على حسب السعر (يستخدم priceAmazon مش price)
         const minPrice = parseFloat(req.query.minPrice) || 0;
         const maxPrice = parseFloat(req.query.maxPrice) || Number.MAX_SAFE_INTEGER;
-        filter.priceAmazon = { $gte: minPrice, $lte: maxPrice };
+        filter.push({ priceAmazon: { $gte: minPrice, $lte: maxPrice } });
         // ترتيب النتائج
         let sortOptions = {};
         if (typeof sortBy === "string") {
@@ -66,9 +175,9 @@ const getAllProducts = async (req, res, next) => {
         const skip = (parseInt(page) - 1) * parseInt(limit);
         const limitValue = parseInt(limit);
         // إجمالي عدد المنتجات المطابقة
-        const totalProducts = await Database_1.Laptop.countDocuments(filter);
+        const totalProducts = await Database_1.Laptop.countDocuments({ $and: filter });
         // جلب المنتجات
-        const products = await Database_1.Laptop.find(filter)
+        const products = await Database_1.Laptop.find({ $and: filter })
             .sort(sortOptions)
             .select(selectFields)
             .skip(skip)

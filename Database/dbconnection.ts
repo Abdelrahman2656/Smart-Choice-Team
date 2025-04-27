@@ -2,7 +2,7 @@ import { connect } from "mongoose";
 
 
  async function dbconnection  (){
-  return  await connect(process.env.DATABASE_DB as string).then(()=>{
+    await connect(process.env.DATABASE_DB as string).then(()=>{
         console.log('db connected successfully');
         
     }).catch(()=>{

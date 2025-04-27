@@ -36,7 +36,7 @@ export const createTelevision= async (req: AppRequest, res: AppResponse, next: A
 };
 
 // 🟢 جلب كل المنتجات مع دعم البحث والفرز والتصفية والتقسيم إلى صفحات
-export const getAllTelevisions= async (req: AppRequest, res: AppResponse, next: AppNext) => {
+export const getAllTelevisions = async (req: AppRequest, res: AppResponse, next: AppNext) => {
   try {
     const {
       search,
@@ -48,28 +48,63 @@ export const getAllTelevisions= async (req: AppRequest, res: AppResponse, next: 
       limit = 10,
     } = req.query;
 
-    let filter: any = {};
+    let filter: any = [];
 
     // فلترة على حسب البحث
     if (search) {
-      filter.$or = [
-        { title: { $regex: search, $options: "i" } },
-        { brand: { $regex: search, $options: "i" } },
-        { category: { $regex: search, $options: "i" } },
-        { manufacturer: { $regex: search, $options: "i" } },
-      ];
+      filter.push({
+        $or: [
+          { title: { $regex: search, $options: "i" } },
+          { brand: { $regex: search, $options: "i" } },
+          { category: { $regex: search, $options: "i" } },
+          { manufacturer: { $regex: search, $options: "i" } },
+        ],
+      });
     }
 
     // فلترة على حسب الفئة
     if (category) {
-      filter.category = category;
+      filter.push({ category: category });
     }
 
-    // فلترة على حسب السعر (يستخدم priceAmazon مش price)
+    // فلترة على حسب السعر
     const minPrice = parseFloat(req.query.minPrice as string) || 0;
-    const maxPrice =
-      parseFloat(req.query.maxPrice as string) || Number.MAX_SAFE_INTEGER;
-    filter.priceAmazon = { $gte: minPrice, $lte: maxPrice };
+    const maxPrice = parseFloat(req.query.maxPrice as string) || Number.MAX_SAFE_INTEGER;
+    filter.push({ priceAmazon: { $gte: minPrice, $lte: maxPrice } });
+
+    // فلترة لكل attribute موجود
+   
+
+    // فلترة الـ productOverview
+    const overviewFieldsMapping: Record<string, string> = {
+      screenSize: "Screen Size",
+      brandName: "Brand Name",
+      displayTechnology: "Display Technology",
+      resolution: "Resolution",
+      refreshRate: "Refresh Rate",
+      specialFeatures: "Special Features",
+      includedComponents: "Included Components",
+      connectivityTechnology: "Connectivity Technology",
+      aspectRatio: "Aspect Ratio",
+      productDimensionsOverview: "Product Dimensions (Depth x Width x Height)",
+    };
+    
+    Object.keys(overviewFieldsMapping).forEach((param) => {
+      const overviewKey = overviewFieldsMapping[param];
+      const overviewValue = req.query[param];
+      
+      if (overviewValue) {
+        filter.push({
+          productOverview: {
+            $elemMatch: {
+              key: overviewKey,
+              value: overviewValue, // تطابق حرفي case-sensitive
+            },
+          },
+        });
+      }
+    });
+    
 
     // ترتيب النتائج
     let sortOptions: any = {};
@@ -83,24 +118,24 @@ export const getAllTelevisions= async (req: AppRequest, res: AppResponse, next: 
       selectFields = (select as string).split(",").join(" ");
     }
 
-    // حساب skip و limit للـ pagination
+    // pagination
     const skip = (parseInt(page as string) - 1) * parseInt(limit as string);
     const limitValue = parseInt(limit as string);
 
     // إجمالي عدد المنتجات المطابقة
-    const totalProducts = await Tv.countDocuments(filter);
+    const totalProducts = await Tv.countDocuments({ $and: filter });
 
     // جلب المنتجات
-    const products = await Tv.find(filter)
+    const products = await Tv.find({ $and: filter })
       .sort(sortOptions)
       .select(selectFields)
       .skip(skip)
       .limit(limitValue);
-
+      console.log('Fetched Products:', products);
+  
     // حساب عدد الصفحات
     const totalPages = Math.ceil(totalProducts / limitValue);
 
-    // إرسال الرد
     res.status(200).json({
       products,
       totalProducts,

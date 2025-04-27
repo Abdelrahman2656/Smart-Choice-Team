@@ -8,7 +8,7 @@ const dotenv_1 = __importDefault(require("dotenv"));
 const fs_1 = __importDefault(require("fs"));
 const mongoose_1 = __importDefault(require("mongoose"));
 const path_1 = __importDefault(require("path"));
-const Database_1 = require("../Database");
+const product_model_1 = require("../Database/Model/product.model");
 const dbconnection_1 = __importDefault(require("./dbconnection"));
 dotenv_1.default.config({ path: path_1.default.resolve("./config/.env") });
 const loadJsonFilesFromDir = (dirPath) => {
@@ -43,6 +43,9 @@ const startSeeding = async () => {
         seenAsins.add(asin);
         const attributes = Array.isArray(p.attributes)
             ? p.attributes.map((attr) => ({ key: attr.key, value: attr.value }))
+            : [];
+        const productOverview = Array.isArray(p.productOverview)
+            ? p.productOverview.map((attr) => ({ key: attr.key, value: attr.value }))
             : [];
         const variantAttributes = Array.isArray(p.variantAttributes)
             ? p.variantAttributes.map((attr) => ({ key: attr.key, value: attr.value }))
@@ -94,7 +97,7 @@ const startSeeding = async () => {
             features: Array.isArray(p.features) ? p.features : [],
             attributes,
             variantAttributes,
-            category: p.category ?? "Mobile",
+            category: p.category ?? "Laptop",
             manufacturer: p.manufacturer ?? "Unknown",
             galleryThumbnails: Array.isArray(p.galleryThumbnails) ? p.galleryThumbnails : ["default-thumbnail.jpg"],
             highResolutionImages: Array.isArray(p.highResolutionImages) ? p.highResolutionImages : ["default-image.jpg"],
@@ -110,6 +113,18 @@ const startSeeding = async () => {
             graphicsBrand: extractAttribute(attributes, "Graphics Chip Brand"),
             graphicsType: extractAttribute(attributes, "Graphics Card Interface"),
             productPageReviews,
+            productOverview: [
+                { key: "Screen Size", value: extractAttribute(productOverview, "Screen Size") ?? "Unknown" },
+                { key: "Brand Name", value: p.brand ?? "Unknown" },
+                { key: "Display Technology", value: extractAttribute(productOverview, "Display Technology") ?? "Unknown" },
+                { key: "Resolution", value: extractAttribute(productOverview, "Resolution") ?? "Unknown" },
+                { key: "Refresh Rate", value: extractAttribute(productOverview, "Refresh Rate") ?? "Unknown" },
+                { key: "Special Features", value: extractAttribute(productOverview, "Special Features") ?? "Unknown" },
+                { key: "Included Components", value: extractAttribute(productOverview, "Included Components") ?? "Unknown" },
+                { key: "Connectivity Technology", value: extractAttribute(productOverview, "Connectivity Technology") ?? "Unknown" },
+                { key: "Aspect Ratio", value: extractAttribute(productOverview, "Aspect Ratio") ?? "Unknown" },
+                { key: "Product Dimensions (Depth x Width x Height)", value: extractAttribute(productOverview, "Product Dimensions (Depth x Width x Height)") ?? "Unknown" },
+            ]
         };
     });
     console.log(`📊 Total valid products after filtering: ${validProducts.length}`);
@@ -118,7 +133,7 @@ const startSeeding = async () => {
             console.log("⚠️ No valid products to insert.");
             return;
         }
-        const existingAsins = await Database_1.Laptop.find({ asin: { $in: validProducts.map((p) => p.asin) } }).select("asin");
+        const existingAsins = await product_model_1.Laptop.find({ asin: { $in: validProducts.map((p) => p.asin) } }).select("asin");
         const newProducts = validProducts.filter((p) => !existingAsins.some((existing) => existing.asin === p.asin));
         if (newProducts.length === 0) {
             console.log("⚠️ All products already exist in the database.");
@@ -132,7 +147,7 @@ const startSeeding = async () => {
             },
         }));
         console.log(`⏳ Inserting ${productOps.length} Amazon products...`);
-        await Database_1.Laptop.bulkWrite(productOps);
+        await product_model_1.Laptop.bulkWrite(productOps);
         console.log("✅ Products inserted successfully!");
     }
     catch (error) {

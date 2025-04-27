@@ -52,6 +52,9 @@ export const startSeedingTablet = async () => {
       const attributes = Array.isArray(p.attributes)
         ? p.attributes.map((attr: any) => ({ key: attr.key, value: attr.value }))
         : [];
+        const productOverview = Array.isArray(p.productOverview)
+        ? p.productOverview.map((attr: any) => ({ key: attr.key, value: attr.value }))
+        : [];
 
       const variantAttributes = Array.isArray(p.variantAttributes)
         ? p.variantAttributes.map((attr: any) => ({ key: attr.key, value: attr.value }))
@@ -121,6 +124,18 @@ export const startSeedingTablet = async () => {
         graphicsBrand: extractAttribute(attributes, "Graphics Chip Brand"),
         graphicsType: extractAttribute(attributes, "Graphics Card Interface"),
         productPageReviews,
+        productOverview: [
+          { key: "Screen Size", value: extractAttribute(productOverview, "Screen Size") ?? "Unknown" },
+          { key: "Brand Name", value: p.brand ?? "Unknown" },
+          { key: "Display Technology", value: extractAttribute(productOverview, "Display Technology") ?? "Unknown" },
+          { key: "Resolution", value: extractAttribute(productOverview, "Resolution") ?? "Unknown" },
+          { key: "Refresh Rate", value: extractAttribute(productOverview, "Refresh Rate") ?? "Unknown" },
+          { key: "Special Features", value: extractAttribute(productOverview, "Special Features") ?? "Unknown" },
+          { key: "Included Components", value: extractAttribute(productOverview, "Included Components") ?? "Unknown" },
+          { key: "Connectivity Technology", value: extractAttribute(productOverview, "Connectivity Technology") ?? "Unknown" },
+          { key: "Aspect Ratio", value: extractAttribute(productOverview, "Aspect Ratio") ?? "Unknown" },
+          { key: "Product Dimensions (Depth x Width x Height)", value: extractAttribute(productOverview, "Product Dimensions (Depth x Width x Height)") ?? "Unknown" },
+        ]
       };
     });
 

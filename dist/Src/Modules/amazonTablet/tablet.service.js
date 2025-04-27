@@ -34,24 +34,287 @@ exports.createTablet = createTablet;
 const getAllTablets = async (req, res, next) => {
     try {
         const { search, sortBy, order, select, category, page = 1, limit = 10, } = req.query;
-        let filter = {};
+        let filter = [];
         // فلترة على حسب البحث
         if (search) {
-            filter.$or = [
-                { title: { $regex: search, $options: "i" } },
-                { brand: { $regex: search, $options: "i" } },
-                { category: { $regex: search, $options: "i" } },
-                { manufacturer: { $regex: search, $options: "i" } },
-            ];
+            filter.push({
+                $or: [
+                    { title: { $regex: search, $options: "i" } },
+                    { brand: { $regex: search, $options: "i" } },
+                    { category: { $regex: search, $options: "i" } },
+                    { manufacturer: { $regex: search, $options: "i" } },
+                ],
+            });
         }
         // فلترة على حسب الفئة
         if (category) {
-            filter.category = category;
+            filter.push({ category: category });
         }
-        // فلترة على حسب السعر (يستخدم priceAmazon مش price)
+        // فلترة على حسب السعر
         const minPrice = parseFloat(req.query.minPrice) || 0;
         const maxPrice = parseFloat(req.query.maxPrice) || Number.MAX_SAFE_INTEGER;
-        filter.priceAmazon = { $gte: minPrice, $lte: maxPrice };
+        filter.push({ priceAmazon: { $gte: minPrice, $lte: maxPrice } });
+        // فلترة لكل attribute موجود
+        if (req.query.returnPolicy) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Return Reason / Return Period / Return Policy",
+                        value: req.query.returnPolicy,
+                    },
+                },
+            });
+        }
+        if (req.query.brand) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Brand",
+                        value: req.query.brand,
+                    },
+                },
+            });
+        }
+        if (req.query.packageDimensions) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Package Dimensions",
+                        value: req.query.packageDimensions,
+                    },
+                },
+            });
+        }
+        if (req.query.itemModelNumber) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Item Model Number",
+                        value: req.query.itemModelNumber,
+                    },
+                },
+            });
+        }
+        if (req.query.manufacturer) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Manufacturer",
+                        value: req.query.manufacturer,
+                    },
+                },
+            });
+        }
+        if (req.query.series) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Series",
+                        value: req.query.series,
+                    },
+                },
+            });
+        }
+        if (req.query.color) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Color",
+                        value: req.query.color,
+                    },
+                },
+            });
+        }
+        if (req.query.displaySize) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Display Size",
+                        value: req.query.displaySize,
+                    },
+                },
+            });
+        }
+        if (req.query.screenResolution) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Screen Resolution",
+                        value: req.query.screenResolution,
+                    },
+                },
+            });
+        }
+        if (req.query.displayResolution) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Display Resolution",
+                        value: req.query.displayResolution,
+                    },
+                },
+            });
+        }
+        if (req.query.processorBrand) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Processor Brand",
+                        value: req.query.processorBrand,
+                    },
+                },
+            });
+        }
+        if (req.query.maximumSupportedMemory) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Maximum Supported Memory",
+                        value: req.query.maximumSupportedMemory,
+                    },
+                },
+            });
+        }
+        if (req.query.speakerDescription) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Speaker Description",
+                        value: req.query.speakerDescription,
+                    },
+                },
+            });
+        }
+        if (req.query.graphicsCoprocessor) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Graphics Coprocessor",
+                        value: req.query.graphicsCoprocessor,
+                    },
+                },
+            });
+        }
+        if (req.query.graphicsChipsetBrand) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Graphics Chipset Brand",
+                        value: req.query.graphicsChipsetBrand,
+                    },
+                },
+            });
+        }
+        if (req.query.graphicsCardDescription) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Graphics Card Description",
+                        value: req.query.graphicsCardDescription,
+                    },
+                },
+            });
+        }
+        if (req.query.connectivityType) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Connectivity Type",
+                        value: req.query.connectivityType,
+                    },
+                },
+            });
+        }
+        if (req.query.wirelessType) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Wireless Type",
+                        value: req.query.wirelessType,
+                    },
+                },
+            });
+        }
+        if (req.query.frontWebcamResolution) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Front Webcam Resolution",
+                        value: req.query.frontWebcamResolution,
+                    },
+                },
+            });
+        }
+        if (req.query.operatingSystem) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Operating System",
+                        value: req.query.operatingSystem,
+                    },
+                },
+            });
+        }
+        if (req.query.batteryChargingTime) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Battery Charging Time (hours)",
+                        value: req.query.batteryChargingTime,
+                    },
+                },
+            });
+        }
+        if (req.query.itemWeight) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Item Weight",
+                        value: req.query.itemWeight,
+                    },
+                },
+            });
+        }
+        if (req.query.userReviews) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "User Reviews",
+                        value: req.query.userReviews,
+                    },
+                },
+            });
+        }
+        if (req.query.bestSellersRank) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Best Sellers Rank",
+                        value: req.query.bestSellersRank,
+                    },
+                },
+            });
+        }
+        if (req.query.firstAvailabilityDate) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "First Availability Date",
+                        value: req.query.firstAvailabilityDate,
+                    },
+                },
+            });
+        }
+        if (req.query.bestSellersRank) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Best Sellers Rank",
+                        value: req.query.bestSellersRank,
+                    },
+                },
+            });
+        }
         // ترتيب النتائج
         let sortOptions = {};
         if (typeof sortBy === "string") {
@@ -66,9 +329,9 @@ const getAllTablets = async (req, res, next) => {
         const skip = (parseInt(page) - 1) * parseInt(limit);
         const limitValue = parseInt(limit);
         // إجمالي عدد المنتجات المطابقة
-        const totalProducts = await Database_1.Tablet.countDocuments(filter);
+        const totalProducts = await Database_1.Tablet.countDocuments({ $and: filter });
         // جلب المنتجات
-        const products = await Database_1.Tablet.find(filter)
+        const products = await Database_1.Tablet.find({ $and: filter })
             .sort(sortOptions)
             .select(selectFields)
             .skip(skip)

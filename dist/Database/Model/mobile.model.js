@@ -62,6 +62,12 @@ const ProductSchema = new mongoose_1.Schema({
             value: { type: String },
         },
     ],
+    productOverview: [
+        {
+            key: { type: String },
+            value: { type: String },
+        },
+    ],
     listPrice: {
         value: { type: Number, default: 0 },
         currency: { type: String, default: "EGP" },

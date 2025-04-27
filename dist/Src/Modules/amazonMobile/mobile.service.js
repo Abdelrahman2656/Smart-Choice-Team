@@ -34,24 +34,227 @@ exports.createMobile = createMobile;
 const getAllMobiles = async (req, res, next) => {
     try {
         const { search, sortBy, order, select, category, page = 1, limit = 10, } = req.query;
-        let filter = {};
+        let filter = [];
         // فلترة على حسب البحث
         if (search) {
-            filter.$or = [
-                { title: { $regex: search, $options: "i" } },
-                { brand: { $regex: search, $options: "i" } },
-                { category: { $regex: search, $options: "i" } },
-                { manufacturer: { $regex: search, $options: "i" } },
-            ];
+            filter.push({
+                $or: [
+                    { title: { $regex: search, $options: "i" } },
+                    { brand: { $regex: search, $options: "i" } },
+                    { category: { $regex: search, $options: "i" } },
+                    { manufacturer: { $regex: search, $options: "i" } },
+                ],
+            });
         }
         // فلترة على حسب الفئة
         if (category) {
-            filter.category = category;
+            filter.push({ category: category });
         }
-        // فلترة على حسب السعر (يستخدم priceAmazon مش price)
+        // فلترة على حسب السعر
         const minPrice = parseFloat(req.query.minPrice) || 0;
         const maxPrice = parseFloat(req.query.maxPrice) || Number.MAX_SAFE_INTEGER;
-        filter.priceAmazon = { $gte: minPrice, $lte: maxPrice };
+        filter.push({ priceAmazon: { $gte: minPrice, $lte: maxPrice } });
+        // فلترة لكل attribute موجود
+        if (req.query.operatingSystem) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Operating System",
+                        value: req.query.operatingSystem,
+                    },
+                },
+            });
+        }
+        if (req.query.color) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Color",
+                        value: req.query.color,
+                    },
+                },
+            });
+        }
+        if (req.query.batteryPowerRating) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Battery Power Rating",
+                        value: req.query.batteryPowerRating,
+                    },
+                },
+            });
+        }
+        if (req.query.gps) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "GPS",
+                        value: req.query.gps,
+                    },
+                },
+            });
+        }
+        if (req.query.audioJack) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Audio Jack",
+                        value: req.query.audioJack,
+                    },
+                },
+            });
+        }
+        if (req.query.formFactor) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Form Factor",
+                        value: req.query.formFactor,
+                    },
+                },
+            });
+        }
+        if (req.query.displayColors) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Display Colors",
+                        value: req.query.displayColors,
+                    },
+                },
+            });
+        }
+        if (req.query.itemWeight) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Item Weight",
+                        value: req.query.itemWeight,
+                    },
+                },
+            });
+        }
+        if (req.query.shippingDimensions) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Shipping Dimensions",
+                        value: req.query.shippingDimensions,
+                    },
+                },
+            });
+        }
+        if (req.query.connectivityTechnology) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Connectivity Technology",
+                        value: req.query.connectivityTechnology,
+                    },
+                },
+            });
+        }
+        if (req.query.otherDisplayFeatures) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Other Display Features",
+                        value: req.query.otherDisplayFeatures,
+                    },
+                },
+            });
+        }
+        if (req.query.scannerResolution) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Scanner Resolution",
+                        value: req.query.scannerResolution,
+                    },
+                },
+            });
+        }
+        if (req.query.itemModelNumber) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Item Model Number",
+                        value: req.query.itemModelNumber,
+                    },
+                },
+            });
+        }
+        if (req.query.asin) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "ASIN",
+                        value: req.query.asin,
+                    },
+                },
+            });
+        }
+        if (req.query.returnPolicy) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Return Reason, Return Period, Return Policy",
+                        value: req.query.returnPolicy,
+                    },
+                },
+            });
+        }
+        if (req.query.firstAvailableDate) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "First Available Date",
+                        value: req.query.firstAvailableDate,
+                    },
+                },
+            });
+        }
+        if (req.query.bestSellerRank) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Best Seller Rank",
+                        value: req.query.bestSellerRank,
+                    },
+                },
+            });
+        }
+        if (req.query.userReviews) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "User Reviews",
+                        value: req.query.userReviews,
+                    },
+                },
+            });
+        }
+        if (req.query.batteries) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Batteries",
+                        value: req.query.batteries,
+                    },
+                },
+            });
+        }
+        if (req.query.whatsInTheBox) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "What's in the Box",
+                        value: req.query.whatsInTheBox,
+                    },
+                },
+            });
+        }
         // ترتيب النتائج
         let sortOptions = {};
         if (typeof sortBy === "string") {
@@ -62,20 +265,19 @@ const getAllMobiles = async (req, res, next) => {
         if (select) {
             selectFields = select.split(",").join(" ");
         }
-        // حساب skip و limit للـ pagination
+        // pagination
         const skip = (parseInt(page) - 1) * parseInt(limit);
         const limitValue = parseInt(limit);
         // إجمالي عدد المنتجات المطابقة
-        const totalProducts = await Database_1.Mobile.countDocuments(filter);
+        const totalProducts = await Database_1.Mobile.countDocuments({ $and: filter });
         // جلب المنتجات
-        const products = await Database_1.Mobile.find(filter)
+        const products = await Database_1.Mobile.find({ $and: filter })
             .sort(sortOptions)
             .select(selectFields)
             .skip(skip)
             .limit(limitValue);
         // حساب عدد الصفحات
         const totalPages = Math.ceil(totalProducts / limitValue);
-        // إرسال الرد
         res.status(200).json({
             products,
             totalProducts,
