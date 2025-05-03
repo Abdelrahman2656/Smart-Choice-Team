@@ -35,17 +35,21 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const tabletService = __importStar(require("./tablet.service"));
+const tableValidation = __importStar(require("./tablet.validation"));
 const authentication_1 = require("../../Middleware/authentication");
 const authorization_1 = require("../../Middleware/authorization");
 const asyncHandler_1 = require("../../Middleware/asyncHandler");
 const enum_1 = require("../../Utils/constant/enum");
+const validation_1 = require("../../Middleware/validation");
 const tabletRouter = (0, express_1.Router)();
 // 🟢 إنشاء منتج (متاح فقط للمسؤولين)
 tabletRouter.post("/", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(tabletService.createTablet));
 // 🟢 جلب كل المنتجات (متاح للجميع)
-tabletRouter.get("/amazon-tablet", (0, asyncHandler_1.asyncHandler)(tabletService.getAllTablets));
+tabletRouter.get("/amazon-tablet", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(tabletService.getAllTablets));
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
-tabletRouter.get("/amazon-tablet/:id", (0, asyncHandler_1.asyncHandler)(tabletService.getTabletById));
+tabletRouter.get("/amazon-tablet/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(tabletService.getTabletById));
+//get recommend tablet
+tabletRouter.get("/recommend-tablet/:tabletId", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, validation_1.isValid)(tableValidation.getRecommendTablet), (0, asyncHandler_1.asyncHandler)(tabletService.getRecommendTablet));
 // 🟢 تحديث منتج معين (متاح فقط لـ ADMIN)
 tabletRouter.put("/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(tabletService.updateTablet));
 // 🟢 حذف منتج معين (متاح فقط لـ ADMIN)

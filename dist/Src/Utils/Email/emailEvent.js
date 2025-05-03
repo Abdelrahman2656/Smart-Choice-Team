@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.secondOTPForgetPassword = exports.sendOTPForgetPassword = exports.generateAndSecondSendOTP = exports.generateAndSendOTP = void 0;
+exports.contactUsEmail = exports.secondOTPForgetPassword = exports.sendOTPForgetPassword = exports.generateAndSecondSendOTP = exports.generateAndSendOTP = void 0;
 const Database_1 = require("../../../Database");
 const encryption_1 = require("../encryption");
 const email_1 = require("./email");
@@ -56,3 +56,20 @@ const secondOTPForgetPassword = async (email, firstName, lastName, otpEmail) => 
     });
 };
 exports.secondOTPForgetPassword = secondOTPForgetPassword;
+//contact us
+const contactUsEmail = async (email, firstName, lastName, phone, message) => {
+    const emailHtml = `
+    <h2>New Contact Message Received</h2>
+       <p><strong>From:</strong> ${firstName} ${lastName}</p>
+       <p><strong>Email:</strong> ${email}</p>
+       <p><strong>Phone:</strong> ${phone || "No phone provided"}</p>
+       <p><strong>Message:</strong></p>
+       <p>${message}</p>
+ `;
+    await (0, email_1.sendEmail)({
+        to: process.env.USER_SENDER,
+        subject: `New Contact Message from ${email} `,
+        html: emailHtml,
+    });
+};
+exports.contactUsEmail = contactUsEmail;

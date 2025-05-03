@@ -1,9 +1,11 @@
 import { Router } from "express";
 import * as televisionService from "./television.service";
+import * as televisionValidation from './television.validation'
 import { isAuthentication } from "../../Middleware/authentication";
 import { isAuthorization } from "../../Middleware/authorization";
 import { asyncHandler } from "../../Middleware/asyncHandler";
 import { roles } from "../../Utils/constant/enum";
+import { isValid } from "../../Middleware/validation";
 
 
 const televisionRouter = Router();
@@ -18,16 +20,23 @@ const televisionRouter = Router();
 
 // 🟢 جلب كل المنتجات (متاح للجميع)
  televisionRouter.get(
-  "/amazon-television",
+  "/amazon-television",isAuthentication,isAuthorization([roles.USER]),
   asyncHandler(televisionService.getAllTelevisions)
 );
 
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
  televisionRouter.get(
-  "/amazon-television/:id",
+  "/amazon-television/:id",isAuthentication,isAuthorization([roles.USER]),
   asyncHandler(televisionService.getTelevisionById)
 );
-
+//get recommend Mobile
+televisionRouter.get(
+  "/recommend-television/:tvId",
+  isAuthentication,
+  isAuthorization([roles.USER]),
+  isValid(televisionValidation.getRecommendTv),
+  asyncHandler(televisionService.getRecommendTelevision)
+);
 // 🟢 تحديث منتج معين (متاح فقط لـ ADMIN)
  televisionRouter.put(
   "/:id",

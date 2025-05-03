@@ -22,9 +22,12 @@ app, express) => {
     app.use((0, cors_1.default)({
         origin: '*',
     }));
-    app.get('/', (req, res) => {
-        res.send('Hello World In My Smart Choice App');
-    });
+    //-----------------------------------------------DataBase Connection------------------------------------------------------------
+    await (0, seed_1.startSeeding)();
+    await (0, seedTv_1.startSeedingTv)();
+    await (0, seedMobile_1.startSeedingMobile)();
+    await (0, seedTablet_1.startSeedingTablet)();
+    await (0, dbconnection_1.default)();
     //----------------------------------------------- Use the auth router------------------------------------------------------------
     app.use('/api/v1', Modules_1.userRouter);
     app.use("/api/v1/products", Modules_1.productRouter);
@@ -32,19 +35,8 @@ app, express) => {
     app.use("/api/v1/tablets", Modules_1.tabletRouter);
     app.use("/api/v1/televisions", Modules_1.televisionRouter);
     app.use("/api/v1", Modules_1.wishlistRouter);
-    //-----------------------------------------------DataBase Connection------------------------------------------------------------
-    try {
-        await (0, dbconnection_1.default)();
-        await (0, seed_1.startSeeding)();
-        await (0, seedTv_1.startSeedingTv)();
-        await (0, seedMobile_1.startSeedingMobile)();
-        await (0, seedTablet_1.startSeedingTablet)();
-        console.log('Seeding and Database connection successful');
-    }
-    catch (error) {
-        console.error('Error during database connection or seeding:', error);
-        return;
-    }
+    app.use('/api/v1/compare', Modules_1.compareRouter);
+    app.use("/api/v1/contact-us", Modules_1.contactRouter);
     //-----------------------------------------------globalErrorHandling------------------------------------------------------------
     app.use(asyncHandler_1.globalErrorHandling);
 };

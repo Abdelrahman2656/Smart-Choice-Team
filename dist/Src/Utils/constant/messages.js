@@ -12,6 +12,7 @@ const generateMessage = (entity) => ({
     deleteSuccessfully: `${entity} Deleted Successfully`,
     notAllowed: `${entity} Not Authorized To Access This Api`,
     verifiedSuccessfully: `${entity} Verified Successfully`,
+    Recommended: `Recommended ${entity} Successfully`
 });
 exports.messages = {
     user: {
@@ -29,5 +30,10 @@ exports.messages = {
         Incorrect: "Incorrect In Email Or Password",
         AlreadyVerified: "You Already Verified"
     },
-    wishlist: generateMessage('WishList')
+    wishlist: generateMessage('WishList'),
+    contact: generateMessage("Contact"),
+    laptop: generateMessage("Laptop"),
+    mobile: generateMessage("Mobile"),
+    tv: generateMessage("Television"),
+    tablet: generateMessage("Tablet")
 };

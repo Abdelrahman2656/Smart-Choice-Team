@@ -3,6 +3,7 @@ interface EmailOptions {
     to: string;
     subject: string;
     html: string;
+    
     attachments?: nodemailer.SendMailOptions["attachments"];
 }
 
@@ -20,7 +21,7 @@ const transporter = nodemailer.createTransport({
 })
 await transporter.sendMail({
     to,
-    from:`"Smart Choice Account" <${process.env.USER_SENDER}>`,
+    from:  `"Smart Choice Account" <${process.env.USER_SENDER}>`,
     subject,
     html,
     attachments

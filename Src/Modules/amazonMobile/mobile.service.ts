@@ -1,5 +1,8 @@
 
 import { Mobile } from "../../../Database";
+import { AppError } from "../../Utils/AppError/AppError";
+import { messages } from "../../Utils/constant/messages";
+
 import { AppNext, AppRequest, AppResponse } from "../../Utils/type";
 
 
@@ -337,7 +340,31 @@ export const getAllMobiles = async (req: AppRequest, res: AppResponse, next: App
   }
 };
 
-
+//get recommend mobile
+export const getRecommendMobile = async (req: AppRequest, res: AppResponse, next: AppNext) =>{
+  //get data from params
+  let {mobileId} = req.params
+  //check existence 
+  const mobileExist = await Mobile.findById(mobileId)
+  if(!mobileExist){
+    return next(new AppError(messages.mobile.notFound,404))
+  }
+  //prepare data 
+  const price = mobileExist.priceAmazon
+  const min =  price * 0.9
+  const max = price * 1.1
+  // find product  
+  const recommendMobile = await Mobile.find({
+    _id:{$ne:mobileExist._id},
+    priceAmazon:{$gte:min , $lte :max},
+    category:mobileExist.category
+  }).limit(5)
+  if(!recommendMobile){
+    return next(new AppError(messages.mobile.failToCreate,500))
+  }
+  //send response 
+  return res.status(200).json({message:messages.mobile.Recommended,success:true , recommendMobile})
+}
 
 // 🟢 جلب منتج حسب ID
 export const getMobileById = async (req: AppRequest, res: AppResponse, next: AppNext) => {

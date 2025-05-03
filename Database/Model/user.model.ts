@@ -106,6 +106,8 @@ const userSchema = new Schema<UserDocument>({
 ,  
   otpEmail: String,
   expiredDateOtp: Date,
+},{
+  timestamps:true
 });
 //pre
 //hash Password

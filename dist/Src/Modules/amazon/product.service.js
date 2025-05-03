@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteProduct = exports.updateProduct = exports.getProductById = exports.getAllProducts = exports.createProduct = void 0;
+exports.deleteProduct = exports.updateProduct = exports.getRecommendLaptop = exports.getProductById = exports.getAllProducts = exports.createProduct = void 0;
 const Database_1 = require("../../../Database");
+const AppError_1 = require("../../Utils/AppError/AppError");
+const messages_1 = require("../../Utils/constant/messages");
 // قائمة الفئات المسموح بها
 const ALLOWED_CATEGORIES = ["Laptop", "Smartphone", "TV", "GPU", "Monitor", "Tablet"];
 // 🟢 إنشاء منتج جديد
@@ -215,6 +217,29 @@ const getProductById = async (req, res, next) => {
     }
 };
 exports.getProductById = getProductById;
+//get recommend data 
+const getRecommendLaptop = async (req, res, next) => {
+    //get id from params
+    const { productId } = req.params;
+    //check product exist
+    const productExist = await Database_1.Laptop.findById(productId);
+    if (!productExist) {
+        return next(new AppError_1.AppError(messages_1.messages.laptop.notFound, 404));
+    }
+    // prepare data
+    const laptop = productExist.priceAmazon;
+    let max = laptop * 1.1;
+    let min = laptop * 0.9;
+    // find recommended product
+    let recommendedLaptop = await Database_1.Laptop.find({
+        _id: { $ne: productExist._id },
+        priceAmazon: { $gte: min, $lte: max },
+        category: productExist.category
+    }).limit(5);
+    //send response 
+    return res.status(200).json({ message: messages_1.messages.laptop.Recommended, success: true, recommendedLaptop });
+};
+exports.getRecommendLaptop = getRecommendLaptop;
 // 🟢 تحديث منتج معين
 const updateProduct = async (req, res, next) => {
     try {

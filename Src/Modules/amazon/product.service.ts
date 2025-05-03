@@ -1,5 +1,7 @@
 
 import { Laptop } from "../../../Database";
+import { AppError } from "../../Utils/AppError/AppError";
+import { messages } from "../../Utils/constant/messages";
 import { AppNext, AppRequest, AppResponse } from "../../Utils/type";
 
 
@@ -250,7 +252,28 @@ export const getProductById = async (req: AppRequest, res: AppResponse, next: Ap
     res.status(500).json({ message: "Error fetching product", error });
   }
 };
-
+//get recommend data 
+export const getRecommendLaptop =async(req:AppRequest,res:AppResponse,next:AppNext)=>{
+  //get id from params
+  const {productId}=req.params
+  //check product exist
+  const productExist = await Laptop.findById(productId) 
+  if(!productExist){
+    return next(new AppError(messages.laptop.notFound , 404))
+  }
+  // prepare data
+  const laptop = productExist.priceAmazon
+  let max = laptop * 1.1 
+  let min = laptop * 0.9
+  // find recommended product
+  let recommendedLaptop = await Laptop.find({
+    _id:{$ne:productExist._id},
+    priceAmazon:{$gte:min , $lte :max},
+    category:productExist.category
+  }).limit(5)
+  //send response 
+  return res.status(200).json({message:messages.laptop.Recommended ,success:true , recommendedLaptop})
+}
 // 🟢 تحديث منتج معين
 export const updateProduct = async (req: AppRequest, res: AppResponse, next: AppNext) => {
   try {

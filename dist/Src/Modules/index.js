@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.wishlistRouter = exports.userRouter = exports.televisionRouter = exports.tabletRouter = exports.productRouter = exports.mobileRouter = void 0;
+exports.wishlistRouter = exports.userRouter = exports.televisionRouter = exports.tabletRouter = exports.productRouter = exports.mobileRouter = exports.contactRouter = exports.compareRouter = void 0;
 const product_controller_1 = __importDefault(require("./amazon/product.controller"));
 exports.productRouter = product_controller_1.default;
 const mobile_controller_1 = __importDefault(require("./amazonMobile/mobile.controller"));
@@ -12,6 +12,10 @@ const tablet_controller_1 = __importDefault(require("./amazonTablet/tablet.contr
 exports.tabletRouter = tablet_controller_1.default;
 const television_controller_1 = __importDefault(require("./amazonTV/television.controller"));
 exports.televisionRouter = television_controller_1.default;
+const compare_controller_1 = __importDefault(require("./Compare/compare.controller"));
+exports.compareRouter = compare_controller_1.default;
+const contact_controller_1 = __importDefault(require("./Contact/contact.controller"));
+exports.contactRouter = contact_controller_1.default;
 const user_controller_1 = __importDefault(require("./User/user.controller"));
 exports.userRouter = user_controller_1.default;
 const wishlist_controller_1 = __importDefault(require("./wishList/wishlist.controller"));

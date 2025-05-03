@@ -19,3 +19,4 @@ __exportStar(require("./Model/product.model"), exports);
 __exportStar(require("./Model/television.model"), exports);
 __exportStar(require("./Model/mobile.model"), exports);
 __exportStar(require("./Model/tablet.model"), exports);
+__exportStar(require("./Model/contact.model"), exports);

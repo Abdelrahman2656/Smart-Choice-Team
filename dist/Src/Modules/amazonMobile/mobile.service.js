@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteMobile = exports.updateMobile = exports.getMobileById = exports.getAllMobiles = exports.createMobile = void 0;
+exports.deleteMobile = exports.updateMobile = exports.getMobileById = exports.getRecommendMobile = exports.getAllMobiles = exports.createMobile = void 0;
 const Database_1 = require("../../../Database");
+const AppError_1 = require("../../Utils/AppError/AppError");
+const messages_1 = require("../../Utils/constant/messages");
 // قائمة الفئات المسموح بها
 const ALLOWED_CATEGORIES = ["Laptop", "Smartphone", "TV", "GPU", "Monitor", "Tablet"];
 // 🟢 إنشاء منتج جديد
@@ -294,6 +296,32 @@ const getAllMobiles = async (req, res, next) => {
     }
 };
 exports.getAllMobiles = getAllMobiles;
+//get recommend mobile
+const getRecommendMobile = async (req, res, next) => {
+    //get data from params
+    let { mobileId } = req.params;
+    //check existence 
+    const mobileExist = await Database_1.Mobile.findById(mobileId);
+    if (!mobileExist) {
+        return next(new AppError_1.AppError(messages_1.messages.mobile.notFound, 404));
+    }
+    //prepare data 
+    const price = mobileExist.priceAmazon;
+    const min = price * 0.9;
+    const max = price * 1.1;
+    // find product  
+    const recommendMobile = await Database_1.Mobile.find({
+        _id: { $ne: mobileExist._id },
+        priceAmazon: { $gte: min, $lte: max },
+        category: mobileExist.category
+    }).limit(5);
+    if (!recommendMobile) {
+        return next(new AppError_1.AppError(messages_1.messages.mobile.failToCreate, 500));
+    }
+    //send response 
+    return res.status(200).json({ message: messages_1.messages.mobile.Recommended, success: true, recommendMobile });
+};
+exports.getRecommendMobile = getRecommendMobile;
 // 🟢 جلب منتج حسب ID
 const getMobileById = async (req, res, next) => {
     try {

@@ -44,27 +44,41 @@ export const addWishList = async (
   });
 
   if (existingWishListItem) {
-    return next(new AppError("Product already in wishlist", 400));
-  }
-  //update
-  const item = {
-    productId,
-    modelType,
-  };
-  const userUpdate = await User.findByIdAndUpdate(
-    userId,
-    { $addToSet: { wishList: item } },
-    { new: true }
-  );
-  console.log("Adding to wishlist:", item);
-  //send response
-  return res
+    const item = {
+      productId,
+      modelType,
+    };
+    const userDeleted = await User.findByIdAndUpdate(userId , { $pull:{wishList:item}}, {new:true})
+    //send response 
+    return res
     .status(201)
     .json({
-      message: messages.wishlist.updateSuccessfully,
+      message: messages.wishlist.deleteSuccessfully,
       success: true,
-      userUpdate,
+      userDeleted,
     });
+  }else{
+    const item = {
+      productId,
+      modelType,
+    };
+    const userUpdate = await User.findByIdAndUpdate(
+      userId,
+      { $addToSet: { wishList: item } },
+      { new: true }
+    );
+    console.log("Adding to wishlist:", item);
+    //send response
+    return res
+      .status(201)
+      .json({
+        message: messages.wishlist.updateSuccessfully,
+        success: true,
+        userUpdate,
+      });
+  }
+  //update
+
 };
 //---------------------------------------------------get wishlist --------------------------------------------------------------
 export const getWishlist = async (

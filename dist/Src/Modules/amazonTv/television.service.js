@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteTelevision = exports.updateTelevision = exports.getTelevisionById = exports.getAllTelevisions = exports.createTelevision = void 0;
+exports.deleteTelevision = exports.updateTelevision = exports.getRecommendTelevision = exports.getTelevisionById = exports.getAllTelevisions = exports.createTelevision = void 0;
 const Database_1 = require("../../../Database");
+const AppError_1 = require("../../Utils/AppError/AppError");
+const messages_1 = require("../../Utils/constant/messages");
 // قائمة الفئات المسموح بها
 const ALLOWED_CATEGORIES = ["Laptop", "Smartphone", "TV", "GPU", "Monitor", "Tablet"];
 // 🟢 إنشاء منتج جديد
@@ -136,6 +138,32 @@ const getTelevisionById = async (req, res, next) => {
     }
 };
 exports.getTelevisionById = getTelevisionById;
+//get recommend television
+const getRecommendTelevision = async (req, res, next) => {
+    //get data from params
+    let { tvId } = req.params;
+    //check existence 
+    const televisionExist = await Database_1.Tv.findById(tvId);
+    if (!televisionExist) {
+        return next(new AppError_1.AppError(messages_1.messages.mobile.notFound, 404));
+    }
+    //prepare data 
+    const price = televisionExist.priceAmazon;
+    const min = price * 0.9;
+    const max = price * 1.1;
+    // find product  
+    const recommendTelevision = await Database_1.Tv.find({
+        _id: { $ne: televisionExist._id },
+        priceAmazon: { $gte: min, $lte: max },
+        category: televisionExist.category
+    }).limit(5);
+    if (!recommendTelevision) {
+        return next(new AppError_1.AppError(messages_1.messages.mobile.failToCreate, 500));
+    }
+    //send response 
+    return res.status(200).json({ message: messages_1.messages.mobile.Recommended, success: true, recommendTelevision });
+};
+exports.getRecommendTelevision = getRecommendTelevision;
 // 🟢 تحديث منتج معين
 const updateTelevision = async (req, res, next) => {
     try {

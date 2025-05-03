@@ -13,4 +13,5 @@ export const generalFields={
     refreshToken:joi.string(),
     idToken:joi.string(),
     phone:joi.string().pattern(new RegExp(/^(00201|\+201|01)[0-2,5]{1}[0-9]{8}$/)),
+    message:joi.string().max(300).min(5)
 }

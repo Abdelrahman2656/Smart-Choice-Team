@@ -1,5 +1,7 @@
 
 import { Tablet } from "../../../Database";
+import { AppError } from "../../Utils/AppError/AppError";
+import { messages } from "../../Utils/constant/messages";
 import { AppNext, AppRequest, AppResponse } from "../../Utils/type";
 
 
@@ -420,7 +422,36 @@ export const getTabletById = async (req: AppRequest, res: AppResponse, next: App
   }
 };
 
+//get recommend tablet
+export const getRecommendTablet = async (req: AppRequest, res: AppResponse, next: AppNext) =>{
+  //get data from params
+  let {tabletId} = req.params
+  //check existence 
+  const tabletExist = await Tablet.findById(tabletId)
+  if(!tabletExist){
+    return next(new AppError(messages.tablet.notFound,404))
+  }
+  //prepare data 
+  const price = tabletExist.priceAmazon
+  const min =  price * 0.9
+  const max = price * 1.1
+  // find product  
+  const recommendTablet = await Tablet.find({
+    _id:{$ne:tabletExist._id},
+    priceAmazon:{$gte:min , $lte :max},
+    category:tabletExist.category
+  }).limit(5)
+  if(!recommendTablet){
+    return next(new AppError(messages.tablet.failToCreate,500))
+  }
+  //send response 
+  return res.status(200).json({message:messages.mobile.Recommended,success:true , recommendTablet})
+}
+
+
 // 🟢 تحديث منتج معين
+
+
 export const updateTablet = async (req: AppRequest, res: AppResponse, next: AppNext) => {
   try {
     const { asin, sku, ...updateData } = req.body;

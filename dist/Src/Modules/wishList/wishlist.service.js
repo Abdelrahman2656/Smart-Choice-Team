@@ -35,23 +35,37 @@ const addWishList = async (req, res, next) => {
         "wishList.modelType": modelType,
     });
     if (existingWishListItem) {
-        return next(new AppError_1.AppError("Product already in wishlist", 400));
+        const item = {
+            productId,
+            modelType,
+        };
+        const userDeleted = await Database_1.User.findByIdAndUpdate(userId, { $pull: { wishList: item } }, { new: true });
+        //send response 
+        return res
+            .status(201)
+            .json({
+            message: messages_1.messages.wishlist.deleteSuccessfully,
+            success: true,
+            userDeleted,
+        });
+    }
+    else {
+        const item = {
+            productId,
+            modelType,
+        };
+        const userUpdate = await Database_1.User.findByIdAndUpdate(userId, { $addToSet: { wishList: item } }, { new: true });
+        console.log("Adding to wishlist:", item);
+        //send response
+        return res
+            .status(201)
+            .json({
+            message: messages_1.messages.wishlist.updateSuccessfully,
+            success: true,
+            userUpdate,
+        });
     }
     //update
-    const item = {
-        productId,
-        modelType,
-    };
-    const userUpdate = await Database_1.User.findByIdAndUpdate(userId, { $addToSet: { wishList: item } }, { new: true });
-    console.log("Adding to wishlist:", item);
-    //send response
-    return res
-        .status(201)
-        .json({
-        message: messages_1.messages.wishlist.updateSuccessfully,
-        success: true,
-        userUpdate,
-    });
 };
 exports.addWishList = addWishList;
 //---------------------------------------------------get wishlist --------------------------------------------------------------

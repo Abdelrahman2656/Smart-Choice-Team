@@ -72,3 +72,22 @@ export const secondOTPForgetPassword = async (email:string, firstName:string, la
     });
   };
   
+
+  //contact us
+  export const contactUsEmail = async(email:string, firstName:string, lastName:string ,phone:string ,message:string)=>{
+    const emailHtml =`
+    <h2>New Contact Message Received</h2>
+       <p><strong>From:</strong> ${firstName} ${lastName}</p>
+       <p><strong>Email:</strong> ${email}</p>
+       <p><strong>Phone:</strong> ${phone || "No phone provided"}</p>
+       <p><strong>Message:</strong></p>
+       <p>${message}</p>
+ `
+    await sendEmail({
+      to:process.env.USER_SENDER!,
+      
+      subject:`New Contact Message from ${email} `,
+      html :emailHtml,
+    })
+    
+  }

@@ -1,9 +1,11 @@
 import { Router } from "express";
 import * as productService from "./product.service";
+import * as productValidation from './product.validation'
 import { isAuthentication } from "../../Middleware/authentication";
 import { isAuthorization } from "../../Middleware/authorization";
 import { asyncHandler } from "../../Middleware/asyncHandler";
 import { roles } from "../../Utils/constant/enum";
+import { isValid } from "../../Middleware/validation";
 
 
 const productRouter = Router();
@@ -18,16 +20,17 @@ productRouter.post(
 
 // 🟢 جلب كل المنتجات (متاح للجميع)
 productRouter.get(
-  "/all-amazon-laptop",
+  "/all-amazon-laptop",isAuthentication,isAuthorization([roles.USER]),
   asyncHandler(productService.getAllProducts)
 );
 
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
 productRouter.get(
-  "/amazon-laptop/:id",
+  "/amazon-laptop/:id",isAuthentication,isAuthorization([roles.USER]),
   asyncHandler(productService.getProductById)
 );
-
+//get recommend product
+productRouter.get("/recommend-laptop/:productId",isAuthentication,isAuthorization([roles.USER]),isValid(productValidation.getRecommendLaptop),asyncHandler(productService.getRecommendLaptop))
 // 🟢 تحديث منتج معين (متاح فقط لـ ADMIN)
 productRouter.put(
   "/:id",

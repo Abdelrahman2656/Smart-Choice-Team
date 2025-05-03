@@ -35,17 +35,21 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const mobileService = __importStar(require("./mobile.service"));
+const mobileValidation = __importStar(require("./mobile.validation"));
 const authentication_1 = require("../../Middleware/authentication");
 const authorization_1 = require("../../Middleware/authorization");
 const asyncHandler_1 = require("../../Middleware/asyncHandler");
 const enum_1 = require("../../Utils/constant/enum");
+const validation_1 = require("../../Middleware/validation");
 const mobileRouter = (0, express_1.Router)();
 // 🟢 إنشاء منتج (متاح فقط للمسؤولين)
 mobileRouter.post("/", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(mobileService.createMobile));
 // 🟢 جلب كل المنتجات (متاح للجميع)
-mobileRouter.get("/amazon-mobile", (0, asyncHandler_1.asyncHandler)(mobileService.getAllMobiles));
+mobileRouter.get("/amazon-mobile", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(mobileService.getAllMobiles));
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
-mobileRouter.get("/:id", (0, asyncHandler_1.asyncHandler)(mobileService.getMobileById));
+mobileRouter.get("/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(mobileService.getMobileById));
+//get recommend Mobile
+mobileRouter.get("/recommend-mobile/:mobileId", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, validation_1.isValid)(mobileValidation.getRecommendMobile), (0, asyncHandler_1.asyncHandler)(mobileService.getRecommendMobile));
 // 🟢 تحديث منتج معين (متاح فقط لـ ADMIN)
 mobileRouter.put("/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(mobileService.updateMobile));
 // 🟢 حذف منتج معين (متاح فقط لـ ADMIN)

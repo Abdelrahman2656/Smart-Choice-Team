@@ -19,4 +19,5 @@ exports.generalFields = {
     refreshToken: joi_1.default.string(),
     idToken: joi_1.default.string(),
     phone: joi_1.default.string().pattern(new RegExp(/^(00201|\+201|01)[0-2,5]{1}[0-9]{8}$/)),
+    message: joi_1.default.string().max(300).min(5)
 };

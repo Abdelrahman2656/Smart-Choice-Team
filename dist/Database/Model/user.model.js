@@ -115,6 +115,8 @@ const userSchema = new mongoose_1.Schema({
     ],
     otpEmail: String,
     expiredDateOtp: Date,
+}, {
+    timestamps: true
 });
 //pre
 //hash Password

@@ -2,6 +2,8 @@ import joi from "joi";
 import { generalFields } from "../../Utils/generalFields/generalFields";
 
 
-export const getRecommendLaptop = joi.object({
-    productId :generalFields.objectId.required()
+
+//get recommend mobile
+export const getRecommendTv = joi.object({
+    tvId:generalFields.objectId.required()
 }).required()

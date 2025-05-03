@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteTablet = exports.updateTablet = exports.getTabletById = exports.getAllTablets = exports.createTablet = void 0;
+exports.deleteTablet = exports.updateTablet = exports.getRecommendTablet = exports.getTabletById = exports.getAllTablets = exports.createTablet = void 0;
 const Database_1 = require("../../../Database");
+const AppError_1 = require("../../Utils/AppError/AppError");
+const messages_1 = require("../../Utils/constant/messages");
 // قائمة الفئات المسموح بها
 const ALLOWED_CATEGORIES = ["Laptop", "Smartphone", "TV", "GPU", "Monitor", "Tablet"];
 // 🟢 إنشاء منتج جديد
@@ -369,6 +371,32 @@ const getTabletById = async (req, res, next) => {
     }
 };
 exports.getTabletById = getTabletById;
+//get recommend tablet
+const getRecommendTablet = async (req, res, next) => {
+    //get data from params
+    let { tabletId } = req.params;
+    //check existence 
+    const tabletExist = await Database_1.Tablet.findById(tabletId);
+    if (!tabletExist) {
+        return next(new AppError_1.AppError(messages_1.messages.tablet.notFound, 404));
+    }
+    //prepare data 
+    const price = tabletExist.priceAmazon;
+    const min = price * 0.9;
+    const max = price * 1.1;
+    // find product  
+    const recommendTablet = await Database_1.Tablet.find({
+        _id: { $ne: tabletExist._id },
+        priceAmazon: { $gte: min, $lte: max },
+        category: tabletExist.category
+    }).limit(5);
+    if (!recommendTablet) {
+        return next(new AppError_1.AppError(messages_1.messages.tablet.failToCreate, 500));
+    }
+    //send response 
+    return res.status(200).json({ message: messages_1.messages.mobile.Recommended, success: true, recommendTablet });
+};
+exports.getRecommendTablet = getRecommendTablet;
 // 🟢 تحديث منتج معين
 const updateTablet = async (req, res, next) => {
     try {

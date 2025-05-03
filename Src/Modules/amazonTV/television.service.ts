@@ -1,5 +1,7 @@
 
 import { Tv } from "../../../Database";
+import { AppError } from "../../Utils/AppError/AppError";
+import { messages } from "../../Utils/constant/messages";
 import { AppNext, AppRequest, AppResponse } from "../../Utils/type";
 
 
@@ -164,6 +166,32 @@ export const getTelevisionById = async (req: AppRequest, res: AppResponse, next:
     res.status(500).json({ message: "Error fetching product", error });
   }
 };
+//get recommend television
+export const getRecommendTelevision = async (req: AppRequest, res: AppResponse, next: AppNext) =>{
+  //get data from params
+  let {tvId} = req.params
+  //check existence 
+  const televisionExist = await Tv.findById(tvId)
+  if(!televisionExist){
+    return next(new AppError(messages.mobile.notFound,404))
+  }
+  //prepare data 
+  const price = televisionExist.priceAmazon
+  const min =  price * 0.9
+  const max = price * 1.1
+  // find product  
+  const recommendTelevision = await Tv.find({
+    _id:{$ne:televisionExist._id},
+    priceAmazon:{$gte:min , $lte :max},
+    category:televisionExist.category
+  }).limit(5)
+  if(!recommendTelevision){
+    return next(new AppError(messages.mobile.failToCreate,500))
+  }
+  //send response 
+  return res.status(200).json({message:messages.mobile.Recommended,success:true , recommendTelevision})
+}
+
 
 // 🟢 تحديث منتج معين
 export const updateTelevision = async (req: AppRequest, res: AppResponse, next: AppNext) => {
