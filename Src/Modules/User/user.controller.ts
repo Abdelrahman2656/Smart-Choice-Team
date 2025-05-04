@@ -3,6 +3,9 @@ import { asyncHandler } from "../../Middleware/asyncHandler";
 import { isValid } from "../../Middleware/validation";
 import * as userService from './user.service';
 import * as userValidation from './user.validation';
+import { isAuthentication } from "../../Middleware/authentication";
+import { isAuthorization } from "../../Middleware/authorization";
+import { roles } from "../../Utils/constant/enum";
 const userRouter = Router()
 // sign up
 userRouter.post('/signup',isValid(userValidation.signUpVal),asyncHandler( userService.signUp))
@@ -20,4 +23,8 @@ userRouter.post('/google-login',isValid(userValidation.loginWithGoogleVal),async
 userRouter.post('/forget-password',isValid(userValidation.forgetPasswordVal),asyncHandler( userService.forgetPassword))
 //change password 
 userRouter.put('/change-password',isValid(userValidation.changePasswordVal),asyncHandler( userService.changePassword))
+//share profile
+userRouter.get("/profile/:userId",isAuthentication,isAuthorization([roles.USER]),isValid(userValidation.shareProfile),asyncHandler(userService.shareProfile))
+//update Profile
+userRouter.put("/update-profile/:userId",isAuthentication,isAuthorization([roles.USER]),isValid(userValidation.updateUser),asyncHandler(userService.updateProfile))
 export default userRouter

@@ -38,6 +38,9 @@ const asyncHandler_1 = require("../../Middleware/asyncHandler");
 const validation_1 = require("../../Middleware/validation");
 const userService = __importStar(require("./user.service"));
 const userValidation = __importStar(require("./user.validation"));
+const authentication_1 = require("../../Middleware/authentication");
+const authorization_1 = require("../../Middleware/authorization");
+const enum_1 = require("../../Utils/constant/enum");
 const userRouter = (0, express_1.Router)();
 // sign up
 userRouter.post('/signup', (0, validation_1.isValid)(userValidation.signUpVal), (0, asyncHandler_1.asyncHandler)(userService.signUp));
@@ -55,4 +58,8 @@ userRouter.post('/google-login', (0, validation_1.isValid)(userValidation.loginW
 userRouter.post('/forget-password', (0, validation_1.isValid)(userValidation.forgetPasswordVal), (0, asyncHandler_1.asyncHandler)(userService.forgetPassword));
 //change password 
 userRouter.put('/change-password', (0, validation_1.isValid)(userValidation.changePasswordVal), (0, asyncHandler_1.asyncHandler)(userService.changePassword));
+//share profile
+userRouter.get("/profile/:userId", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, validation_1.isValid)(userValidation.shareProfile), (0, asyncHandler_1.asyncHandler)(userService.shareProfile));
+//update Profile
+userRouter.put("/update-profile/:userId", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, validation_1.isValid)(userValidation.updateUser), (0, asyncHandler_1.asyncHandler)(userService.updateProfile));
 exports.default = userRouter;

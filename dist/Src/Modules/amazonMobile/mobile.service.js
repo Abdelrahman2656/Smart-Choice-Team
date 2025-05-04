@@ -117,16 +117,6 @@ const getAllMobiles = async (req, res, next) => {
                 },
             });
         }
-        if (req.query.displayColors) {
-            filter.push({
-                attributes: {
-                    $elemMatch: {
-                        key: "Display Colors",
-                        value: req.query.displayColors,
-                    },
-                },
-            });
-        }
         if (req.query.itemWeight) {
             filter.push({
                 attributes: {
@@ -253,6 +243,176 @@ const getAllMobiles = async (req, res, next) => {
                     $elemMatch: {
                         key: "What's in the Box",
                         value: req.query.whatsInTheBox,
+                    },
+                },
+            });
+        }
+        if (req.query.specialFeatures) {
+            filter.push({
+                attributes: {
+                    $elemMatch: {
+                        key: "Special Features",
+                        value: req.query.specialFeatures,
+                    },
+                },
+            });
+        }
+        if (req.query.screensize) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Screen Size",
+                        value: req.query.screensize,
+                    },
+                },
+            });
+        }
+        if (req.query.brand) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Brand Name",
+                        value: req.query.brand,
+                    },
+                },
+            });
+        }
+        if (req.query.operatingsystem) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Operating System",
+                        value: req.query.operatingsystem,
+                    },
+                },
+            });
+        }
+        if (req.query.storagecapacity) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Storage Capacity",
+                        value: req.query.storagecapacity,
+                    },
+                },
+            });
+        }
+        if (req.query.modelname) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Model Name",
+                        value: req.query.modelname,
+                    },
+                },
+            });
+        }
+        if (req.query.wirelesscarrier) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Wireless Carrier",
+                        value: req.query.wirelesscarrier,
+                    },
+                },
+            });
+        }
+        if (req.query.cellulartechnology) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Cellular Technology",
+                        value: req.query.cellulartechnology,
+                    },
+                },
+            });
+        }
+        if (req.query.connectortype) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Connector Type",
+                        value: req.query.connectortype,
+                    },
+                },
+            });
+        }
+        if (req.query.formfactor) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Form Factor",
+                        value: req.query.formfactor,
+                    },
+                },
+            });
+        }
+        if (req.query.batterycapacity) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Battery Capacity",
+                        value: req.query.batterycapacity,
+                    },
+                },
+            });
+        }
+        if (req.query.installedram) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Installed RAM",
+                        value: req.query.installedram,
+                    },
+                },
+            });
+        }
+        if (req.query.cpumodel) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "CPU Model",
+                        value: req.query.cpumodel,
+                    },
+                },
+            });
+        }
+        if (req.query.cpuspeed) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "CPU Speed",
+                        value: req.query.cpuspeed,
+                    },
+                },
+            });
+        }
+        if (req.query.refreshrate) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Refresh Rate",
+                        value: req.query.refreshrate,
+                    },
+                },
+            });
+        }
+        if (req.query.resolution) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Resolution",
+                        value: req.query.resolution,
+                    },
+                },
+            });
+        }
+        if (req.query.memorystoragecapacity) {
+            filter.push({
+                productOverview: {
+                    $elemMatch: {
+                        key: "Memory Storage Capacity",
+                        value: req.query.memorystoragecapacity,
                     },
                 },
             });

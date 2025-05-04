@@ -344,7 +344,7 @@ export const getAllTablets = async (req: AppRequest, res: AppResponse, next: App
       filter.push({
         attributes: {
           $elemMatch: {
-            key: "First Availability Date",
+            key: "First Available Date",
             value: req.query.firstAvailabilityDate,
           },
         },
@@ -361,7 +361,203 @@ export const getAllTablets = async (req: AppRequest, res: AppResponse, next: App
       });
     }
     
-
+    if (req.query.screensize) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Screen Size",
+            value: req.query.screensize,
+          },
+        },
+      });
+    }
+    
+    if (req.query.brand) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Brand Name",
+            value: req.query.brand,
+          },
+        },
+      });
+    }
+    
+    if (req.query.modelname) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Model Name",
+            value: req.query.modelname,
+          },
+        },
+      });
+    }
+    
+    if (req.query.memorystoragecapacity) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Memory Storage Capacity",
+            value: req.query.memorystoragecapacity,
+          },
+        },
+      });
+    }
+    
+    if (req.query.maximumdisplayresolution) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Maximum Display Resolution",
+            value: req.query.maximumdisplayresolution,
+          },
+        },
+      });
+    }
+    
+    if (req.query.installedram) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Installed RAM",
+            value: req.query.installedram,
+          },
+        },
+      });
+    }
+    
+    if (req.query.operatingsystem) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Operating System",
+            value: req.query.operatingsystem,
+          },
+        },
+      });
+    }
+    
+    if (req.query.color) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Color",
+            value: req.query.color,
+          },
+        },
+      });
+    }
+    
+    if (req.query.generation) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Generation",
+            value: req.query.generation,
+          },
+        },
+      });
+    }
+    
+    if (req.query.specialfeatures) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Special Features",
+            value: req.query.specialfeatures,
+          },
+        },
+      });
+    }
+    
+    if (req.query.displaytechnology) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Display Technology",
+            value: req.query.displaytechnology,
+          },
+        },
+      });
+    }
+    
+    if (req.query.resolution) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Resolution",
+            value: req.query.resolution,
+          },
+        },
+      });
+    }
+    
+    if (req.query.refreshrate) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Refresh Rate",
+            value: req.query.refreshrate,
+          },
+        },
+      });
+    }
+    
+    if (req.query.includedcomponents) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Included Components",
+            value: req.query.includedcomponents,
+          },
+        },
+      });
+    }
+    
+    if (req.query.connectivitytechnology) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Connectivity Technology",
+            value: req.query.connectivitytechnology,
+          },
+        },
+      });
+    }
+    
+    if (req.query.yearofmanufacture) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Year of Manufacture",
+            value: req.query.yearofmanufacture,
+          },
+        },
+      });
+    }
+    
+    if (req.query.deviceinterface) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Device Interface",
+            value: req.query.deviceinterface,
+          },
+        },
+      });
+    }
+    if (req.query.yearofrelease) {
+      filter.push({
+        productOverview: {
+          $elemMatch: {
+            key: "Year of Release",
+            value: req.query.yearofrelease,
+          },
+        },
+      });
+    }
+    
 
     // ترتيب النتائج
     let sortOptions: any = {};

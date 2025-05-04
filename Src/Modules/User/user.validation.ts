@@ -55,3 +55,17 @@ export const changePasswordVal =joi.object({
 export const loginWithGoogleVal =joi.object({
     idToken:generalFields.idToken.required()
 }).required()
+//share profile
+export const shareProfile = joi.object({
+    userId : generalFields.objectId.required()
+}).required()
+//update user 
+export const updateUser = joi.object({
+    firstName :generalFields.firstName,
+    lastName:generalFields.lastName,
+    phone:generalFields.phone,
+    oldPassword:generalFields.password,
+    newPassword:generalFields.password,
+    cPassword:generalFields.password.valid(joi.ref("newPassword")),
+    userId:generalFields.objectId.required()
+})

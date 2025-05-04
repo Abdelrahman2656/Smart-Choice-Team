@@ -3,13 +3,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.startSeedingTablet = void 0;
+exports.startSeeding = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const fs_1 = __importDefault(require("fs"));
 const mongoose_1 = __importDefault(require("mongoose"));
 const path_1 = __importDefault(require("path"));
 const Database_1 = require("../Database"); // ✅ عدل المسار لو مختلف
-const dbconnection_1 = __importDefault(require("./dbconnection"));
+const dbconnection_1 = require("./dbconnection");
 dotenv_1.default.config({ path: path_1.default.resolve("./config/.env") });
 const loadJsonFilesFromDir = (dirPath) => {
     const files = fs_1.default.readdirSync(dirPath).filter((file) => file.endsWith(".json"));
@@ -30,9 +30,9 @@ const extractAttribute = (attributes, keyIncludes) => {
     const found = attributes?.find((attr) => attr.key?.toLowerCase().includes(keyIncludes.toLowerCase()));
     return found?.value;
 };
-const startSeedingTablet = async () => {
-    await (0, dbconnection_1.default)();
-    const amazonData = loadJsonFilesFromDir(path_1.default.join(process.cwd(), "Database/path/amazonTablet"));
+const startSeeding = async () => {
+    await (0, dbconnection_1.dbconnection)();
+    const amazonData = loadJsonFilesFromDir(path_1.default.join(process.cwd(), "Database/path/amazonMobile"));
     const amazonProducts = amazonData.map((p) => ({ ...p, source: "amazon" }));
     console.log(`📊 Total products loaded: ${amazonProducts.length}`);
     const seenAsins = new Set();
@@ -43,9 +43,6 @@ const startSeedingTablet = async () => {
         seenAsins.add(asin);
         const attributes = Array.isArray(p.attributes)
             ? p.attributes.map((attr) => ({ key: attr.key, value: attr.value }))
-            : [];
-        const productOverview = Array.isArray(p.productOverview)
-            ? p.productOverview.map((attr) => ({ key: attr.key, value: attr.value }))
             : [];
         const variantAttributes = Array.isArray(p.variantAttributes)
             ? p.variantAttributes.map((attr) => ({ key: attr.key, value: attr.value }))
@@ -97,7 +94,7 @@ const startSeedingTablet = async () => {
             features: Array.isArray(p.features) ? p.features : [],
             attributes,
             variantAttributes,
-            category: p.category ?? "Tablet",
+            category: p.category ?? "Laptop",
             manufacturer: p.manufacturer ?? "Unknown",
             galleryThumbnails: Array.isArray(p.galleryThumbnails) ? p.galleryThumbnails : ["default-thumbnail.jpg"],
             highResolutionImages: Array.isArray(p.highResolutionImages) ? p.highResolutionImages : ["default-image.jpg"],
@@ -113,26 +110,6 @@ const startSeedingTablet = async () => {
             graphicsBrand: extractAttribute(attributes, "Graphics Chip Brand"),
             graphicsType: extractAttribute(attributes, "Graphics Card Interface"),
             productPageReviews,
-            productOverview: [
-                { key: "Screen Size", value: extractAttribute(productOverview, "Screen Size") ?? "Unknown" },
-                { key: "Brand Name", value: extractAttribute(productOverview, "Brand Name") ?? p.brand ?? "Unknown" },
-                { key: "Model Name", value: extractAttribute(productOverview, "Model Name") ?? "Unknown" },
-                { key: "Memory Storage Capacity", value: extractAttribute(productOverview, "Memory Storage Capacity") ?? "Unknown" },
-                { key: "Maximum Display Resolution", value: extractAttribute(productOverview, "Maximum Display Resolution") ?? "Unknown" },
-                { key: "Installed RAM", value: extractAttribute(productOverview, "Installed RAM") ?? "Unknown" },
-                { key: "Operating System", value: extractAttribute(productOverview, "Operating System") ?? "Unknown" },
-                { key: "Color", value: extractAttribute(productOverview, "Color") ?? "Unknown" },
-                { key: "Generation", value: extractAttribute(productOverview, "Generation") ?? "Unknown" },
-                { key: "Special Features", value: extractAttribute(productOverview, "Special Features") ?? "Unknown" },
-                { key: "Display Technology", value: extractAttribute(productOverview, "Display Technology") ?? "Unknown" },
-                { key: "Resolution", value: extractAttribute(productOverview, "Resolution") ?? "Unknown" },
-                { key: "Refresh Rate", value: extractAttribute(productOverview, "Refresh Rate") ?? "Unknown" },
-                { key: "Included Components", value: extractAttribute(productOverview, "Included Components") ?? "Unknown" },
-                { key: "Connectivity Technology", value: extractAttribute(productOverview, "Connectivity Technology") ?? "Unknown" },
-                { key: "Year of Manufacture", value: extractAttribute(productOverview, "Year of Manufacture") ?? "Unknown" },
-                { key: "Device Interface", value: extractAttribute(productOverview, "Device Interface") ?? "Unknown" },
-                { key: "Year of Release", value: extractAttribute(productOverview, "Year of Release") ?? "Unknown" },
-            ]
         };
     });
     console.log(`📊 Total valid products after filtering: ${validProducts.length}`);
@@ -141,7 +118,7 @@ const startSeedingTablet = async () => {
             console.log("⚠️ No valid products to insert.");
             return;
         }
-        const existingAsins = await Database_1.Tablet.find({ asin: { $in: validProducts.map((p) => p.asin) } }).select("asin");
+        const existingAsins = await Database_1.Laptop.find({ asin: { $in: validProducts.map((p) => p.asin) } }).select("asin");
         const newProducts = validProducts.filter((p) => !existingAsins.some((existing) => existing.asin === p.asin));
         if (newProducts.length === 0) {
             console.log("⚠️ All products already exist in the database.");
@@ -155,7 +132,7 @@ const startSeedingTablet = async () => {
             },
         }));
         console.log(`⏳ Inserting ${productOps.length} Amazon products...`);
-        await Database_1.Tablet.bulkWrite(productOps);
+        await Database_1.Laptop.bulkWrite(productOps);
         console.log("✅ Products inserted successfully!");
     }
     catch (error) {
@@ -165,4 +142,4 @@ const startSeedingTablet = async () => {
         mongoose_1.default.connection.close();
     }
 };
-exports.startSeedingTablet = startSeedingTablet;
+exports.startSeeding = startSeeding;

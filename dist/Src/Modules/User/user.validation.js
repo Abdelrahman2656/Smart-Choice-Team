@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.loginWithGoogleVal = exports.changePasswordVal = exports.forgetPasswordVal = exports.refreshTokenVal = exports.signInVal = exports.confirmEmailVal = exports.signUpVal = void 0;
+exports.updateUser = exports.shareProfile = exports.loginWithGoogleVal = exports.changePasswordVal = exports.forgetPasswordVal = exports.refreshTokenVal = exports.signInVal = exports.confirmEmailVal = exports.signUpVal = void 0;
 const enum_1 = require("../../Utils/constant/enum");
 const generalFields_1 = require("../../Utils/generalFields/generalFields");
 const joi_1 = __importDefault(require("joi"));
@@ -60,3 +60,17 @@ exports.changePasswordVal = joi_1.default.object({
 exports.loginWithGoogleVal = joi_1.default.object({
     idToken: generalFields_1.generalFields.idToken.required()
 }).required();
+//share profile
+exports.shareProfile = joi_1.default.object({
+    userId: generalFields_1.generalFields.objectId.required()
+}).required();
+//update user 
+exports.updateUser = joi_1.default.object({
+    firstName: generalFields_1.generalFields.firstName,
+    lastName: generalFields_1.generalFields.lastName,
+    phone: generalFields_1.generalFields.phone,
+    oldPassword: generalFields_1.generalFields.password,
+    newPassword: generalFields_1.generalFields.password,
+    cPassword: generalFields_1.generalFields.password.valid(joi_1.default.ref("newPassword")),
+    userId: generalFields_1.generalFields.objectId.required()
+});

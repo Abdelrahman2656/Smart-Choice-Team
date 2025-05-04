@@ -324,8 +324,54 @@ export const changePassword = async (
   //send response 
   return res.status(200).json({success:true , message:messages.user.updateSuccessfully})
 };
-
-
-
-
+//---------------------------------------------------share Profile--------------------------------------------------------------
+export const shareProfile = async (req :AppRequest , res :AppResponse , next :AppNext)=>{
+  //get user id from params
+  const {userId} = req.params
+  //check exist
+  const userExistence = await User.findById(userId).select("firstName lastName email ")
+  if(!userExistence){
+return next(new AppError(messages.user.notFound,404))
+  }
+  //shareLink
+  const shareLink =`${process.env.BASE_URL}api/v1/profile/${userId}`
+  //send response
+  return res.status(200).json({success:true , shareLink,UserData:userExistence})
+}
+//---------------------------------------------------Update Profile--------------------------------------------------------------
+export const updateProfile = async (req :AppRequest , res :AppResponse , next :AppNext)=>{
+//get data from req
+let {phone, oldPassword ,newPassword , firstName,lastName} = req.body 
+const {userId}= req.params
+//check exist
+const userExistence = await User.findById(userId)
+if(!userExistence){
+return next(new AppError(messages.user.notFound,404))
+}
+// encrypt phone
+if(phone){
+phone = await Encrypt({key :phone , secretKey:process.env.SECRET_CRYPTO})
+}
+//check old password
+if (!userExistence.password) {
+  throw new Error("Password not found for this user");
+}
+if(!await comparePassword({password :oldPassword,hashPassword:userExistence.password?.toString()})){
+return next(new AppError("invalid old password",400))
+}
+//hash password 
+newPassword= Hash({key:newPassword,SALT_ROUNDS:process.env.SALT_ROUNDS})
+//update 
+let updatedUser = await User.findByIdAndUpdate(userId,{
+  firstName,
+  lastName,
+  phone,
+  password:newPassword
+})
+if(!updatedUser){
+  return next(new AppError(messages.user.failToUpdate,500))
+}
+//send response 
+return res.status(200).json({message:messages.user.updateSuccessfully,success:true , updatedUser})
+}
 

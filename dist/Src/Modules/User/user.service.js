@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.changePassword = exports.forgetPassword = exports.refreshToken = exports.activateAccount = exports.loginWithGoogle = exports.login = exports.ConfirmEmail = exports.signUp = void 0;
+exports.updateProfile = exports.shareProfile = exports.changePassword = exports.forgetPassword = exports.refreshToken = exports.activateAccount = exports.loginWithGoogle = exports.login = exports.ConfirmEmail = exports.signUp = void 0;
 const Database_1 = require("../../../Database");
 const AppError_1 = require("../../Utils/AppError/AppError");
 const messages_1 = require("../../Utils/constant/messages");
@@ -282,3 +282,55 @@ const changePassword = async (req, res, next) => {
     return res.status(200).json({ success: true, message: messages_1.messages.user.updateSuccessfully });
 };
 exports.changePassword = changePassword;
+//---------------------------------------------------share Profile--------------------------------------------------------------
+const shareProfile = async (req, res, next) => {
+    //get user id from params
+    const { userId } = req.params;
+    //check exist
+    const userExistence = await Database_1.User.findById(userId).select("firstName lastName email ");
+    if (!userExistence) {
+        return next(new AppError_1.AppError(messages_1.messages.user.notFound, 404));
+    }
+    //shareLink
+    const shareLink = `${process.env.BASE_URL}api/v1/profile/${userId}`;
+    //send response
+    return res.status(200).json({ success: true, shareLink, UserData: userExistence });
+};
+exports.shareProfile = shareProfile;
+//---------------------------------------------------Update Profile--------------------------------------------------------------
+const updateProfile = async (req, res, next) => {
+    //get data from req
+    let { phone, oldPassword, newPassword, firstName, lastName } = req.body;
+    const { userId } = req.params;
+    //check exist
+    const userExistence = await Database_1.User.findById(userId);
+    if (!userExistence) {
+        return next(new AppError_1.AppError(messages_1.messages.user.notFound, 404));
+    }
+    // encrypt phone
+    if (phone) {
+        phone = await (0, encryption_1.Encrypt)({ key: phone, secretKey: process.env.SECRET_CRYPTO });
+    }
+    //check old password
+    if (!userExistence.password) {
+        throw new Error("Password not found for this user");
+    }
+    if (!await (0, encryption_1.comparePassword)({ password: oldPassword, hashPassword: userExistence.password?.toString() })) {
+        return next(new AppError_1.AppError("invalid old password", 400));
+    }
+    //hash password 
+    newPassword = (0, encryption_1.Hash)({ key: newPassword, SALT_ROUNDS: process.env.SALT_ROUNDS });
+    //update 
+    let updatedUser = await Database_1.User.findByIdAndUpdate(userId, {
+        firstName,
+        lastName,
+        phone,
+        password: newPassword
+    });
+    if (!updatedUser) {
+        return next(new AppError_1.AppError(messages_1.messages.user.failToUpdate, 500));
+    }
+    //send response 
+    return res.status(200).json({ message: messages_1.messages.user.updateSuccessfully, success: true, updatedUser });
+};
+exports.updateProfile = updateProfile;

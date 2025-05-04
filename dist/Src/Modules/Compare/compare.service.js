@@ -53,9 +53,7 @@ const compareProducts = async (req, res, next) => {
             }).exec();
         }
         else {
-            return res
-                .status(400)
-                .json({
+            return res.status(400).json({
                 message: "Invalid category. Only 'Mobile', 'Tablet', 'Laptop', or 'Television' are allowed.",
             });
         }
@@ -90,6 +88,29 @@ const compareProducts = async (req, res, next) => {
             "User Reviews",
             "Best Seller Rank",
             "First Available Date",
+            "Brand Name",
+            "Operating System",
+            "Installed RAM",
+            "Memory Storage Capacity",
+            "Screen Size",
+            "Resolution",
+            "Refresh Rate",
+            "Model Name",
+            "Wireless Carrier",
+            "Connector Type",
+            "Included Components",
+            "Form Factor",
+            "Model Name",
+            "Storage Capacity",
+            "Wireless Carrier",
+            "Color",
+            "Battery Capacity",
+            "Camera Features",
+            "Special Features",
+            "CPU Speed",
+            "CPU Model",
+            "Installed RAM",
+            "Cellular Technology",
         ];
         const tabletAttributes = [
             "Return Reason / Return Period / Return Policy",
@@ -118,6 +139,19 @@ const compareProducts = async (req, res, next) => {
             "User Reviews",
             "Best Sellers Rank",
             "First Availability Date",
+            "Screen Size",
+            "Brand Name",
+            "Model Name",
+            "Memory Storage Capacity",
+            "Maximum Display Resolution",
+            "Installed RAM",
+            "Generation",
+            "Special Features",
+            "Display Technology",
+            "Resolution",
+            "Refresh Rate",
+            "Included Components",
+            "First Available Date"
         ];
         const laptopAttributes = [
             "RAM Size",
@@ -164,6 +198,17 @@ const compareProducts = async (req, res, next) => {
             "Customer Reviews",
             "Best Sellers Rank",
             "Date First Available",
+            "Brand Name",
+            "Model Name",
+            "Screen Size",
+            "Hard Disk Size",
+            "CPU Model",
+            "Installed RAM",
+            "Special Features",
+            "Graphics Description",
+            "Graphics Processor",
+            "Installed RAM Memory",
+            "Screen Size",
         ];
         const tvAttributes = [
             "Screen Size",
@@ -204,17 +249,20 @@ const compareProducts = async (req, res, next) => {
             // Check if attributes are defined before accessing
             if (product.attributes) {
                 product.attributes.forEach((attr) => {
-                    if (importantKeys[attr.key]) {
+                    if (importantKeys[attr.key] &&
+                        attr.value &&
+                        attr.value.trim() !== "") {
                         const mappedKey = importantKeys[attr.key];
                         extracted[mappedKey] = attr.value;
                     }
                 });
             }
-            // إضافة productOverview للـ TV إذا كان المنتج من نوع TVProduct
-            if (category === "Television" && isTVProduct(product)) {
+            if (product.productOverview) {
                 product.productOverview.forEach((attr) => {
-                    const mappedKey = importantKeys[attr.key];
-                    if (mappedKey) {
+                    if (importantKeys[attr.key] &&
+                        attr.value &&
+                        attr.value.trim() !== "") {
+                        const mappedKey = importantKeys[attr.key];
                         extracted[mappedKey] = attr.value;
                     }
                 });
@@ -245,16 +293,16 @@ const compareProducts = async (req, res, next) => {
     - You must compare strictly based on the following attributes (even if missing):
       
     Mobile Attributes:
-    ${mobileAttributes.map(attr => `- ${attr}`).join('\n')}
+    ${mobileAttributes.map((attr) => `- ${attr}`).join("\n")}
     
     Tablet Attributes:
-    ${tabletAttributes.map(attr => `- ${attr}`).join('\n')}
+    ${tabletAttributes.map((attr) => `- ${attr}`).join("\n")}
     
     Laptop Attributes:
-    ${laptopAttributes.map(attr => `- ${attr}`).join('\n')}
+    ${laptopAttributes.map((attr) => `- ${attr}`).join("\n")}
     
     TV Attributes:
-    ${tvAttributes.map(attr => `- ${attr}`).join('\n')}
+    ${tvAttributes.map((attr) => `- ${attr}`).join("\n")}
     
     - Use each object’s “id” as the key in "comparisonTable".
     - For each attribute, assign “1” to the device(s) that are best for that attribute, and “0” to the others.

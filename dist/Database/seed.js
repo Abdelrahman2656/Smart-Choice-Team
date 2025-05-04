@@ -115,15 +115,17 @@ const startSeeding = async () => {
             productPageReviews,
             productOverview: [
                 { key: "Screen Size", value: extractAttribute(productOverview, "Screen Size") ?? "Unknown" },
-                { key: "Brand Name", value: p.brand ?? "Unknown" },
-                { key: "Display Technology", value: extractAttribute(productOverview, "Display Technology") ?? "Unknown" },
-                { key: "Resolution", value: extractAttribute(productOverview, "Resolution") ?? "Unknown" },
-                { key: "Refresh Rate", value: extractAttribute(productOverview, "Refresh Rate") ?? "Unknown" },
+                { key: "Brand Name", value: extractAttribute(productOverview, "Brand Name") ?? "Unknown" },
+                { key: "Model Name", value: extractAttribute(productOverview, "Model Name") ?? "Unknown" },
+                { key: "Color", value: extractAttribute(productOverview, "Color") ?? "Unknown" },
+                { key: "Hard Disk Size", value: extractAttribute(productOverview, "Hard Disk Size") ?? "Unknown" },
+                { key: "CPU Model", value: extractAttribute(productOverview, "CPU Model") ?? "Unknown" },
+                { key: "Installed RAM", value: extractAttribute(productOverview, "Installed RAM") ?? "Unknown" },
+                { key: "Installed RAM Memory", value: extractAttribute(productOverview, "Installed RAM Memory") ?? "Unknown" },
+                { key: "Operating System", value: extractAttribute(productOverview, "Operating System") ?? "Unknown" },
                 { key: "Special Features", value: extractAttribute(productOverview, "Special Features") ?? "Unknown" },
-                { key: "Included Components", value: extractAttribute(productOverview, "Included Components") ?? "Unknown" },
-                { key: "Connectivity Technology", value: extractAttribute(productOverview, "Connectivity Technology") ?? "Unknown" },
-                { key: "Aspect Ratio", value: extractAttribute(productOverview, "Aspect Ratio") ?? "Unknown" },
-                { key: "Product Dimensions (Depth x Width x Height)", value: extractAttribute(productOverview, "Product Dimensions (Depth x Width x Height)") ?? "Unknown" },
+                { key: "Graphics Description", value: extractAttribute(productOverview, "Graphics Description") ?? "Unknown" },
+                { key: "Graphics Processor", value: extractAttribute(productOverview, "Graphics Processor") ?? "Unknown" },
             ]
         };
     });

@@ -126,15 +126,24 @@ export const startSeedingTablet = async () => {
         productPageReviews,
         productOverview: [
           { key: "Screen Size", value: extractAttribute(productOverview, "Screen Size") ?? "Unknown" },
-          { key: "Brand Name", value: p.brand ?? "Unknown" },
-          { key: "Display Technology", value: extractAttribute(productOverview, "Display Technology") ?? "Unknown" },
-          { key: "Resolution", value: extractAttribute(productOverview, "Resolution") ?? "Unknown" },
-          { key: "Refresh Rate", value: extractAttribute(productOverview, "Refresh Rate") ?? "Unknown" },
-          { key: "Special Features", value: extractAttribute(productOverview, "Special Features") ?? "Unknown" },
-          { key: "Included Components", value: extractAttribute(productOverview, "Included Components") ?? "Unknown" },
-          { key: "Connectivity Technology", value: extractAttribute(productOverview, "Connectivity Technology") ?? "Unknown" },
-          { key: "Aspect Ratio", value: extractAttribute(productOverview, "Aspect Ratio") ?? "Unknown" },
-          { key: "Product Dimensions (Depth x Width x Height)", value: extractAttribute(productOverview, "Product Dimensions (Depth x Width x Height)") ?? "Unknown" },
+  { key: "Brand Name", value: extractAttribute(productOverview, "Brand Name") ?? p.brand ?? "Unknown" },
+  { key: "Model Name", value: extractAttribute(productOverview, "Model Name") ?? "Unknown" },
+  { key: "Memory Storage Capacity", value: extractAttribute(productOverview, "Memory Storage Capacity") ?? "Unknown" },
+  { key: "Maximum Display Resolution", value: extractAttribute(productOverview, "Maximum Display Resolution") ?? "Unknown" },
+  { key: "Installed RAM", value: extractAttribute(productOverview, "Installed RAM") ?? "Unknown" },
+  { key: "Operating System", value: extractAttribute(productOverview, "Operating System") ?? "Unknown" },
+  { key: "Color", value: extractAttribute(productOverview, "Color") ?? "Unknown" },
+  { key: "Generation", value: extractAttribute(productOverview, "Generation") ?? "Unknown" },
+  { key: "Special Features", value: extractAttribute(productOverview, "Special Features") ?? "Unknown" },
+  { key: "Display Technology", value: extractAttribute(productOverview, "Display Technology") ?? "Unknown" },
+  { key: "Resolution", value: extractAttribute(productOverview, "Resolution") ?? "Unknown" },
+  { key: "Refresh Rate", value: extractAttribute(productOverview, "Refresh Rate") ?? "Unknown" },
+  { key: "Included Components", value: extractAttribute(productOverview, "Included Components") ?? "Unknown" },
+  { key: "Connectivity Technology", value: extractAttribute(productOverview, "Connectivity Technology") ?? "Unknown" },
+  { key: "Year of Manufacture", value: extractAttribute(productOverview, "Year of Manufacture") ?? "Unknown" },
+  { key: "Device Interface", value: extractAttribute(productOverview, "Device Interface") ?? "Unknown" },
+  { key: "Year of Release", value: extractAttribute(productOverview, "Year of Release") ?? "Unknown" },
+ 
         ]
       };
     });
