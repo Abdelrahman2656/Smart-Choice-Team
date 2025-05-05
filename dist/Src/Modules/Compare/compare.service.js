@@ -82,13 +82,11 @@ const compareProducts = async (req, res, next) => {
             "Form Factor",
             "Color",
             "Battery Power Rating",
-            "What's in the Box",
             "Item Weight",
             "ASIN",
             "User Reviews",
             "Best Seller Rank",
             "First Available Date",
-            "Brand Name",
             "Operating System",
             "Installed RAM",
             "Memory Storage Capacity",
@@ -138,9 +136,7 @@ const compareProducts = async (req, res, next) => {
             "ASIN",
             "User Reviews",
             "Best Sellers Rank",
-            "First Availability Date",
             "Screen Size",
-            "Brand Name",
             "Model Name",
             "Memory Storage Capacity",
             "Maximum Display Resolution",
@@ -151,7 +147,6 @@ const compareProducts = async (req, res, next) => {
             "Resolution",
             "Refresh Rate",
             "Included Components",
-            "First Available Date"
         ];
         const laptopAttributes = [
             "RAM Size",
@@ -194,11 +189,9 @@ const compareProducts = async (req, res, next) => {
             "Lithium Battery Packaging",
             "Number of Lithium Ion Cells",
             "Item Weight",
-            "ASIN",
             "Customer Reviews",
             "Best Sellers Rank",
             "Date First Available",
-            "Brand Name",
             "Model Name",
             "Screen Size",
             "Hard Disk Size",
@@ -212,7 +205,6 @@ const compareProducts = async (req, res, next) => {
         ];
         const tvAttributes = [
             "Screen Size",
-            "Brand Name",
             "Display Technology",
             "Resolution",
             "Refresh Rate",

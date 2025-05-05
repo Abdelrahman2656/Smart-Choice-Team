@@ -107,13 +107,13 @@ export const compareProducts = async (
       "Form Factor",
       "Color",
       "Battery Power Rating",
-      "What's in the Box",
+     
       "Item Weight",
       "ASIN",
       "User Reviews",
       "Best Seller Rank",
       "First Available Date",
-      "Brand Name",
+    
       "Operating System",
       "Installed RAM",
       "Memory Storage Capacity",
@@ -164,9 +164,9 @@ export const compareProducts = async (
       "ASIN",
       "User Reviews",
       "Best Sellers Rank",
-      "First Availability Date",
+     
       "Screen Size",
-      "Brand Name",
+    
       "Model Name",
       "Memory Storage Capacity",
       "Maximum Display Resolution",
@@ -178,7 +178,7 @@ export const compareProducts = async (
       "Refresh Rate",
       "Included Components",
      
-       "First Available Date"
+       
     ];
 
     const laptopAttributes = [
@@ -222,11 +222,11 @@ export const compareProducts = async (
       "Lithium Battery Packaging",
       "Number of Lithium Ion Cells",
       "Item Weight",
-      "ASIN",
+     
       "Customer Reviews",
       "Best Sellers Rank",
       "Date First Available",
-      "Brand Name",
+     
       "Model Name",
       "Screen Size",
       "Hard Disk Size",
@@ -242,7 +242,7 @@ export const compareProducts = async (
 
     const tvAttributes = [
       "Screen Size",
-      "Brand Name",
+      
       "Display Technology",
       "Resolution",
       "Refresh Rate",
