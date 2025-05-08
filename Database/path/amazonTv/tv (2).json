@@ -1,13 +1,16 @@
-[{
+[
+  {
     "title": "TORNADO Smart LED TV 43 Inch Full HD, Wi-Fi, RF, USB, HDMI - 43ES1500E - Shahid VIP Promotion",
    "urls": {
       "amazon": "https://www.amazon.eg/dp/B0101SGUW2?th=1",
-      "jumia": "https://www.jumia.com.eg/ar/tornado-43es1500e-smart-led-tv-43-inch-full-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-115239703.html"
+      "jumia": "https://www.jumia.com.eg/ar/tornado-fhd-smart-led-tv-43-inch-built-in-receiver-43es1500e-39049534.html",
+      "noon":"https://www.noon.com/egypt-ar/43-inch-fhd-smart-led-tv-43es1500e-black/N52465150A/p/?o=f5bee97b476a07fb&shareId=92e8b56b-50fb-46fd-ac8f-3c7d6fbb6e77"
     },
     "asin": "B0101SGUW2",
     "originalAsin": "B0101SGUW2",
     "priceAmazon": 9999,
-    "priceJumia": 11499,
+    "priceJumia":11966,
+    "priceNoon":13300.00,
     "inStock": true,
     "inStockText": "متوفر",
     "listPrice": {
@@ -500,12 +503,14 @@
     "title": "LG LED Smart TV 43 inch LM6370 Series Full HD HDR Smart LED TV - 43LM6370PVA",
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B09BDFDFFS?th=1",
-      "jumia": "https://www.jumia.com.eg/ar/lg-43lm6370pva-43-inch-fhd-smart-led-tv-with-built-in-receiver-44258277.html"
+      "jumia": "https://www.jumia.com.eg/ar/lg-43lm6370pva-43-inch-fhd-smart-led-tv-with-built-in-receiver-44258277.html",
+      "noon":"https://www.noon.com/egypt-ar/43-inch-led-smart-tv-43lm6300pvb-43lm6370pva-black/N45968078A/p/?o=d44cfde18752a31e&shareId=4aff3bcf-a522-433e-bf84-490f5c875a4c"
     },
     "asin": "B09BDFDFFS",
     "originalAsin": "B09BDFDFFS",
-    "priceAmazon": 14199,
-    "priceJumia": 14199,
+    "priceAmazon": 12899,
+    "priceJumia": 14199.00,
+    "priceNoon":13099.00,
     "inStock": true,
     "inStockText": "متوفر",
     "listPrice": {
@@ -968,13 +973,15 @@
 {
     "title": "LG UHD 4K TV 60 Inch UQ7900 Series, Cinema Screen Design 4K Active HDR WebOS Smart AI ThinQ - 60UQ79006LD (New)",
     "urls": {
-        "amazon": "https://www.amazon.eg/dp/B0BST8HQSL",
-        "jumia": "https://www.jumia.com.eg/ar/lg-60-inch-4k-uhd-smart-led-tv-with-built-in-receiver-60uq79006ld-55463806.html"
+        "amazon": "https://www.amazon.eg/-/en/LG-UQ7900-Cinema-Screen-Design/dp/B0BST8HQSL/ref=sr_1_1?crid=1UAZQEVY7NUZE&dib=eyJ2IjoiMSJ9.5-S0WgjjfxmWy7ySfUs8Bl2eZzPGJGhaX3AgsN2EpGDzLZCXPPUwTl_TA3KVxjJlx_291gzhDTxlbkCqx8jmSuHpfKZY1YYNGF6sKKLCWrnwnssanVsmv8pD6ntX-pL4EE2rG1tgFTSIa85OacYdvzBBUHHVgR8IdD-b7X16AnRx5zwM7Kkh5vHYJydpWKfVon3vdqWLwWcRXoZfjBM007BG2cN4tTSYxeoCgSftwLE.14b6LTbRo1udv3Sj_sXhDC8Pdov5oUVwjM1NeIykwbE&dib_tag=se&keywords=60UQ79006LD&qid=1746708807&sprefix=60uq79006ld%2Caps%2C131&sr=8-1",
+        "jumia": "https://www.jumia.com.eg/ar/lg-60-inch-4k-uhd-smart-led-tv-with-built-in-receiver-60uq79006ld-55463806.html",
+        "noon":"https://www.noon.com/egypt-ar/lg-60-inch-4k-uhd-smart-led-tv-with-built-in-receiver-60uq79006ld-black/N53380893A/p/?o=e7404bcef3aecabf&shareId=12ccfd8c-e881-43de-8afe-6274182d2fa3"
       },
     "asin": "B0BST8HQSL",
     "originalAsin": "B0BST8HQSL",
-   "priceAmazon": 19953,
-    "priceJumia": 20999,
+   "priceAmazon": 21999,
+    "priceJumia": 21999.00,
+    "priceNoon":21999.00,
     "inStock": true,
     "inStockText": "متوفر",
     "listPrice": {
@@ -1269,12 +1276,14 @@
     "title": "Samsung 43 Inch 4K UHD Smart LED TV - Black - UA43DU7000UXEG [2024 Model]",
     "urls": {
         "amazon": "https://www.amazon.eg/dp/B0CYR8QS9D?th=1",
-        "jumia": "https://www.jumia.com.eg/ar/samsung-43-inch-4k-uhd-smart-led-tv-black-ua43du7000uxeg-130698352.html"
+        "jumia": "https://www.jumia.com.eg/ar/samsung-ua43du7000uxeg-128686576.html",
+        "noon":"https://www.noon.com/egypt-ar/samsung-43-inch-4k-uhd-smart-led-tv-2024-model-ua43du7000uxeg-black/N70068574V/p/?o=cce734540d622dce&shareId=9800b253-d17b-4e33-9331-094f877b9549"
       },
     "asin": "B0CYR8QS9D",
     "originalAsin": "B0CYR8QS9D",
-    "priceAmazon": 14298,
-    "priceJumia": 15499,
+    "priceAmazon": 13699,
+    "priceJumia": 14799,
+    "priceNoon":14499.00,
     "inStock": true,
     "inStockText": "متوفر",
     "listPrice": {
@@ -1911,12 +1920,14 @@
     "title": "Samsung 43 Inch Full HD Smart LED TV with Built-in Receiver - Black - UA43T5300AUXEG",
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B08X63H6BS?th=1",
-      "jumia": "https://www.jumia.com.eg/ar/tv-43-inch-fhd-led-smart-model-ua43t5300auxeg-2020-samsung-mpg3823069.html"
+      "jumia": "https://www.jumia.com.eg/ar/tv-43-inch-fhd-led-smart-model-ua43t5300auxeg-2020-samsung-mpg3823069.html",
+      "noon":"https://www.noon.com/egypt-ar/43-inch-fhd-smart-tv-with-wall-mount-with-tv-mount-ua43t5300auxeg-bundle-black/N52435706A/p/?o=b960d67752b4782a&shareId=cf79673d-1fc1-4781-bd0b-2a5ebe065421"
     },
     "asin": "B08X63H6BS",
     "originalAsin": "B08X63H6BS",
-    "priceAmazon": 13299,
-    "priceJumia": 13499,
+    "priceAmazon":12949,
+    "priceJumia":13499.00,
+    "priceNoon":13599.00,
     "inStock": false,
     "inStockText": "",
     "listPrice": null,
@@ -2409,12 +2420,14 @@
     "title": "Sharp 50 inch 4K Ultra HD LED Smart Android TV with Remote Control and Built-in Receiver - 4T-C50DL6EX - Promotions (Shahid VIP and STARZPLAY)",
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B092L7TW29?th=1",
-      "jumia": "https://www.jumia.com.eg/ar/sharp-4t-c55fl6ex-4k-smart-frameless-with-built-in-receiver-tv-55-inch-130064177.html"
+      "jumia": "https://www.jumia.com.eg/ar/sharp-50-inch-led-uhd-smart-android-built-in-receiver-4t-c50fl6ex-129190214.html",
+      "noon":"https://www.noon.com/egypt-ar/50-inch-4k-frameless-tv-built-in-receiver-4t-c50dl6ex-black/N45782954A/p/?o=d387616470c11f2d&shareId=d3ab7d81-7a2b-4b4b-b9cd-887ccd4c94e0"
     },
     "asin": "B092L7TW29",
     "originalAsin": "B092L7TW29",
-    "priceAmazon":15999,
-    "priceJumia": 15999,
+    "priceAmazon":20586,
+    "priceJumia":20999.00,
+    "priceNoon":20586.00,
     "inStock": false,
     "inStockText": "",
     "listPrice": null,
@@ -2899,12 +2912,15 @@
     "title": "LG 55 Inch UHD UT80 4K Smart TV AI Magic remote HDR10 webOS24-55UT80006LB (2024)",
     "urls": {
         "amazon": "https://www.amazon.eg/dp/B0DJRDKYVT?th=1",
-        "jumia": "https://www.jumia.com.eg/ar/lg-55ut80006lb-55-inch-uhd-ut80-4k-smart-tv-ai-magic-remote-hdr10-webos242024-130148770.html"
+        "jumia": "https://www.jumia.com.eg/ar/lg-55ut80006lb-55-inch-uhd-ut80-4k-smart-tv-ai-magic-remote-hdr10-webos242024-130148770.html",
+        "noon":"https://www.noon.com/egypt-ar/lg-55-inch-4k-uhd-smart-led-tv-with-built-in-receiver-55ut80006lb-55ut80006lb-black/N70125769V/p/?o=a6aa6f663f85580f&shareId=5659f81a-e269-4e51-8c54-bd863fadf0ac"
       },
     "asin": "B0DJRDKYVT",
     "originalAsin": "B0DJRDKYVT",
-    "priceAmazon": 19999,
-    "priceJumia":18999,
+    "priceAmazon":19999,
+    "priceJumia":19999.00,
+    "priceNoon":20999.00,
+
     "inStock": true,
     "inStockText": "متوفر",
     "listPrice": null,
@@ -3370,12 +3386,14 @@
     "title": "LS32CG552EUXEN، LCD، 3840x2160،",
     "urls": {
         "amazon": "https://www.amazon.eg/dp/B0CP67N7NZ",
-        "jumia": "https://www.jumia.com.eg/ar/samsung-odyssey-g5-g55c-32-inch-qhd-va-curved-gaming-monitor-black-ls32cg552emxeg-129971860.html"
+        "jumia": "https://www.jumia.com.eg/ar/samsung-odyssey-g5-g55c-32-inch-qhd-va-curved-gaming-monitor-black-ls32cg552emxeg-129971860.html",
+        "noon":"https://www.noon.com/egypt-ar/32-inch-odyssey-g5-g55c-2560x1440-qhd-va-panel-technology-with-response-time-1ms-refresh-rate-165hz-amd-freesync-curved-gaming-monitor-black/N70030962V/p/?o=f67c94320ce57a8d&shareId=e9b929ce-8351-4b7f-b275-d457adc65373"
       },
     "asin": "B0CP67N7NZ",
     "originalAsin": "B0CP67N7NZ",
-    "priceAmazon":10499,
-    "priceJumia": 11599,
+    "priceAmazon":12499,
+    "priceJumia": 12199.00,
+    "priceNoon":27875.00,
     "inStock": true,
     "inStockText": "تبقى 2 فقط - اطلبه الآن.",
     "listPrice": null,
@@ -3683,12 +3701,14 @@
     "title": "Armadillo 32 Inch Frameless HD Standard LED TV, Black - ARM32VA4N",
    "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DVRCZZC6",
-      "jumia": "https://www.jumia.com.eg/ar/armadillo-32-inch-hd-led-frameless-arm32va4n-130123325.html"
+      "jumia": "https://www.jumia.com.eg/ar/armadillo-32-inch-hd-led-frameless-arm32va4n-130123325.html",
+      "noon":"https://www.noon.com/egypt-ar/armadillo-32-inch-hd-led-frameless/ZAB140E3A04AA4D032C4FZ/p/?o=zab140e3a04aa4d032c4fz-1&shareId=ed2c89b7-72bf-4fb5-a92b-494980cc8c6c"
     },
     "asin": "B0DVRCZZC6",
     "originalAsin": "B0DVRCZZC6",
-   "priceAmazon": 3899,
-    "priceJumia": 4999,
+   "priceAmazon": 4099,
+    "priceJumia": 4999.00,
+    "priceNoon":4799.00,
     "inStock": true,
     "inStockText": "متوفر",
     "listPrice": {
@@ -3881,12 +3901,14 @@
     "title": "LG 65 Inch NanoCell NANO80T 4K Smart TV AI Magic remote HDR10 webOS24-65NANO80T6A (2024)",
     "urls": {
         "amazon": "https://www.amazon.eg/dp/B0D472YLDJ?th=1",
-        "jumia": "https://www.jumia.com.eg/ar/lg-65nano80t6a-65-inch-nanocell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos242024-130814347.html"
+        "jumia": "https://www.jumia.com.eg/ar/lg-65nano80t6a-65-inch-nanocell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos242024-130814347.html",
+        "noon":"https://www.noon.com/egypt-ar/65-inch-nano-cell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos24-5-ai-processor-gen7-65nano80t6a-black/N70098201V/p/?o=c8454033366168ba&shareId=2b2a129e-5cd0-407a-bcc0-781eaaaec6d9"
       },
     "asin": "B0D472YLDJ",
     "originalAsin": "B0D472YLDJ",
-   "priceAmazon": 29794,
-    "priceJumia": 29699,
+   "priceAmazon":29699,
+    "priceJumia":29699.00 ,
+    "priceNoon":30599.00,
     "inStock": true,
     "inStockText": "متوفر",
    
@@ -4387,12 +4409,14 @@
   "title": "Armadillo 32 Inch Frameless HD Standard LED TV, Black - ARM32VA4N",
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DVRCZZC6",
-    "jumia": "https://www.jumia.com.eg/ar/armadillo-32-inch-hd-led-frameless-arm32va4n-130123325.html"
+    "jumia": "https://www.jumia.com.eg/ar/armadillo-32-inch-hd-led-frameless-arm32va4n-130123325.html",
+    "noon":"https://www.noon.com/egypt-ar/armadillo-32-inch-hd-led-frameless/ZAB140E3A04AA4D032C4FZ/p/?o=zab140e3a04aa4d032c4fz-1&shareId=ed2c89b7-72bf-4fb5-a92b-494980cc8c6c"
   },
   "asin": "B0DVRCZZC6",
   "originalAsin": "B0DVRCZZC6",
   "priceAmazon": 3899,
-    "priceJumia": 4999,
+    "priceJumia":4999.00 ,
+    "priceNoon":4799.00,
   
       "inStock": true,
       "inStockText": "In Stock",
@@ -4584,12 +4608,14 @@
   "title": "Xiaomi TV A 43 2025, 43, FHD, HDR, Cinematic Smart TV, 43-Inch Screen Size Google Assistant platform built-in receiver and Chromecast, metal finish Dolby Atoms 2 years local warranty",
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0CYZQGMYV?th=1",
-    "jumia": "https://www.jumia.com.eg/ar/xiaomi-a55-tv-4k-uhd-60hz-android-tv-111922580.html"
+    "jumia": "https://www.jumia.com.eg/ar/xiaomi-a55-tv-4k-uhd-60hz-android-tv-111922580.html",
+    "noon":"https://www.noon.com/egypt-ar/xiaomi-tv-55-inch-4k-uhd-smart-led-with-built-in-receiver-google-tv-l55maaeg-black/N70114966V/p/?o=deee4007cacd9d5f&shareId=2806a9a3-3e4f-4acd-a3c3-5f8a238f413a"
   },
   "asin": "B0CYZQGMYV",
   "originalAsin": "B0CYZQGMYV",
-  "priceAmazon": 9999,
+  "priceAmazon":9999,
   "priceJumia": 15999,
+  "priceNoon":15999.00,
   
     "inStock": true,
     "inStockText": "In Stock",
@@ -5117,13 +5143,14 @@
   "title": "Haier H32K80E- 32 Inch HD Smart Google TV - Dolby Audio - Stereo Speaker - Voice Control - HDR10 - Chromecast - HDMI 2.1 - Bezel-Less Design",
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0D5MLPJSH",
+    "noon":"https://www.noon.com/egypt-ar/32-inch-hd-smart-google-tv-dolby-audio-stereo-speaker-voice-control-hdr10-chromecast-hdmi-2-1-bezel-less-design-h32k80e-black/N29857175A/p/?o=e8f4325016b4e50e&shareId=c65cb1d5-9ca4-4469-b534-89703f9dd248",
     "jumia": "https://www.jumia.com.eg/ar/haier-google-tv-32-hd-smart-led-with-built-in-receiver-h32k80e-131347418.html"
   },
   "asin": "B0D5MLPJSH",
   "originalAsin": "B0D5MLPJSH",
-  "priceAmazon":6700,
-  "priceJumia":7099,
-  
+  "priceAmazon":6999,
+  "priceJumia":6999.00,
+  "priceNoon":7279.00,
     "inStock": true,
     "inStockText": "Available",
     "listPrice": {
@@ -5513,12 +5540,14 @@
   "title": "JAC 43 Inch FHD Smart LED TV NGLD, Black - 43JC6121B",
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0119JUWPI?th=1",
+    "noon":"https://www.noon.com/egypt-ar/43-inch-smart-android-full-hd-led-tv-from-j-ac/Z76AB0B17C35AD629C3DBZ/p/?o=z76ab0b17c35ad629c3dbz-1&shareId=c7a31ff7-1e7d-4ba5-9da9-02b748625e54",
     "jumia": "https://www.jumia.com.eg/ar/jac-43-inch-fhd-smart-led-tv-ngld-black-43jc6121b-130965375.html"
   },
   "asin": "B0119JUWPI",
   "originalAsin": "B0119JUWPI",
-  "priceAmazon": 8899,
-    "priceJumia":8740,
+  "priceAmazon": 8749,
+    "priceJumia":8740.00,
+    "priceNoon":8799.00,
     
       "inStock": false,
       "inStockText": "",
@@ -5929,13 +5958,16 @@
   "title": "SHARP 4K Smart Frameless TV 55 Inch Built-In Receiver 4T-C55FL6EX",
  "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DRMMXDKV",
+      "noon":"https://www.noon.com/egypt-ar/4k-smart-frameless-tv-55-inch-built-in-receiver-4t-c55fl6ex-4t-c55fl6ex-silver/N70145703V/p/?o=bad971bf41c6b54c&shareId=1d5250bf-0bfc-4b75-b4fa-81579cc7daae",
+
       "jumia": "https://www.jumia.com.eg/ar/sharp-4k-smart-frameless-tv-55-inch-built-in-receiver-4t-c55fl6ex-130124542.html"
     },
   "asin": "B0DRMMXDKV",
   "originalAsin": "B0DRMMXDKV",
-  "priceAmazon": 17999,
-  "priceJumia": 17999,
-  
+  "priceAmazon":17849,
+  "priceJumia": 17997.00,
+  "priceNoon":17849.00
+  ,
     "inStock": true,
     "inStockText": "In Stock",
     "listPrice": {
@@ -6126,12 +6158,14 @@
   "title": "Samsung 55 Inch QLED Smart TV Neural HDR Quantum Processor Lite 4K - QA55QE1DAUXEG [2024 Model]",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DHHHYDFS",
+      "noon":"https://www.noon.com/egypt-ar/samsung-55-inch-4k-uhd-smart-qled-tv-with-built-in-receiver-qa55q80d-qa55q80dauxeg-carbon-silver/N70065994V/p/?o=a4071fa74cd379ce&shareId=53e4f47e-4a5e-4caf-9268-f56339cb579c",
       "jumia": "https://www.jumia.com.eg/ar/samsung-55-inch-qled-the-frame-4k-smart-tv-qa55ls03dauxeg-2024-model-67771563.html"
     },
   "asin": "B0DHHHYDFS",
   "originalAsin": "B0DHHHYDFS",
-  "priceAmazon": 23499,
-    "priceJumia": 35460,
+  "priceAmazon": 17997.00,
+    "priceJumia":30651.00,
+    "priceNoon":106875.00,
     
       "inStock": true,
       "inStockText": "In Stock",
@@ -6453,15 +6487,328 @@
   "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
 },
 {
+  "title": "Xiaomi TV A 43 2025, 43, FHD, HDR, Cinematic Smart TV, 43-Inch Screen Size Google Assistant platform built-in receiver and Chromecast, metal finish Dolby Atoms 2 years local warranty",
+  "urls": {
+      "amazon": "https://www.amazon.eg/dp/B0CYZQGMYV",
+      "noon":"https://www.noon.com/egypt-ar/tv-a-43-2025-google-tv-fhd-display-dolby-audio-dts-x-and-dts-virtual-x-premium-bezel-less-design-360-bluetooth-remote-control-l43ma-afme-black/N70090203V/p/?o=be91219c0757a98d&shareId=4341cf44-45f4-4e6e-8eb0-501c6905f5de"
+    },
+  "asin": "B08X5ZYPKZ",
+  "originalAsin": "B08X5ZYPKZ",
+  "priceAmazon":9999,
+  "priceNoon":25975.00,
+  
+    "inStockText": "",
+    "listPrice": null,
+    "brand": "Groehe",
+    "author": null,
+    "shippingPrice": null,
+    "stars": 4,
+    "starsBreakdown": {
+      "5star": 0.47,
+      "4star": 0.24,
+      "3star": 0.14,
+      "2star": 0.15,
+      "1star": 0
+    },
+    "reviewsCount": 14,
+    "answeredQuestions": null,
+    "breadCrumbs": "Electronics > Home Theater, TV & Video > Televisions > Smart TVs",
+    "videosCount": 0,
+    "visitStoreLink": {
+      "text": "Brand: Groehe",
+      "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D8%AC%D8%B1%D9%88%D9%87%D9%8A"
+    },
+    "thumbnailImage": "https://m.media-amazon.com/images/I/512zqqkzxgL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "galleryThumbnails": [
+      "https://m.media-amazon.com/images/I/41fOwcOv4yL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/21EOzW8r5aL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/31h8aU-SQNL._AC_US.jpg"
+    ],
+    "highResolutionImages": [
+      "https://m.media-amazon.com/images/I/512zqqkzxgL._AC_SL1000_.jpg"
+    ],
+    "sustainabilityFeatures": null,
+    "description": "The Groehe 43-inch GLD43NA Full HD LED TV offers a comprehensive set of connectivity options to accommodate various audio and video sources. It features two HDMI ports for high-quality digital connections, two USB ports for media playback or device charging, and a VGA port for legacy computer connections. The inclusion of a PC audio input ensures synchronized sound when using VGA. For traditional setups, it provides AV and YPbPr inputs, along with an RF antenna connection for analog TV signals. The audio output is supported by a headphone jack for private listening. The device enhances viewing experiences with multiple picture modes including Dynamic, Standard, and Soft, allowing users to customize their visual preferences. Additionally, it offers adjustable noise reduction settings (Low, Medium, High, or Off) to improve picture clarity. This versatile range of inputs makes the device compatible with a wide array of modern and legacy equipment, ensuring flexibility in home entertainment setups.",
+    "features": [
+      "2 HDMI Ports",
+      "2 USB Ports",
+      "VGA Port",
+      "PC Audio Input",
+      "AV Port",
+      "YPbPr Port",
+      "RF Port: Analog ANT 75Ω",
+      "Headphone Port",
+      "Languages: Arabic and English",
+      "Equipped with a Clock"
+    ],
+    "attributes": [
+      {
+        "key": "Product Dimensions",
+        "value": "9.42 x 97.14 x 56.6 cm; 7 Kilograms"
+      },
+      {
+        "key": "Date First Available",
+        "value": "February 22, 2021"
+      },
+      {
+        "key": "Manufacturer",
+        "value": "Groehe"
+      },
+      {
+        "key": "ASIN",
+        "value": "B08X5ZYPKZ"
+      },
+      {
+        "key": "Best Sellers Rank: #31 in Smart TVs",
+        "value": ""
+      },
+      {
+        "key": "User Reviews: 4.0 out of 5 stars (14 ratings)",
+        "value": ""
+      }
+    ],
+    "productOverview": [
+      {
+        "key": "Screen Size",
+        "value": "43 Inches"
+      },
+      {
+        "key": "Brand Name",
+        "value": "Groehe"
+      },
+      {
+        "key": "Display Technology",
+        "value": "LED"
+      },
+      {
+        "key": "Resolution",
+        "value": "1080p"
+      },
+      {
+        "key": "Refresh Rate",
+        "value": "60"
+      },
+      {
+        "key": "Special Features",
+        "value": "Flat"
+      },
+      {
+        "key": "Included Components",
+        "value": "Remote Control, User Manual, Stand"
+      },
+      {
+        "key": "Connectivity Technology",
+        "value": "Bluetooth, USB, HDMI"
+      },
+      {
+        "key": "Aspect Ratio",
+        "value": "16:9"
+      },
+      {
+        "key": "Product Dimensions (Depth x Width x Height)",
+        "value": "9.4D x 97.1W x 56.6H cm"
+      }
+    ]
+  ,
+  
+  "variantAsins": [],
+  "variantDetails": [],
+  "reviewsLink": "https://www.amazon.eg/product-reviews/B08X5ZYPKZ",
+  "hasReviews": true,
+  "delivery": null,
+  "fastestDelivery": null,
+  "returnPolicy": null,
+  "support": null,
+  "variantAttributes": [],
+  "manufacturerAttributes": [],
+  "seller": null,
+  "bestsellerRanks": null,
+  "isAmazonChoice": false,
+  "amazonChoiceText": null,
+  "bookDescription": null,
+  "priceRange": null,
+  "aPlusContent": null,
+  "brandStory": null,
+  "productComparison": null,
+  "aiReviewsSummary": null,
+  "monthlyPurchaseVolume": null,
+  "productPageReviews": [
+    {
+      "username": "tawfeek83",
+      "userId": "amzn1.account.AF7T2IHP7HK7T23BQJTNKDH2DL5A",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AF7T2IHP7HK7T23BQJTNKDH2DL5A/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 5,
+      "reviewTitle": "شاشة جروهى ٤٣ بوصة",
+      "reviewDescription": "المنتج جيد شاشة جروهى ٤٣ بوصة  قيمة مقابل سعر .",
+      "date": null,
+      "position": 1,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 8 نوفمبر 2024",
+      "reviewId": "R79MDWTLSX7MQ",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R79MDWTLSX7MQ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
+      "reviewImages": [],
+      "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": ""
+    },
+    {
+      "username": "mohamed a.",
+      "userId": "amzn1.account.AGVVMG6LBG2XVZ4LNIFCRBVFT5LA",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGVVMG6LBG2XVZ4LNIFCRBVFT5LA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 3,
+      "reviewTitle": "جيد",
+      "reviewDescription": "الجهاز بصفه عامه جيد. ولكن وصلني الكرتونه متهالكه والحماله التي تقف عليها الشاشه مكسوره والحماله ضعيفه جدا. معرفشي حتي لو وصلت سليمه هاتستحمل شاشه 43 بوصه ازاي الساشه خامتها متوسطه والصوره جيده . رجاء من توكيل جروهي إعادة النظر في استاند الشاشه ضعيف جدا جدا . سيسئ للصوره العامه للمنتج. ولكن الشاشه جميله وصورتها ايضا وشكر",
+      "date": null,
+      "position": 2,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 14 نوفمبر 2024",
+      "reviewId": "R1MC0SP80APMOJ",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1MC0SP80APMOJ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
+      "reviewImages": [],
+      "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": ""
+    },
+    {
+      "username": "منتج ممتاز ويستحق",
+      "userId": "amzn1.account.AE7QADQPH5RZEMND7PA4HERH5DHA",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AE7QADQPH5RZEMND7PA4HERH5DHA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 5,
+      "reviewTitle": "مامتك ممتاز",
+      "reviewDescription": "منتج ممتاز جدا جدا جدا",
+      "date": null,
+      "position": 3,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 6 نوفمبر 2024",
+      "reviewId": "RN4Y5MAG6U209",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RN4Y5MAG6U209/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
+      "reviewImages": [],
+      "reviewReaction": null,
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": ""
+    },
+    {
+      "username": "المشترى",
+      "userId": "amzn1.account.AGHGAMAC4MXOEPMABGMFUZHLJU2Q",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGHGAMAC4MXOEPMABGMFUZHLJU2Q/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 5,
+      "reviewTitle": "مشاء الله حلوة",
+      "reviewDescription": "مشاء الله كويسة",
+      "date": null,
+      "position": 4,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 2 نوفمبر 2024",
+      "reviewId": "R1H9DSK1MSPYZS",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1H9DSK1MSPYZS/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
+      "reviewImages": [],
+      "reviewReaction": null,
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": ""
+    },
+    {
+      "username": "user-MDZEBG1",
+      "userId": "amzn1.account.AGKJKUT5OFHTAIADGOXKNMQBMRLQ",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGKJKUT5OFHTAIADGOXKNMQBMRLQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 5,
+      "reviewTitle": "تقييم من سوق.كوم",
+      "reviewDescription": "الى الان يعمل بصورة وصوت جيد",
+      "date": null,
+      "position": 5,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 20 أغسطس 2020",
+      "reviewId": "R3TQ0KUPM0NVH6",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R3TQ0KUPM0NVH6/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
+      "reviewImages": [],
+      "reviewReaction": "7 مستخدمين وجدوا هذه المراجعة مفيدة",
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": ""
+    },
+    {
+      "username": "user-MAA4A11",
+      "userId": "amzn1.account.AHVA5DQW7KNJ4EI5IXUF6MLFCRNA",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHVA5DQW7KNJ4EI5IXUF6MLFCRNA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 5,
+      "reviewTitle": "تقييم من سوق.كوم",
+      "reviewDescription": "صورة ممتازة وجميلة ومنتج جيد جدا له مركز صيانة معتمد شكرا سوق التوصيلإيجابيات هذا المنتج:صورة واضحة وممتازة تضاهي الماركات الأخرى مثل توشيبا وسامسونج",
+      "date": null,
+      "position": 6,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 11 يناير 2020",
+      "reviewId": "R1KIIUGF6CVTX9",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1KIIUGF6CVTX9/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
+      "reviewImages": [],
+      "reviewReaction": "4 مستخدمين وجدوا هذه المراجعة مفيدة",
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": ""
+    },
+    {
+      "username": "user-MA35UT",
+      "userId": "amzn1.account.AGEOZCFPJHORAVTUYJOULQ47U2XQ",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGEOZCFPJHORAVTUYJOULQ47U2XQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 5,
+      "reviewTitle": "تقييم من سوق.كوم",
+      "reviewDescription": "ماشاء الله تبارك الله جميلة",
+      "date": null,
+      "position": 7,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 18 يناير 2021",
+      "reviewId": "RGUFQQX0D3181",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RGUFQQX0D3181/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
+      "reviewImages": [],
+      "reviewReaction": "2 مستخدمين وجدوا هذه المراجعة مفيدة",
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": ""
+    },
+    {
+      "username": "ممتاز جدا وأنصح بالشراء",
+      "userId": "amzn1.account.AEL3GAIF56QX5KOODIXKEVB3O3MA",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AEL3GAIF56QX5KOODIXKEVB3O3MA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 5,
+      "reviewTitle": "ممتاز",
+      "reviewDescription": "ممتاز",
+      "date": null,
+      "position": 8,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 1 يناير 2025",
+      "reviewId": "R1B8DJLVOATQLK",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1B8DJLVOATQLK/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
+      "reviewImages": [],
+      "reviewReaction": null,
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": ""
+    }
+  ],
+  "productPageReviewsFromOtherCountries": [],
+  "locationText": "مصر",
+  "loadedCountryCode": "EG",
+  "offers": [],
+  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=5",
+  "categoryPageData": {
+    "saleSummary": null,
+    "isSponsored": false,
+    "bestsellerBadge": null,
+    "productPosition": 98
+  },
+  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
+},
+{
   "title": "Samsung 27 inch odyssey g5 gaming monitor with 1000r curved screen, 144hz, 1ms, freesync premium, qhd (lc27g55tqwmxzn), black",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B093QH5B7B",
-      "jumia": "https://www.jumia.com.eg/ar/samsung-odyssey-g5-g55c-qhd-27-inch-165hz-curved-gaming-monitor-ls27cg552emxeg-129971858.html"
+      "jumia": "https://www.jumia.com.eg/ar/samsung-odyssey-g5-g55c-27-inch-qhd-va-curved-gaming-monitor-165hz-1ms-black-ls27cg552emxeg-reviews-write-a-review-125375851.html"
     },
   "asin": "B093QH5B7B",
   "originalAsin": "B093QH5B7B",
- "priceAmazon": 8999,
-    "priceJumia":9666,
+ "priceAmazon":8993,
+    "priceJumia":8999.00 ,
     
       "inStock": true,
       "inStockText": "Only 3 left in stock - order now.",
@@ -6876,12 +7223,14 @@
   "title": "Samsung 85 Inch QLED 4K Smart TV - Titan Gray - QA85Q70DAUXEG [2024 Model]",
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0CYQY93J9?th=1",
+    "noon":"https://www.noon.com/egypt-ar/55-inch-qled-4k-smart-tv-qa55q60dauxeg-black/N70057291V/p/?o=f4b47972e007d5cc&shareId=26763d79-2fe6-4b45-85c9-927f99dbe575",
     "jumia": "https://www.jumia.com.eg/ar/samsung-85-inch-4k-uhd-smart-qled-tv-with-built-in-receiver-qa85q70d-111369322.html"
   },
   "asin": "B0CYQY93J9",
   "originalAsin": "B0CYQY93J9",
-  "priceAmazon": 96999,
-    "priceJumia":84999,
+  "priceAmazon":89999,
+    "priceJumia":84999.00,
+    "priceNoon":28007.00,
  "inStock": true,
 "inStockText": "Only 2 left in stock – order now.",
 "listPrice": null,
@@ -7404,12 +7753,14 @@
   "title": "Samsung 55 Inch TV Neo Quantum Processor 4K QLED - Carbon Silver - QA55QN90DAUXEG [2024 Model]",
   "urls": {
     "amazon": "https://www.amazon.eg/-/en/Samsung-Inch-Quantum-Processor-QLED/dp/B0CYPZHXNC/ref=sr_1_1?crid=1ZP1VMBF3SIOX&dib=eyJ2IjoiMSJ9.B8vSwILSLTyZkfnAUTA7hQncNYELdUP4-fJDkrwK3vIkRLS8CceflyvNZTkmdzNFNVsoUL1fVx8Zmhh82Ei_nfm0COP_GDW3ICh7bcbTCSJF0uCglVPvDvkKe5SHiHNZyLNCAqJOGNVNaTm_Rs1a500y0VIsn9S_pDRUDImQdGAAOjoh265VNkHGRpb_EMxgs-Lb8v7gN2bGvHONiINa914Nx1n2Kzrv95WQyO6n8RaXXu59rzVInFvF6YGgwKVOdbAdgPV2P3vUYe7qbcrO0Q2DVDSqsgfXny5voabJjRM.DudlYvF7IuYogYw7VLvfZt8lhhN0B8qXIEz4PuIhaPM&dib_tag=se&keywords=Neo%2BQLED%2B4K%2BQN90D&qid=1745004172&sprefix=neo%2Bqled%2B4k%2Bqn90d%2Caps%2C392&sr=8-1&th=1",
-    "jumia": "https://www.jumia.com.eg/ar/samsung-50-inch-neo-qled-4k-qn90d-tizen-os-smart-tv-2024-67771554.html"
+    "jumia": "https://www.jumia.com.eg/ar/samsung-50-inch-neo-qled-4k-qn90d-tizen-os-smart-tv-2024-67771554.html",
+    "noon":"https://www.noon.com/egypt-ar/smart-tv-neo-qled-4k-qn90d-55-inch-2024-nq4-ai-gen2-processor-quantum-matrix-technology-4k-ai-upscaling-tizen-os-qa55qn90dauxzn-carbon-silver/N70063209V/p/?o=ef2a25fae51a0e3a&shareId=a56206be-401a-4187-9468-46575744c664"
   },
   "asin": "B0CZ139DKS",
   "originalAsin": "B0CZ139DKS",
-  "priceAmazon": 49919,
-    "priceJumia":39999,
+  "priceAmazon":44523,
+    "priceJumia":37026.00,
+    "priceNoon":139400.00,
     
       "inStock": true,
       "inStockText": "Available",
@@ -7969,12 +8320,14 @@
   "title": "Haier H50S80EU- 50 Inch 4K QLED Smart Google TV - Gaming@120 Hz - Dolby Vision & Atmos - MEMC/VRR/ALLM - 2+32GB RAM/ROM - Voice Control - HDR10 - Chromecast- HDMI 2.1 - Premium Bezel-Less Design",
   "urls": {
     "amazon": "https://www.amazon.eg/-/en/Haier-H50S80EU-Inch-Smart-Google/dp/B0D5MLQY2W/ref=pd_sbs_d_sccl_2_2/258-4506929-1032509?pd_rd_w=Vqk6V&content-id=amzn1.sym.9702d57d-7d87-4933-a4e1-84f075353237&pf_rd_p=9702d57d-7d87-4933-a4e1-84f075353237&pf_rd_r=G4NC5HZ4JSPTY5Y7EMAK&pd_rd_wg=nDVQL&pd_rd_r=deccc71f-e30d-49c9-bbc8-9494da051a88&pd_rd_i=B0D5MLQY2W&psc=1",
-    "jumia": "https://www.jumia.com.eg/ar/haier-h50s80eu-50-inch-4k-qled-smart-google-tv-gaming-120-hz-dolby-vision-atmos-memcvrrallm-232gb-ramrom-voice-control-hdr10-chromecast-hdmi-2.1-premium-bezel-less-design-130965393.html"
+    "jumia": "https://www.jumia.com.eg/ar/haier-h50s80eu-50-inch-4k-qled-smart-google-tv-gaming-120-hz-dolby-vision-atmos-memcvrrallm-232gb-ramrom-voice-control-hdr10-chromecast-hdmi-2.1-premium-bezel-less-design-130965393.html",
+    "noon":"https://www.noon.com/egypt-ar/50-inch-4k-qled-smart-google-tv-gaming-120-hz-dolby-vision-atmos-memc-vrr-allm-2-32gb-ram-rom-voice-control-hdr10-chromecast-hdmi-2-1-premium-bezel-less-design-h50s80eu-black/N70083110V/p/?o=ae2c3a187076715e&shareId=5a7c97b8-5efc-4e03-abb1-846dec018229"
   },
   "asin": "B0D5MJTLQB",
   "originalAsin": "B0D5MJTLQB",
-  "priceAmazon": 18616,
-    "priceJumia": 16799,
+  "priceAmazon":17999,
+    "priceJumia":16799.00,
+    "priceNoon":18499.00,
     
       "inStock": true,
       "inStockText": "Only 1 left - order now.",
@@ -8291,12 +8644,15 @@
   "title": "TORNADO FHD DLED Smart TV 43 Inch Wi-Fi Connection 43ES4600E",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DNXY8YHJ",
+      "noon":"https://www.noon.com/egypt-ar/fhd-dled-smart-tv-43-inch-wi-fi-connection-43es4600e-black/N70132610V/p/?o=ab989a3c3b92210b&shareId=0f95ef7e-9a97-459e-acae-72e92f5f40c0",
       "jumia": "https://www.jumia.com.eg/ar/tornado-fhd-dled-smart-tv-43-inch-wi-fi-connection-43es4600e-123293751.html"
     },
   "asin": "B0DNXY8YHJ",
   "originalAsin": "B0DNXY8YHJ",
   "priceAmazon": 11899,
-    "priceJumia": 11499,
+    "priceJumia":11499.00,
+    "priceNoon":12399.00,
+
     
       "inStock": false,
       "inStockText": "",
@@ -8477,12 +8833,14 @@
   "title": "ATA 43 Inch Full HD LED Standard TV Black - 43DN4",
  "urls": {
       "amazon": "https://www.amazon.eg/dp/B091NZJQZJ",
-      "jumia": "https://www.jumia.com.eg/ar/ata-43fon-43-inch-full-hd-tv-26715703.html"
+      "jumia": "https://www.jumia.com.eg/ar/ata-43fon-43-inch-full-hd-tv-26715703.html",
+      "noon":"https://www.noon.com/egypt-ar/ata-43-inch-full-hd-led-standard-tv-black-43f0n/Z6582BB3C66C01F250CCBZ/p/?o=z6582bb3c66c01f250ccbz-1&shareId=57593d1c-a84c-497b-9499-d397c251de05"
     },
   "asin": "B091NZJQZJ",
   "originalAsin": "B091NZJQZJ",
   "priceAmazon":7059,
   "priceJumia": 7199,
+  "priceNoon":7350.00,
   
     "inStock": true,
     "inStockText": "Available",
@@ -8855,13 +9213,14 @@
   "title": "Samsung 65 Inch 4K UHD Smart LED TV with Built-in Receiver - UA65DUE800UXEG",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DPJCJTSF",
+      "noon":"https://www.noon.com/egypt-ar/samsung-65-inch-4k-uhd-smart-led-tv-with-built-in-receiver-ua65due800uxeg-ua65due800uxeg-black/N70126238V/p/?o=feb1140bd4f2f86b&shareId=64238fa7-c398-4700-87ae-d435996112d2",
       "jumia": "https://www.jumia.com.eg/ar/samsung-ua65due800uxeg-tv-65-inch-4k-uhd-smart-led-with-built-in-receiver-130147983.html"
     },
   "asin": "B0DPJCJTSF",
   "originalAsin": "B0DPJCJTSF",
-  "priceAmazon": 28535,
-  "priceJumia": 28999,
-  
+  "priceAmazon":27999,
+  "priceJumia": 27999.00,
+  "priceNoon":27999.00,
     "inStock": true,
     "inStockText": "Available",
     "listPrice": null,
@@ -9073,12 +9432,14 @@
   "title": "TORNADO 4K Smart Frameless DLED TV 55 Inch Built-In Receiver 55US3500E",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/TORNADO-Frameless-Built-Receiver-55US3500E/dp/B0101V2N2K/ref=pd_day0fbt_thbs_d_sccl_1/258-4506929-1032509?pd_rd_w=qogkC&content-id=amzn1.sym.0e0b2787-f721-47e8-8348-7f0406286691&pf_rd_p=0e0b2787-f721-47e8-8348-7f0406286691&pf_rd_r=TF39BPC6RDSKES4P76ZD&pd_rd_wg=X4DRq&pd_rd_r=94c02dd2-f778-4f60-9052-591b1c7bdc04&pd_rd_i=B0101V2HTY&th=1",
-      "jumia": "https://www.jumia.com.eg/ar/tornado-4k-smart-frameless-dled-tv-55-inch-built-in-receiver-55us3500e-131402272.html"
+      "jumia": "https://www.jumia.com.eg/ar/tornado-4k-smart-frameless-dled-tv-55-inch-built-in-receiver-55us3500e-131402272.html",
+      "noon":"https://www.noon.com/egypt-ar/4k-smart-frameless-qled-tv-65-inch-built-in-receiver-65qs3500e-black/N70108732V/p/?o=ce1a5e66e0eb526a&shareId=05f53131-f418-47e2-bb6f-c0a0a8a5f282"
     },
   "asin": "B00Y8XN1HY",
   "originalAsin": "B00Y8XN1HY",
   "priceAmazon": 18799,
-    "priceJumia":19499,
+    "priceJumia":19499.00,
+    "priceNoon":24000.00,
   
     "inStock": true,
     "inStockText": "Available",
@@ -9302,8 +9663,8 @@
   },
   "asin": "B0DTQ7RZ5G",
   "originalAsin": "B0DTQ7RZ5G",
-  "priceAmazon": 6299,
-    "priceJumia":7399,
+  "priceAmazon": 6699,
+    "priceJumia":7985.00 ,
     
       "inStock": true,
       "inStockText": "Available",
@@ -9472,7 +9833,7 @@
   "asin": "B0BDWW2G7N",
   "originalAsin": "B0BDWW2G7N",
   "priceAmazon": 12599,
-  "priceJumia":13999,
+  "priceJumia":13999.00,
   
     "inStock": true,
     "inStockText": "Available",
@@ -9663,12 +10024,14 @@
   "title": "Evolve 43 Inch Full HD Smart LED TV, Black - VLD43SAWOR",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DS2QR5XX",
+      "noon":"https://www.noon.com/egypt-ar/43-inch-fhd-smart-led-tv-frameless-vld43sawor/Z84331B4246D41EAA2474Z/p/?o=z84331b4246d41eaa2474z-1&shareId=b798d1e0-3005-4ff0-af6c-1695408e1e2b",
       "jumia": "https://www.jumia.com.eg/ar/evolve-vld43sawor-43-inch-fhd-smart-led-tv-frameless-121778530.html"
     },
   "asin": "B0DS2QR5XX",
   "originalAsin": "B0DS2QR5XX",
   "priceAmazon": 7999,
-    "priceJumia":8149,
+    "priceJumia":8149.00,
+    "priceNoon":8199.00,
     
       "inStock": true,
       "inStockText": "Available",
@@ -9827,15 +10190,789 @@
   "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
 },
 {
+  "title": "RT Home FHD LED TV 40 INCH - I Cast (RT-40A),Black",
+  "urls": {
+    "amazon": "https://www.amazon.eg/dp/B0BVZWKVLN",
+    "noon":"https://www.noon.com/egypt-ar/rt-40a-fhd-led-tv-40-inch-icast/Z802F7A189C81F8D63DBDZ/p/?o=z802f7a189c81f8d63dbdz-1&shareId=b67184ea-40c2-440a-ba6e-3b53bd6281f7",
+    "jumia": "https://www.jumia.com.eg/ar/rt-home-rt-40a-fhd-led-tv-40-inch-i-cast-2-hdmi-1-usb-1-vga-39070880.html"
+  },
+  "asin": "B0BVZWKVLN",
+  "originalAsin": "B0BVZWKVLN",
+  "priceAmazon": 6909,
+  "priceJumia":6827.00,
+  "priceNoon":6903.00,
+  
+    "inStock": true,
+    "inStockText": "Only 1 left – order now.",
+    "listPrice": null,
+    "brand": "RTHome",
+    "author": null,
+    "shippingPrice": {
+      "value": 20,
+      "currency": "EGP"
+    },
+    "stars": 4.6,
+    "starsBreakdown": {
+      "5star": 0.65,
+      "4star": 0.35,
+      "3star": 0,
+      "2star": 0,
+      "1star": 0
+    },
+    "reviewsCount": 4,
+    "answeredQuestions": null,
+    "breadCrumbs": "Electronics > Home Theater, TV & Video > Televisions > Smart TVs",
+    "videosCount": 0,
+    "visitStoreLink": {
+      "text": "Brand: RTHome",
+      "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=RTHome"
+    },
+    "thumbnailImage": "https://m.media-amazon.com/images/I/61BWjplkqwL.__AC_SY300_SX300_QL70_ML2_.jpg",
+    "galleryThumbnails": [
+      "https://m.media-amazon.com/images/I/41iEs9yp9ZL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/41JAZDkxUjL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/318POjEPmOL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/51t6Cr7h-ZL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/51T-U0ayuoL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/51FFPvmqsiL._AC_US.jpg"
+    ],
+    "highResolutionImages": [
+      "https://m.media-amazon.com/images/I/61BWjplkqwL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61vAE6cWZaL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51ZLFv2buxL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81MXW9Ab6sL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81vof3uAhXL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61ud8YOc7LL._AC_SL1024_.jpg"
+    ],
+    "sustainabilityFeatures": null,
+    "description": "LED TV Specifications – Model: RT-40A. Coaxial cable: 1, RF: 1, HDMI ports: 2, USB port: 1, AV: 1, PC audio input: 1, Headphone jack: 1. Panel type: A+ grade. E-Cast supported. Panel resolution: HD (1366x768). Brightness: 200 nits. Panel voltage: 110–240V (50/60Hz). Speakers: 2 × 10W. Dimensions: 939 × 127 × 575 mm. VGA: 1. Box contents: LED TV, Remote control, User manual, Warranty card, TV stand.",
+    "features": [
+      "E-Cast",
+      "Brand: RTHome",
+      "Special Feature: Flat",
+      "Included Components: LED TV",
+      "Screen Size: 40 inches",
+      "Resolution: 1080 pixels",
+      "Brand: RTHome"
+    ],
+    "attributes": [
+      {
+        "key": "Return Reason / Return Window / Return Policy",
+        "value": ""
+      },
+      {
+        "key": "Product Dimensions",
+        "value": "2 x 20 x 15 cm; 7.23 kg"
+      },
+      {
+        "key": "Date First Available",
+        "value": "February 23, 2023"
+      },
+      {
+        "key": "Manufacturer",
+        "value": "RTHome"
+      },
+      {
+        "key": "ASIN",
+        "value": "B0BVZWKVLN"
+      },
+      {
+        "key": "Item Model Number",
+        "value": "RT-40A"
+      },
+      {
+        "key": "Country of Origin",
+        "value": "Egypt"
+      },
+      {
+        "key": "Best Sellers Rank: #64 in Smart TVs",
+        "value": ""
+      },
+      {
+        "key": "User Reviews: 4.6 out of 5 stars from 4 ratings",
+        "value": ""
+      }
+    ],
+    "productOverview": [
+      {
+        "key": "Screen Size",
+        "value": "40 inches"
+      },
+      {
+        "key": "Brand Name",
+        "value": "RTHome"
+      },
+      {
+        "key": "Display Technology",
+        "value": "LCD"
+      },
+      {
+        "key": "Resolution",
+        "value": "1080 pixels"
+      },
+      {
+        "key": "Special Features",
+        "value": "Flat"
+      },
+      {
+        "key": "Included Components",
+        "value": "TV Stand, User Manual, Warranty Card, Remote Control, LED TV"
+      },
+      {
+        "key": "Connectivity Technology",
+        "value": "USB, HDMI"
+      },
+      {
+        "key": "Aspect Ratio",
+        "value": "1.77:1"
+      },
+      {
+        "key": "Product Dimensions (Depth x Width x Height)",
+        "value": "2D x 20W x 15H cm"
+      },
+      {
+        "key": "Supported Internet Services",
+        "value": "Amazon Instant Video"
+      }
+    ]
+  ,
+  
+  "variantAsins": [],
+  "variantDetails": [],
+  "reviewsLink": "https://www.amazon.eg/product-reviews/B0BVZWKVLN",
+  "hasReviews": false,
+  "delivery": "غداً، 17 أبريل",
+  "fastestDelivery": null,
+  "returnPolicy": null,
+  "support": null,
+  "variantAttributes": [],
+  "manufacturerAttributes": [],
+  "seller": {
+    "name": "RADIO TALAAT MEGA STORE",
+    "id": "A2PW74VK1KBBSY",
+    "url": "https://www.amazon.eg/sp?seller=A2PW74VK1KBBSY",
+    "reviewsCount": null,
+    "averageRating": null
+  },
+  "bestsellerRanks": null,
+  "isAmazonChoice": false,
+  "amazonChoiceText": null,
+  "bookDescription": null,
+  "priceRange": null,
+  "aPlusContent": null,
+  "brandStory": null,
+  "productComparison": null,
+  "aiReviewsSummary": null,
+  "monthlyPurchaseVolume": null,
+  "productPageReviews": [],
+  "productPageReviewsFromOtherCountries": [],
+  "locationText": "مصر",
+  "loadedCountryCode": "EG",
+  "offers": [],
+  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=3",
+  "categoryPageData": {
+    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
+    "isSponsored": false,
+    "bestsellerBadge": null,
+    "productPosition": 60
+  },
+  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
+},
+{
+  "title": "Fresh 43 Inch HD Smart LED Coolita Frameless TV With Built-In Receiver, Black - 43LF423CE",
+  "urls": {
+      "amazon": "https://www.amazon.eg/-/en/Fresh-Coolita-Frameless-Built-Receiver/dp/B0DJ7VVD42/ref=sr_1_1?crid=2SG8EF8R8FOM5&dib=eyJ2IjoiMSJ9.3O2cqI40bs6-Sjp8Mo7euNQhk3tBJp1M_HkrsLf7Doc.PFwjDW-eWSXm5knhX3h3aR6d25zBjLDrmEKnRR4PYws&dib_tag=se&keywords=43LF423CE&qid=1745008947&sprefix=43lf423ce%2Caps%2C287&sr=8-1",
+      "jumia": "https://www.jumia.com.eg/ar/fresh-43-inch-fhd-smart-led-tv-43lf423ce-130154544.html",
+      "noon":"https://www.noon.com/egypt-ar/43-inch-fhd-smart-led-tv-43lf423ce/Z3A4B0FC16D7B8F0FE70DZ/p/?o=z3a4b0fc16d7b8f0fe70dz-1&shareId=de6d34c6-ee0e-44dd-ab55-28964d8cc7db"
+    },
+  "asin": "B098TZJKHD",
+  "originalAsin": "B098TZJKHD",
+  "priceAmazon":9890,
+  "priceJumia":10099.00,
+  "priceNoon":9600.00,
+  
+    "inStock": true,
+    "inStockText": "Only 2 left - order now.",
+    "listPrice": null,
+    "brand": "Fresh",
+    "author": null,
+    "shippingPrice": {
+      "value": 20,
+      "currency": "EGP"
+    },
+    "stars": 5,
+    "starsBreakdown": {
+      "5star": 1,
+      "4star": 0,
+      "3star": 0,
+      "2star": 0,
+      "1star": 0
+    },
+    "reviewsCount": 1,
+    "answeredQuestions": null,
+    "breadCrumbs": "Electronics > Home Theater, TV & Video > Televisions > Smart TVs",
+    "videosCount": 0,
+    "visitStoreLink": {
+      "text": "Brand: Fresh",
+      "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D9%81%D8%B1%D9%8A%D8%B4"
+    },
+    "thumbnailImage": "https://m.media-amazon.com/images/I/51CifacJgGS.__AC_SY300_SX300_QL70_ML2_.jpg",
+    "galleryThumbnails": [
+      "https://m.media-amazon.com/images/I/2152rpUyG+S._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/31nNrJe65OS._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/41DbSo49XJS._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/312Z94TGDLS._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/51BJ6fVAgfS._AC_US.jpg"
+    ],
+    "highResolutionImages": [
+      "https://m.media-amazon.com/images/I/51CifacJgGS._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71R0nm2FvkS._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61MRwUm8GCS._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61cpozCtL8S._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71S-oBCtG0S._AC_SL1500_.jpg"
+    ],
+    "sustainabilityFeatures": null,
+    "description": "Brand: Fresh | TV Type: Smart TV | Screen Size: 43 inches | HD Type: Full HD | Screen Resolution: 1920×1080 | Display Type: LED | 2 USB Ports | AV Port | 2 HDMI Ports | VGA | Brand: Fresh | TV Type: Smart TV | Color: Black | Comes with Remote Control: Yes | Screen Size (inches): 43 | HD Type: Full HD | Display Resolution: 1920×1080 | Display Technology: LED | HD TV: Yes | Model Number: 43LF320 | Is the design portable: Yes | Does this product require batteries to operate or is it considered a battery: No | Is this product hazardous or made of hazardous material but safe for transport/storage/disposal? Yes | External Product Identifier Type: EAN-13.",
+    "features": [
+      "Brand: Fresh",
+      "VGA",
+      "TV Type: Smart TV",
+      "Screen Size: 43 inches",
+      "HD Type: Full HD",
+      "Screen Resolution: 1920×1080",
+      "LED Display",
+      "2 USB Ports",
+      "AV Port",
+      "2 HDMI Ports"
+    ],
+    "attributes": [
+      {
+        "key": "Return Reason / Return Period / Return Policy",
+        "value": ""
+      },
+      {
+        "key": "Date First Available",
+        "value": "July 7, 2021"
+      },
+      {
+        "key": "Manufacturer",
+        "value": "Fresh"
+      },
+      {
+        "key": "ASIN",
+        "value": "B098TZJKHD"
+      },
+      {
+        "key": "Item Model Number",
+        "value": "43LF320"
+      },
+      {
+        "key": "Best Sellers Rank:  #124 in Smart TVs",
+        "value": ""
+      },
+      {
+        "key": "User Reviews: 5.0 out of 5 stars – 1 rating",
+        "value": ""
+      }
+    ],
+    "productOverview": [
+      {
+        "key": "Screen Size",
+        "value": "43 inches"
+      },
+      {
+        "key": "Brand Name",
+        "value": "Fresh"
+      },
+      {
+        "key": "Display Technology",
+        "value": "LED"
+      },
+      {
+        "key": "Resolution",
+        "value": "1080p"
+      },
+      {
+        "key": "Special Features",
+        "value": "Flat"
+      },
+      {
+        "key": "Included Components",
+        "value": "TV, Stand, Remote Control"
+      },
+      {
+        "key": "Connectivity Technology",
+        "value": "HDMI"
+      },
+      {
+        "key": "Aspect Ratio",
+        "value": "16:9"
+      },
+      {
+        "key": "Supported Internet Services",
+        "value": "Netflix, Hulu, Amazon Prime Video"
+      },
+      {
+        "key": "Model Name",
+        "value": "43LF320"
+      }
+    ]
+  ,
+  
+  "variantAsins": [],
+  "variantDetails": [],
+  "reviewsLink": "https://www.amazon.eg/product-reviews/B098TZJKHD",
+  "hasReviews": true,
+  "delivery": "الجمعة، 18 أبريل",
+  "fastestDelivery": null,
+  "returnPolicy": null,
+  "support": null,
+  "variantAttributes": [],
+  "manufacturerAttributes": [],
+  "seller": {
+    "name": "Home Tech Appliances",
+    "id": "A1HOF6GQ7FZH6O",
+    "url": "https://www.amazon.eg/sp?seller=A1HOF6GQ7FZH6O",
+    "reviewsCount": null,
+    "averageRating": null
+  },
+  "bestsellerRanks": null,
+  "isAmazonChoice": false,
+  "amazonChoiceText": null,
+  "bookDescription": null,
+  "priceRange": null,
+  "aPlusContent": null,
+  "brandStory": null,
+  "productComparison": null,
+  "aiReviewsSummary": null,
+  "monthlyPurchaseVolume": null,
+  "productPageReviews": [
+    {
+      "username": "amira mohmed",
+      "userId": "amzn1.account.AG6RU6HH2546UAIZLCBXV7S2GEOA",
+      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AG6RU6HH2546UAIZLCBXV7S2GEOA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+      "ratingScore": 5,
+      "reviewTitle": "كويسه جدا",
+      "reviewDescription": "كويسه جدا بس خفيفة الوزن اوي",
+      "date": null,
+      "position": 1,
+      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 21 ديسمبر 2024",
+      "reviewId": "R36V7HOAT2SLN0",
+      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R36V7HOAT2SLN0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B098TZJKHD",
+      "reviewImages": [],
+      "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
+      "isVerified": false,
+      "isAmazonVine": false,
+      "avatar": null,
+      "variant": "",
+      "variantAttributes": []
+    }
+  ],
+  "productPageReviewsFromOtherCountries": [],
+  "locationText": "مصر",
+  "loadedCountryCode": "EG",
+  "offers": [],
+  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=3",
+  "categoryPageData": {
+    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
+    "isSponsored": false,
+    "bestsellerBadge": null,
+    "productPosition": 62
+  },
+  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
+},
+{
+  "title":" SAMSUNG 85-Inch Class 4K Crystal UHD DU8000 Series HDR Smart TV w/Object Tracking Sound Lite, Motion Xcelerator 120Hz, Ultra Slim Design, Gaming Hub, Alexa Built-in (UN85DU8000, 2024 Model)",
+  "urls": {
+    "amazon": "https://www.amazon.com/SAMSUNG-85-Inch-Tracking-Xcelerator-UN85DU8000/dp/B0CV9MGY1N",
+    "jumia":"https://www.jumia.com.eg/ar/samsung-85-inch-4k-uhd-smart-led-tv-with-built-in-receiver-ua85du8000-99934733.html"
+  },
+  "asin": "B0CV9MGY1N",
+  "originalAsin": "B0CV9MGY1N",
+  "priceAmazon": 58131,
+  "priceJumia":63999,
+  "stars": 4.4,
+  "starsBreakdown": {
+    "5star": 0.53,
+    "4star": 0.5,
+    "3star": 0.32,
+    "2star": 0.54,
+    "1star": 0.37
+  },
+  "reviewsCount": 1351,
+  "answeredQuestions": null,
+  "breadCrumbs": "Electronics > Televisions > Smart TVs > 4K Ultra HD TVs",
+  "videosCount": 0,
+  "visitStoreLink": {
+    "text": "Visit the Samsung Store",
+    "url": "https://www.amazon.com/stores/Samsung/page/3CA71ECF-7798-49EB-9F58-4C24F69D25D6"
+  },
+  "thumbnailImage": "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SY355_.jpg",
+  "galleryThumbnails": [
+    "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SY355_.jpg"
+  ],
+  "highResolutionImages": [
+    "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
+  ],
+  "sustainabilityFeatures": null,
+  "description": "Experience stunning visuals with the Samsung 85\" Crystal UHD 4K Smart TV. Powered by the Crystal Processor 4K, it delivers vibrant colors and sharp details. Features include HDR support, Motion Xcelerator for smooth motion, and a sleek AirSlim design. Enjoy immersive audio with Object Tracking Sound Lite and Q-Symphony. Access your favorite content effortlessly with the Tizen OS and built-in Alexa.",
+  "features": [
+    "85-inch Crystal UHD 4K display with 3840 x 2160 resolution",
+    "Crystal Processor 4K for enhanced picture quality",
+    "HDR and HDR10+ support for vivid visuals",
+    "Motion Xcelerator 120Hz for smooth motion handling",
+    "Object Tracking Sound Lite and Q-Symphony for immersive audio",
+    "Tizen OS with built-in Alexa for smart functionality",
+    "AirSlim design for a sleek and modern look"
+  ],
+  "attributes": [
+    {
+      "key": "Product Dimensions (with stand)",
+      "value": "15.6D x 74.8W x 44.5H"
+    },
+    {
+      "key": "Product Dimensions (without stand)",
+      "value": "1900.9 x 1086.1 x 26.9 mm"
+    },
+    {
+      "key": "Weight (with stand)",
+      "value": "43.5 kg"
+    },
+    {
+      "key": "Weight (without stand)",
+      "value": "41.5 kg"
+    },
+    {
+      "key": "Power Consumption (Max)",
+      "value": "320 W"
+    },
+    {
+      "key": "VESA Mount Compatibility",
+      "value": "600 x 400 mm"
+    },
+    {
+      "key": "Connectivity",
+      "value": "Bluetooth, Wi-Fi"
+    },
+    {
+      "key": "Model Number",
+      "value": "UA85DU8000"
+    },
+    {
+      "key": "Country of Origin",
+      "value": "Egypt"
+    }
+  ],
+  "productOverview": [
+    {
+      "key": "Screen Size",
+      "value": "85 inches"
+    },
+    {
+      "key": "Brand Name",
+      "value": "Samsung"
+    },
+    {
+      "key": "Display Technology",
+      "value": "LED"
+    },
+    {
+      "key": "Resolution",
+      "value": "4K (3840 x 2160)"
+    },
+    {
+      "key": "Refresh Rate",
+      "value": "100 Hz"
+    },
+    {
+      "key": "Special Features",
+      "value": "HDR, Motion Xcelerator, Object Tracking Sound Lite, Q-Symphony, Tizen OS, Alexa Built-in"
+    },
+    {
+      "key": "Included Components",
+      "value": "Remote Control, Power Cable, User Manual"
+    }
+  ]
+,
+
+
+"variantDetails": [
+  {
+    "name": "85 Inch",
+    "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
+    ],
+    "asin": "B0D22WCYBR",
+    "price": null
+  },
+  {
+    "name": "55 Inch",
+    "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
+    ],
+    "asin": "B0D22X3DX9",
+    "price": null
+  },
+  {
+    "name": "65 Inch",
+    "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51zUrA3M2dL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51asnjPdJHL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/210SMVqNCtL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/615qIYHadXL._AC_SL1000_.jpg"
+    ],
+    "asin": "B0D22WMH4X",
+    "price": null
+  },
+  {
+    "name": "75 Inch",
+    "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51zUrA3M2dL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51asnjPdJHL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/210SMVqNCtL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/615qIYHadXL._AC_SL1000_.jpg"
+    ],
+    "asin": "B0D22VZZ3B",
+    "price": null
+  }
+],
+"reviewsLink": "https://www.amazon.eg/product-reviews/B0D22WCYBR",
+"hasReviews": true,
+"delivery": "الجمعة، 18 أبريل",
+"fastestDelivery": null,
+"returnPolicy": null,
+"support": null,
+"variantAttributes": [
+  {
+    "key": "الحجم",
+    "value": "85 Inch"
+  }
+],
+"manufacturerAttributes": [],
+"seller": {
+  "name": "Amazon.eg",
+  "id": null,
+  "url": null,
+  "reviewsCount": null,
+  "averageRating": null
+},
+"bestsellerRanks": null,
+"isAmazonChoice": false,
+"amazonChoiceText": null,
+"bookDescription": null,
+"priceRange": null,
+"aPlusContent": {
+  "title": "من الشركة المصنّعة",
+  "rawText": "من الشركة المصنّعة\nعصر جديد مع تلفزيونات سامسونج المدعومة بالذكاء الاصطناعي \nاستمتع بتجربة Neo QLED المذهلة \nيقدم لك معالج 4K المدعوم بالذكاء الاصطناعي من سامسونج واحدة من أفضل تجارب المشاهدة بدقة 4K. تساعد تقنية الارتقاء بالدقة إلى 4K مع الذكاء الاصطناعي التي تدعمها 20 شبكة من شبكات الذكاء الاصطناعي العصبية على تحويل المحتوى إلى صورة بجودة تقارب دقة 4K. كذلك يعمل معالج NQ4 AI Gen2 على تحسين الصورة والصوت ليمنحك تجربة بدقة 4K سواءٌ أكنت تستخدم خدمات بث OTT أو تلعب لعبة الفيديو المفضلة لك أو تشاهد المباريات المباشرة. \nNEO QLED \nاستمتع بكل التفاصيل عبر التحكم في الضوء فائق الدقة \nيمضي مستقبل Neo QLED نحو مزيد من التطوير مع تكنولوجيا Quantum Matrix Technology التي تتحكم بدقة في شاشات Quantum Mini LED الخاصة بنا. يساعد هذا التحكم الدقيق فائق الانضباط في الضوء على إظهار التفاصيل بدقة مذهلة سواءٌ في أكثر المشاهد إظلاماً أو سطوعاً. \nسطوع قوي وتباين أعمق ينعَكِسَان تماماً على كل بكْسَل \n* لا تتوفر دقة 4K بمعدل التحديث 144 هرتز إلا مع الألعاب المتصلة بجهاز PC والتي تدعم هذه المواصفات (يلزم وجود بطاقة رسوميات لجهاز PC). قد يختلف مستوى الأداء. \nتجربة لعب رائعة \nخاصيةMotion Xcelerator ‏120 هرتز \nحركة واضحة لمحتوى الألعاب الذي تفضله بدقة تصل إلى 4K ومعدل تحديث 120 هرتز \nبفضل التحسينات الاستثنائية للحركة؛ تقدم خاصية Motion Xcelerator بمعدل تحديث 120 هرتز أداءً حركياً متميزاً يدعم الألعاب ذات معدل التحديث المتباين (VRR) بمعدل تحديث يصل إلى 120 هرتز، بحيث يمكنك الفوز على جميع خصومك حتى عند اللعب بسرعات خارقة. \n* قد تختلف تجربة المشاهدة باختلاف أنواع المحتوى والتنسيق. \nتجربة لعب رائعة \nاستمتع بإضاءة مبهرة تتزامن مع تجربتك في المشاهدة واللعب \nانغمِس بجميع حواسك في بيئات مُصَمّمة بطريقة دينَامِيكية خصيصاً لك توفرها المَصَابيح الذكية التي تتزامن تلقائياً مع أي من مكونات المحتوى الظاهر على شاشتك. \n* يُباع المِصْباح الذكي منفصلاً. ** في منَاطق معينة فقط. *** يجب توفر حساب سامسونج. يجب تثبيت تطبيقPhilips Hue Sync ويجب توفر اشتراك مدفوع. \nجودة الصورة \nمُحسِّن العمق الواقعي الاحترافي \nصور واقعية تشبه صور الـ 3D ومستوحاة من العين البشرية \nيكشف مُحسِّن العمق الواقعي الاحترافي المناطق التي تركّز عليها العين البشرية عادةً ويقوم بتحسين عرضه للعمق وفقاً لذلك. وهو يحسّن العديد من مجموعات مَصَابيح NEO QLED الصغيرة بدقة ليتسنى لك الاستمتاع بصور واقعية تشابه الأبعاد الثلاثية \"3D\" في المنزل. \n* قد تختلف تجربة المشاهدة حسب أنواع المحتوى والتنسيقات \nجودة الصورة \nاعتمادPANTONE \nاستمتع باللون الأصلي الذي نال مُصَادقة PANTONE \nيُثبت اعتماد PANTONE التعبير اللوني الدقيق عن 2030 لوناً من ألوانPANTONE و110 درجات لون بشرة تمت إضافتها مؤخراً. وهكذا يمكنك الاستمتاع بتجربة مشاهدة واقعية ودقيقة أفضل من أي وقت سبق. \nالمساعد Daily+‎ من سام \nالمساعدDaily+‎ من سامسونج \nقم بإدارة أنشطتك اليومية وأسلوب حياتك بسهولة أكبر من خلال نظام التشغيلTizen من سامسونج \nمع توفر النظام المتكامل للتطبيقات المفتوحة في نظام التشغيل Tizen من سامسونج، يمكّنك Daily+‎ من إدارة أنشطتك اليومية وأسلوب حياتك بكل سهولة من خلال جهاز الـ TV. ويتضمن Daily+‎ تطبيقات وخدمات مثلSmartThings وWorkspace. \n* سامسونج ليست مسؤولة عن أي خدمات من جهات خارجية، ولا تتحمل مسؤولية أي أضرار أو خسائر تتسبب فيها أي خدمات من جهات خارجية. ** الخدمة المتاحة وواجهة المستخدم عرضة للتغيير من دون إخطار \nالمساعد Daily+‎ من سام \nتحكم من خلال تطبيق SmartThings! \nأحسِن استخدام أجهزتك المنزلية لتستمتع بأسلوب حياة ذكي مُصَ \nمّم خصيصاً وفق احتياجاتك. يمكنك، بفضل المحور المضمّن في تطبيقSmartThings، الاستمتاع بمنزل ذكي مخصّص مع العديد من الأجهزة المتوافقة مع SmartThings والتي تعمل على تبسيط حياتك اليومية. \n* قد تختلف التكنولوجيا والوظائف والميزات المتاحة باختلاف البلد أو مقدم الخدمة أو بيئة الشبكة أو المنتج، وهي عُرضة للتغيير من دون إخطار. ** يتطلب Wi-Fi أو بلوتوث أو اتصالاً شبكياً لاسلكياً آخر وتسجيل الدُخُوْل إلى حساب سامسونج. *** تُباع الأجهزة المتصلة بصورة منفصلة. **** يتطلب استخدام تكنولوجيا calm الموافقة على إخطاري الخصوصية لكلٍّ من SmartThings والجهاز المسجل تلقائياً. ***** واجهة المستخدم عُرضة للتغيير من دون إخطار مسبق. \nالأمان والاستدامة \nجهاز التحكم عن بُعدSolarCell Remote \nجهاز تحكم عن بعد مَصُنوع من مواد مُعاد تدويرها ومشحون بضوء الشمس والإضاءة الداخلية \nلم تعد بحاجة الآن إلى استخدام البطاريات أحادية الاستخدام مع جهاز التحكّم عن بُعد SolarCell Remote، لأنها ليست الخيار الأفضل للبيئة، فهذا الجهاز يأتي مجهزاً بلوحة طاقة شمسية في الجزء الخلفي لاستخدامها في الشحن. \n* لشحن جهاز التحكم عن بُعد في الـ TV بالطاقة الشمسية، ضعه على لوحة الشحن بالطاقة الشمسية مع توجيه الجهة الأمامية لأسفل. ضعه في غرفة معيشتك على أن تكون المَصَابيح قيد التشغيل، أو يمكنك وضعه بالقرب من النافذة كي يمتص ضوء الشمس الطبيعي. ** في حال نفاد بطارية جهاز التحكم عن بعد، يمكنك شحنها باستخدام كابل USB-C. للتحقق من مستوى البطارية المتبقي في جهاز التحكم عن بعد، ارجع إلى قائمة TV (الإعدادات > الإعدادات العامة والخصوصية > الكهرباء وتوفير الطاقة > بطارية جهاز التحكم عن بعد المتوفرة). *** قد يختلف تصميم جهاز التحكم عن بُعدSolarCell remote وتصميم أزراره حسب المنطقة. **** يحتوي جهاز التحكم عن بعد SolarCell Remote في طرازات أجهزة الـ \nالأمان والاستدامة \nأمانSamsung Knox \nخصوصيتك. مؤمَّنة. \nتتم حماية خصوصيتك الآن على أجهزة سامسونج TV، وحماية بياناتك الحساسة مثل رموز pin أو كلمات المرور بواسطة طبقات متعددة من البرامج والأجهزة. بالإضافة إلى ذلك، يعمل أمانSamsung Knox على تأمين أجهزة IoT المنزلية المتصلة بجهاز TV ويحظر تلقائياً تنفيذ التطبيقات الضارة غير المُصرح بها أو الوصول إلى مواقع التصيد الاحتيالي. وأخيراً، يساعد فريق الأمان المخصّص من سامسونج في الحفاظ على أمان جهازTV لديك من خلال التحديثات الدورية. \n* تسري خدمة \"مؤمَّن بواسطة Knox\" على أجهزة TV من سامسونج التي تعمل بنظامTizen المطروحة في الأسواق منذ عام 2015. ** يُمنح ضمان تحديث برنََامِج الأمان لمدة ثلاث سنوات على الأقل من تاريخ طرح المنتج في الأسواق. *** يلزم آخر تحديث للبرنَامِج",
+  "rawImages": [
+    {
+      "name": "B0D22WCYBR",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bc4fb65c-ffcb-40b7-975a-fbf3ed7348bb.__CR154,0,1132,700_PT0_SX970_V1___.jpg"
+    },
+    {
+      "name": "B0D22WCYBR",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0d77d11f-1101-42c0-8e1d-35e13dc517c2.__CR0,87,970,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "name": "B0CYQ5X3Q4",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a143d814-edba-4012-a9a3-f37d745032d3.__CR203,0,1035,640_PT0_SX970_V1___.jpg"
+    },
+    {
+      "name": "B0D22WCYBR",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7c88cb4-1516-4d37-8b81-a93265547780.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
+    },
+    {
+      "name": "B0D3R6Y6CZ",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/78bf4572-9a5b-448f-936c-fb57fd809e94.__CR112,0,676,676_PT0_SX220_V1___.jpg"
+    },
+    {
+      "name": "B0CYQ5X3Q4",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0079bdcd-3207-49a7-9dc9-9ba22a88dfc1.__CR112,0,676,676_PT0_SX220_V1___.jpg"
+    },
+    {
+      "name": "B0D3R6Y6CZ",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a959c182-bdd7-4274-b09c-e04f6009136f.__CR113,0,675,675_PT0_SX220_V1___.jpg"
+    },
+    {
+      "name": "المساعد +Daily من سامسونج",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0ccbcfdc-f529-417e-a9c2-4a926459ba07.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
+    },
+    {
+      "name": "المساعد +Daily من سامس",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7bf092a-c858-4e4e-902e-69fd81fe8292.__CR58,0,676,676_PT0_SX220_V1___.jpeg"
+    },
+    {
+      "name": "B0D3R6Y6CZ",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/11786ace-305f-42b1-bd8f-50fc87c6d17a.__CR112,0,676,676_PT0_SX220_V1___.jpg"
+    },
+    {
+      "name": "الحماية والاستدامة",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2795254-f8cb-493f-b4ab-9a457eebb49a.__CR113,0,675,675_PT0_SX220_V1___.jpeg"
+    }
+  ],
+  "rawVideos": [],
+  "modules": [
+    {
+      "type": "3p-module-b",
+      "title": "عصر جديد مع تلفزيونات سامسونج المدعومة بالذكاء الاصطناعي   استمتع بتجربة Neo QLED المذهلة",
+      "text": "يقدم لك معالج 4K المدعوم بالذكاء الاصطناعي من سامسونج واحدة من أفضل تجارب المشاهدة بدقة 4K. تساعد تقنية الارتقاء بالدقة إلى 4K مع الذكاء الاصطناعي التي تدعمها 20 شبكة من شبكات الذكاء الاصطناعي العصبية على تحويل المحتوى إلى صورة بجودة تقارب دقة 4K. كذلك يعمل معالج NQ4 AI Gen2 على تحسين الصورة والصوت ليمنحك تجربة بدقة 4K سواءٌ أكنت تستخدم خدمات بث OTT أو تلعب لعبة الفيديو المفضلة لك أو تشاهد المباريات المباشرة.",
+      "image": {
+        "name": "B0D22WCYBR",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bc4fb65c-ffcb-40b7-975a-fbf3ed7348bb.__CR154,0,1132,700_PT0_SX970_V1___.jpg"
+      }
+    },
+    {
+      "type": "3p-module-b",
+      "title": "NEO QLED  استمتع بكل التفاصيل عبر التحكم في الضوء فائق الدقة",
+      "text": "يمضي مستقبل Neo QLED نحو مزيد من التطوير مع تكنولوجيا Quantum Matrix Technology التي تتحكم بدقة في شاشات Quantum Mini LED الخاصة بنا. يساعد هذا التحكم الدقيق فائق الانضباط في الضوء على إظهار التفاصيل بدقة مذهلة سواءٌ في أكثر المشاهد إظلاماً أو سطوعاً.",
+      "image": {
+        "name": "B0D22WCYBR",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0d77d11f-1101-42c0-8e1d-35e13dc517c2.__CR0,87,970,600_PT0_SX970_V1___.jpg"
+      }
+    },
+    {
+      "type": "3p-module-b",
+      "title": "سطوع قوي وتباين أعمق ينعَكِسَان تماماً على كل بكْسَل",
+      "text": "* لا تتوفر دقة 4K بمعدل التحديث 144 هرتز إلا مع الألعاب المتصلة بجهاز PC والتي تدعم هذه المواصفات (يلزم وجود بطاقة رسوميات لجهاز PC). قد يختلف مستوى الأداء.",
+      "image": {
+        "name": "B0CYQ5X3Q4",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a143d814-edba-4012-a9a3-f37d745032d3.__CR203,0,1035,640_PT0_SX970_V1___.jpg"
+      }
+    },
+    {
+      "type": "module-4",
+      "title": null,
+      "items": [
+        {
+          "title": "تجربة لعب رائعة",
+          "text": null,
+          "image": {
+            "name": "B0D22WCYBR",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7c88cb4-1516-4d37-8b81-a93265547780.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
+          }
+        },
+        {
+          "title": "تجربة لعب رائعة",
+          "text": null,
+          "image": {
+            "name": "B0D3R6Y6CZ",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/78bf4572-9a5b-448f-936c-fb57fd809e94.__CR112,0,676,676_PT0_SX220_V1___.jpg"
+          }
+        },
+        {
+          "title": "جودة الصورة",
+          "text": null,
+          "image": {
+            "name": "B0CYQ5X3Q4",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0079bdcd-3207-49a7-9dc9-9ba22a88dfc1.__CR112,0,676,676_PT0_SX220_V1___.jpg"
+          }
+        },
+        {
+          "title": "جودة الصورة",
+          "text": null,
+          "image": {
+            "name": "B0D3R6Y6CZ",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a959c182-bdd7-4274-b09c-e04f6009136f.__CR113,0,675,675_PT0_SX220_V1___.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "module-4",
+      "title": null,
+      "items": [
+        {
+          "title": "المساعد Daily+‎ من سام",
+          "text": null,
+          "image": {
+            "name": "المساعد +Daily من سامسونج",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0ccbcfdc-f529-417e-a9c2-4a926459ba07.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
+          }
+        },
+        {
+          "title": "المساعد Daily+‎ من سام",
+          "text": null,
+          "image": {
+            "name": "المساعد +Daily من سامس",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7bf092a-c858-4e4e-902e-69fd81fe8292.__CR58,0,676,676_PT0_SX220_V1___.jpeg"
+          }
+        },
+        {
+          "title": "الأمان والاستدامة",
+          "text": null,
+          "image": {
+            "name": "B0D3R6Y6CZ",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/11786ace-305f-42b1-bd8f-50fc87c6d17a.__CR112,0,676,676_PT0_SX220_V1___.jpg"
+          }
+        },
+        {
+          "title": "الأمان والاستدامة",
+          "text": null,
+          "image": {
+            "name": "الحماية والاستدامة",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2795254-f8cb-493f-b4ab-9a457eebb49a.__CR113,0,675,675_PT0_SX220_V1___.jpeg"
+          }
+        }
+      ]
+    }
+  ]
+},
+"brandStory": null,
+"productComparison": null,
+"aiReviewsSummary": null,
+"monthlyPurchaseVolume": null,
+"productPageReviews": [
+  {
+    "username": "SD",
+    "userId": "amzn1.account.AGMRMV2LNHAB2A6ZAHN7BH2GFXPA",
+    "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGMRMV2LNHAB2A6ZAHN7BH2GFXPA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+    "ratingScore": 1,
+    "reviewTitle": "Bad quality",
+    "reviewDescription": "Bad quality, TV box was opened and used before . Even some ones account on Samsung Tv was logged in with their user name and password!",
+    "date": null,
+    "position": 1,
+    "reviewedIn": "تمت كتابة هذا التقييم في مصر في 7 يناير 2025",
+    "reviewId": "R2N1F0G0M66KV0",
+    "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R2N1F0G0M66KV0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0D22WCYBR",
+    "reviewImages": [],
+    "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
+    "isVerified": false,
+    "isAmazonVine": false,
+    "avatar": null,
+    "variant": "الحجم: 65 Inch"
+  }
+],
+"productPageReviewsFromOtherCountries": [],
+"locationText": "مصر",
+"loadedCountryCode": "EG",
+"offers": [],
+"unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=2",
+"categoryPageData": {
+  "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
+  "isSponsored": false,
+  "bestsellerBadge": null,
+  "productPosition": 46
+},
+"input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
+},
+{
   "title": "SHARP Smart Frameless LED TV 32 Inch HD With Android System, Built-In Receiver, 2 HDMI and 2 USB Inputs - 2T-C32DG6EX",
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0CYZQGMYV",
-    "jumia": "https://www.jumia.com.eg/ar/grouhy-gld32nav2-32-inch-led-hd-tv-frameless-120595663.html"
+    "jumia": "https://www.jumia.com.eg/ar/grouhy-gld32nav2-32-inch-led-hd-tv-frameless-120595663.html",
+    "noon":"https://www.noon.com/egypt-ar/tv-a-43-2025-google-tv-fhd-display-dolby-audio-dts-x-and-dts-virtual-x-premium-bezel-less-design-360-bluetooth-remote-control-l43ma-afme-black/N70090203V/p/?o=be91219c0757a98d&shareId=51e051a0-c8d3-4334-ba31-6aa669820eb2"
   },
   "asin": "B09XMRCL25",
   "originalAsin": "B09XMRCL25",
-  "priceAmazon": 8699,
+  "priceAmazon":9999,
     "priceJumia": 7799,
+    "priceNoon":25975.00,
     
       "inStock": true,
       "inStockText": "Only 1 left – order now.",
@@ -10295,394 +11432,6 @@
   "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
 },
 {
-  "title": "RT Home FHD LED TV 40 INCH - I Cast (RT-40A),Black",
-  "urls": {
-    "amazon": "https://www.amazon.eg/dp/B0BVZWKVLN",
-    "jumia": "https://www.jumia.com.eg/ar/rt-home-rt-40a-fhd-led-tv-40-inch-i-cast-2-hdmi-1-usb-1-vga-39070880.html"
-  },
-  "asin": "B0BVZWKVLN",
-  "originalAsin": "B0BVZWKVLN",
-  "priceAmazon": 6909,
-  "priceJumia":6889,
-  
-    "inStock": true,
-    "inStockText": "Only 1 left – order now.",
-    "listPrice": null,
-    "brand": "RTHome",
-    "author": null,
-    "shippingPrice": {
-      "value": 20,
-      "currency": "EGP"
-    },
-    "stars": 4.6,
-    "starsBreakdown": {
-      "5star": 0.65,
-      "4star": 0.35,
-      "3star": 0,
-      "2star": 0,
-      "1star": 0
-    },
-    "reviewsCount": 4,
-    "answeredQuestions": null,
-    "breadCrumbs": "Electronics > Home Theater, TV & Video > Televisions > Smart TVs",
-    "videosCount": 0,
-    "visitStoreLink": {
-      "text": "Brand: RTHome",
-      "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=RTHome"
-    },
-    "thumbnailImage": "https://m.media-amazon.com/images/I/61BWjplkqwL.__AC_SY300_SX300_QL70_ML2_.jpg",
-    "galleryThumbnails": [
-      "https://m.media-amazon.com/images/I/41iEs9yp9ZL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/41JAZDkxUjL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/318POjEPmOL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/51t6Cr7h-ZL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/51T-U0ayuoL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/51FFPvmqsiL._AC_US.jpg"
-    ],
-    "highResolutionImages": [
-      "https://m.media-amazon.com/images/I/61BWjplkqwL._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61vAE6cWZaL._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/51ZLFv2buxL._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/81MXW9Ab6sL._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/81vof3uAhXL._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61ud8YOc7LL._AC_SL1024_.jpg"
-    ],
-    "sustainabilityFeatures": null,
-    "description": "LED TV Specifications – Model: RT-40A. Coaxial cable: 1, RF: 1, HDMI ports: 2, USB port: 1, AV: 1, PC audio input: 1, Headphone jack: 1. Panel type: A+ grade. E-Cast supported. Panel resolution: HD (1366x768). Brightness: 200 nits. Panel voltage: 110–240V (50/60Hz). Speakers: 2 × 10W. Dimensions: 939 × 127 × 575 mm. VGA: 1. Box contents: LED TV, Remote control, User manual, Warranty card, TV stand.",
-    "features": [
-      "E-Cast",
-      "Brand: RTHome",
-      "Special Feature: Flat",
-      "Included Components: LED TV",
-      "Screen Size: 40 inches",
-      "Resolution: 1080 pixels",
-      "Brand: RTHome"
-    ],
-    "attributes": [
-      {
-        "key": "Return Reason / Return Window / Return Policy",
-        "value": ""
-      },
-      {
-        "key": "Product Dimensions",
-        "value": "2 x 20 x 15 cm; 7.23 kg"
-      },
-      {
-        "key": "Date First Available",
-        "value": "February 23, 2023"
-      },
-      {
-        "key": "Manufacturer",
-        "value": "RTHome"
-      },
-      {
-        "key": "ASIN",
-        "value": "B0BVZWKVLN"
-      },
-      {
-        "key": "Item Model Number",
-        "value": "RT-40A"
-      },
-      {
-        "key": "Country of Origin",
-        "value": "Egypt"
-      },
-      {
-        "key": "Best Sellers Rank: #64 in Smart TVs",
-        "value": ""
-      },
-      {
-        "key": "User Reviews: 4.6 out of 5 stars from 4 ratings",
-        "value": ""
-      }
-    ],
-    "productOverview": [
-      {
-        "key": "Screen Size",
-        "value": "40 inches"
-      },
-      {
-        "key": "Brand Name",
-        "value": "RTHome"
-      },
-      {
-        "key": "Display Technology",
-        "value": "LCD"
-      },
-      {
-        "key": "Resolution",
-        "value": "1080 pixels"
-      },
-      {
-        "key": "Special Features",
-        "value": "Flat"
-      },
-      {
-        "key": "Included Components",
-        "value": "TV Stand, User Manual, Warranty Card, Remote Control, LED TV"
-      },
-      {
-        "key": "Connectivity Technology",
-        "value": "USB, HDMI"
-      },
-      {
-        "key": "Aspect Ratio",
-        "value": "1.77:1"
-      },
-      {
-        "key": "Product Dimensions (Depth x Width x Height)",
-        "value": "2D x 20W x 15H cm"
-      },
-      {
-        "key": "Supported Internet Services",
-        "value": "Amazon Instant Video"
-      }
-    ]
-  ,
-  
-  "variantAsins": [],
-  "variantDetails": [],
-  "reviewsLink": "https://www.amazon.eg/product-reviews/B0BVZWKVLN",
-  "hasReviews": false,
-  "delivery": "غداً، 17 أبريل",
-  "fastestDelivery": null,
-  "returnPolicy": null,
-  "support": null,
-  "variantAttributes": [],
-  "manufacturerAttributes": [],
-  "seller": {
-    "name": "RADIO TALAAT MEGA STORE",
-    "id": "A2PW74VK1KBBSY",
-    "url": "https://www.amazon.eg/sp?seller=A2PW74VK1KBBSY",
-    "reviewsCount": null,
-    "averageRating": null
-  },
-  "bestsellerRanks": null,
-  "isAmazonChoice": false,
-  "amazonChoiceText": null,
-  "bookDescription": null,
-  "priceRange": null,
-  "aPlusContent": null,
-  "brandStory": null,
-  "productComparison": null,
-  "aiReviewsSummary": null,
-  "monthlyPurchaseVolume": null,
-  "productPageReviews": [],
-  "productPageReviewsFromOtherCountries": [],
-  "locationText": "مصر",
-  "loadedCountryCode": "EG",
-  "offers": [],
-  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=3",
-  "categoryPageData": {
-    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
-    "isSponsored": false,
-    "bestsellerBadge": null,
-    "productPosition": 60
-  },
-  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
-},
-{
-  "title": "Fresh 43 Inch HD Smart LED Coolita Frameless TV With Built-In Receiver, Black - 43LF423CE",
-  "urls": {
-      "amazon": "https://www.amazon.eg/-/en/Fresh-Coolita-Frameless-Built-Receiver/dp/B0DJ7VVD42/ref=sr_1_1?crid=2SG8EF8R8FOM5&dib=eyJ2IjoiMSJ9.3O2cqI40bs6-Sjp8Mo7euNQhk3tBJp1M_HkrsLf7Doc.PFwjDW-eWSXm5knhX3h3aR6d25zBjLDrmEKnRR4PYws&dib_tag=se&keywords=43LF423CE&qid=1745008947&sprefix=43lf423ce%2Caps%2C287&sr=8-1",
-      "jumia": "https://www.jumia.com.eg/ar/fresh-43-inch-fhd-smart-led-tv-43lf423ce-130154544.html"
-    },
-  "asin": "B098TZJKHD",
-  "originalAsin": "B098TZJKHD",
-  "priceAmazon": 9986,
-  "priceJumia":10099,
-  
-    "inStock": true,
-    "inStockText": "Only 2 left - order now.",
-    "listPrice": null,
-    "brand": "Fresh",
-    "author": null,
-    "shippingPrice": {
-      "value": 20,
-      "currency": "EGP"
-    },
-    "stars": 5,
-    "starsBreakdown": {
-      "5star": 1,
-      "4star": 0,
-      "3star": 0,
-      "2star": 0,
-      "1star": 0
-    },
-    "reviewsCount": 1,
-    "answeredQuestions": null,
-    "breadCrumbs": "Electronics > Home Theater, TV & Video > Televisions > Smart TVs",
-    "videosCount": 0,
-    "visitStoreLink": {
-      "text": "Brand: Fresh",
-      "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D9%81%D8%B1%D9%8A%D8%B4"
-    },
-    "thumbnailImage": "https://m.media-amazon.com/images/I/51CifacJgGS.__AC_SY300_SX300_QL70_ML2_.jpg",
-    "galleryThumbnails": [
-      "https://m.media-amazon.com/images/I/2152rpUyG+S._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/31nNrJe65OS._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/41DbSo49XJS._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/312Z94TGDLS._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/51BJ6fVAgfS._AC_US.jpg"
-    ],
-    "highResolutionImages": [
-      "https://m.media-amazon.com/images/I/51CifacJgGS._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71R0nm2FvkS._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61MRwUm8GCS._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61cpozCtL8S._AC_SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71S-oBCtG0S._AC_SL1500_.jpg"
-    ],
-    "sustainabilityFeatures": null,
-    "description": "Brand: Fresh | TV Type: Smart TV | Screen Size: 43 inches | HD Type: Full HD | Screen Resolution: 1920×1080 | Display Type: LED | 2 USB Ports | AV Port | 2 HDMI Ports | VGA | Brand: Fresh | TV Type: Smart TV | Color: Black | Comes with Remote Control: Yes | Screen Size (inches): 43 | HD Type: Full HD | Display Resolution: 1920×1080 | Display Technology: LED | HD TV: Yes | Model Number: 43LF320 | Is the design portable: Yes | Does this product require batteries to operate or is it considered a battery: No | Is this product hazardous or made of hazardous material but safe for transport/storage/disposal? Yes | External Product Identifier Type: EAN-13.",
-    "features": [
-      "Brand: Fresh",
-      "VGA",
-      "TV Type: Smart TV",
-      "Screen Size: 43 inches",
-      "HD Type: Full HD",
-      "Screen Resolution: 1920×1080",
-      "LED Display",
-      "2 USB Ports",
-      "AV Port",
-      "2 HDMI Ports"
-    ],
-    "attributes": [
-      {
-        "key": "Return Reason / Return Period / Return Policy",
-        "value": ""
-      },
-      {
-        "key": "Date First Available",
-        "value": "July 7, 2021"
-      },
-      {
-        "key": "Manufacturer",
-        "value": "Fresh"
-      },
-      {
-        "key": "ASIN",
-        "value": "B098TZJKHD"
-      },
-      {
-        "key": "Item Model Number",
-        "value": "43LF320"
-      },
-      {
-        "key": "Best Sellers Rank:  #124 in Smart TVs",
-        "value": ""
-      },
-      {
-        "key": "User Reviews: 5.0 out of 5 stars – 1 rating",
-        "value": ""
-      }
-    ],
-    "productOverview": [
-      {
-        "key": "Screen Size",
-        "value": "43 inches"
-      },
-      {
-        "key": "Brand Name",
-        "value": "Fresh"
-      },
-      {
-        "key": "Display Technology",
-        "value": "LED"
-      },
-      {
-        "key": "Resolution",
-        "value": "1080p"
-      },
-      {
-        "key": "Special Features",
-        "value": "Flat"
-      },
-      {
-        "key": "Included Components",
-        "value": "TV, Stand, Remote Control"
-      },
-      {
-        "key": "Connectivity Technology",
-        "value": "HDMI"
-      },
-      {
-        "key": "Aspect Ratio",
-        "value": "16:9"
-      },
-      {
-        "key": "Supported Internet Services",
-        "value": "Netflix, Hulu, Amazon Prime Video"
-      },
-      {
-        "key": "Model Name",
-        "value": "43LF320"
-      }
-    ]
-  ,
-  
-  "variantAsins": [],
-  "variantDetails": [],
-  "reviewsLink": "https://www.amazon.eg/product-reviews/B098TZJKHD",
-  "hasReviews": true,
-  "delivery": "الجمعة، 18 أبريل",
-  "fastestDelivery": null,
-  "returnPolicy": null,
-  "support": null,
-  "variantAttributes": [],
-  "manufacturerAttributes": [],
-  "seller": {
-    "name": "Home Tech Appliances",
-    "id": "A1HOF6GQ7FZH6O",
-    "url": "https://www.amazon.eg/sp?seller=A1HOF6GQ7FZH6O",
-    "reviewsCount": null,
-    "averageRating": null
-  },
-  "bestsellerRanks": null,
-  "isAmazonChoice": false,
-  "amazonChoiceText": null,
-  "bookDescription": null,
-  "priceRange": null,
-  "aPlusContent": null,
-  "brandStory": null,
-  "productComparison": null,
-  "aiReviewsSummary": null,
-  "monthlyPurchaseVolume": null,
-  "productPageReviews": [
-    {
-      "username": "amira mohmed",
-      "userId": "amzn1.account.AG6RU6HH2546UAIZLCBXV7S2GEOA",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AG6RU6HH2546UAIZLCBXV7S2GEOA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 5,
-      "reviewTitle": "كويسه جدا",
-      "reviewDescription": "كويسه جدا بس خفيفة الوزن اوي",
-      "date": null,
-      "position": 1,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 21 ديسمبر 2024",
-      "reviewId": "R36V7HOAT2SLN0",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R36V7HOAT2SLN0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B098TZJKHD",
-      "reviewImages": [],
-      "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": "",
-      "variantAttributes": []
-    }
-  ],
-  "productPageReviewsFromOtherCountries": [],
-  "locationText": "مصر",
-  "loadedCountryCode": "EG",
-  "offers": [],
-  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=3",
-  "categoryPageData": {
-    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
-    "isSponsored": false,
-    "bestsellerBadge": null,
-    "productPosition": 62
-  },
-  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
-},
-{
   "title": "JAC 32 Inch HD LED Smart Android TV With Metal Frame - 132ASS1",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B096R2KVPT",
@@ -10690,8 +11439,8 @@
     },
   "asin": "B096R2KVPT",
   "originalAsin": "B096R2KVPT",
-  "priceAmazon":5999,
-    "priceJumia": 5399 ,
+  "priceAmazon":5799,
+    "priceJumia":5399.00 ,
     
       "inStock": true,
       "inStockText": "Available",
@@ -10898,12 +11647,14 @@
   "title": "SHARP 4K Smart Frameless TV 50 Inch Built-In Receiver 4T-C50FL6EX",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DRMKHVVK",
+      "noon":"https://www.noon.com/egypt-ar/4k-smart-frameless-tv-55-inch-built-in-receiver-4t-c55fl6ex-4t-c55fl6ex-silver/N70145703V/p/?o=bad971bf41c6b54c&shareId=b811e775-bae8-4ebc-8048-5fab741c18c2",
       "jumia": "https://www.jumia.com.eg/ar/sharp-50-inch-led-uhd-smart-android-built-in-receiver-4t-c50fl6ex-129190214.html"
     },
   "asin": "B0DRMKHVVK",
   "originalAsin": "B0DRMKHVVK",
-  "priceAmazon": 20986,
-    "priceJumia": 19399,
+  "priceAmazon":18450,
+    "priceJumia":20999.00,
+    "priceNoon":17849.00,
     
       "inStock": true,
       "inStockText": "Available",
@@ -11088,15 +11839,184 @@
   "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
 },
 {
+  "title": "43 inch FHD LED Smart Android TV with Remote Control - HK4305S1",
+  "urls": {
+      "amazon": "https://www.amazon.eg/dp/B098WCLDGQ",
+      "jumia": "https://www.jumia.com.eg/ar/hoho-43-inch-full-hd-smart-led-tv-hk4305s1-black-15969658.html"
+    },
+  "asin": "B098WCLDGQ",
+  "originalAsin": "B098WCLDGQ",
+  "priceAmazon":7899,
+  "priceJumia":7899.00,
+  
+    "inStock": true,
+    "inStockText": "In Stock",
+    "listPrice": {
+      "value": 8199,
+      "currency": "EGP"
+    },
+    "brand": "Hoho",
+    "author": null,
+    "shippingPrice": null,
+    "stars": null,
+    "starsBreakdown": {
+      "5star": 0,
+      "4star": 0,
+      "3star": 0,
+      "2star": 0,
+      "1star": 0
+    },
+    "reviewsCount": null,
+    "answeredQuestions": null,
+    "breadCrumbs": "Electronics > Home Theater, TV & Video > Televisions > Smart TVs",
+    "videosCount": 0,
+    "visitStoreLink": {
+      "text": "Brand: Hoho",
+      "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D9%87%D9%88%D9%87%D9%88"
+    },
+    "thumbnailImage": "https://m.media-amazon.com/images/I/51rfFGjlx5S.__AC_SY300_SX300_QL70_ML2_.jpg",
+    "galleryThumbnails": [
+      "https://m.media-amazon.com/images/I/4177MaVc59S._AC_US.jpg"
+    ],
+    "highResolutionImages": [
+      "https://m.media-amazon.com/images/I/51rfFGjlx5S._AC_SL1108_.jpg"
+    ],
+    "sustainabilityFeatures": null,
+    "description": "Brand: Hoho\nModel Number: HK4305S1\nColor: Black\nTV Type: Smart TV\nScreen Size: 43 inches\nDisplay Type: LED\nResolution: 1920 x 1080 pixels\nAspect Ratio: 16:9\nConnectivity: 2 HDMI ports, RF input, 2 USB ports, 2 AV inputs, headphone output, PC input\nOperating System: Android 9.0\nPower: AC 110-240V",
+    "features": [
+      "Smart TV",
+      "Operating System: Android 9.0",
+      "Screen Size: 43 inches",
+      "Display Type: LED Full HD",
+      "Resolution: 1920 x 1080 pixels"
+    ],
+    "attributes": [
+      {
+        "key": "Return Reason / Return Period / Return Policy",
+        "value": ""
+      },
+      {
+        "key": "Product Dimensions",
+        "value": "15 x 64 x 105 cm; 9.6 Kilograms"
+      },
+      {
+        "key": "Date First Available",
+        "value": "July 7, 2021"
+      },
+      {
+        "key": "Manufacturer",
+        "value": "Hoho"
+      },
+      {
+        "key": "ASIN",
+        "value": "B098WCLDGQ"
+      },
+      {
+        "key": "Item Model Number",
+        "value": "HK4305S1"
+      },
+      {
+        "key": "Best Sellers Rank: #218 in Smart TVs",
+        "value": ""
+      }
+    ],
+    "productOverview": [
+      {
+        "key": "Screen Size",
+        "value": "43 Inches"
+      },
+      {
+        "key": "Brand Name",
+        "value": "Hoho"
+      },
+      {
+        "key": "Display Technology",
+        "value": "LED"
+      },
+      {
+        "key": "Resolution",
+        "value": "1080p"
+      },
+      {
+        "key": "Special Features",
+        "value": "Flat"
+      },
+      {
+        "key": "Included Components",
+        "value": "TV, Stand, Remote Control"
+      },
+      {
+        "key": "Connectivity Technology",
+        "value": "USB"
+      },
+      {
+        "key": "Aspect Ratio",
+        "value": "16:9"
+      },
+      {
+        "key": "Supported Internet Services",
+        "value": "Netflix, YouTube, Amazon Prime Video"
+      },
+      {
+        "key": "Model Name",
+        "value": "HK4305S1"
+      }
+    ]
+  ,
+  
+  "variantAsins": [],
+  "variantDetails": [],
+  "reviewsLink": "https://www.amazon.eg/product-reviews/B098WCLDGQ",
+  "hasReviews": false,
+  "delivery": null,
+  "fastestDelivery": null,
+  "returnPolicy": null,
+  "support": null,
+  "variantAttributes": [],
+  "manufacturerAttributes": [],
+  "seller": {
+    "name": "HoHo Official Store",
+    "id": "AR94W9XQXPYV0",
+    "url": "https://www.amazon.eg/sp?seller=AR94W9XQXPYV0",
+    "reviewsCount": null,
+    "averageRating": null
+  },
+  "bestsellerRanks": null,
+  "isAmazonChoice": false,
+  "amazonChoiceText": null,
+  "bookDescription": null,
+  "priceRange": null,
+  "aPlusContent": null,
+  "brandStory": null,
+  "productComparison": null,
+  "aiReviewsSummary": null,
+  "monthlyPurchaseVolume": null,
+  "productPageReviews": [],
+  "productPageReviewsFromOtherCountries": [],
+  "locationText": "مصر",
+  "loadedCountryCode": "EG",
+  "offers": [],
+  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=5",
+  "categoryPageData": {
+    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
+    "isSponsored": false,
+    "bestsellerBadge": null,
+    "productPosition": 102
+  },
+  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
+},
+{
   "title": "Haier H50S80EU- 50 Inch 4K QLED Smart Google TV - Gaming@120 Hz - Dolby Vision & Atmos - MEMC/VRR/ALLM - 2+32GB RAM/ROM - Voice Control - HDR10 - Chromecast- HDMI 2.1 - Premium Bezel-Less Design",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B0D5MLQY2W",
+      "noon":"https://www.noon.com/egypt-ar/50-inch-4k-qled-smart-google-tv-gaming-120-hz-dolby-vision-atmos-memc-vrr-allm-2-32gb-ram-rom-voice-control-hdr10-chromecast-hdmi-2-1-premium-bezel-less-design-h50s80eu-black/N70083110V/p/?o=ae2c3a187076715e&shareId=750df841-8c80-49c7-9f1e-26f7a5c8ac5f",
       "jumia": "https://www.jumia.com.eg/ar/haier-h50s80eu-50-inch-4k-uhd-smart-qled-tv-with-built-in-receiver-130148095.html"
     },
   "asin": "B0D5MLQY2W",
   "originalAsin": "B0D5MLQY2W",
-  "priceAmazon": 18616,
-    "priceJumia": 18999,
+  "priceAmazon": 17999,
+    "priceJumia":22999.00,
+    "priceNoon":18499.00,
     
       "inStock": true,
       "inStockText": "In Stock",
@@ -11502,12 +12422,14 @@
   "title": "TORNADO HD DLED Smart TV 32 Inch WiFi Connection 32ES4600E",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/TORNADO-DLED-Smart-Connection-32ES4600E/dp/B0DNXVVW8S/ref=sr_1_3?crid=CW22DHHBVB9B&dib=eyJ2IjoiMSJ9.tcoe8092wwGhKY3PbLJ7pJQ-bw-bGYBASZCWu2elSC3VaE7ithVkCWnfxhRugdj6oJ8W5W9R8cP1EZmr1O46FZRoDSTdXYOU8S9m3XYMKS-eozWnVtdNcneQfLXzowfN5pc6hiHSginp66Woc38mYqjXBoW7xMNsRR2j98cHSB0FuO4vIHxFMYv-77KNi9GeKgRu3u9U0Lh_pSqSn_RcDSIYIwVYnkUS8F9w5CWOSwOP7Ks9bDHOrwGgQ0x2VrCtsgP9YWyxq5Xol9hQqBMLNCMMMwlxRmBB6Vx3-TetGfc.rPmr0i3kIHdoRHiMGvlFpd-dFpH95z92pMvuHmBufjI&dib_tag=se&keywords=tornado+32&qid=1745011168&sprefix=Tornado%2Caps%2C326&sr=8-3",
-      "jumia": "https://www.jumia.com.eg/ar/tornado-32-inch-hd-smart-led-tv-32es4600e-129960682.html"
+      "jumia": "https://www.jumia.com.eg/ar/tornado-32-inch-hd-smart-led-tv-32es4600e-129960682.html",
+      "noon":"https://www.noon.com/egypt-ar/32-inch-hd-smart-tv-built-in-receiver-32es1500e-black/N52465149A/p/?o=c209ebb88278346f&shareId=fba1ef6c-c73c-470d-b2df-87bce5d062dc"
     },
   "asin": "B096QW8YZQ",
   "originalAsin": "B096QW8YZQ",
-  "priceAmazon":7399,
-  "priceJumia":9500 ,
+  "priceAmazon":7849,
+  "priceJumia":9500.00 ,
+  "priceNoon":7859.00,
   
     "inStock": true,
     "inStockText": "Only 1 left – order now.",
@@ -12006,8 +12928,8 @@
     },
   "asin": "B0BQRHGX41",
   "originalAsin": "B0BQRHGX41",
-  "priceAmazon": 4999,
-  "priceJumia": 4999,
+  "priceAmazon":4999,
+  "priceJumia":4999.00 ,
   
     "inStock": true,
     "inStockText": "In Stock",
@@ -12206,12 +13128,14 @@
   "title": "Samsung 65 Inch QLED-The Frame 4K Smart TV- QA65LS03DAUXEG [2024 Model]",
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0CZLT5173?th=1",
+    "noon":"https://www.noon.com/egypt-ar/65-inch-qled-4k-uhd-smart-tv-the-frame-65ls03dauxeg-65ls03-black/N70125078V/p/?o=d18598825af5eb7e&shareId=788a9275-61fd-4835-b7dc-43dac1a83b73",
     "jumia": "https://www.jumia.com.eg/ar/samsung-65-inch-qled-the-frame-4k-smart-tv-qa65ls03dauxeg-2024-model-67771564.html"
   },
   "asin": "B0CZLT5173",
   "originalAsin": "B0CZLT5173",
-  "priceAmazon":43999,
-    "priceJumia":45999,
+  "priceAmazon":39798,
+    "priceJumia":39882.00 ,
+    "priceNoon":39798.00,
     
       "inStock": true,
       "inStockText": "In Stock",
@@ -12608,8 +13532,8 @@
     },
   "asin": "B0D4734GYT",
   "originalAsin": "B0D4734GYT",
-  "priceAmazon": 64999,
-    "priceJumia":49999,
+  "priceAmazon": 48999,
+    "priceJumia":49999.00,
   
     "inStock": true,
     "inStockText": "Only 1 left in stock – order now.",
@@ -12856,12 +13780,14 @@
   "title": "ATA 43 Inch Full HD LED Smart TV Black - 43S1",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B08X6DC2GG?th=1",
+      "noon":"https://www.noon.com/egypt-ar/full-hd-smart-led-tv-43-inch-smart-black/N18879480A/p/?o=d198cb576e4790cf&shareId=bc605f43-6b3a-4d19-b625-e37eb8d12297",
       "jumia": "https://www.jumia.com.eg/ar/ata43fos-43-inch-full-hd-smart-tv-ata-mpg895265.html"
     },
   "asin": "B08X6DC2GG",
   "originalAsin": "B08X6DC2GG",
-  "priceAmazon": 7944,
-    "priceJumia": 8099,
+  "priceAmazon": 8099,
+    "priceJumia":8099.00,
+    "priceNoon":8500.00,
     
       "inStock": true,
       "inStockText": "Only 1 left - order now.",
@@ -13265,12 +14191,14 @@
   "title": "Samsung 50 Inch TV Crystal Processor 4K LED with Built-in Receiver - Black - UA50CU8000UXEG [2023 Model]",
   "urls": {
     "amazon": "https://www.amazon.eg/-/en/Samsung-Crystal-Processor-Built-Receiver/dp/B0BZG52WPK/ref=sr_1_1?crid=157J7DD8OBK54&dib=eyJ2IjoiMSJ9.XtnVR7jl9bt4v4kThpWMJpPIy_zwTBJFQlxNdvdqvp-u-0FONYJyU3ew5eI9MQsBNiFPM4Dj43QjjXCW_AOlp93N7nnWmzyTz4ECs_keortaOCv9FuQyNTZysaTgn-ZzFCrIf7wYvV9ertOLZZZlDQ.9PX4Bu-ixx7abiVN-LbTc_7yBstiGERX7Re0RStOu_s&dib_tag=se&keywords=UA50CU8000UXEG&qid=1745014459&sprefix=ua50cu8000uxeg%2Caps%2C296&sr=8-1&th=1",
+    "noon":"https://www.noon.com/egypt-ar/smart-tv-crystal-uhd-4k-cu8000-50-inch-2023-crystal-processor-4k-airslim-dynamic-crystal-ua50cu8000uxzn-titan-gray/N53400568A/p/?o=c0794ed4c35a45cb&shareId=495f5040-5924-45aa-a2c2-994999f135b9",
     "jumia": "https://www.jumia.com.eg/ar/samsung-ua50cu8000uxeg-samsung-50-inch-screen-58890012.html"
   },
   "asin": "B0BZG52WPK",
   "originalAsin": "B0BZG52WPK",
   "priceAmazon": 19870,
-  "priceJumia": 20257,
+  "priceJumia": 20257.00,
+  "priceNoon":20403.00,
   
     "inStock": true,
     "inStockText": "Only 1 left - order now.",
@@ -13705,13 +14633,14 @@
   "title": "Haier H32K80E- 32 Inch HD Smart Google TV - Dolby Audio - Stereo Speaker - Voice Control - HDR10 - Chromecast - HDMI 2.1 - Bezel-Less Design",
   "urls": {
     "amazon": "https://www.amazon.eg/-/en/Haier-H32K80E-Inch-Smart-Google/dp/B0D5MLPJSH/ref=pd_sbs_d_sccl_2_1/258-4506929-1032509?pd_rd_w=FMyMM&content-id=amzn1.sym.9702d57d-7d87-4933-a4e1-84f075353237&pf_rd_p=9702d57d-7d87-4933-a4e1-84f075353237&pf_rd_r=3X61CZ102RH159TS4XWZ&pd_rd_wg=gctGw&pd_rd_r=57321dd0-fd02-4dce-9cdd-482602d555bd&pd_rd_i=B0D5MLPJSH&psc=1",
-    "jumia": "https://www.jumia.com.eg/ar/haier-google-tv-32-hd-smart-led-with-built-in-receiver-h32k80e-131347418.html"
+    "jumia": "https://www.jumia.com.eg/ar/haier-google-tv-32-hd-smart-led-with-built-in-receiver-h32k80e-131347418.html",
+    "noon":"https://www.noon.com/egypt-ar/32-inch-hd-smart-google-tv-dolby-audio-stereo-speaker-voice-control-hdr10-chromecast-hdmi-2-1-bezel-less-design-h32k80e-black/N29857175A/p/?o=e8f4325016b4e50e&shareId=5fbdf3a0-7336-404f-a795-03a42a3a2458"
   },
   "asin": "B0D5MMW4HF",
   "originalAsin": "B0D5MMW4HF",
- "priceAmazon":6700,
-    "priceJumia":7099,
-    
+ "priceAmazon":6999,
+    "priceJumia":6999.00,
+    "priceNoon":7279.00,
       "inStock": true,
       "inStockText": "Only 1 left - order now.",
       "listPrice": {
@@ -14112,12 +15041,14 @@
   "title": "TORNADO FHD DLED Smart TV 43 Inch Wi-Fi Connection 43ES4601E",
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DSGT9FFT",
+    "noon":"https://www.noon.com/egypt-ar/fhd-dled-smart-tv-43-inch-wi-fi-connection-43es4600e-black/N70132610V/p/?o=ab989a3c3b92210b&shareId=8d97ddb4-08a4-4a1c-9d24-980cc4bd5a85",
     "jumia": "https://www.jumia.com.eg/ar/tornado-fhd-dled-smart-tv-43-inch-wi-fi-connection-43es4600e-123293751.html"
   },
   "asin": "B0DSGT9FFT",
   "originalAsin": "B0DSGT9FFT",
  "priceAmazon":12899,
-    "priceJumia":11499,
+    "priceJumia":11499.00,
+    "priceNoon":12399.00,
     
       "inStock": true,
       "inStockText": "Only 1 left - order now.",
@@ -14292,12 +15223,15 @@
   "title": "LG 65 Inch NanoCell NANO80T 4K Smart TV AI Magic remote HDR10 webOS24-65NANO80T6A (2024)",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/LG-NanoCell-NANO80T-remote-webOS24-65NANO80T6A/dp/B0D472YLDJ/ref=sr_1_3?crid=26Z9DGL5TCHRP&dib=eyJ2IjoiMSJ9.YYpCZOrT94hxzb9rfX5JCIOOX0sPmXFOXZvMVYROxo7zqczLWvhQLI2cgdfhoThK6KEvnRTK400uYu4e4EqmGyg18b1qWQ1GustSLSJ9jhk.wxS4xn49DJ7I7FeCPzD5fHBgAZsTWxbhVbB-w29tTQg&dib_tag=se&keywords=LG%2B50NANO80T6A&qid=1745138747&sprefix=lg%2B50nano80t6a%2Caps%2C259&sr=8-3&th=1",
-      "jumia": "https://www.jumia.com.eg/ar/lg-65nano80t6a-65-inch-nanocell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos242024-130814347.html"
+      "jumia": "https://www.jumia.com.eg/ar/lg-65nano80t6a-65-inch-nanocell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos242024-130814347.html",
+      "noon":"https://www.noon.com/egypt-ar/65-inch-nano-cell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos24-5-ai-processor-gen7-65nano80t6a-black/N70098201V/p/?o=c8454033366168ba&shareId=2699e709-8956-49fc-904d-2d3748bf87d3"
     },
   "asin": " B0D472YLDJ",
   "originalAsin": "B0D472YLDJ",
-  "priceAmazon":29794,
-    "priceJumia":29699,
+  "priceAmazon":29699,
+    "priceJumia":29699.00,
+    "priceNoon":30599.00,
+
     
       "inStock": true,
       "inStockText": "Only 1 left – order now.",
@@ -14843,12 +15777,14 @@
   "title": "LG NanoCell AI NANO80 4K Smart TV AI Magic remote HDR10 webOS 24 & Model NANO80T6A (50 Inch)",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/LG-NanoCell-NANO80-remote-NANO80T6A/dp/B0DD1LZYQ3/ref=pd_vtp_h_pd_vtp_h_d_sccl_1/258-4506929-1032509?pd_rd_w=kQJzw&content-id=amzn1.sym.6573c4de-3d09-42f5-89a2-2934e5699194&pf_rd_p=6573c4de-3d09-42f5-89a2-2934e5699194&pf_rd_r=2A2G6QZA5RB8AGA9E41Y&pd_rd_wg=7OAvl&pd_rd_r=3bcec6bd-6fa8-4880-8cd5-7d370d990230&pd_rd_i=B0DD1LZYQ3&th=1",
-      "jumia": "https://www.jumia.com.eg/ar/lg-50-inch-4k-uhd-smart-nanocell-tv-with-built-in-receiver-50nano80t6a-123947393.html"
+      "jumia": "https://www.jumia.com.eg/ar/lg-50-inch-4k-uhd-smart-nanocell-tv-with-built-in-receiver-50nano80t6a-123947393.html",
+      "noon":"https://www.noon.com/egypt-ar/50-inch-nano-cell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos24-5-ai-processor-gen7-50nano80t6a-black/N70098193V/p/?o=c381eb4d1dcaa62a&shareId=34bf44bf-aef7-44a5-9534-37c185a0233a"
     },
   "asin": "  B0DD1LZYQ3",
   "originalAsin": "",
-  "priceAmazon":23449,
-    "priceJumia":18849,
+  "priceAmazon":22999,
+    "priceJumia":18849.00,
+    "priceNoon":19799.00,
     
       "inStock": true,
       "inStockText": "Only 1 left – order now.",
@@ -15395,12 +16331,14 @@
   "title": "LG NanoCell AI NANO80 4K Smart TV AI Magic remote HDR10 webOS 24 & Model NANO80T6A (55 Inch)",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/LG-NanoCell-NANO80-remote-NANO80T6A/dp/B0DD1TY5SC/ref=sr_1_3?crid=1BSYQ2ORE7RAY&dib=eyJ2IjoiMSJ9.6fjkx-fXsmw2yHM6H5Lk1WNN9fajg0BoYjfD3PFelt2PE2QHWj8F4cXHqFqFX6WyDGS46rdTgcYB2daaLGeVlaYgDIO4Eygy6QWEj6PB7HLTczqCdsgIJwvfxUye1-CvoHLuHf--Z6Jl9VoR1gGjzVtoK6IXpdMZjUnaNmt-NMlZuKFYFoxkpQtZ6dxZObEBK-gllrXCs3Ni9EnN00TtnyeTpZu1mcgVDPnLotbJQafgs4zmiG595m9MBkGQVZ4vck-N6DMP0r8MpbQQVGqZJWRFxghi9UKmnTjx1gjJEz8.j6As2wmrxft1VaugTjn8PTbAnjaTzHPi8g1IodauRnA&dib_tag=se&keywords=LG%2C%2BNanocell%2BTV%2C%2B55%2Binch%2BNANO77R&qid=1745137898&sprefix=lg%2Bnanocell%2Btv%2B55%2Binch%2Bnano77r%2Caps%2C127&sr=8-3&th=1",
-      "jumia": "https://www.jumia.com.eg/ar/lg-55-inch-nanocell-4k-uhd-smart-led-tv-with-built-in-receiver-55nano80t6a-115973020.html"
+      "jumia": "https://www.jumia.com.eg/ar/lg-50nano80t6a-50-inch-nanocell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos242024-130814348.html",
+      "noon":"https://www.noon.com/egypt-ar/55-inch-nano-cell-nano80t-4k-smart-tv-ai-magic-remote-hdr10-webos24-5-ai-processor-gen7-55nano80t6a-black/N70098195V/p/?o=a6f36010d54e6c7d&shareId=7a9b3651-6085-4e9e-a9b4-80237db44a13"
     },
   "asin": " B0DD1TY5SC",
   "originalAsin": "B0C99WTB7W",
-  "priceAmazon":24999,
+  "priceAmazon":25499,
     "priceJumia":25999,
+    "priceNoon":24405.00,
     
       "inStock": true,
       "inStockText": "Only 1 left – order now.",
@@ -15952,12 +16890,12 @@
     "title": "Samsung 55 Inch TV Neo Quantum Processor 4K QLED - Titan Black - QA55QN90CAUXEG [2023 Model]",
     "urls": {
       "amazon": "https://www.amazon.eg/-/en/Samsung-Inch-Quantum-Processor-QLED/dp/B0C22KFH4G",
-      "jumia":"https://www.jumia.com.eg/ar/samsung-qn85d-55-inch-neo-qled-4k-tizen-os-smart-tv-2024-129130194.html"
+      "jumia":"https://www.jumia.com.eg/ar/samsung-65-inch-neo-qled-4k-qn90d-tizen-os-smart-tv-2024-67771556.html"
     },
     "asin": "B0C22KFH4G",
     "originalAsin": "B0C22KFH4G",
-    "priceAmazon": 38312,
-    "priceJumia":40999,
+    "priceAmazon": 69999,
+    "priceJumia":64999.00,
     "stars": 4.7,
     "starsBreakdown": {
      "5star": 0.64,
@@ -16325,760 +17263,6 @@
   "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
 },
 {
-  "title": "Samsung 65 Inch Neo Quantum Processor 4K QLED TV - Titan Black - Model QA65QN85DBUXEG [2024 Edition]",
-  "urls": {
-      "amazon": "https://www.amazon.eg/-/en/Samsung-Inch-Quantum-Processor-QLED/dp/B0D22WMH4X/ref=sr_1_1?crid=1309BF2LMDRQP&dib=eyJ2IjoiMSJ9.NoUbGrpmsWCs1pfuK1BNtE6NFcjIbveqNY8qdtgKvw6h-VsBJGdAeOd_pM_bH6Di9z7fn6ybYvmizreQic5ITE1Iro6kH5Tc7kRLv8WwXinZFVjcvYsEEBODEUM9hCl6xh9qHQSgatQUMvBEfSnMqskxv7wXM7sOLEZ7a7iO7i9IPRPuGjD6yY32SAvyJZzneOKOSQFXOTHhynRKbG_L3Ho55LIVW-dvb8oxc3xEMc_p-dRt8WOOYIoM3oNVxNvHk8zUyjz3B_a6-ClVtAZup3_eYhZN1yns86EooYWEsLw.1iOIO5EgwMvZHpZhbGMoeKVYCjDBCV-0zWFYZY92zl4&dib_tag=se&keywords=Samsung%2B65%2BInch%2BTV%2BNeo%2BQuantum%2BProcessor%2B4K%2BQLED%2B-%2BTitan%2BBlack%2B-%2BQA65QN85DBUXEG%2B%5B2024%2BModel%5D&qid=1745141622&sprefix=samsung%2B65%2Binch%2Btv%2Bneo%2Bquantum%2Bprocessor%2B4k%2Bqled%2B-%2Btitan%2Bblack%2B-%2Bqa65qn85dbuxeg%2B2024%2Bmodel%2B%2Caps%2C168&sr=8-1&th=1",
-      "jumia": "https://www.jumia.com.eg/ar/grouhy-gld32nav2-32-inch-led-hd-tv-frameless-120595663.html"
-    },
-  "asin": "B0D22WMH4X",
-  "originalAsin": "B0D22WMH4X",
-  "priceAmazon":55875,
-    "priceJumia":57999,
-  "stars": 3.5,
-  "starsBreakdown": {
-    "5star": 0.63,
-    "4star": 0,
-    "3star": 0,
-    "2star": 0,
-    "1star": 0.37
-  },
-  "reviewsCount": 3,
-  "answeredQuestions": null,
-  "breadCrumbs": "Electronics > Home Theater & TV & Video > Televisions > Smart TVs",
-  "videosCount": 0,
-  "visitStoreLink": {
-    "text": "Visit the Samsung Store",
-    "url": "https://www.amazon.eg/stores/Samsung/page/3CA71ECF-7798-49EB-9F58-4C24F69D25D6?lp_asin=B0D22WMH4X&ref_=ast_bln"
-  },
-  "thumbnailImage": "https://m.media-amazon.com/images/I/61o8FefYxJL.__AC_SY300_SX300_QL70_ML2_.jpg",
-  "galleryThumbnails": [
-    "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg"
-  ],
-  "highResolutionImages": [
-    "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
-  ],
-  "sustainabilityFeatures": null,
-  "description": "Samsung QA65QN85DBUXEG TV with a 65-inch screen, 3840 × 2160 resolution, and 100Hz refresh rate. Features a clear picture engine with Neo Quantum 4K processor, Quantum HDR 24x, Quantum Matrix technology, and 100% color volume with Quantum Dot. Offers a wider viewing angle supported by Ultra HD clarity, Motion Xcelerator Turbo+, and Clear LED motion. Enjoy cinematic atmosphere with Filmmaker Mode, brightness/color detection sensor, 2.2.2CH speaker type, and adaptive sound. Supports Tizen OS, SmartThings app, and Media Home. Includes Microsoft 365 web service, mobile TV sound, and sound matching. All in a bold design with 3 bezel-less edges and a flat appearance.",
-  "features": [
-    "Samsung QA65QN85DBUXEG TV with a 65-inch screen, 3840 × 2160 resolution, and 100Hz refresh rate",
-    "Neo Quantum 4K processor with Quantum HDR 24x, Quantum Matrix technology, and 100% color volume with Quantum Dot, offering a wider viewing angle and Ultra HD clarity, Real Depth Enhancer, Motion Xcelerator Turbo+, Clear LED motion, brightness/color detection sensor",
-    "Speaker type: 2.2.2CH with 60W output (RMS), Dolby Atmos, Q-Symphony, and adaptive sound",
-    "Smart services: Tizen OS, web browser, SmartThings app support, and multimedia",
-    "Smart features: Screen mirroring from TV to mobile and vice versa, DLNA digital device content display, TV start, Google Duo video call, mobile camera, 360-degree video player, 360-degree camera support, sound mirroring, and Microsoft 365 web service"
-  ],
-  "attributes": [
-    {
-      "key": "Return Reason / Return Period / Return Policy",
-      "value": ""
-    },
-    {
-      "key": "Product Dimensions",
-      "value": "2.72 x 189.22 x 108.19 cm; 42.7 kg"
-    },
-    {
-      "key": "First Available Date",
-      "value": "April 18, 2024"
-    },
-    {
-      "key": "Manufacturer",
-      "value": "Samsung"
-    },
-    {
-      "key": "ASIN",
-      "value": "B0D22WMH4X"
-    },
-    {
-      "key": "Item Model Number",
-      "value": "QA65QN85DBUXEG"
-    },
-    {
-      "key": "Country of Origin",
-      "value": "Egypt"
-    },
-    {
-      "key": "Best Sellers Rank: #103 in Smart TVs",
-      "value": ""
-    },
-    {
-      "key": "User Reviews: 3.5 out of 5 stars based on 3 reviews",
-      "value": ""
-    }
-  ],
-  "productOverview": [
-    {
-      "key": "Screen Size",
-      "value": "65 inches"
-    },
-    {
-      "key": "Brand Name",
-      "value": "Samsung"
-    },
-    {
-      "key": "Display Technology",
-      "value": "4K QLED"
-    },
-    {
-      "key": "Resolution",
-      "value": "4K"
-    },
-    {
-      "key": "Refresh Rate",
-      "value": "100 Hz"
-    },
-    {
-      "key": "Special Features",
-      "value": "Game Mode, Web Browser"
-    },
-    {
-      "key": "Included Components",
-      "value": "Power Cable, User Manual"}],
-
- "variantDetails": [
-    {
-      "name": "85 Inch",
-      "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
-      "images": [
-        "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
-      ],
-      "asin": "B0D22WCYBR",
-      "price": null
-    },
-    {
-      "name": "55 Inch",
-      "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
-      "images": [
-        "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
-      ],
-      "asin": "B0D22X3DX9",
-      "price": null
-    },
-    {
-      "name": "65 Inch",
-      "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
-      "images": [
-        "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/51zUrA3M2dL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/51asnjPdJHL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/210SMVqNCtL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/615qIYHadXL._AC_SL1000_.jpg"
-      ],
-      "asin": "B0D22WMH4X",
-      "price": null
-    },
-    {
-      "name": "75 Inch",
-      "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
-      "images": [
-        "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/51zUrA3M2dL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/51asnjPdJHL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/210SMVqNCtL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/615qIYHadXL._AC_SL1000_.jpg"
-      ],
-      "asin": "B0D22VZZ3B",
-      "price": null
-    }
-  ],
-  "reviewsLink": "https://www.amazon.eg/product-reviews/B0D22WCYBR",
-  "hasReviews": true,
-  "delivery": "الجمعة، 18 أبريل",
-  "fastestDelivery": null,
-  "returnPolicy": null,
-  "support": null,
-  "variantAttributes": [
-    {
-      "key": "الحجم",
-      "value": "85 Inch"
-    }
-  ],
-  "manufacturerAttributes": [],
-  "seller": {
-    "name": "Amazon.eg",
-    "id": null,
-    "url": null,
-    "reviewsCount": null,
-    "averageRating": null
-  },
-  "bestsellerRanks": null,
-  "isAmazonChoice": false,
-  "amazonChoiceText": null,
-  "bookDescription": null,
-  "priceRange": null,
-  "aPlusContent": {
-    "title": "من الشركة المصنّعة",
-    "rawText": "من الشركة المصنّعة\nعصر جديد مع تلفزيونات سامسونج المدعومة بالذكاء الاصطناعي \nاستمتع بتجربة Neo QLED المذهلة \nيقدم لك معالج 4K المدعوم بالذكاء الاصطناعي من سامسونج واحدة من أفضل تجارب المشاهدة بدقة 4K. تساعد تقنية الارتقاء بالدقة إلى 4K مع الذكاء الاصطناعي التي تدعمها 20 شبكة من شبكات الذكاء الاصطناعي العصبية على تحويل المحتوى إلى صورة بجودة تقارب دقة 4K. كذلك يعمل معالج NQ4 AI Gen2 على تحسين الصورة والصوت ليمنحك تجربة بدقة 4K سواءٌ أكنت تستخدم خدمات بث OTT أو تلعب لعبة الفيديو المفضلة لك أو تشاهد المباريات المباشرة. \nNEO QLED \nاستمتع بكل التفاصيل عبر التحكم في الضوء فائق الدقة \nيمضي مستقبل Neo QLED نحو مزيد من التطوير مع تكنولوجيا Quantum Matrix Technology التي تتحكم بدقة في شاشات Quantum Mini LED الخاصة بنا. يساعد هذا التحكم الدقيق فائق الانضباط في الضوء على إظهار التفاصيل بدقة مذهلة سواءٌ في أكثر المشاهد إظلاماً أو سطوعاً. \nسطوع قوي وتباين أعمق ينعَكِسَان تماماً على كل بكْسَل \n* لا تتوفر دقة 4K بمعدل التحديث 144 هرتز إلا مع الألعاب المتصلة بجهاز PC والتي تدعم هذه المواصفات (يلزم وجود بطاقة رسوميات لجهاز PC). قد يختلف مستوى الأداء. \nتجربة لعب رائعة \nخاصيةMotion Xcelerator ‏120 هرتز \nحركة واضحة لمحتوى الألعاب الذي تفضله بدقة تصل إلى 4K ومعدل تحديث 120 هرتز \nبفضل التحسينات الاستثنائية للحركة؛ تقدم خاصية Motion Xcelerator بمعدل تحديث 120 هرتز أداءً حركياً متميزاً يدعم الألعاب ذات معدل التحديث المتباين (VRR) بمعدل تحديث يصل إلى 120 هرتز، بحيث يمكنك الفوز على جميع خصومك حتى عند اللعب بسرعات خارقة. \n* قد تختلف تجربة المشاهدة باختلاف أنواع المحتوى والتنسيق. \nتجربة لعب رائعة \nاستمتع بإضاءة مبهرة تتزامن مع تجربتك في المشاهدة واللعب \nانغمِس بجميع حواسك في بيئات مُصَمّمة بطريقة دينَامِيكية خصيصاً لك توفرها المَصَابيح الذكية التي تتزامن تلقائياً مع أي من مكونات المحتوى الظاهر على شاشتك. \n* يُباع المِصْباح الذكي منفصلاً. ** في منَاطق معينة فقط. *** يجب توفر حساب سامسونج. يجب تثبيت تطبيقPhilips Hue Sync ويجب توفر اشتراك مدفوع. \nجودة الصورة \nمُحسِّن العمق الواقعي الاحترافي \nصور واقعية تشبه صور الـ 3D ومستوحاة من العين البشرية \nيكشف مُحسِّن العمق الواقعي الاحترافي المناطق التي تركّز عليها العين البشرية عادةً ويقوم بتحسين عرضه للعمق وفقاً لذلك. وهو يحسّن العديد من مجموعات مَصَابيح NEO QLED الصغيرة بدقة ليتسنى لك الاستمتاع بصور واقعية تشابه الأبعاد الثلاثية \"3D\" في المنزل. \n* قد تختلف تجربة المشاهدة حسب أنواع المحتوى والتنسيقات \nجودة الصورة \nاعتمادPANTONE \nاستمتع باللون الأصلي الذي نال مُصَادقة PANTONE \nيُثبت اعتماد PANTONE التعبير اللوني الدقيق عن 2030 لوناً من ألوانPANTONE و110 درجات لون بشرة تمت إضافتها مؤخراً. وهكذا يمكنك الاستمتاع بتجربة مشاهدة واقعية ودقيقة أفضل من أي وقت سبق. \nالمساعد Daily+‎ من سام \nالمساعدDaily+‎ من سامسونج \nقم بإدارة أنشطتك اليومية وأسلوب حياتك بسهولة أكبر من خلال نظام التشغيلTizen من سامسونج \nمع توفر النظام المتكامل للتطبيقات المفتوحة في نظام التشغيل Tizen من سامسونج، يمكّنك Daily+‎ من إدارة أنشطتك اليومية وأسلوب حياتك بكل سهولة من خلال جهاز الـ TV. ويتضمن Daily+‎ تطبيقات وخدمات مثلSmartThings وWorkspace. \n* سامسونج ليست مسؤولة عن أي خدمات من جهات خارجية، ولا تتحمل مسؤولية أي أضرار أو خسائر تتسبب فيها أي خدمات من جهات خارجية. ** الخدمة المتاحة وواجهة المستخدم عرضة للتغيير من دون إخطار \nالمساعد Daily+‎ من سام \nتحكم من خلال تطبيق SmartThings! \nأحسِن استخدام أجهزتك المنزلية لتستمتع بأسلوب حياة ذكي مُصَ \nمّم خصيصاً وفق احتياجاتك. يمكنك، بفضل المحور المضمّن في تطبيقSmartThings، الاستمتاع بمنزل ذكي مخصّص مع العديد من الأجهزة المتوافقة مع SmartThings والتي تعمل على تبسيط حياتك اليومية. \n* قد تختلف التكنولوجيا والوظائف والميزات المتاحة باختلاف البلد أو مقدم الخدمة أو بيئة الشبكة أو المنتج، وهي عُرضة للتغيير من دون إخطار. ** يتطلب Wi-Fi أو بلوتوث أو اتصالاً شبكياً لاسلكياً آخر وتسجيل الدُخُوْل إلى حساب سامسونج. *** تُباع الأجهزة المتصلة بصورة منفصلة. **** يتطلب استخدام تكنولوجيا calm الموافقة على إخطاري الخصوصية لكلٍّ من SmartThings والجهاز المسجل تلقائياً. ***** واجهة المستخدم عُرضة للتغيير من دون إخطار مسبق. \nالأمان والاستدامة \nجهاز التحكم عن بُعدSolarCell Remote \nجهاز تحكم عن بعد مَصُنوع من مواد مُعاد تدويرها ومشحون بضوء الشمس والإضاءة الداخلية \nلم تعد بحاجة الآن إلى استخدام البطاريات أحادية الاستخدام مع جهاز التحكّم عن بُعد SolarCell Remote، لأنها ليست الخيار الأفضل للبيئة، فهذا الجهاز يأتي مجهزاً بلوحة طاقة شمسية في الجزء الخلفي لاستخدامها في الشحن. \n* لشحن جهاز التحكم عن بُعد في الـ TV بالطاقة الشمسية، ضعه على لوحة الشحن بالطاقة الشمسية مع توجيه الجهة الأمامية لأسفل. ضعه في غرفة معيشتك على أن تكون المَصَابيح قيد التشغيل، أو يمكنك وضعه بالقرب من النافذة كي يمتص ضوء الشمس الطبيعي. ** في حال نفاد بطارية جهاز التحكم عن بعد، يمكنك شحنها باستخدام كابل USB-C. للتحقق من مستوى البطارية المتبقي في جهاز التحكم عن بعد، ارجع إلى قائمة TV (الإعدادات > الإعدادات العامة والخصوصية > الكهرباء وتوفير الطاقة > بطارية جهاز التحكم عن بعد المتوفرة). *** قد يختلف تصميم جهاز التحكم عن بُعدSolarCell remote وتصميم أزراره حسب المنطقة. **** يحتوي جهاز التحكم عن بعد SolarCell Remote في طرازات أجهزة الـ \nالأمان والاستدامة \nأمانSamsung Knox \nخصوصيتك. مؤمَّنة. \nتتم حماية خصوصيتك الآن على أجهزة سامسونج TV، وحماية بياناتك الحساسة مثل رموز pin أو كلمات المرور بواسطة طبقات متعددة من البرامج والأجهزة. بالإضافة إلى ذلك، يعمل أمانSamsung Knox على تأمين أجهزة IoT المنزلية المتصلة بجهاز TV ويحظر تلقائياً تنفيذ التطبيقات الضارة غير المُصرح بها أو الوصول إلى مواقع التصيد الاحتيالي. وأخيراً، يساعد فريق الأمان المخصّص من سامسونج في الحفاظ على أمان جهازTV لديك من خلال التحديثات الدورية. \n* تسري خدمة \"مؤمَّن بواسطة Knox\" على أجهزة TV من سامسونج التي تعمل بنظامTizen المطروحة في الأسواق منذ عام 2015. ** يُمنح ضمان تحديث برنََامِج الأمان لمدة ثلاث سنوات على الأقل من تاريخ طرح المنتج في الأسواق. *** يلزم آخر تحديث للبرنَامِج",
-    "rawImages": [
-      {
-        "name": "B0D22WCYBR",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bc4fb65c-ffcb-40b7-975a-fbf3ed7348bb.__CR154,0,1132,700_PT0_SX970_V1___.jpg"
-      },
-      {
-        "name": "B0D22WCYBR",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0d77d11f-1101-42c0-8e1d-35e13dc517c2.__CR0,87,970,600_PT0_SX970_V1___.jpg"
-      },
-      {
-        "name": "B0CYQ5X3Q4",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a143d814-edba-4012-a9a3-f37d745032d3.__CR203,0,1035,640_PT0_SX970_V1___.jpg"
-      },
-      {
-        "name": "B0D22WCYBR",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7c88cb4-1516-4d37-8b81-a93265547780.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
-      },
-      {
-        "name": "B0D3R6Y6CZ",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/78bf4572-9a5b-448f-936c-fb57fd809e94.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-      },
-      {
-        "name": "B0CYQ5X3Q4",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0079bdcd-3207-49a7-9dc9-9ba22a88dfc1.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-      },
-      {
-        "name": "B0D3R6Y6CZ",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a959c182-bdd7-4274-b09c-e04f6009136f.__CR113,0,675,675_PT0_SX220_V1___.jpg"
-      },
-      {
-        "name": "المساعد +Daily من سامسونج",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0ccbcfdc-f529-417e-a9c2-4a926459ba07.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
-      },
-      {
-        "name": "المساعد +Daily من سامس",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7bf092a-c858-4e4e-902e-69fd81fe8292.__CR58,0,676,676_PT0_SX220_V1___.jpeg"
-      },
-      {
-        "name": "B0D3R6Y6CZ",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/11786ace-305f-42b1-bd8f-50fc87c6d17a.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-      },
-      {
-        "name": "الحماية والاستدامة",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2795254-f8cb-493f-b4ab-9a457eebb49a.__CR113,0,675,675_PT0_SX220_V1___.jpeg"
-      }
-    ],
-    "rawVideos": [],
-    "modules": [
-      {
-        "type": "3p-module-b",
-        "title": "عصر جديد مع تلفزيونات سامسونج المدعومة بالذكاء الاصطناعي   استمتع بتجربة Neo QLED المذهلة",
-        "text": "يقدم لك معالج 4K المدعوم بالذكاء الاصطناعي من سامسونج واحدة من أفضل تجارب المشاهدة بدقة 4K. تساعد تقنية الارتقاء بالدقة إلى 4K مع الذكاء الاصطناعي التي تدعمها 20 شبكة من شبكات الذكاء الاصطناعي العصبية على تحويل المحتوى إلى صورة بجودة تقارب دقة 4K. كذلك يعمل معالج NQ4 AI Gen2 على تحسين الصورة والصوت ليمنحك تجربة بدقة 4K سواءٌ أكنت تستخدم خدمات بث OTT أو تلعب لعبة الفيديو المفضلة لك أو تشاهد المباريات المباشرة.",
-        "image": {
-          "name": "B0D22WCYBR",
-          "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bc4fb65c-ffcb-40b7-975a-fbf3ed7348bb.__CR154,0,1132,700_PT0_SX970_V1___.jpg"
-        }
-      },
-      {
-        "type": "3p-module-b",
-        "title": "NEO QLED  استمتع بكل التفاصيل عبر التحكم في الضوء فائق الدقة",
-        "text": "يمضي مستقبل Neo QLED نحو مزيد من التطوير مع تكنولوجيا Quantum Matrix Technology التي تتحكم بدقة في شاشات Quantum Mini LED الخاصة بنا. يساعد هذا التحكم الدقيق فائق الانضباط في الضوء على إظهار التفاصيل بدقة مذهلة سواءٌ في أكثر المشاهد إظلاماً أو سطوعاً.",
-        "image": {
-          "name": "B0D22WCYBR",
-          "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0d77d11f-1101-42c0-8e1d-35e13dc517c2.__CR0,87,970,600_PT0_SX970_V1___.jpg"
-        }
-      },
-      {
-        "type": "3p-module-b",
-        "title": "سطوع قوي وتباين أعمق ينعَكِسَان تماماً على كل بكْسَل",
-        "text": "* لا تتوفر دقة 4K بمعدل التحديث 144 هرتز إلا مع الألعاب المتصلة بجهاز PC والتي تدعم هذه المواصفات (يلزم وجود بطاقة رسوميات لجهاز PC). قد يختلف مستوى الأداء.",
-        "image": {
-          "name": "B0CYQ5X3Q4",
-          "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a143d814-edba-4012-a9a3-f37d745032d3.__CR203,0,1035,640_PT0_SX970_V1___.jpg"
-        }
-      },
-      {
-        "type": "module-4",
-        "title": null,
-        "items": [
-          {
-            "title": "تجربة لعب رائعة",
-            "text": null,
-            "image": {
-              "name": "B0D22WCYBR",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7c88cb4-1516-4d37-8b81-a93265547780.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
-            }
-          },
-          {
-            "title": "تجربة لعب رائعة",
-            "text": null,
-            "image": {
-              "name": "B0D3R6Y6CZ",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/78bf4572-9a5b-448f-936c-fb57fd809e94.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-            }
-          },
-          {
-            "title": "جودة الصورة",
-            "text": null,
-            "image": {
-              "name": "B0CYQ5X3Q4",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0079bdcd-3207-49a7-9dc9-9ba22a88dfc1.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-            }
-          },
-          {
-            "title": "جودة الصورة",
-            "text": null,
-            "image": {
-              "name": "B0D3R6Y6CZ",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a959c182-bdd7-4274-b09c-e04f6009136f.__CR113,0,675,675_PT0_SX220_V1___.jpg"
-            }
-          }
-        ]
-      },
-      {
-        "type": "module-4",
-        "title": null,
-        "items": [
-          {
-            "title": "المساعد Daily+‎ من سام",
-            "text": null,
-            "image": {
-              "name": "المساعد +Daily من سامسونج",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0ccbcfdc-f529-417e-a9c2-4a926459ba07.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
-            }
-          },
-          {
-            "title": "المساعد Daily+‎ من سام",
-            "text": null,
-            "image": {
-              "name": "المساعد +Daily من سامس",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7bf092a-c858-4e4e-902e-69fd81fe8292.__CR58,0,676,676_PT0_SX220_V1___.jpeg"
-            }
-          },
-          {
-            "title": "الأمان والاستدامة",
-            "text": null,
-            "image": {
-              "name": "B0D3R6Y6CZ",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/11786ace-305f-42b1-bd8f-50fc87c6d17a.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-            }
-          },
-          {
-            "title": "الأمان والاستدامة",
-            "text": null,
-            "image": {
-              "name": "الحماية والاستدامة",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2795254-f8cb-493f-b4ab-9a457eebb49a.__CR113,0,675,675_PT0_SX220_V1___.jpeg"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "brandStory": null,
-  "productComparison": null,
-  "aiReviewsSummary": null,
-  "monthlyPurchaseVolume": null,
-  "productPageReviews": [
-    {
-      "username": "SD",
-      "userId": "amzn1.account.AGMRMV2LNHAB2A6ZAHN7BH2GFXPA",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGMRMV2LNHAB2A6ZAHN7BH2GFXPA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 1,
-      "reviewTitle": "Bad quality",
-      "reviewDescription": "Bad quality, TV box was opened and used before . Even some ones account on Samsung Tv was logged in with their user name and password!",
-      "date": null,
-      "position": 1,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 7 يناير 2025",
-      "reviewId": "R2N1F0G0M66KV0",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R2N1F0G0M66KV0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0D22WCYBR",
-      "reviewImages": [],
-      "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": "الحجم: 65 Inch"
-    }
-  ],
-  "productPageReviewsFromOtherCountries": [],
-  "locationText": "مصر",
-  "loadedCountryCode": "EG",
-  "offers": [],
-  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=2",
-  "categoryPageData": {
-    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
-    "isSponsored": false,
-    "bestsellerBadge": null,
-    "productPosition": 46
-  },
-  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
-},
-{
-    "title":" SAMSUNG 85-Inch Class 4K Crystal UHD DU8000 Series HDR Smart TV w/Object Tracking Sound Lite, Motion Xcelerator 120Hz, Ultra Slim Design, Gaming Hub, Alexa Built-in (UN85DU8000, 2024 Model)",
-    "urls": {
-      "amazon": "https://www.amazon.com/SAMSUNG-85-Inch-Tracking-Xcelerator-UN85DU8000/dp/B0CV9MGY1N",
-      "jumia":"https://www.jumia.com.eg/ar/samsung-85-inch-4k-uhd-smart-led-tv-with-built-in-receiver-ua85du8000-99934733.html"
-    },
-    "asin": "B0CV9MGY1N",
-    "originalAsin": "B0CV9MGY1N",
-    "priceAmazon": 58131,
-    "priceJumia":63999,
-    "stars": 4.4,
-    "starsBreakdown": {
-      "5star": 0.53,
-      "4star": 0.5,
-      "3star": 0.32,
-      "2star": 0.54,
-      "1star": 0.37
-    },
-    "reviewsCount": 1351,
-    "answeredQuestions": null,
-    "breadCrumbs": "Electronics > Televisions > Smart TVs > 4K Ultra HD TVs",
-    "videosCount": 0,
-    "visitStoreLink": {
-      "text": "Visit the Samsung Store",
-      "url": "https://www.amazon.com/stores/Samsung/page/3CA71ECF-7798-49EB-9F58-4C24F69D25D6"
-    },
-    "thumbnailImage": "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SY355_.jpg",
-    "galleryThumbnails": [
-      "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SY355_.jpg"
-    ],
-    "highResolutionImages": [
-      "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
-    ],
-    "sustainabilityFeatures": null,
-    "description": "Experience stunning visuals with the Samsung 85\" Crystal UHD 4K Smart TV. Powered by the Crystal Processor 4K, it delivers vibrant colors and sharp details. Features include HDR support, Motion Xcelerator for smooth motion, and a sleek AirSlim design. Enjoy immersive audio with Object Tracking Sound Lite and Q-Symphony. Access your favorite content effortlessly with the Tizen OS and built-in Alexa.",
-    "features": [
-      "85-inch Crystal UHD 4K display with 3840 x 2160 resolution",
-      "Crystal Processor 4K for enhanced picture quality",
-      "HDR and HDR10+ support for vivid visuals",
-      "Motion Xcelerator 120Hz for smooth motion handling",
-      "Object Tracking Sound Lite and Q-Symphony for immersive audio",
-      "Tizen OS with built-in Alexa for smart functionality",
-      "AirSlim design for a sleek and modern look"
-    ],
-    "attributes": [
-      {
-        "key": "Product Dimensions (with stand)",
-        "value": "15.6D x 74.8W x 44.5H"
-      },
-      {
-        "key": "Product Dimensions (without stand)",
-        "value": "1900.9 x 1086.1 x 26.9 mm"
-      },
-      {
-        "key": "Weight (with stand)",
-        "value": "43.5 kg"
-      },
-      {
-        "key": "Weight (without stand)",
-        "value": "41.5 kg"
-      },
-      {
-        "key": "Power Consumption (Max)",
-        "value": "320 W"
-      },
-      {
-        "key": "VESA Mount Compatibility",
-        "value": "600 x 400 mm"
-      },
-      {
-        "key": "Connectivity",
-        "value": "Bluetooth, Wi-Fi"
-      },
-      {
-        "key": "Model Number",
-        "value": "UA85DU8000"
-      },
-      {
-        "key": "Country of Origin",
-        "value": "Egypt"
-      }
-    ],
-    "productOverview": [
-      {
-        "key": "Screen Size",
-        "value": "85 inches"
-      },
-      {
-        "key": "Brand Name",
-        "value": "Samsung"
-      },
-      {
-        "key": "Display Technology",
-        "value": "LED"
-      },
-      {
-        "key": "Resolution",
-        "value": "4K (3840 x 2160)"
-      },
-      {
-        "key": "Refresh Rate",
-        "value": "100 Hz"
-      },
-      {
-        "key": "Special Features",
-        "value": "HDR, Motion Xcelerator, Object Tracking Sound Lite, Q-Symphony, Tizen OS, Alexa Built-in"
-      },
-      {
-        "key": "Included Components",
-        "value": "Remote Control, Power Cable, User Manual"
-      }
-    ]
-  ,
-  
-
- "variantDetails": [
-    {
-      "name": "85 Inch",
-      "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
-      "images": [
-        "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
-      ],
-      "asin": "B0D22WCYBR",
-      "price": null
-    },
-    {
-      "name": "55 Inch",
-      "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
-      "images": [
-        "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg"
-      ],
-      "asin": "B0D22X3DX9",
-      "price": null
-    },
-    {
-      "name": "65 Inch",
-      "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
-      "images": [
-        "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/51zUrA3M2dL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/51asnjPdJHL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/210SMVqNCtL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/615qIYHadXL._AC_SL1000_.jpg"
-      ],
-      "asin": "B0D22WMH4X",
-      "price": null
-    },
-    {
-      "name": "75 Inch",
-      "thumbnail": "https://m.media-amazon.com/images/I/41l8qcvMaML._AC_US.jpg",
-      "images": [
-        "https://m.media-amazon.com/images/I/61o8FefYxJL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/51zUrA3M2dL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/51asnjPdJHL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/210SMVqNCtL._AC_SL1000_.jpg",
-        "https://m.media-amazon.com/images/I/615qIYHadXL._AC_SL1000_.jpg"
-      ],
-      "asin": "B0D22VZZ3B",
-      "price": null
-    }
-  ],
-  "reviewsLink": "https://www.amazon.eg/product-reviews/B0D22WCYBR",
-  "hasReviews": true,
-  "delivery": "الجمعة، 18 أبريل",
-  "fastestDelivery": null,
-  "returnPolicy": null,
-  "support": null,
-  "variantAttributes": [
-    {
-      "key": "الحجم",
-      "value": "85 Inch"
-    }
-  ],
-  "manufacturerAttributes": [],
-  "seller": {
-    "name": "Amazon.eg",
-    "id": null,
-    "url": null,
-    "reviewsCount": null,
-    "averageRating": null
-  },
-  "bestsellerRanks": null,
-  "isAmazonChoice": false,
-  "amazonChoiceText": null,
-  "bookDescription": null,
-  "priceRange": null,
-  "aPlusContent": {
-    "title": "من الشركة المصنّعة",
-    "rawText": "من الشركة المصنّعة\nعصر جديد مع تلفزيونات سامسونج المدعومة بالذكاء الاصطناعي \nاستمتع بتجربة Neo QLED المذهلة \nيقدم لك معالج 4K المدعوم بالذكاء الاصطناعي من سامسونج واحدة من أفضل تجارب المشاهدة بدقة 4K. تساعد تقنية الارتقاء بالدقة إلى 4K مع الذكاء الاصطناعي التي تدعمها 20 شبكة من شبكات الذكاء الاصطناعي العصبية على تحويل المحتوى إلى صورة بجودة تقارب دقة 4K. كذلك يعمل معالج NQ4 AI Gen2 على تحسين الصورة والصوت ليمنحك تجربة بدقة 4K سواءٌ أكنت تستخدم خدمات بث OTT أو تلعب لعبة الفيديو المفضلة لك أو تشاهد المباريات المباشرة. \nNEO QLED \nاستمتع بكل التفاصيل عبر التحكم في الضوء فائق الدقة \nيمضي مستقبل Neo QLED نحو مزيد من التطوير مع تكنولوجيا Quantum Matrix Technology التي تتحكم بدقة في شاشات Quantum Mini LED الخاصة بنا. يساعد هذا التحكم الدقيق فائق الانضباط في الضوء على إظهار التفاصيل بدقة مذهلة سواءٌ في أكثر المشاهد إظلاماً أو سطوعاً. \nسطوع قوي وتباين أعمق ينعَكِسَان تماماً على كل بكْسَل \n* لا تتوفر دقة 4K بمعدل التحديث 144 هرتز إلا مع الألعاب المتصلة بجهاز PC والتي تدعم هذه المواصفات (يلزم وجود بطاقة رسوميات لجهاز PC). قد يختلف مستوى الأداء. \nتجربة لعب رائعة \nخاصيةMotion Xcelerator ‏120 هرتز \nحركة واضحة لمحتوى الألعاب الذي تفضله بدقة تصل إلى 4K ومعدل تحديث 120 هرتز \nبفضل التحسينات الاستثنائية للحركة؛ تقدم خاصية Motion Xcelerator بمعدل تحديث 120 هرتز أداءً حركياً متميزاً يدعم الألعاب ذات معدل التحديث المتباين (VRR) بمعدل تحديث يصل إلى 120 هرتز، بحيث يمكنك الفوز على جميع خصومك حتى عند اللعب بسرعات خارقة. \n* قد تختلف تجربة المشاهدة باختلاف أنواع المحتوى والتنسيق. \nتجربة لعب رائعة \nاستمتع بإضاءة مبهرة تتزامن مع تجربتك في المشاهدة واللعب \nانغمِس بجميع حواسك في بيئات مُصَمّمة بطريقة دينَامِيكية خصيصاً لك توفرها المَصَابيح الذكية التي تتزامن تلقائياً مع أي من مكونات المحتوى الظاهر على شاشتك. \n* يُباع المِصْباح الذكي منفصلاً. ** في منَاطق معينة فقط. *** يجب توفر حساب سامسونج. يجب تثبيت تطبيقPhilips Hue Sync ويجب توفر اشتراك مدفوع. \nجودة الصورة \nمُحسِّن العمق الواقعي الاحترافي \nصور واقعية تشبه صور الـ 3D ومستوحاة من العين البشرية \nيكشف مُحسِّن العمق الواقعي الاحترافي المناطق التي تركّز عليها العين البشرية عادةً ويقوم بتحسين عرضه للعمق وفقاً لذلك. وهو يحسّن العديد من مجموعات مَصَابيح NEO QLED الصغيرة بدقة ليتسنى لك الاستمتاع بصور واقعية تشابه الأبعاد الثلاثية \"3D\" في المنزل. \n* قد تختلف تجربة المشاهدة حسب أنواع المحتوى والتنسيقات \nجودة الصورة \nاعتمادPANTONE \nاستمتع باللون الأصلي الذي نال مُصَادقة PANTONE \nيُثبت اعتماد PANTONE التعبير اللوني الدقيق عن 2030 لوناً من ألوانPANTONE و110 درجات لون بشرة تمت إضافتها مؤخراً. وهكذا يمكنك الاستمتاع بتجربة مشاهدة واقعية ودقيقة أفضل من أي وقت سبق. \nالمساعد Daily+‎ من سام \nالمساعدDaily+‎ من سامسونج \nقم بإدارة أنشطتك اليومية وأسلوب حياتك بسهولة أكبر من خلال نظام التشغيلTizen من سامسونج \nمع توفر النظام المتكامل للتطبيقات المفتوحة في نظام التشغيل Tizen من سامسونج، يمكّنك Daily+‎ من إدارة أنشطتك اليومية وأسلوب حياتك بكل سهولة من خلال جهاز الـ TV. ويتضمن Daily+‎ تطبيقات وخدمات مثلSmartThings وWorkspace. \n* سامسونج ليست مسؤولة عن أي خدمات من جهات خارجية، ولا تتحمل مسؤولية أي أضرار أو خسائر تتسبب فيها أي خدمات من جهات خارجية. ** الخدمة المتاحة وواجهة المستخدم عرضة للتغيير من دون إخطار \nالمساعد Daily+‎ من سام \nتحكم من خلال تطبيق SmartThings! \nأحسِن استخدام أجهزتك المنزلية لتستمتع بأسلوب حياة ذكي مُصَ \nمّم خصيصاً وفق احتياجاتك. يمكنك، بفضل المحور المضمّن في تطبيقSmartThings، الاستمتاع بمنزل ذكي مخصّص مع العديد من الأجهزة المتوافقة مع SmartThings والتي تعمل على تبسيط حياتك اليومية. \n* قد تختلف التكنولوجيا والوظائف والميزات المتاحة باختلاف البلد أو مقدم الخدمة أو بيئة الشبكة أو المنتج، وهي عُرضة للتغيير من دون إخطار. ** يتطلب Wi-Fi أو بلوتوث أو اتصالاً شبكياً لاسلكياً آخر وتسجيل الدُخُوْل إلى حساب سامسونج. *** تُباع الأجهزة المتصلة بصورة منفصلة. **** يتطلب استخدام تكنولوجيا calm الموافقة على إخطاري الخصوصية لكلٍّ من SmartThings والجهاز المسجل تلقائياً. ***** واجهة المستخدم عُرضة للتغيير من دون إخطار مسبق. \nالأمان والاستدامة \nجهاز التحكم عن بُعدSolarCell Remote \nجهاز تحكم عن بعد مَصُنوع من مواد مُعاد تدويرها ومشحون بضوء الشمس والإضاءة الداخلية \nلم تعد بحاجة الآن إلى استخدام البطاريات أحادية الاستخدام مع جهاز التحكّم عن بُعد SolarCell Remote، لأنها ليست الخيار الأفضل للبيئة، فهذا الجهاز يأتي مجهزاً بلوحة طاقة شمسية في الجزء الخلفي لاستخدامها في الشحن. \n* لشحن جهاز التحكم عن بُعد في الـ TV بالطاقة الشمسية، ضعه على لوحة الشحن بالطاقة الشمسية مع توجيه الجهة الأمامية لأسفل. ضعه في غرفة معيشتك على أن تكون المَصَابيح قيد التشغيل، أو يمكنك وضعه بالقرب من النافذة كي يمتص ضوء الشمس الطبيعي. ** في حال نفاد بطارية جهاز التحكم عن بعد، يمكنك شحنها باستخدام كابل USB-C. للتحقق من مستوى البطارية المتبقي في جهاز التحكم عن بعد، ارجع إلى قائمة TV (الإعدادات > الإعدادات العامة والخصوصية > الكهرباء وتوفير الطاقة > بطارية جهاز التحكم عن بعد المتوفرة). *** قد يختلف تصميم جهاز التحكم عن بُعدSolarCell remote وتصميم أزراره حسب المنطقة. **** يحتوي جهاز التحكم عن بعد SolarCell Remote في طرازات أجهزة الـ \nالأمان والاستدامة \nأمانSamsung Knox \nخصوصيتك. مؤمَّنة. \nتتم حماية خصوصيتك الآن على أجهزة سامسونج TV، وحماية بياناتك الحساسة مثل رموز pin أو كلمات المرور بواسطة طبقات متعددة من البرامج والأجهزة. بالإضافة إلى ذلك، يعمل أمانSamsung Knox على تأمين أجهزة IoT المنزلية المتصلة بجهاز TV ويحظر تلقائياً تنفيذ التطبيقات الضارة غير المُصرح بها أو الوصول إلى مواقع التصيد الاحتيالي. وأخيراً، يساعد فريق الأمان المخصّص من سامسونج في الحفاظ على أمان جهازTV لديك من خلال التحديثات الدورية. \n* تسري خدمة \"مؤمَّن بواسطة Knox\" على أجهزة TV من سامسونج التي تعمل بنظامTizen المطروحة في الأسواق منذ عام 2015. ** يُمنح ضمان تحديث برنََامِج الأمان لمدة ثلاث سنوات على الأقل من تاريخ طرح المنتج في الأسواق. *** يلزم آخر تحديث للبرنَامِج",
-    "rawImages": [
-      {
-        "name": "B0D22WCYBR",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bc4fb65c-ffcb-40b7-975a-fbf3ed7348bb.__CR154,0,1132,700_PT0_SX970_V1___.jpg"
-      },
-      {
-        "name": "B0D22WCYBR",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0d77d11f-1101-42c0-8e1d-35e13dc517c2.__CR0,87,970,600_PT0_SX970_V1___.jpg"
-      },
-      {
-        "name": "B0CYQ5X3Q4",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a143d814-edba-4012-a9a3-f37d745032d3.__CR203,0,1035,640_PT0_SX970_V1___.jpg"
-      },
-      {
-        "name": "B0D22WCYBR",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7c88cb4-1516-4d37-8b81-a93265547780.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
-      },
-      {
-        "name": "B0D3R6Y6CZ",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/78bf4572-9a5b-448f-936c-fb57fd809e94.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-      },
-      {
-        "name": "B0CYQ5X3Q4",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0079bdcd-3207-49a7-9dc9-9ba22a88dfc1.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-      },
-      {
-        "name": "B0D3R6Y6CZ",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a959c182-bdd7-4274-b09c-e04f6009136f.__CR113,0,675,675_PT0_SX220_V1___.jpg"
-      },
-      {
-        "name": "المساعد +Daily من سامسونج",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0ccbcfdc-f529-417e-a9c2-4a926459ba07.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
-      },
-      {
-        "name": "المساعد +Daily من سامس",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7bf092a-c858-4e4e-902e-69fd81fe8292.__CR58,0,676,676_PT0_SX220_V1___.jpeg"
-      },
-      {
-        "name": "B0D3R6Y6CZ",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/11786ace-305f-42b1-bd8f-50fc87c6d17a.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-      },
-      {
-        "name": "الحماية والاستدامة",
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2795254-f8cb-493f-b4ab-9a457eebb49a.__CR113,0,675,675_PT0_SX220_V1___.jpeg"
-      }
-    ],
-    "rawVideos": [],
-    "modules": [
-      {
-        "type": "3p-module-b",
-        "title": "عصر جديد مع تلفزيونات سامسونج المدعومة بالذكاء الاصطناعي   استمتع بتجربة Neo QLED المذهلة",
-        "text": "يقدم لك معالج 4K المدعوم بالذكاء الاصطناعي من سامسونج واحدة من أفضل تجارب المشاهدة بدقة 4K. تساعد تقنية الارتقاء بالدقة إلى 4K مع الذكاء الاصطناعي التي تدعمها 20 شبكة من شبكات الذكاء الاصطناعي العصبية على تحويل المحتوى إلى صورة بجودة تقارب دقة 4K. كذلك يعمل معالج NQ4 AI Gen2 على تحسين الصورة والصوت ليمنحك تجربة بدقة 4K سواءٌ أكنت تستخدم خدمات بث OTT أو تلعب لعبة الفيديو المفضلة لك أو تشاهد المباريات المباشرة.",
-        "image": {
-          "name": "B0D22WCYBR",
-          "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bc4fb65c-ffcb-40b7-975a-fbf3ed7348bb.__CR154,0,1132,700_PT0_SX970_V1___.jpg"
-        }
-      },
-      {
-        "type": "3p-module-b",
-        "title": "NEO QLED  استمتع بكل التفاصيل عبر التحكم في الضوء فائق الدقة",
-        "text": "يمضي مستقبل Neo QLED نحو مزيد من التطوير مع تكنولوجيا Quantum Matrix Technology التي تتحكم بدقة في شاشات Quantum Mini LED الخاصة بنا. يساعد هذا التحكم الدقيق فائق الانضباط في الضوء على إظهار التفاصيل بدقة مذهلة سواءٌ في أكثر المشاهد إظلاماً أو سطوعاً.",
-        "image": {
-          "name": "B0D22WCYBR",
-          "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0d77d11f-1101-42c0-8e1d-35e13dc517c2.__CR0,87,970,600_PT0_SX970_V1___.jpg"
-        }
-      },
-      {
-        "type": "3p-module-b",
-        "title": "سطوع قوي وتباين أعمق ينعَكِسَان تماماً على كل بكْسَل",
-        "text": "* لا تتوفر دقة 4K بمعدل التحديث 144 هرتز إلا مع الألعاب المتصلة بجهاز PC والتي تدعم هذه المواصفات (يلزم وجود بطاقة رسوميات لجهاز PC). قد يختلف مستوى الأداء.",
-        "image": {
-          "name": "B0CYQ5X3Q4",
-          "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a143d814-edba-4012-a9a3-f37d745032d3.__CR203,0,1035,640_PT0_SX970_V1___.jpg"
-        }
-      },
-      {
-        "type": "module-4",
-        "title": null,
-        "items": [
-          {
-            "title": "تجربة لعب رائعة",
-            "text": null,
-            "image": {
-              "name": "B0D22WCYBR",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7c88cb4-1516-4d37-8b81-a93265547780.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
-            }
-          },
-          {
-            "title": "تجربة لعب رائعة",
-            "text": null,
-            "image": {
-              "name": "B0D3R6Y6CZ",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/78bf4572-9a5b-448f-936c-fb57fd809e94.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-            }
-          },
-          {
-            "title": "جودة الصورة",
-            "text": null,
-            "image": {
-              "name": "B0CYQ5X3Q4",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0079bdcd-3207-49a7-9dc9-9ba22a88dfc1.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-            }
-          },
-          {
-            "title": "جودة الصورة",
-            "text": null,
-            "image": {
-              "name": "B0D3R6Y6CZ",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a959c182-bdd7-4274-b09c-e04f6009136f.__CR113,0,675,675_PT0_SX220_V1___.jpg"
-            }
-          }
-        ]
-      },
-      {
-        "type": "module-4",
-        "title": null,
-        "items": [
-          {
-            "title": "المساعد Daily+‎ من سام",
-            "text": null,
-            "image": {
-              "name": "المساعد +Daily من سامسونج",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0ccbcfdc-f529-417e-a9c2-4a926459ba07.__CR112,0,676,676_PT0_SX220_V1___.jpeg"
-            }
-          },
-          {
-            "title": "المساعد Daily+‎ من سام",
-            "text": null,
-            "image": {
-              "name": "المساعد +Daily من سامس",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d7bf092a-c858-4e4e-902e-69fd81fe8292.__CR58,0,676,676_PT0_SX220_V1___.jpeg"
-            }
-          },
-          {
-            "title": "الأمان والاستدامة",
-            "text": null,
-            "image": {
-              "name": "B0D3R6Y6CZ",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/11786ace-305f-42b1-bd8f-50fc87c6d17a.__CR112,0,676,676_PT0_SX220_V1___.jpg"
-            }
-          },
-          {
-            "title": "الأمان والاستدامة",
-            "text": null,
-            "image": {
-              "name": "الحماية والاستدامة",
-              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2795254-f8cb-493f-b4ab-9a457eebb49a.__CR113,0,675,675_PT0_SX220_V1___.jpeg"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "brandStory": null,
-  "productComparison": null,
-  "aiReviewsSummary": null,
-  "monthlyPurchaseVolume": null,
-  "productPageReviews": [
-    {
-      "username": "SD",
-      "userId": "amzn1.account.AGMRMV2LNHAB2A6ZAHN7BH2GFXPA",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGMRMV2LNHAB2A6ZAHN7BH2GFXPA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 1,
-      "reviewTitle": "Bad quality",
-      "reviewDescription": "Bad quality, TV box was opened and used before . Even some ones account on Samsung Tv was logged in with their user name and password!",
-      "date": null,
-      "position": 1,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 7 يناير 2025",
-      "reviewId": "R2N1F0G0M66KV0",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R2N1F0G0M66KV0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0D22WCYBR",
-      "reviewImages": [],
-      "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": "الحجم: 65 Inch"
-    }
-  ],
-  "productPageReviewsFromOtherCountries": [],
-  "locationText": "مصر",
-  "loadedCountryCode": "EG",
-  "offers": [],
-  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=2",
-  "categoryPageData": {
-    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
-    "isSponsored": false,
-    "bestsellerBadge": null,
-    "productPosition": 46
-  },
-  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
-},
-{
   "title": "Haier H55S90EU- 55 Inch 4K QLED Smart Google TV - Gaming@144 Hz -Dolby Vision IQ&Atmos - MEMC/VRR/ALLM -3+32GB RAM/ROM-Hands Free Voice Control-WiFi6-Chromecast- HDMI 2.1 - Premium Bezel-Less Design",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B0D5MKNN6M",
@@ -17086,8 +17270,8 @@
     },
   "asin": "B0D5MKNN6M",
   "originalAsin": "B0D5MKNN6M",
- "priceAmazon":27199,
-    "priceJumia":26500,
+ "priceAmazon":27599,
+    "priceJumia":26500.00 ,
     
       "inStock": true,
       "inStockText": "Available",
@@ -17367,12 +17551,14 @@
   "title": "Haier H50K80EU-50 Inch 4K UHD Smart Google TV - Dolby Audio - Stereo Speaker - MEMC/VRR/ALLM - 2+32GB RAM/ROM - Voice Control - HDR10 - Chromecast- HDMI 2.1 - Bezel-Less Design",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/Haier-H50K80EU-50-Inch-Smart-Google/dp/B0D5MJTLQB/ref=sr_1_1?crid=2NGP5U83PBQDI&dib=eyJ2IjoiMSJ9.cH91lnxRwQdcq3SA0iekgnguatekUmzhx5_8BZqIUWAM0W3_rjnd4cajUWMnCgBP21OZgu4IucYS_i5MOUh4EhZfmc4CbgenIWR-rPPfDHzv5vLIbJnMjfcojXsbCUmYMq-_LPHtbkP07WVFHY73z3vTIoD8rvKTvLfA27iZqxKH7xV_hqYZq5A36V_L4W0smTIFJRWynOA0NckfInyLkSAkO0KMz2JFGGJh34n1fPk.tHlBxrjoEbfOawy6EvYns5ByBkcBX6Y5gRm5WPZKnRY&dib_tag=se&keywords=%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86+%D9%87%D8%A7%D9%8A%D8%B1+50+%D8%A8%D9%88%D8%B5%D8%A9+K80E+%D8%A8%D8%AF%D9%82%D8%A9+4K+UHD+-+2024&qid=1745144686&sprefix=%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86+%D9%87%D8%A7%D9%8A%D8%B1+50+%D8%A8%D9%88%D8%B5%D8%A9+k80e+%D8%A8%D8%AF%D9%82%D8%A9+4k+uhd+-+2024%2Caps%2C128&sr=8-1",
-      "jumia": "https://www.jumia.com.eg/ar/haier-50-k80e-4k-uhd-smart-tv-2024-111365262.html"
+      "jumia": "https://www.jumia.com.eg/ar/haier-50-k80e-4k-uhd-smart-tv-2024-111365262.html",
+      "noon":"https://www.noon.com/egypt-ar/50-inch-4k-uhd-smart-google-tv-dolby-audio-stereo-speaker-memc-vrr-allm-2-32gb-ram-rom-voice-control-hdr10-chromecast-hdmi-2-1-bezel-less-design-h50k80eu-black/N70070702V/p/?o=a3baf302ac8f016b&shareId=a47d8182-c70e-4ac1-9617-498063ab360c"
     },
   "asin": "B0D5MJTLQB",
   "originalAsin": "B0D5MJTLQB",
- "priceAmazon":14340,
-    "priceJumia":16200,
+ "priceAmazon":15340,
+    "priceJumia":16000.00,
+    "priceNoon":14469.00,
     
       "inStock": true,
       "inStockText": "Available",
@@ -17652,12 +17838,14 @@
   "title":" Samsung 65 Inch TV Neo Quantum Processor 4K QLED - Carbon Silver - QA65QN90DAUXEG [2024 Model]",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/Samsung-Inch-Quantum-Processor-QLED/dp/B0CYQ78DCD/ref=sr_1_1?crid=1T1RK18F7WQAA&dib=eyJ2IjoiMSJ9.HyDS0BI0Yo28MQy2b6bhGXANrOCNZ5rWiJ803aMdZhw.ktKXyJoqzp23zVEVUE9A0-JsqfJlsNCExteyBR40WCQ&dib_tag=se&keywords=QA65QN90DAUXEG&qid=1745236453&sprefix=qa65qn90dauxeg%2Caps%2C119&sr=8-1&th=1",
+      "noon":"https://www.noon.com/egypt-ar/samsung-65-inch-tv-quantum-processor-4k-qled-qa65q80dauxeg-eclipse-silver/N70126856V/p/?o=aee19a6959cc112f&shareId=769b14db-2011-41d1-91f3-5de916b668b0",
       "jumia": "https://www.jumia.com.eg/ar/samsung-65-inch-tv-neo-quantum-processor-4k-qled-carbon-silver-qa65qn90dauxeg-2024-model-67771556.html"
     },
   "asin": " B0CYQ78DCD",
   "originalAsin": " B0CYQ78DCD",
   "priceAmazon":65119,
-    "priceJumia":64999,
+    "priceJumia":64999.00,
+    "priceNoon":54999.00,
     
       "inStock": true,
       "inStockText": "Available",
@@ -18024,12 +18212,14 @@
   "title": "Grouhy 32 Inch LED HD TV - GLD32NA",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B08X6R6ZWT",
+      "noon":"https://www.noon.com/egypt-ar/32-inch-led-hd-tv-gld32na-black/N31911163A/p/?o=bd1743e196d303ff&shareId=8e914bdb-b562-40d0-97f1-f8c433c48160",
       "jumia": "https://www.jumia.com.eg/ar/grouhy-32-inch-hd-led-tv-gld32na-130176748.html"
     },
   "asin": "B08X6R6ZWT",
   "originalAsin": "B08X6R6ZWT",
   "priceAmazon":7799,
-    "priceJumia":8500,
+    "priceJumia":8500.00 ,
+    "priceNoon":4099.00,
     
       "inStock": false,
       "inStockText": "",
@@ -18335,319 +18525,7 @@
   },
   "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
 },
-{
-  "title": "https://www.amazon.eg/dp/B08X5ZYPKZ",
-  "urls": {
-      "amazon": "https://www.amazon.eg/dp/B0CYZQGMYV",
-      "jumia":null
-    },
-  "asin": "B08X5ZYPKZ",
-  "originalAsin": "B08X5ZYPKZ",
-  "priceAmazon":12655,
-  "priceJumia":13455,
-  
-    "inStockText": "",
-    "listPrice": null,
-    "brand": "Groehe",
-    "author": null,
-    "shippingPrice": null,
-    "stars": 4,
-    "starsBreakdown": {
-      "5star": 0.47,
-      "4star": 0.24,
-      "3star": 0.14,
-      "2star": 0.15,
-      "1star": 0
-    },
-    "reviewsCount": 14,
-    "answeredQuestions": null,
-    "breadCrumbs": "Electronics > Home Theater, TV & Video > Televisions > Smart TVs",
-    "videosCount": 0,
-    "visitStoreLink": {
-      "text": "Brand: Groehe",
-      "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D8%AC%D8%B1%D9%88%D9%87%D9%8A"
-    },
-    "thumbnailImage": "https://m.media-amazon.com/images/I/512zqqkzxgL.__AC_SX300_SY300_QL70_ML2_.jpg",
-    "galleryThumbnails": [
-      "https://m.media-amazon.com/images/I/41fOwcOv4yL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/21EOzW8r5aL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/31h8aU-SQNL._AC_US.jpg"
-    ],
-    "highResolutionImages": [
-      "https://m.media-amazon.com/images/I/512zqqkzxgL._AC_SL1000_.jpg"
-    ],
-    "sustainabilityFeatures": null,
-    "description": "The Groehe 43-inch GLD43NA Full HD LED TV offers a comprehensive set of connectivity options to accommodate various audio and video sources. It features two HDMI ports for high-quality digital connections, two USB ports for media playback or device charging, and a VGA port for legacy computer connections. The inclusion of a PC audio input ensures synchronized sound when using VGA. For traditional setups, it provides AV and YPbPr inputs, along with an RF antenna connection for analog TV signals. The audio output is supported by a headphone jack for private listening. The device enhances viewing experiences with multiple picture modes including Dynamic, Standard, and Soft, allowing users to customize their visual preferences. Additionally, it offers adjustable noise reduction settings (Low, Medium, High, or Off) to improve picture clarity. This versatile range of inputs makes the device compatible with a wide array of modern and legacy equipment, ensuring flexibility in home entertainment setups.",
-    "features": [
-      "2 HDMI Ports",
-      "2 USB Ports",
-      "VGA Port",
-      "PC Audio Input",
-      "AV Port",
-      "YPbPr Port",
-      "RF Port: Analog ANT 75Ω",
-      "Headphone Port",
-      "Languages: Arabic and English",
-      "Equipped with a Clock"
-    ],
-    "attributes": [
-      {
-        "key": "Product Dimensions",
-        "value": "9.42 x 97.14 x 56.6 cm; 7 Kilograms"
-      },
-      {
-        "key": "Date First Available",
-        "value": "February 22, 2021"
-      },
-      {
-        "key": "Manufacturer",
-        "value": "Groehe"
-      },
-      {
-        "key": "ASIN",
-        "value": "B08X5ZYPKZ"
-      },
-      {
-        "key": "Best Sellers Rank: #31 in Smart TVs",
-        "value": ""
-      },
-      {
-        "key": "User Reviews: 4.0 out of 5 stars (14 ratings)",
-        "value": ""
-      }
-    ],
-    "productOverview": [
-      {
-        "key": "Screen Size",
-        "value": "43 Inches"
-      },
-      {
-        "key": "Brand Name",
-        "value": "Groehe"
-      },
-      {
-        "key": "Display Technology",
-        "value": "LED"
-      },
-      {
-        "key": "Resolution",
-        "value": "1080p"
-      },
-      {
-        "key": "Refresh Rate",
-        "value": "60"
-      },
-      {
-        "key": "Special Features",
-        "value": "Flat"
-      },
-      {
-        "key": "Included Components",
-        "value": "Remote Control, User Manual, Stand"
-      },
-      {
-        "key": "Connectivity Technology",
-        "value": "Bluetooth, USB, HDMI"
-      },
-      {
-        "key": "Aspect Ratio",
-        "value": "16:9"
-      },
-      {
-        "key": "Product Dimensions (Depth x Width x Height)",
-        "value": "9.4D x 97.1W x 56.6H cm"
-      }
-    ]
-  ,
-  
-  "variantAsins": [],
-  "variantDetails": [],
-  "reviewsLink": "https://www.amazon.eg/product-reviews/B08X5ZYPKZ",
-  "hasReviews": true,
-  "delivery": null,
-  "fastestDelivery": null,
-  "returnPolicy": null,
-  "support": null,
-  "variantAttributes": [],
-  "manufacturerAttributes": [],
-  "seller": null,
-  "bestsellerRanks": null,
-  "isAmazonChoice": false,
-  "amazonChoiceText": null,
-  "bookDescription": null,
-  "priceRange": null,
-  "aPlusContent": null,
-  "brandStory": null,
-  "productComparison": null,
-  "aiReviewsSummary": null,
-  "monthlyPurchaseVolume": null,
-  "productPageReviews": [
-    {
-      "username": "tawfeek83",
-      "userId": "amzn1.account.AF7T2IHP7HK7T23BQJTNKDH2DL5A",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AF7T2IHP7HK7T23BQJTNKDH2DL5A/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 5,
-      "reviewTitle": "شاشة جروهى ٤٣ بوصة",
-      "reviewDescription": "المنتج جيد شاشة جروهى ٤٣ بوصة  قيمة مقابل سعر .",
-      "date": null,
-      "position": 1,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 8 نوفمبر 2024",
-      "reviewId": "R79MDWTLSX7MQ",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R79MDWTLSX7MQ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
-      "reviewImages": [],
-      "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": ""
-    },
-    {
-      "username": "mohamed a.",
-      "userId": "amzn1.account.AGVVMG6LBG2XVZ4LNIFCRBVFT5LA",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGVVMG6LBG2XVZ4LNIFCRBVFT5LA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 3,
-      "reviewTitle": "جيد",
-      "reviewDescription": "الجهاز بصفه عامه جيد. ولكن وصلني الكرتونه متهالكه والحماله التي تقف عليها الشاشه مكسوره والحماله ضعيفه جدا. معرفشي حتي لو وصلت سليمه هاتستحمل شاشه 43 بوصه ازاي الساشه خامتها متوسطه والصوره جيده . رجاء من توكيل جروهي إعادة النظر في استاند الشاشه ضعيف جدا جدا . سيسئ للصوره العامه للمنتج. ولكن الشاشه جميله وصورتها ايضا وشكر",
-      "date": null,
-      "position": 2,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 14 نوفمبر 2024",
-      "reviewId": "R1MC0SP80APMOJ",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1MC0SP80APMOJ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
-      "reviewImages": [],
-      "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": ""
-    },
-    {
-      "username": "منتج ممتاز ويستحق",
-      "userId": "amzn1.account.AE7QADQPH5RZEMND7PA4HERH5DHA",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AE7QADQPH5RZEMND7PA4HERH5DHA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 5,
-      "reviewTitle": "مامتك ممتاز",
-      "reviewDescription": "منتج ممتاز جدا جدا جدا",
-      "date": null,
-      "position": 3,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 6 نوفمبر 2024",
-      "reviewId": "RN4Y5MAG6U209",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RN4Y5MAG6U209/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
-      "reviewImages": [],
-      "reviewReaction": null,
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": ""
-    },
-    {
-      "username": "المشترى",
-      "userId": "amzn1.account.AGHGAMAC4MXOEPMABGMFUZHLJU2Q",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGHGAMAC4MXOEPMABGMFUZHLJU2Q/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 5,
-      "reviewTitle": "مشاء الله حلوة",
-      "reviewDescription": "مشاء الله كويسة",
-      "date": null,
-      "position": 4,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 2 نوفمبر 2024",
-      "reviewId": "R1H9DSK1MSPYZS",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1H9DSK1MSPYZS/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
-      "reviewImages": [],
-      "reviewReaction": null,
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": ""
-    },
-    {
-      "username": "user-MDZEBG1",
-      "userId": "amzn1.account.AGKJKUT5OFHTAIADGOXKNMQBMRLQ",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGKJKUT5OFHTAIADGOXKNMQBMRLQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 5,
-      "reviewTitle": "تقييم من سوق.كوم",
-      "reviewDescription": "الى الان يعمل بصورة وصوت جيد",
-      "date": null,
-      "position": 5,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 20 أغسطس 2020",
-      "reviewId": "R3TQ0KUPM0NVH6",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R3TQ0KUPM0NVH6/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
-      "reviewImages": [],
-      "reviewReaction": "7 مستخدمين وجدوا هذه المراجعة مفيدة",
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": ""
-    },
-    {
-      "username": "user-MAA4A11",
-      "userId": "amzn1.account.AHVA5DQW7KNJ4EI5IXUF6MLFCRNA",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHVA5DQW7KNJ4EI5IXUF6MLFCRNA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 5,
-      "reviewTitle": "تقييم من سوق.كوم",
-      "reviewDescription": "صورة ممتازة وجميلة ومنتج جيد جدا له مركز صيانة معتمد شكرا سوق التوصيلإيجابيات هذا المنتج:صورة واضحة وممتازة تضاهي الماركات الأخرى مثل توشيبا وسامسونج",
-      "date": null,
-      "position": 6,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 11 يناير 2020",
-      "reviewId": "R1KIIUGF6CVTX9",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1KIIUGF6CVTX9/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
-      "reviewImages": [],
-      "reviewReaction": "4 مستخدمين وجدوا هذه المراجعة مفيدة",
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": ""
-    },
-    {
-      "username": "user-MA35UT",
-      "userId": "amzn1.account.AGEOZCFPJHORAVTUYJOULQ47U2XQ",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGEOZCFPJHORAVTUYJOULQ47U2XQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 5,
-      "reviewTitle": "تقييم من سوق.كوم",
-      "reviewDescription": "ماشاء الله تبارك الله جميلة",
-      "date": null,
-      "position": 7,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 18 يناير 2021",
-      "reviewId": "RGUFQQX0D3181",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RGUFQQX0D3181/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
-      "reviewImages": [],
-      "reviewReaction": "2 مستخدمين وجدوا هذه المراجعة مفيدة",
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": ""
-    },
-    {
-      "username": "ممتاز جدا وأنصح بالشراء",
-      "userId": "amzn1.account.AEL3GAIF56QX5KOODIXKEVB3O3MA",
-      "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AEL3GAIF56QX5KOODIXKEVB3O3MA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-      "ratingScore": 5,
-      "reviewTitle": "ممتاز",
-      "reviewDescription": "ممتاز",
-      "date": null,
-      "position": 8,
-      "reviewedIn": "تمت كتابة هذا التقييم في مصر في 1 يناير 2025",
-      "reviewId": "R1B8DJLVOATQLK",
-      "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1B8DJLVOATQLK/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08X5ZYPKZ",
-      "reviewImages": [],
-      "reviewReaction": null,
-      "isVerified": false,
-      "isAmazonVine": false,
-      "avatar": null,
-      "variant": ""
-    }
-  ],
-  "productPageReviewsFromOtherCountries": [],
-  "locationText": "مصر",
-  "loadedCountryCode": "EG",
-  "offers": [],
-  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=5",
-  "categoryPageData": {
-    "saleSummary": null,
-    "isSponsored": false,
-    "bestsellerBadge": null,
-    "productPosition": 98
-  },
-  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
-},
+
 {
   "title": "https://www.amazon.eg/dp/B08X5ZYPKZ",
   "urls": {
@@ -18656,8 +18534,8 @@
     },
   "asin": "B0D8ZS2WTV",
   "originalAsin": "B0D8ZS2WTV",
-  "priceAmazon":7950,
-    "priceJumia":8299,
+  "priceAmazon":7999,
+    "priceJumia":7999.00,
     "inStockText": "",
     "listPrice": null,
     "brand": "Groehe",
@@ -18969,7 +18847,7 @@
   "asin": "B08Z4BF3H5",
   "originalAsin": "B08Z4BF3H5",
   "priceAmazon":13499,
-  "priceJumia":5832,
+  "priceJumia":5832.22 ,
   
     "inStock": true,
     "inStockText": "Only 1 left in stock - order now.",
@@ -19376,183 +19254,19 @@
   },
   "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
 },
-{
-  "title": "43 inch FHD LED Smart Android TV with Remote Control - HK4305S1",
-  "urls": {
-      "amazon": "https://www.amazon.eg/dp/B098WCLDGQ",
-      "jumia": "https://www.jumia.com.eg/ar/hoho-43-inch-full-hd-smart-led-tv-hk4305s1-black-15969658.html"
-    },
-  "asin": "B098WCLDGQ",
-  "originalAsin": "B098WCLDGQ",
-  "priceAmazon":7899,
-  "priceJumia":7899,
-  
-    "inStock": true,
-    "inStockText": "In Stock",
-    "listPrice": {
-      "value": 8199,
-      "currency": "EGP"
-    },
-    "brand": "Hoho",
-    "author": null,
-    "shippingPrice": null,
-    "stars": null,
-    "starsBreakdown": {
-      "5star": 0,
-      "4star": 0,
-      "3star": 0,
-      "2star": 0,
-      "1star": 0
-    },
-    "reviewsCount": null,
-    "answeredQuestions": null,
-    "breadCrumbs": "Electronics > Home Theater, TV & Video > Televisions > Smart TVs",
-    "videosCount": 0,
-    "visitStoreLink": {
-      "text": "Brand: Hoho",
-      "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D9%87%D9%88%D9%87%D9%88"
-    },
-    "thumbnailImage": "https://m.media-amazon.com/images/I/51rfFGjlx5S.__AC_SY300_SX300_QL70_ML2_.jpg",
-    "galleryThumbnails": [
-      "https://m.media-amazon.com/images/I/4177MaVc59S._AC_US.jpg"
-    ],
-    "highResolutionImages": [
-      "https://m.media-amazon.com/images/I/51rfFGjlx5S._AC_SL1108_.jpg"
-    ],
-    "sustainabilityFeatures": null,
-    "description": "Brand: Hoho\nModel Number: HK4305S1\nColor: Black\nTV Type: Smart TV\nScreen Size: 43 inches\nDisplay Type: LED\nResolution: 1920 x 1080 pixels\nAspect Ratio: 16:9\nConnectivity: 2 HDMI ports, RF input, 2 USB ports, 2 AV inputs, headphone output, PC input\nOperating System: Android 9.0\nPower: AC 110-240V",
-    "features": [
-      "Smart TV",
-      "Operating System: Android 9.0",
-      "Screen Size: 43 inches",
-      "Display Type: LED Full HD",
-      "Resolution: 1920 x 1080 pixels"
-    ],
-    "attributes": [
-      {
-        "key": "Return Reason / Return Period / Return Policy",
-        "value": ""
-      },
-      {
-        "key": "Product Dimensions",
-        "value": "15 x 64 x 105 cm; 9.6 Kilograms"
-      },
-      {
-        "key": "Date First Available",
-        "value": "July 7, 2021"
-      },
-      {
-        "key": "Manufacturer",
-        "value": "Hoho"
-      },
-      {
-        "key": "ASIN",
-        "value": "B098WCLDGQ"
-      },
-      {
-        "key": "Item Model Number",
-        "value": "HK4305S1"
-      },
-      {
-        "key": "Best Sellers Rank: #218 in Smart TVs",
-        "value": ""
-      }
-    ],
-    "productOverview": [
-      {
-        "key": "Screen Size",
-        "value": "43 Inches"
-      },
-      {
-        "key": "Brand Name",
-        "value": "Hoho"
-      },
-      {
-        "key": "Display Technology",
-        "value": "LED"
-      },
-      {
-        "key": "Resolution",
-        "value": "1080p"
-      },
-      {
-        "key": "Special Features",
-        "value": "Flat"
-      },
-      {
-        "key": "Included Components",
-        "value": "TV, Stand, Remote Control"
-      },
-      {
-        "key": "Connectivity Technology",
-        "value": "USB"
-      },
-      {
-        "key": "Aspect Ratio",
-        "value": "16:9"
-      },
-      {
-        "key": "Supported Internet Services",
-        "value": "Netflix, YouTube, Amazon Prime Video"
-      },
-      {
-        "key": "Model Name",
-        "value": "HK4305S1"
-      }
-    ]
-  ,
-  
-  "variantAsins": [],
-  "variantDetails": [],
-  "reviewsLink": "https://www.amazon.eg/product-reviews/B098WCLDGQ",
-  "hasReviews": false,
-  "delivery": null,
-  "fastestDelivery": null,
-  "returnPolicy": null,
-  "support": null,
-  "variantAttributes": [],
-  "manufacturerAttributes": [],
-  "seller": {
-    "name": "HoHo Official Store",
-    "id": "AR94W9XQXPYV0",
-    "url": "https://www.amazon.eg/sp?seller=AR94W9XQXPYV0",
-    "reviewsCount": null,
-    "averageRating": null
-  },
-  "bestsellerRanks": null,
-  "isAmazonChoice": false,
-  "amazonChoiceText": null,
-  "bookDescription": null,
-  "priceRange": null,
-  "aPlusContent": null,
-  "brandStory": null,
-  "productComparison": null,
-  "aiReviewsSummary": null,
-  "monthlyPurchaseVolume": null,
-  "productPageReviews": [],
-  "productPageReviewsFromOtherCountries": [],
-  "locationText": "مصر",
-  "loadedCountryCode": "EG",
-  "offers": [],
-  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc=&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7&s=popularity-rank&page=5",
-  "categoryPageData": {
-    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
-    "isSponsored": false,
-    "bestsellerBadge": null,
-    "productPosition": 102
-  },
-  "input": "https://www.amazon.eg/s?k=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA&i=electronics&rh=n%3A18018102031%2Cn%3A21832881031&dc&ds=v1%3AOOTxCWfCbsEV%2F72oD%2BW4IERGRIuzs1kCd1BayUlvx8s&crid=2NWWACLQM3HYM&qid=1744770012&rnid=18018102031&sprefix=%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%2Celectronics%2C142&ref=sr_nr_n_7"
-},
+
 {
   "title": "JAC 50 Inch Frameless 4K UHD Smart LED TV, Black - 50JC7132F",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/JAC-Inch-Frameless-Smart-Black/dp/B0119KH318/ref=sr_1_1?crid=2DVAGMDDWTGQ8&dib=eyJ2IjoiMSJ9.EspsAlZS6MB6AGRzls4oeP1FxwRyDSxeDGWCUXu_c9PLJB_t5-WtTiemdWgvaWCk7Zg9fQEWBEDy_o9XVzw-MOE-o5MAdExMJur1FIxRJ64vqA9nmlnS1f-RLwHn1G7To0rsUmRsPmpVYGj_ESC9cLoN792A9_6gSNNJmAwC0jaf0cskTK7csHZ1UMOp-fRPwOzpr0M_1RcIf2sVuv4k_ccp0DMJVD_Y71yKkgIMnYm4D5ZpQcHL2ESsgsJgo8YK8EzUETVGs5ivCi2pA5voPgQH9rEp8Pyg0skMcEU2wPU.VRgT4RibLI1zyuPhzVRFaUsciVP64kBgbZkd3JDBc3o&dib_tag=se&keywords=Jac%2B50JC7132F&qid=1745240456&sprefix=jac%2B50jc7132f%2B%2Caps%2C274&sr=8-1&th=1",
-      "jumia": "https://www.jumia.com.eg/ar/jac-50jc7132f-50-inch-frameless-4k-uhd-smart-led-tv-black-130187748.html"
+      "jumia": "https://www.jumia.com.eg/ar/jac-50jc7132f-50-inch-frameless-4k-uhd-smart-led-tv-black-130187748.html",
+      "noon":"https://www.noon.com/egypt-ar/jac-50-inch-frameless-4k-smart-led-tv-black-50jc7132f/ZB67C6C7416E2F832E8B9Z/p/?o=zb67c6c7416e2f832e8b9z-1&shareId=1cae8f86-9548-430a-966b-aea278001711"
     },
   "asin": "B0119KH318",
   "originalAsin": "B0119KH318",
-  "priceAmazon":12799,
-  "priceJumia":12999,
+  "priceAmazon":12269,
+  "priceJumia":12799.00,
+  "priceNoon":12299.00,
   
     "inStock": true,
     "inStockText": "In Stock",
@@ -19711,12 +19425,12 @@
   "title": "JAC 58 Inch Frameless 4K UHD Smart LED TV, Black - 58JC7132F",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/JAC-Inch-Frameless-Smart-Black/dp/B0119KH76O/ref=sr_1_2?crid=2DVAGMDDWTGQ8&dib=eyJ2IjoiMSJ9.EspsAlZS6MB6AGRzls4oeP1FxwRyDSxeDGWCUXu_c9PLJB_t5-WtTiemdWgvaWCk7Zg9fQEWBEDy_o9XVzw-MOE-o5MAdExMJur1FIxRJ64vqA9nmlnS1f-RLwHn1G7To0rsUmRsPmpVYGj_ESC9cLoN792A9_6gSNNJmAwC0jaf0cskTK7csHZ1UMOp-fRPwOzpr0M_1RcIf2sVuv4k_ccp0DMJVD_Y71yKkgIMnYm4D5ZpQcHL2ESsgsJgo8YK8EzUETVGs5ivCi2pA5voPgQH9rEp8Pyg0skMcEU2wPU.VRgT4RibLI1zyuPhzVRFaUsciVP64kBgbZkd3JDBc3o&dib_tag=se&keywords=Jac%2B50JC7132F&qid=1745241085&sprefix=jac%2B50jc7132f%2B%2Caps%2C274&sr=8-2&th=1",
-      "jumia": "https://www.jumia.com.eg/ar/jac-58-led-4k-uhd-smart-frameless-58jc7132f-131492680.html"
+      "jumia": "https://www.jumia.com.eg/ar/jac-58jc7132f-58-inch-frameless-4k-uhd-smart-led-tv-black-130921768.html"
     },
   "asin": "B0119KH76O",
   "originalAsin": "B0119KH76O",
-  "priceAmazon":14998,
-  "priceJumia":14999,
+  "priceAmazon":14700,
+  "priceJumia":14799.00,
   
     "inStock": true,
     "inStockText": "In Stock",
@@ -19875,12 +19589,14 @@
   "title": "ATA 32 Inch HD LED Smart TV Black - ATA32HOS",
   "urls": {
       "amazon": "https://www.amazon.eg/-/en/ATA-Inch-LED-Smart-Black/dp/B08WJKLXLT/ref=sr_1_1?crid=38J62FLBI3AJQ&dib=eyJ2IjoiMSJ9.m6VGDcuYNZ6ICk-A9zcM5mBZnD9bKZ0ijY9_JQpq_VyIS9AoQkyjilYCZl-juJqxXK7rAsmmYPXCtZLr-ZasBwxKqIj-vMMQ0Z15p0nFRVm_kfevIw4KxO454A945uqRjC7g-dV5rn8b1DGs4P7iM-wtQnmENBC29NkliRhWnT_qcGvgXyFvQ--n2JrVIUaHjD7sxw8Ub86nhSkXysoDC_hlQH6lKt3sCM-UxUdPTYWAXvFgcMZ64RAR_N3gDyRxWgsKzbRGU-_uNvNKYLAru1wwFfNzhBJG6EERb1V4BuI.YxRxYinR2c3Q3XC4qO5O9xr95NbyE9mQKkbgA7zxjc4&dib_tag=se&keywords=ATA%2B%D8%AA%D9%84%D9%81%D8%A7%D8%B2%2B%D8%B0%D9%83%D9%8A%2BLED%2B%D8%B9%D8%A7%D9%84%D9%8A%2B%D8%A7%D9%84%D8%AF%D9%82%D8%A9%2B%D8%A8%D8%AD%D8%AC%D9%85%2B32%2B%D8%A8%D9%88%D8%B5%D8%A9&qid=1745241613&sprefix=ata%2B%D8%AA%D9%84%D9%81%D8%A7%D8%B2%2B%D8%B0%D9%83%D9%8A%2Bled%2B%D8%B9%D8%A7%D9%84%D9%8A%2B%D8%A7%D9%84%D8%AF%D9%82%D8%A9%2B%D8%A8%D8%AD%D8%AC%D9%85%2B32%2B%D8%A8%D9%88%D8%B5%D8%A9%2Caps%2C261&sr=8-1&th=1",
-      "jumia": "https://www.jumia.com.eg/ar/32f118-p-s-32d32a124-inch-hd-led-smart-tv-ata-mpg895263.html"
+      "jumia": "https://www.jumia.com.eg/ar/32f118-p-s-32d32a124-inch-hd-led-smart-tv-ata-mpg895263.html",
+      "noon":"https://www.noon.com/egypt-ar/32-inch-hd-led-smart-tv-32-smart-black/N18879484A/p/?o=b9c5680b594259da&shareId=845ee97a-ddd3-40c3-8ade-9860cc39d6fb"
     },
   "asin": "B08WJKLXLT",
   "originalAsin": "B08WJKLXLT",
-  "priceAmazon":5399,
-  "priceJumia":4899,
+  "priceAmazon":5492,
+  "priceJumia":4945.00 ,
+  "priceNoon":5500.00,
   
     "inStock": true,
     "inStockText": "In Stock",
@@ -20043,12 +19759,15 @@
   "title": "RT Home RT-32SA LED TV 32 INCH HD SMART FRAMELESS, VGA",
   "urls": {
       "amazon": "https://www.amazon.eg/dp/B0BW64HX3G",
-      "jumia": "https://www.jumia.com.eg/ar/rt-home-rt-32sa-led-tv-32-inch-hd-smart-frameless-39049533.html"
+      "jumia": "https://www.jumia.com.eg/ar/rt-home-rt-32sa-led-tv-32-inch-hd-smart-frameless-39049533.html",
+      "noon":"https://www.noon.com/egypt-ar/rt-32sa-led-tv-32-inch-hd-smart-android-9-frameless/ZD75BDD12D294DB8F8B21Z/p/?o=zd75bdd12d294db8f8b21z-1&shareId=2d2ca00a-c43b-4b2e-a9f9-a96458785453"
     },
   "asin": "B0BW64HX3G",
   "originalAsin": "B0BW64HX3G",
   "priceAmazon":5799,
-    "priceJumia":5853,
+    "priceJumia":5822.00 ,
+    "priceNoon":5892.00,
+
     
       "inStock": false,
       "inStockText": "",

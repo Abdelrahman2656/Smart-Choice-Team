@@ -40,6 +40,7 @@ const ProductSchema = new mongoose_1.Schema({
     urls: {
         amazon: { type: String },
         jumia: { type: String },
+        noon: { type: String }
     },
     category: { type: String, required: true },
     manufacturer: { type: String },
@@ -47,6 +48,7 @@ const ProductSchema = new mongoose_1.Schema({
     sku: { type: String, unique: true, sparse: true },
     priceAmazon: { type: Number, required: true },
     priceJumia: { type: Number },
+    priceNoon: { type: Number },
     currency: { type: String, required: true },
     inStock: { type: Boolean, required: true },
     brand: { type: String, required: true },

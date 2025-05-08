@@ -92,11 +92,13 @@ export const startSeeding = async () => {
         urls: {
           amazon: p.urls?.amazon ?? p.url ?? "N/A",
           jumia: p.urls?.jumia ?? "N/A",
+           noon:p.urls?.noon ?? undefined
         },
         asin,
         sku: p.sku ?? asin,
         priceAmazon: typeof p.priceAmazon === "number" && p.priceAmazon > 0 ? p.priceAmazon : null,
-        priceJumia: typeof p.priceJumia === "number" && p.priceJumia > 0 ? p.priceJumia : "غير متوفر",
+        priceJumia: typeof p.priceJumia === "number" && p.priceJumia > 0 ? p.priceJumia : null,
+        priceNoon: typeof p. priceNoon === "number" && p. priceNoon > 0 ? p. priceNoon : undefined,
         oldPrice: p.oldPrice ?? 0,
         discount: p.discount ?? "0%",
         currency: p.currency ?? p.price?.currency ?? "EGP",

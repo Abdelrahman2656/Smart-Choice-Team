@@ -312,6 +312,7 @@ export const compareProducts = async (
         title: product.title,
         priceAmazon: product.priceAmazon,
         priceJumia: product.priceJumia,
+        priceNoon:product.priceNoon,
         thumbnailImage: product.thumbnailImage,
         ...extracted,
       };

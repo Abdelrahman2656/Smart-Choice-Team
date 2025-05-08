@@ -9,6 +9,7 @@ interface IProduct extends Document {
   sku?: string;
   priceAmazon: number;
   priceJumia?: number;
+  priceNoon?:number
   currency: string;
   inStock: boolean;
   brand: string;
@@ -74,6 +75,7 @@ const ProductSchema = new Schema<IProduct>(
     urls: {
       amazon: { type: String },
       jumia: { type: String },
+      noon:{type:String}
     
     },
     
@@ -83,6 +85,7 @@ const ProductSchema = new Schema<IProduct>(
     sku: { type: String, unique: true, sparse: true },
     priceAmazon: { type: Number, required: true },
     priceJumia: { type: Number },
+    priceNoon:{ type: Number },
     currency: { type: String, required: true },
     inStock: { type: Boolean, required: true },
     brand: { type: String, required: true },

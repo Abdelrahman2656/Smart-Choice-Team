@@ -254,6 +254,7 @@ const compareProducts = async (req, res, next) => {
                 title: product.title,
                 priceAmazon: product.priceAmazon,
                 priceJumia: product.priceJumia,
+                priceNoon: product.priceNoon,
                 thumbnailImage: product.thumbnailImage,
                 ...extracted,
             };

@@ -3,11 +3,13 @@
     "title": "Apple MacBook Air 2020 Laptop (13-Inch M1 Chip with 8-Core CPU, 7-Core GPU, 8GB RAM, 256GB SSD) - English Keyboard - Space Grey",
     "asin": "B08N5VXMK6",
     "originalAsin": "B08N5VXMK6",
-    "priceAmazon": 36090.25,
-    "priceJumia": 35950,
+    "priceAmazon": 35890,
+    "priceJumia": 36999,
+    "priceNoon":37052.10,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B08N5VXMK6",
-      "jumia": "https://www.jumia.com.eg/ar/apple-macbook-air-13-inch-m1-chip-with-8-core-cpu-and-8-core-gpu-8gb-256gb-ssd-grey-130695097.html"
+      "jumia": "https://www.jumia.com.eg/ar/apple-macbook-air-13-inch-m1-chip-with-8-core-cpu-and-8-core-gpu-8gb-256gb-ssd-grey-130695097.html",
+      "noon":"https://www.noon.com/egypt-ar/macbook-air-mgn63-13-display-apple-m1-chip-with-8-core-processor-and-7-core-graphics-8gb-ram-256gb-ssd-english-keyboard-international-version-english-space-grey/N42284105A/p/?o=c2603d72d70f801b&shareId=72a3f088-8a03-443c-932b-5afe8a5ddf45"
     },
     "inStock": true,
     "inStockText": "Available",
@@ -472,11 +474,13 @@
     "title": "Lenovo LOQ 15IAX9E Gaming Laptop with Intel Core i5-12450HX, NVIDIA GeForce RTX 2050 4GB GDDR6, 16GB DDR5 RAM, 512GB SSD, and 15.6\" FHD (1920x1080) IPS 300 nits 144Hz Display",
     "asin": "B0DRZK97JL",
     "originalAsin": "B0DRZK97JL",
-    "priceAmazon": 33836,
-    "priceJumia": 34999,
+    "priceAmazon": 32879,
+    "priceJumia": 29070,
+    "priceNoon":32499,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DRZK97JL",
-      "jumia": "https://www.jumia.com.eg/ar/lenovo-loq-15iax9-gaming-laptop-intel-core-i5-12450hx-512gb-ssd-16gb-ram-nvidia-geforce-rtx-2050-4gb-15.6-inch-fhd-luna-grey-128703876.html"
+      "jumia": "https://www.jumia.com.eg/ar/lenovo-loq-e-15iax9e-laptop-intelr-coretm-i5-12450hx-16gb-ram-512gb-ssd-nvidiar-geforce-rtxtm-2050-4gb-15.6fhd-144hz-luna-grey-130151901.html",
+      "noon":"https://www.noon.com/egypt-ar/lenovo-loq-15iax9-intel-core-i5-12450hx-512gb-ssd-8gb-ram-nvidia-geforce-rtx-2050-4gb-15-6-inch-fhd-english-arabic-luna-grey/N70109523V/p/?o=a4fe2698cda5f1ea&shareId=2adaa19e-d345-4044-81ac-ac7f3b1e9ee0"
     },
     "inStock": true,
     "inStockText": "Only 4 left in stock -- more on the way.",
@@ -675,11 +679,13 @@
     "asin": "B0CW1KCWGM",
     "originalAsin": "B0CW1KCWGM",
 
-    "priceAmazon": 40418.55,
-    "priceJumia": 45999,
+    "priceAmazon": 41400,
+    "priceJumia": 45999.00,
+    "priceNoon":45999.00,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0CW1KCWGM",
-      "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-gaming-3-82sb00mued-amd-ryzen-7-7735hs-16gb-512gb-nvidia-geforce-rtx-4050-15.6-fhd-win-11-130073975.html"
+      "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-gaming-3-82sb00mued-amd-ryzen-7-7735hs-16gb-512gb-nvidia-geforce-rtx-4050-15.6-fhd-win-11-130073975.html",
+      "noon":"https://www.noon.com/egypt-ar/ideapad-gaming-3-laptop-with-15-6-inch-fhd-display-amd-ryzen-7-7735hs-processor-16gb-ram-512gb-ssd-nvidia-geforce-rtx-4050-graphics-card-windows-11-english-onyx-grey/N70020524V/p/?o=f837180416c3d63a&shareId=aba306b0-0938-44b5-9db9-92f9f819ab48"
     },
     "inStock": true,
     "inStockText": "Available",
@@ -1094,11 +1100,13 @@
     "title": "Dell Vostro 3520 Intel Core i5-1235U 12th Gen 10 Cores, 8GB RAM, 512GB SSD, Intel UHD Graphics, 15.6\" FHD Screen (1920×1080) 120Hz, 250 nits, Fingerprint, Ubuntu, Carbon Black",
     "asin": "B0CQFCNBT4",
     "originalAsin": "B0CQFCNBT4",
-    "priceAmazon": 20591.01,
-    "priceJumia": 23150,
+    "priceAmazon":20591,
+    "priceJumia": 22440.00,
+    "priceNoon":23200.00,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0CQFCNBT4",
-      "jumia": "https://www.jumia.com.eg/ar/dell-vostro-3520-intelr-coretmi5-1235u-ram-8gb-512gb-ssd-uhd-15.6-inch-fhd-black-129485255.html"
+      "jumia": "https://www.jumia.com.eg/ar/dell-vostro-3520-intelr-coretmi5-1235u-ram-8gb-512gb-ssd-uhd-15.6-inch-fhd-black-129485255.html",
+      "noon":"https://www.noon.com/egypt-ar/vostro-3520-laptop-with-15-6-inch-fhd-1920x1080-display-core-i5-1235u-processor-8gb-ram-512gb-ssd-intel-uhd-graphics-windows-10-english-arabic-black/N70082783V/p/?o=f3fe7984229cd6ef&shareId=2da3d329-9ff5-4b66-9e11-f47c48fc96e9"
     },
     "inStock": true,
     "inStockText": "Only 3 left - Order now.",
@@ -1725,11 +1733,13 @@
     "title": "Lenovo LOQ 15IAX9 Gaming Laptop, Intel Core i5-12450HX CPU, AI Chip LA1, 8GB DDR5 RAM, NVIDIA GeForce RTX2050 4GB GDDR6, 512GB SSD, IPS Screen",
     "asin": "B0D6K2Q7HM",
     "originalAsin": "B0D6K2Q7HM",
-    "priceAmazon": 32333,
-    "priceJumia": 32540,
+    "priceAmazon":33479,
+    "priceJumia":32640,
+    "priceNoon":32499.00,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0D6K2Q7HM",
-      "jumia": "https://www.jumia.com.eg/ar/lenovo-83gs008qed-loq-15iax9-intelr-coretm-i5-12450hx-8gb-ram-512gb-ssd-rtx2050-15.6-fhd-grey-123947274.html"
+      "jumia": "https://www.jumia.com.eg/ar/lenovo-83gs008qed-loq-15iax9-intelr-coretm-i5-12450hx-8gb-ram-512gb-ssd-rtx2050-15.6-fhd-grey-123947274.html",
+      "noon":"https://www.noon.com/egypt-ar/lenovo-loq-15iax9-intel-core-i5-12450hx-512gb-ssd-8gb-ram-nvidia-geforce-rtx-2050-4gb-15-6-inch-fhd-english-arabic-luna-grey/N70109523V/p/?o=a4fe2698cda5f1ea&shareId=a3f2c0af-e3f3-4f34-a219-3e1fea48d500"
     },
     "inStock": true,
     "inStockText": "Only 1 left - order now.",
@@ -2045,11 +2055,13 @@
     "title": "ASUS Laptop X1504VA-NJ017W VivoBook 15 Intel Core i7-1355U 8GB RAM 512GB SSD Windows 11 Home 16:9 60Hz FHD 15.6 Inch Screen, Quiet Blue",
     "asin": "B0D26FM5RZ",
     "originalAsin": "B0D26FM5RZ",
-    "priceAmazon": 25499,
-    "priceJumia": 25498,
+    "priceAmazon": 24499,
+    "priceJumia":30777.00,
+    "priceNoon":24499.00,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0D26FM5RZ",
-      "jumia": "https://www.jumia.com.eg/ar/vivobook-15-intelr-coretm-i7-1355u-processor-1.7-ghz-512gb-ssd-8gb-ram-intel-uhd-graphics-windows-quiet-blue-asus-mpg1152336.html"
+      "jumia": "https://www.jumia.com.eg/ar/vivobook-15-intelr-coretm-i7-1355u-processor-1.7-ghz-512gb-ssd-8gb-ram-intel-uhd-graphics-windows-quiet-blue-asus-mpg1152336.html",
+      "noon":"https://www.noon.com/egypt-ar/asus-x1504va-nj017w-vivobook-15-15-6-inch-fhd-intel-core-i7-1355u-8gb-ram-512gb-ssd-windows-11-english-arabic-quiet-blue/N70092060V/p/?o=bfd6551c1763bf2e&shareId=fe0b2bb1-bf9c-4aed-aab8-79ec216e9ccd"
     },
     "inStock": true,
     "inStockText": "Available",
@@ -2461,11 +2473,14 @@
     "title": "Lenovo IdeaPad 1 - CPU: Intel Core i7-1255U Laptop, Built-in 8GB DDR4 3200 RAM, Display: 15.6-inch FHD (1920×1080) TN 220 nits Anti-glare, 512GB SSD Storage",
     "asin": "B0CVNBRCL9",
     "originalAsin": "B0CVNBRCL9",
-    "priceAmazon": 21945,
-    "priceJumia": 26520,
+    "priceAmazon":32700,
+    "priceJumia":26520,
+    "priceNoon":31200.00,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0CVNBRCL9",
-      "jumia": "https://www.jumia.com.eg/ar/lenovo-laptop-i7-1255u-8gb-512gb-ssd-iris-xe-15.6-fhd-win11-cloud-grey-ideapad1-82qd00axed-107657115.html"
+      "jumia": "https://www.jumia.com.eg/ar/lenovo-laptop-i7-1255u-8gb-512gb-ssd-iris-xe-15.6-fhd-win11-cloud-grey-ideapad1-82qd00axed-107657115.html",
+      "noon":"https://www.noon.com/egypt-ar/ideapad-1-15iau7-laptop-with-15-6-inch-display-core-i7-1255u-8gb-ram-512gb-ssd-intel-iris-xe-graphics-windows-11-english-arabic-grey/N53416081A/p/?o=d6c7d377e619042c&shareId=6838d20d-99ba-455c-8249-8bc74bdc5e78"
+
     },
     "inStock": true,
     "inStockText": "Available",
@@ -3136,11 +3151,13 @@
   "asin": "B0DFWYD5G5",
   "originalAsin": "B0DFWYD5G5",
 
-  "priceAmazon": 27552,
-  "priceJumia": 26520,
+  "priceAmazon":25640.0,
+  "priceJumia":24480.00 ,
+  "priceNoon":22999.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DFWYD5G5",
-    "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-slim-3-15irh8-83em00d5ed-intelr-coretmi5-13420h-16gb-ram-512gb-ssd-uhd-15.6-fhd-grey-129128704.html"
+    "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-slim-3-15irh8-83em00d5ed-intelr-coretmi5-13420h-16gb-ram-512gb-ssd-uhd-15.6-fhd-grey-129128704.html",
+    "noon":"https://www.noon.com/egypt-ar/ideapad-slim-3-15irh8-upgraded-version-laptop-15-6-fhd-ips-display-intel-core-i5-13420h-8gb-ram-512gb-ssd-intel-uhd-graphics-free-dos-83em003rps-english-arctic-grey/N70039779V/p/?o=ee4ed69665ed254c&shareId=18e1e598-b8f1-48ea-bf95-4a10f1598b84"
   },
   "inStock": true,
   "inStockText": "Only 4 left - Order now.",
@@ -3531,11 +3548,13 @@
    "title": "Dell Vostro 3520 Laptop Intel Core i5-1235U 12th Gen 10-Core 8GB RAM 256GB SSD UHD Graphics 15.6\" FHD (1920x1080, 120Hz, 250nits, Anti-glare) Carbon Black Ubuntu",
   "asin": "B0CQF93P1T",
   "originalAsin": "B0CQF93P1T",
-  "priceAmazon": 20302,
+  "priceAmazon": 20160,
   "priceJumia": 21999,
+  "priceNoon":23000.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0CQF93P1T",
-    "jumia": "https://www.jumia.com.eg/ar/dell-vostro-3520-core-i5-1235u-8gb-ram-256gb-ssd-win11-pro-69112045.html"
+    "jumia": "https://www.jumia.com.eg/ar/dell-vostro-3520-i5-1235u-4gb-ram-256gb-ssd-intel-uhd-15.6-fhd-ubuntu-black-123017494.html",
+    "noon":"https://www.noon.com/egypt-ar/dell-vostro-3520-notebook-pc-intel-core-i5-1235u-15-6-fhd-8gb-ram-256gb-ssd-win-11-pro-carbon-black-english-arabic-carbon-black/N70137119V/p/?o=fd1c72404c6adf7e&shareId=4e81faea-1fc4-44bb-97b0-d373ae5fc982"
   },
   "inStock": true,
   "inStockText": "Available",
@@ -3755,510 +3774,16 @@
     "input": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2"
   },
   {
-   "title": "Lenovo IdeaPad 1. CPU: Laptop with Intel Core i3-1215U Processor and DDR4 - 3200 RAM (4GB), Display: 15.6-inch FHD (768×1366) 220-nit Anti-glare, 256GB SSD, and Operating System",
-  "asin": "B0CVRYT2C1",
-  "originalAsin": "B0CVRYT2C1",
-  "priceAmazon": 17690,
-  "priceJumia": 16520,
-  "urls": {
-    "amazon": "https://www.amazon.eg/dp/B0CVRYT2C1",
-    "jumia": "https://www.jumia.com.eg/ar/lenovo-laptop-i3-1215u-4g-256gb-ssd-uhd-graphics-15.6-hd-win-11-cloud-grey-82qd00aued-ideapad-1-15iau7-108586760.html"
-  },
-  "inStock": true,
-  "inStockText": "Available",
-  "listPrice": null,
-  "brand": "Lenovo",
-  "author": null,
-  "shippingPrice": null,
-  "stars": 3.1,
-  "starsBreakdown": {
-    "5star": 0.35,
-    "4star": 0.17,
-    "3star": 0.05,
-    "2star": 0.14,
-    "1star": 0.29
-  },
-  "reviewsCount": 25,
-  "answeredQuestions": null,
-  "breadCrumbs": "Electronics > Computers & Components > Laptops > Traditional Laptop",
-  "videosCount": 0,
-  "visitStoreLink": {
-    "text": "Visit Lenovo Store",
-    "url": "https://www.amazon.eg/stores/Lenovo/page/918BB4BC-D4B4-4FF2-B44F-7CE9EF70EF65?lp_asin=B0CVRYT2C1&ref_=ast_bln"
-  },
-  "thumbnailImage": "https://m.media-amazon.com/images/I/512xlVG4eJL.__AC_SY300_SX300_QL70_ML2_.jpg",
-  "galleryThumbnails": [
-    "https://m.media-amazon.com/images/I/31J5TkHwl0L._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/3135NH56mVL._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/21lB+x+IO0L._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/21ByT6psyFL._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/31L04AxVFPL._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/31FbNirZI9L._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/41DyezWwBcL._AC_US.jpg"
-  ],
-  "highResolutionImages": [
-    "https://m.media-amazon.com/images/I/512xlVG4eJL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Uba+yY-8L._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/518wLRca94L._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/41CkuDuB+yL._AC_SL1060_.jpg",
-    "https://m.media-amazon.com/images/I/61ZjOKV3IVL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61kKq7EtWEL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/719JBX5jDoL._AC_SL1500_.jpg"
-  ],
-  "sustainabilityFeatures": null,
-  "description": "Lenovo laptop with Intel Core i3-1215U hexa-core processor, 10MB/4GB RAM, 256GB SSD, 15.6\" HD display, and Windows 11. The IdeaPad 1 is a budget-friendly laptop ideal for daily tasks like browsing the web, checking emails, and working on documents (82QD00AUED). It features a 12th Gen Intel Core i3-1215U processor with 6 cores and 4 threads, 4GB DDR4 RAM, and 256GB PCIe SSD storage. The 15.6-inch HD TN panel isn’t the best quality but is sufficient for most basic tasks. The laptop comes with Windows 11 S mode, meaning you can only install apps from the Microsoft Store. This laptop offers elegant design, portability, and comfort, making it great for use at home, in the office, or on the go.",
-  "features": [
-    "Powerful Intel Core i3-1215U processor",
-    "Vibrant 15.6-inch HD display",
-    "Sleek and portable design",
-    "Long-lasting battery life",
-    "Ideal for completing basic internet tasks"
-  ],
-  "attributes": [
-    { "key": "Return Reason Return Period Return Policy", "value": "" },
-    { "key": "Brand", "value": "Lenovo" },
-    { "key": "Package Dimensions", "value": "48.7 x 33.29 x 12.2 cm; 1.5 Kilograms" },
-    { "key": "Batteries", "value": "1 Lithium Ion batteries required. (included)" },
-    { "key": "Item Model Number", "value": "82QD00AUED" },
-    { "key": "Manufacturer", "value": "Lenovo" },
-    { "key": "Series", "value": "IdeaPad 1" },
-    { "key": "Color", "value": "Gray" },
-    { "key": "Form Factor", "value": "Laptop" },
-    { "key": "Display Size", "value": "15.6 inches" },
-    { "key": "Screen Resolution", "value": "1366 × 768" },
-    { "key": "HD Resolution", "value": "1280x720" },
-    { "key": "Processor Brand", "value": "Intel" },
-    { "key": "Processor Type", "value": "Intel Core i3" },
-    { "key": "Number of Processors", "value": "1" },
-    { "key": "RAM Size", "value": "4 GB" },
-    { "key": "Memory Technology", "value": "DDR4" },
-    { "key": "Computer Memory Type", "value": "DDR4 SDRAM" },
-    { "key": "Maximum Supported Memory", "value": "256 GB" },
-    { "key": "Hard Disk Size", "value": "256 GB" },
-    { "key": "Hard Drive Description", "value": "SSD" },
-    { "key": "Hard Drive Interface", "value": "Serial ATA" },
-    { "key": "Audio Details", "value": "Headphones" },
-    { "key": "Graphics Coprocessor", "value": "Intel UHD Graphics" },
-    { "key": "Graphics Chipset Brand", "value": "Intel" },
-    { "key": "Graphics Card Description", "value": "Integrated" },
-    { "key": "Graphics RAM Type", "value": "DDR4 SDRAM" },
-    { "key": "Graphics RAM Size", "value": "4 GB" },
-    { "key": "Graphics Card Interface", "value": "Integrated" },
-    { "key": "Connectivity Type", "value": "Wi-Fi" },
-    { "key": "Wireless Type", "value": "802.11ax" },
-    { "key": "Number of USB 2.0 Ports", "value": "1" },
-    { "key": "Number of USB 3.0 Ports", "value": "1" },
-    { "key": "Voltage", "value": "12 Volts" },
-    { "key": "Operating System", "value": "Windows 11" },
-    { "key": "Are Batteries Included", "value": "Yes" },
-    { "key": "Lithium Battery Energy Content", "value": "42 Watt Hours" },
-    { "key": "Lithium Battery Packaging", "value": "Batteries contained in equipment" },
-    { "key": "Lithium Battery Weight", "value": "187 Grams" },
-    { "key": "Number of Lithium Ion Cells", "value": "3" },
-    { "key": "Item Weight", "value": "1.5 Kilograms" },
-    { "key": "ASIN", "value": "B0CVRYT2C1" },
-    { "key": "Customer Reviews", "value": "3.1 out of 5 stars (25 ratings)" },
-    {
-      "key": "Best Sellers Rank",
-      "value": "#26,794 in Electronics (See Top 100 in Electronics), #57 in Traditional Laptops"
-    },
-    { "key": "Date First Available", "value": "February 8, 2024" }
-  ],
-  "productOverview": [
-    { "key": "Brand Name", "value": "Lenovo" },
-    { "key": "Model Name", "value": "IdeaPad 1" },
-    { "key": "Screen Size", "value": "15.6 inches" },
-    { "key": "Color", "value": "Gray" },
-    { "key": "Hard Disk Size", "value": "256 GB" },
-    { "key": "CPU Model", "value": "Intel Core i3" },
-    { "key": "Installed RAM", "value": "4 GB" },
-    { "key": "Operating System", "value": "Windows 11" },
-    { "key": "Special Features", "value": "Portable" },
-    { "key": "Graphics Description", "value": "Integrated" }
-  ],
-    "variantAsins": [
-      "B0D6MFK2HN",
-      "B0CVRYT2C1",
-      "B0C5F41H34",
-      "B0D3CWC9X7",
-      "B0BTDDL8SY",
-      "B0DC9BLBHM",
-      "B0CW1KWRGX",
-      "B0CVNBRCL9"
-    ],
-    "variantDetails": [
-      {
-        "name": "12th iCore i3-1215U 8 GB 256GB SSD - Integrated Intel UHD Graphics Abyss Blue - 15.6HD - 220nits Anti-glare + 2Y Warranty - Briefcase",
-        "images": [],
-        "thumbnail": null,
-        "asin": "B0D6MFK2HN",
-        "price": null
-      },
-      {
-        "name": "12th iCore i3-1215U 4 GB 256GB SSD - Integrated Intel UHD Graphics WIN 11-Gray",
-        "images": [],
-        "thumbnail": null,
-        "asin": "B0CVRYT2C1",
-        "price": null
-      },
-      {
-        "name": "12th iCore i7-1255U 8 GB 512GB SSD - Intel Iris Xe Graphics WIN 11 Home-Abyss Blue",
-        "images": [],
-        "thumbnail": null,
-        "asin": "B0C5F41H34",
-        "price": null
-      },
-      {
-        "name": "Intel Celeron N4020 8 GB 256GB SSD - RTX 4060 Abyss Blue - 15.6HD - 220nits Anti-glare",
-        "images": [],
-        "thumbnail": null,
-        "asin": "B0D3CWC9X7",
-        "price": null
-      },
-      {
-        "name": "12th iCore i7-1255U 8 GB 512GB SSD - Intel Iris Xe Graphics WIN 11-Abyss Blue - 15.6FHD",
-        "images": [],
-        "thumbnail": null,
-        "asin": "B0BTDDL8SY",
-        "price": null
-      },
-      {
-        "name": "12th iCore i3-1215U 8 GB 256GB SSD - Integrated Intel UHD Graphics Abyss Blue - 15.6HD - 220nits Anti-glare",
-        "images": [],
-        "thumbnail": null,
-        "asin": "B0DC9BLBHM",
-        "price": null
-      },
-      {
-        "name": "Ryzen 3-7320U 4 GB 256 GB SSD - AMD Radeon Graphics WIN 11-Gray",
-        "images": [],
-        "thumbnail": null,
-        "asin": "B0CW1KWRGX",
-        "price": null
-      },
-      {
-        "name": "12th iCore i7-1255U 8 GB 512GB SSD - Intel Iris Xe Graphics WIN 11 Home-Cloud Grey",
-        "images": [],
-        "thumbnail": null,
-        "asin": "B0CVNBRCL9",
-        "price": null
-      }
-    ],
-    "reviewsLink": "https://www.amazon.eg/product-reviews/B0CVRYT2C1",
-    "hasReviews": true,
-    "delivery": "الاثنين، 21 أبريل",
-    "fastestDelivery": null,
-    "returnPolicy": null,
-    "support": null,
-    "variantAttributes": [
-      {
-        "key": "وحدة المعالجة المركزية",
-        "value": "12th iCore i3-1215U"
-      },
-      {
-        "key": "Computer memory size",
-        "value": "4 GB"
-      },
-      {
-        "key": "السعة",
-        "value": "256GB SSD - Integrated Intel UHD Graphics"
-      },
-      {
-        "key": "النمط",
-        "value": "WIN 11-Gray"
-      }
-    ],
-    "manufacturerAttributes": [],
-    "seller": {
-      "name": "Amazon.eg",
-      "id": null,
-      "url": null,
-      "reviewsCount": null,
-      "averageRating": null
-    },
-    "bestsellerRanks": null,
-    "isAmazonChoice": false,
-    "amazonChoiceText": null,
-    "bookDescription": null,
-    "priceRange": null,
-    "aPlusContent": null,
-    "brandStory": {
-      "title": "من العلامة التجارية",
-      "image": {
-        "name": null,
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2f7c4787-fb2c-4809-ad0e-e3b64198f7ca.__CR79,0,1476,630_PT0_SX1464_V1___.png"
-      },
-      "items": [
-        {
-          "title": null,
-          "text": "الاستدامة \nفي لينوفو، نركز على توفير تكنولوجيا أكثر ذكاءً تبني مستقبلًا أكثر إشراقًا واستدامة لعملائنا وزملائنا ومجتمعاتنا وكوكبنا.",
-          "url": null,
-          "image": {
-            "name": null,
-            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0b3d4871-4dfb-4e55-a9be-505bb7057c68.__CR0,412,5000,2302_PT0_SX315_V1___.png"
-          },
-          "items": []
-        },
-        {
-          "title": "الأكثر مبيعًا",
-          "text": "زيارة المتجر",
-          "url": "https://www.amazon.eg/stores/page/1231E2FA-449A-44E4-BDF0-AB6A9281CF41?store_ref=storeRecs_dp_aplus",
-          "image": {
-            "name": "Lenovo IdeaPad 1 15IGL7 - Intel Celeron N4020 up to 2.8GHz, 8GB RAM, 256GB SSD M.2 2242 PCIe 4.0x...",
-            "url": "https://m.media-amazon.com/images/I/31Vn0QG56TL.__AC_SR166,182___.jpg"
-          },
-          "items": [
-            {
-              "url": "https://www.amazon.eg/dp/B0D3CWC9X7/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 1 15IGL7 - Intel Celeron N4020 up to 2.8GHz, 8GB RAM, 256GB SSD M.2 2242 PCIe 4.0x...",
-                "url": "https://m.media-amazon.com/images/I/31Vn0QG56TL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0D6MFK2HN/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 1 15IAU7 Laptop - 12th Intel Core i3-1215U, 8GB RAM, 256GB SSD, Integrated Intel U...",
-                "url": "https://m.media-amazon.com/images/I/51X94iF8QbL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0CC1Q6XKS/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 3 15ALC6 Laptop - Ryzen 7 5700U 8 Cores, 8GB RAM, 512 GB PCIe NVMe, Integrated AMD...",
-                "url": "https://m.media-amazon.com/images/I/41e4IKAo6sL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0CM21FM87/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
-                "url": "https://m.media-amazon.com/images/I/41TcdKT5WHL.__AC_SR166,182___.jpg"
-              }
-            }
-          ]
-        },
-        {
-          "title": "الأكثر شعبية",
-          "text": "زيارة المتجر",
-          "url": "https://www.amazon.eg/stores/page/1231E2FA-449A-44E4-BDF0-AB6A9281CF41?store_ref=storeRecs_dp_aplus",
-          "image": {
-            "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
-            "url": "https://m.media-amazon.com/images/I/31TV%2B21jCDL.__AC_SR166,182___.jpg"
-          },
-          "items": [
-            {
-              "url": "https://www.amazon.eg/dp/B0CM228DZV/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
-                "url": "https://m.media-amazon.com/images/I/31TV%2B21jCDL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0CKY9R28N/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 3 15ALC6 Laptop - Ryzen 7 5700U 8 Cores, 8GB RAM, 1TB HDD + 256GB SSD, Integrated ...",
-                "url": "https://m.media-amazon.com/images/I/41CWb84h%2B7L.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0D6MFK2HN/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 1 15IAU7 Laptop - 12th Intel Core i3-1215U, 8GB RAM, 256GB SSD, Integrated Intel U...",
-                "url": "https://m.media-amazon.com/images/I/51X94iF8QbL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0C1VTSYG5/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 5 Pro - 82L9001WED intel Core i7-11370H, 16GB Ram, 1TB SSD, MX450, 16\" 2.5K - Stor...",
-                "url": "https://m.media-amazon.com/images/I/41HqdkthGeL.__AC_SR166,182___.jpg"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "productComparison": null,
-    "aiReviewsSummary": null,
-    "monthlyPurchaseVolume": null,
-   "productPageReviews": [
-    {
-        "username": "Ibrahim",
-        "userId": "amzn1.account.AHM5LNFFBKGTSWSR7HV2TT32YR3A",
-        "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHM5LNFFBKGTSWSR7HV2TT32YR3A/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-        "ratingScore": 5,
-        "reviewTitle": "As Described",
-        "reviewDescription": "As Described - Seller Amazon EgyptGreat as always",
-        "date": null,
-        "position": 1,
-        "reviewedIn": "This review was written in Egypt on February 15, 2025",
-        "reviewId": "RBM6CNGUHFX3A",
-        "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RBM6CNGUHFX3A/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
-        "reviewImages": [],
-        "reviewReaction": "2 users found this review helpful",
-        "isVerified": false,
-        "isAmazonVine": false,
-        "avatar": null,
-        "variant": "CPU: 12th iCore i3-1215U, Computer memory size: 8 GB, Capacity: 256GB SSD - Integrated Intel UHD Graphics, Style: Abyss Blue - 15.6HD - 220nits Anti-glare + 2Y Warranty - Briefcase"
-    },
-    {
-        "username": "I am so sorry I didn't read the reviews before purchasing! The reviews are true this product is faulty & should be removed from the market place. It would not go past the setup page. This item is crap & very disappointing for a Lenovo!",
-        "userId": "amzn1.account.AHYFB4I2CZG4FK33TBRG7DKDQRCA",
-        "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHYFB4I2CZG4FK33TBRG7DKDQRCA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-        "ratingScore": 1,
-        "reviewTitle": "SO many people cannot be a coincidence.",
-        "reviewDescription": "The product cannot be used. It does not boot up as other customers have mentioned. I am sorry I did not read the reviews prior to purchasing. DO NOT PURCHASE THIS ITEM!",
-        "date": null,
-        "position": 2,
-        "reviewedIn": "This review was written in Egypt on February 4, 2025",
-        "reviewId": "R1SB7FNUTK43EA",
-        "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1SB7FNUTK43EA/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
-        "reviewImages": [],
-        "reviewReaction": "2 users found this review helpful",
-        "isVerified": false,
-        "isAmazonVine": false,
-        "avatar": null,
-        "variant": "CPU: Ryzen 3-7320U, Computer memory size: 4 GB, Capacity: 256 GB SSD - AMD Radeon Graphics, Style: WIN 11-Gray"
-    },
-    {
-        "username": "Soso",
-        "userId": "amzn1.account.AF6V76BTZFP2PGG6UG34OEARZ3CQ",
-        "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AF6V76BTZFP2PGG6UG34OEARZ3CQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-        "ratingScore": 2,
-        "reviewTitle": "Incorrect Information",
-        "reviewDescription": "I bought the Ideapad 1 laptop. When I received it, it was supposed to have Windows 11 as described, but it did not have Windows. I had to go to a service center to install Windows 11, which cost me 200 EGP. Also, when I checked the warranty, I found it only had 6 months left, not a year. The only good thing is that the delivery was fast, and it arrived in a sealed box from Amazon.",
-        "date": null,
-        "position": 3,
-        "reviewedIn": "This review was written in Egypt on January 26, 2025",
-        "reviewId": "RB2CBFRI0LWQY",
-        "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RB2CBFRI0LWQY/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
-        "reviewImages": [],
-        "reviewReaction": "1 user found this review helpful",
-        "isVerified": false,
-        "isAmazonVine": false,
-        "avatar": null,
-        "variant": "CPU: 12th iCore i3-1215U, Computer memory size: 8 GB, Capacity: 256GB SSD - Integrated Intel UHD Graphics, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
-    },
-    {
-        "username": "Ahmed NEGM",
-        "userId": "amzn1.account.AEDET772UZ64LJDVSYH6F4BVT7CQ",
-        "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AEDET772UZ64LJDVSYH6F4BVT7CQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-        "ratingScore": 1,
-        "reviewTitle": "The laptop does not reboot",
-        "reviewDescription": "I bought the Levono laptop online from Amazon.eg, but it does not boot or reboot and does not start! Not recommended.. and the return process was very unreliable.",
-        "date": null,
-        "position": 4,
-        "reviewedIn": "This review was written in Egypt on November 20, 2024",
-        "reviewId": "RQ35R0IE88DIH",
-        "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RQ35R0IE88DIH/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
-        "reviewImages": [],
-        "reviewReaction": "4 users found this review helpful",
-        "isVerified": false,
-        "isAmazonVine": false,
-        "avatar": null,
-        "variant": "CPU: 12th iCore i3-1215U, Computer memory size: 8 GB, Capacity: 256GB SSD - Integrated Intel UHD Graphics, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
-    },
-    {
-        "username": "islam elhanafy",
-        "userId": "amzn1.account.AHSFODWRES6KTRJV5HVJFFETVQBQ",
-        "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHSFODWRES6KTRJV5HVJFFETVQBQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-        "ratingScore": 2,
-        "reviewTitle": "Unmentioned Specifications",
-        "reviewDescription": "The device came with a modified and poor Windows version that only allows one language to be selected. The device only has two USB ports, the sound is very weak, and the batteries cannot be replaced. The device's outer frame is very weak. The value does not match the price.",
-        "date": null,
-        "position": 5,
-        "reviewedIn": "This review was written in Egypt on November 10, 2024",
-        "reviewId": "R1EZEXPYVXNU7D",
-        "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1EZEXPYVXNU7D/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
-        "reviewImages": [],
-        "reviewReaction": "4 users found this review helpful",
-        "isVerified": false,
-        "isAmazonVine": false,
-        "avatar": null,
-        "variant": "CPU: 12th iCore i7-1255U, Computer memory size: 8 GB, Capacity: 512GB SSD - Intel Iris Xe Graphics, Style: WIN 11 Home-Cloud Grey"
-    },
-    {
-        "username": "Elisabetta D.",
-        "userId": "amzn1.account.AGVIXLXATT3CECTWQV2XBYHYXEYQ",
-        "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGVIXLXATT3CECTWQV2XBYHYXEYQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-        "ratingScore": 1,
-        "reviewTitle": "It does not work",
-        "reviewDescription": "I bought 2 of these and returned both because they didn't work. Boot failure.",
-        "date": null,
-        "position": 6,
-        "reviewedIn": "This review was written in Egypt on November 19, 2024",
-        "reviewId": "R27JM5QVOYQIU2",
-        "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R27JM5QVOYQIU2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
-        "reviewImages": [],
-        "reviewReaction": "5 users found this review helpful",
-        "isVerified": false,
-        "isAmazonVine": false,
-        "avatar": null,
-        "variant": "CPU: Intel Celeron N4020, Computer memory size: 8 GB, Capacity: 256GB SSD - RTX 4060, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
-    },
-    {
-        "username": "Basma E.",
-        "userId": "amzn1.account.AGBNW7KGMNMCD6TNXHNIJXMC677Q",
-        "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGBNW7KGMNMCD6TNXHNIJXMC677Q/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-        "ratingScore": 1,
-        "reviewTitle": "No Version",
-        "reviewDescription": "Arrived without a Windows version and the boot is failing.",
-        "date": null,
-        "position": 7,
-        "reviewedIn": "This review was written in Egypt on December 10, 2024",
-        "reviewId": "R353J5T0KIJRV1",
-        "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R353J5T0KIJRV1/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
-        "reviewImages": [],
-        "reviewReaction": "3 users found this review helpful",
-        "isVerified": false,
-        "isAmazonVine": false,
-        "avatar": null,
-        "variant": "CPU: Intel Celeron N4020, Computer memory size: 8 GB, Capacity: 256GB SSD - RTX 4060, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
-    },
-    {
-        "username": "Johny E.",
-        "userId": "amzn1.account.AGGWUF6FMTBI2ESPCD47RCG6ORSA",
-        "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGGWUF6FMTBI2ESPCD47RCG6ORSA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-        "ratingScore": 1,
-        "reviewTitle": "Don't buy",
-        "reviewDescription": "Doesn't boot up",
-        "date": null,
-        "position": 8,
-        "reviewedIn": "This review was written in Egypt on September 11, 2024",
-        "reviewId": "R3GHVYO1SH9N4Z",
-        "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R3GHVYO1SH9N4Z/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
-        "reviewImages": [],
-        "reviewReaction": "13 users found this review helpful",
-        "isVerified": false,
-        "isAmazonVine": false,
-        "avatar": null,
-        "variant": "CPU: Intel Celeron N4020, Computer memory size: 8 GB, Capacity: 256GB SSD - RTX 4060, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
-    }
-]
-,
-    "productPageReviewsFromOtherCountries": [],
-    "locationText": "مصر",
-    "loadedCountryCode": "EG",
-    "offers": [],
-    "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2&s=popularity-rank",
-    "categoryPageData": {
-      "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
-      "isSponsored": false,
-      "bestsellerBadge": null,
-      "productPosition": 16
-    },
-    "input": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2"
-  },
-  {
     "title": "ASUS TUF A15 2024 FA506NCR- HN007W- Ryzen 7 7435HS- 8GB DDR5-512GB SSD- RTX 3050 4GB- 15.6- FHD- 144Hz - Windows 11-90NR0JV7-M001T0",
     "asin": "B0DFWXDBMY",
     "originalAsin": "B0DFWXDBMY",
-    "priceAmazon": 36830.90,
-    "priceJumia": 39899,
+    "priceAmazon": 35949,
+    "priceJumia":39899.00,
+    "priceNoon":35888.00,
     "urls": {
         "amazon": "https://www.amazon.eg/dp/B0DFWXDBMY",
-        "jumia": "https://www.jumia.com.eg/ar/asus-tuf-a15-2024-fa506ncr-hn007w-ryzen-7-7435hs-8gb-ddr5-512gb-ssd-rtx-3050-4gb-15.6-fhd-144hz-win-11-graphite-black-90nr0jv7-m001t0-130079650.html"
+        "jumia": "https://www.jumia.com.eg/ar/asus-tuf-a15-2024-fa506ncr-hn007w-ryzen-7-7435hs-8gb-ddr5-512gb-ssd-rtx-3050-4gb-15.6-fhd-144hz-win-11-graphite-black-90nr0jv7-m001t0-130079650.html",
+        "noon":"https://www.noon.com/egypt-ar/asus-tuf-gaming-a15-laptop-fa506ncr-hn007w-with-15-6-inch-ryzen-7-7435hs-8gb-ram-512gb-ssd-geforce-rtx-3050-win11-english-arabic-black/N70122720V/p/?o=afebb0157ae6811c&shareId=378d03f3-47d1-48fd-a58d-9a6916e407ec"
     },
     "inStock": true,
     "inStockText": "Available",
@@ -4569,11 +4094,13 @@
     "title": "Lenovo Ideapad Slim 3 15IRH8 Laptop Intel Core i5 13420H 13th Gen 8GB DDR5 RAM 512GB SSD UHD Integrated Graphics 15.6-inch FHD (1920x1080) IPS 300-nit Anti-glare Windows 11 Bag Warranty",
     "asin": "B0DC9FVTRL",
     "originalAsin": "B0DC9FVTRL",
-    "priceAmazon": 25055,
-    "priceJumia": 24999,
+    "priceAmazon": 23799,
+    "priceJumia": 24999.00,
+    "priceNoon":22999,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DC9FVTRL",
-      "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-slim-3-15irh8-laptop-intel-core-i5-13420h-processor-15.6-inch-fhd-display-512-gb-ssd-8-gb-ram-lpddr5-intel-uhd-graphics-win11-home-arctic-grey-83em0081ed-130202003.html"
+      "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-slim-3-15irh8-laptop-intel-core-i5-13420h-processor-15.6-inch-fhd-display-512-gb-ssd-8-gb-ram-lpddr5-intel-uhd-graphics-win11-home-arctic-grey-83em0081ed-130202003.html",
+      "noon":"https://www.noon.com/egypt-ar/ideapad-slim-3-15irh8-upgraded-version-laptop-15-6-fhd-ips-display-intel-core-i5-13420h-8gb-ram-512gb-ssd-intel-uhd-graphics-free-dos-83em003rps-english-arctic-grey/N70039779V/p/?o=ee4ed69665ed254c&shareId=0b73f019-10ca-4b1f-9cae-43a25f53881a"
     },
     "inStock": true,
     "inStockText": "Only 3 left - order now.",
@@ -5006,433 +4533,16 @@
     "input": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2"
   },
   {
-    "title": "Lenovo IdeaPad 1. CPU: Intel Core i7-1255U, 8GB DDR4, 3200, Screen: 15.6-inch FHD (1920×1080) TN with 220 nits Anti-glare Brightness, 512GB SSD, Windows® 11 Home (82QD00AVED)",
-    "asin": "B0CVMSQSJK",
-    "originalAsin": "B0CVMSQSJK",
-    "priceAmazon": 21945,
-    "priceJumia": 29580,
-    "urls": {
-      "amazon": "https://www.amazon.eg/dp/B0CVMSQSJK",
-      "jumia": "https://www.jumia.com.eg/ar/lenovo-laptop-i7-1255u-8g-512gb-iris-xe-15.6-fhd-win-11-abyss-blue-82qd00aved-ideapad-1-108590948.html"
-    },
-    "inStock": true,
-    "inStockText": "Available",
-    "listPrice": null,
-    "brand": "Lenovo",
-    "author": null,
-    "shippingPrice": null,
-    "stars": null,
-    "starsBreakdown": {
-      "5star": 0,
-      "4star": 0,
-      "3star": 0,
-      "2star": 0,
-      "1star": 0
-    },
-    "reviewsCount": null,
-    "answeredQuestions": null,
-    "breadCrumbs": "Electronics > Computers & Accessories > Laptops > Traditional Laptops",
-    "videosCount": 0,
-    "visitStoreLink": {
-      "text": "Visit Lenovo Store",
-      "url": "https://www.amazon.eg/stores/Lenovo/page/918BB4BC-D4B4-4FF2-B44F-7CE9EF70EF65?lp_asin=B0CVMSQSJK&ref_=ast_bln"
-    },
-    "thumbnailImage": "https://m.media-amazon.com/images/I/41LYrUswjjL.__AC_SX300_SY300_QL70_ML2_.jpg",
-    "galleryThumbnails": [
-      "https://m.media-amazon.com/images/I/41LYrUswjjL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/41NQbzqeynL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/31unfK1FVML._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/212cPsGmpfL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/41H7K+-CwmL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/21tahDVb1aL._AC_US.jpg",
-      "https://m.media-amazon.com/images/I/41BDFtiGiBL._AC_US.jpg"
-    ],
-    "highResolutionImages": [
-      "https://m.media-amazon.com/images/I/61OmNS7aS3L._AC_SL1000_.jpg",
-      "https://m.media-amazon.com/images/I/51bme3eeb+L._AC_SL1000_.jpg",
-      "https://m.media-amazon.com/images/I/41Efnw5oC0L._AC_SL1000_.jpg",
-      "https://m.media-amazon.com/images/I/31OgpZYd+XL._AC_SL1000_.jpg",
-      "https://m.media-amazon.com/images/I/31wofvVoGSL._AC_SL1000_.jpg"
-    ],
-    "sustainabilityFeatures": null,
-    "description": "Lenovo Laptop 82QD00AVED Intel Core i7-1255U 10 cores 12MB/8GB RAM 512GB SSD 15.6-inch FHD Windows 11 IdeaPad 1 is a budget-friendly laptop ideal for everyday tasks such as browsing the web, checking emails, and working on documents. Powered by the Intel Core i7-1255U processor from the 12th generation, with 10 cores and 4 threads. It also comes with 8GB DDR4 RAM and a 512GB PCIe SSD storage. The 15.6-inch TN HD display is not the best quality but is sufficient for most basic tasks. The laptop comes with Windows 11 S mode, meaning you can only install apps from the Microsoft Store. This laptop combines elegance and portability with ease of use, making it perfect for home, office, or on-the-go use.",
-    "features": [
-      "Powerful Intel Core i7-1255U processor",
-      "Vibrant 15.6-inch HD display",
-      "Sleek and portable design",
-      "Includes long-lasting battery",
-      "Perfect laptop for completing basic online tasks"
-    ],
-    "attributes": [
-      {
-        "key": "Return Reason Return Period Return Policy",
-        "value": ""
-      },
-      {
-        "key": "Brand",
-        "value": "Lenovo"
-      },
-      {
-        "key": "Shipping Dimensions",
-        "value": "53.2 x 33.29 x 7.2 cm; 1.5 kg"
-      },
-      {
-        "key": "Batteries",
-        "value": "1 Lithium-Ion battery required. (Included)"
-      },
-      {
-        "key": "Item Model Number",
-        "value": "82QD00AVED"
-      },
-      {
-        "key": "Manufacturer",
-        "value": "Lenovo"
-      },
-      {
-        "key": "Series",
-        "value": "IdeaPad 1"
-      },
-      {
-        "key": "Color",
-        "value": "White"
-      },
-      {
-        "key": "Form Factor",
-        "value": "Laptop"
-      },
-      {
-        "key": "Display Size",
-        "value": "15.6 inches"
-      },
-      {
-        "key": "Screen Resolution",
-        "value": "1920 x 1080 pixels"
-      },
-      {
-        "key": "Resolution",
-        "value": "1920x1080 Pixels"
-      },
-      {
-        "key": "Processor Brand",
-        "value": "Intel"
-      },
-      {
-        "key": "Processor Type",
-        "value": "Intel Core i7"
-      },
-      {
-        "key": "Processor Count",
-        "value": "1"
-      },
-      {
-        "key": "Memory Technology",
-        "value": "DDR4"
-      },
-      {
-        "key": "Computer Memory Type",
-        "value": "DDR4 SDRAM"
-      },
-      {
-        "key": "Maximum Supported Memory",
-        "value": "512 GB"
-      },
-      {
-        "key": "Memory Speed",
-        "value": "3200 MHz"
-      },
-      {
-        "key": "Hard Drive Size",
-        "value": "512 GB"
-      },
-      {
-        "key": "Hard Drive Description",
-        "value": "SSD"
-      },
-      {
-        "key": "Hard Drive Interface",
-        "value": "PCI Express x4"
-      },
-      {
-        "key": "Sound Details",
-        "value": "High-definition (HD) Audio"
-      },
-      {
-        "key": "Speaker Description",
-        "value": "Stereo speakers, 1.5W x 2, Dolby® Audio"
-      },
-      {
-        "key": "Dedicated Graphics Processor",
-        "value": "Intel Iris Xe Graphics"
-      },
-      {
-        "key": "Graphics Chip Brand",
-        "value": "Intel"
-      },
-      {
-        "key": "Graphics Card Description",
-        "value": "Integrated"
-      },
-      {
-        "key": "Graphics RAM Type",
-        "value": "DDR4 SDRAM"
-      },
-      {
-        "key": "Graphics Card Interface",
-        "value": "Integrated"
-      },
-      {
-        "key": "Connectivity Type",
-        "value": "Wi-Fi® 6, 11ax 2x2 + Bluetooth 5.1"
-      },
-      {
-        "key": "Wireless Type",
-        "value": "Bluetooth, 802.11ax"
-      },
-      {
-        "key": "USB 2.0 Ports",
-        "value": "1"
-      },
-      {
-        "key": "USB 3.0 Ports",
-        "value": "1"
-      },
-      {
-        "key": "HDMI Ports",
-        "value": "1"
-      },
-      {
-        "key": "Voltage",
-        "value": "24 volts"
-      },
-      {
-        "key": "Operating System",
-        "value": "Windows 11"
-      },
-      {
-        "key": "Are Batteries Included",
-        "value": "Yes"
-      },
-      {
-        "key": "Lithium Battery Energy Content",
-        "value": "45 Wh"
-      },
-      {
-        "key": "Lithium Battery Packaging",
-        "value": "Batteries included in equipment"
-      },
-      {
-        "key": "Lithium Battery Weight",
-        "value": "187 grams"
-      },
-      {
-        "key": "Lithium Ion Battery Cells",
-        "value": "3"
-      },
-      {
-        "key": "Item Weight",
-        "value": "1.5 Kilograms"
-      },
-      {
-        "key": "ASIN",
-        "value": "B0CVMSQSJK"
-      },
-      {
-        "key": "Best Seller Rank",
-        "value": "#4765 in Electronics (See Top 100 in Electronics)   #10 in Traditional Laptops"
-      },
-      {
-        "key": "First Available Date",
-        "value": "May 16, 2023"
-      }
-    ],
-    "productOverview": [
-      {
-        "key": "Brand Name",
-        "value": "Lenovo"
-      },
-      {
-        "key": "Model Name",
-        "value": "IdeaPad 1"
-      },
-      {
-        "key": "Screen Size",
-        "value": "15.6 inches"
-      },
-      {
-        "key": "Color",
-        "value": "White"
-      },
-      {
-        "key": "Hard Drive Size",
-        "value": "512GB"
-      },
-      {
-        "key": "CPU Model",
-        "value": "Intel Core i7"
-      },
-      {
-        "key": "Installed RAM",
-        "value": "8GB"
-      },
-      {
-        "key": "Operating System",
-        "value": "Windows 11"
-      },
-      {
-        "key": "Special Features",
-        "value": ""
-      },
-      {
-        "key": "Graphics Description",
-        "value": "Integrated"
-      }
-    ],
-    "variantAsins": [],
-    "variantDetails": [],
-    "reviewsLink": "https://www.amazon.eg/product-reviews/B0CVMSQSJK",
-    "hasReviews": false,
-    "delivery": "غداً، 17 أبريل",
-    "fastestDelivery": null,
-    "returnPolicy": null,
-    "support": null,
-    "variantAttributes": [],
-    "manufacturerAttributes": [],
-    "seller": {
-      "name": "Amazon.eg",
-      "id": null,
-      "url": null,
-      "reviewsCount": null,
-      "averageRating": null
-    },
-    "bestsellerRanks": null,
-    "isAmazonChoice": false,
-    "amazonChoiceText": null,
-    "bookDescription": null,
-    "priceRange": null,
-    "aPlusContent": null,
-    "brandStory": {
-      "title": "من العلامة التجارية",
-      "image": {
-        "name": null,
-        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2f7c4787-fb2c-4809-ad0e-e3b64198f7ca.__CR79,0,1476,630_PT0_SX1464_V1___.png"
-      },
-      "items": [
-        {
-          "title": null,
-          "text": "الاستدامة \nفي لينوفو، نركز على توفير تكنولوجيا أكثر ذكاءً تبني مستقبلًا أكثر إشراقًا واستدامة لعملائنا وزملائنا ومجتمعاتنا وكوكبنا.",
-          "url": null,
-          "image": {
-            "name": null,
-            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0b3d4871-4dfb-4e55-a9be-505bb7057c68.__CR0,412,5000,2302_PT0_SX315_V1___.png"
-          },
-          "items": []
-        },
-        {
-          "title": "الأكثر مبيعًا",
-          "text": "زيارة المتجر",
-          "url": "https://www.amazon.eg/stores/page/1231E2FA-449A-44E4-BDF0-AB6A9281CF41?store_ref=storeRecs_dp_aplus",
-          "image": {
-            "name": "Lenovo IdeaPad 1 15IGL7 - Intel Celeron N4020 up to 2.8GHz, 8GB RAM, 256GB SSD M.2 2242 PCIe 4.0x...",
-            "url": "https://m.media-amazon.com/images/I/31Vn0QG56TL.__AC_SR166,182___.jpg"
-          },
-          "items": [
-            {
-              "url": "https://www.amazon.eg/dp/B0D3CWC9X7/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 1 15IGL7 - Intel Celeron N4020 up to 2.8GHz, 8GB RAM, 256GB SSD M.2 2242 PCIe 4.0x...",
-                "url": "https://m.media-amazon.com/images/I/31Vn0QG56TL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0D6MFK2HN/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 1 15IAU7 Laptop - 12th Intel Core i3-1215U, 8GB RAM, 256GB SSD, Integrated Intel U...",
-                "url": "https://m.media-amazon.com/images/I/51X94iF8QbL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0CC1Q6XKS/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 3 15ALC6 Laptop - Ryzen 7 5700U 8 Cores, 8GB RAM, 512 GB PCIe NVMe, Integrated AMD...",
-                "url": "https://m.media-amazon.com/images/I/41e4IKAo6sL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0CM21FM87/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
-                "url": "https://m.media-amazon.com/images/I/41TcdKT5WHL.__AC_SR166,182___.jpg"
-              }
-            }
-          ]
-        },
-        {
-          "title": "الأكثر شعبية",
-          "text": "زيارة المتجر",
-          "url": "https://www.amazon.eg/stores/page/1231E2FA-449A-44E4-BDF0-AB6A9281CF41?store_ref=storeRecs_dp_aplus",
-          "image": {
-            "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
-            "url": "https://m.media-amazon.com/images/I/31TV%2B21jCDL.__AC_SR166,182___.jpg"
-          },
-          "items": [
-            {
-              "url": "https://www.amazon.eg/dp/B0CM228DZV/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
-                "url": "https://m.media-amazon.com/images/I/31TV%2B21jCDL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0CKY9R28N/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 3 15ALC6 Laptop - Ryzen 7 5700U 8 Cores, 8GB RAM, 1TB HDD + 256GB SSD, Integrated ...",
-                "url": "https://m.media-amazon.com/images/I/41CWb84h%2B7L.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0D6MFK2HN/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 1 15IAU7 Laptop - 12th Intel Core i3-1215U, 8GB RAM, 256GB SSD, Integrated Intel U...",
-                "url": "https://m.media-amazon.com/images/I/51X94iF8QbL.__AC_SR166,182___.jpg"
-              }
-            },
-            {
-              "url": "https://www.amazon.eg/dp/B0C1VTSYG5/ref=emc_bcc_2_i",
-              "image": {
-                "name": "Lenovo IdeaPad 5 Pro - 82L9001WED intel Core i7-11370H, 16GB Ram, 1TB SSD, MX450, 16\" 2.5K - Stor...",
-                "url": "https://m.media-amazon.com/images/I/41HqdkthGeL.__AC_SR166,182___.jpg"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "productComparison": null,
-    "aiReviewsSummary": null,
-    "monthlyPurchaseVolume": null,
-    "productPageReviews": [],
-    "productPageReviewsFromOtherCountries": [],
-    "locationText": "مصر",
-    "loadedCountryCode": "EG",
-    "offers": [],
-    "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2&s=popularity-rank&page=2",
-    "categoryPageData": {
-      "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
-      "isSponsored": false,
-      "bestsellerBadge": null,
-      "productPosition": 39
-    },
-    "input": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2"
-  },
-  {
     "title": "ASUS VivoBook Go 15 Processor AMD Ryzen™ 5 7520U 2.8GHz 6MB Cache Up to 4.3GHz Quad-Core 8 Threads LPDDR5 8GB 512GB M.2 NVMe™ PCIe® 3 SSD Windows 11",
   "asin": "B0D83BDH2D",
   "originalAsin": "B0D83BDH2D",
-  "priceAmazon": 19799.01,
-  "priceJumia": 21280,
+  "priceAmazon": 20500,
+  "priceJumia":25550.00,
+  "priceNoon":20999,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0D83BDH2D",
-    "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-go-15-oled-e1504fa-nj005w-amd-ryzen5-7520u-8gb-lpddr5-5200mhz-512gb-m.2-nvme-amd-radeon-graphics-15.6-inch-fhd-60hz-win-11-cool-silver-114720652.html"
+    "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-go-15-oled-e1504fa-nj005w-amd-ryzen5-7520u-8gb-lpddr5-5200mhz-512gb-m.2-nvme-amd-radeon-graphics-15.6-inch-fhd-60hz-win-11-cool-silver-114720652.html",
+    "noon":"https://www.noon.com/egypt-ar/asus-vivobook-go-15-e1504fa-nj005w-laptop-15-6-inch-fhd-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-amd-radeon-graphics-windows-11-english-arabic-silver/N70089576V/p/?o=a2a75829d4afd8ff&shareId=dd36c593-db67-4255-8ef2-7135162edf06"
   },
   "inStock": true,
   "inStockText": "Only 3 left - order now.",
@@ -5709,11 +4819,13 @@
     "title": "HP Victus 15.6\" Gaming Laptop - Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 8GB RAM, 512GB SSD, FHD 144Hz Display - High Performance for Gaming and Productivity - Blue",
   "asin": "B0D9PKL6VM",
   "originalAsin": "B0D9PKL6VM",
-  "priceAmazon": 32999,
-  "priceJumia": 33000,
+  "priceAmazon":32299,
+  "priceJumia":32669,
+  "priceNoon":28999.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0D9PKL6VM",
-    "jumia": "https://www.jumia.com.eg/ar/hp-victus-15-fa0033dx-gaming-laptop-intel-core-i5-12450h-512gb-ssd-8gb-ram-nvidia-geforce-rtx-3050-4gb-15.6-inch-fhd-win.11-performance-blue-129189420.html"
+    "jumia": "https://www.jumia.com.eg/ar/hp-victus-15-fa0033dx-gaming-laptop-intel-core-i5-12450h-512gb-ssd-8gb-ram-nvidia-geforce-rtx-3050-4gb-15.6-inch-fhd-win.11-performance-blue-129189420.html",
+    "noon":"https://www.noon.com/egypt-ar/hp-victus-15-fa0033dx-core-i5-12450h-8gb-ram-512gb-ssd-rtx3050-4gb-15-6-fhd-144hz-english-arabic-performance-blue/N70111903V/p/?o=fb82b2afe7fb1c5d&shareId=19185bc2-00da-4a36-9840-13887afee3a0"
   },
   "inStock": true,
   "inStockText": "Only 1 left - order now.",
@@ -6008,11 +5120,13 @@
     "title": "ASUS VivoBook 15 Laptop, AMD Ryzen 7 7730U, 8GB DDR4 Onboard, AMD Radeon Graphics, 15.6 inch (1920×1200) 16:10 IPS 250 nits, 512GB SSD, Windows 11 (D1502YA-NJ007W)",
     "asin": "B0D2DD39XR",
     "originalAsin": "B0D2DD39XR",
-    "priceAmazon": 27314.83,
-    "priceJumia": 26980,
+    "priceAmazon": 20729,
+    "priceJumia": 32900.00,
+    "priceNoon":26999.00,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0D2DD39XR",
-      "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-15-d1502ya-nj007w-amd-ryzen7-7730u-8gb-ram-ddr4-3200-512nvme-amd-radeon-graphics-15.6fhd-win-11-quiet-blue-114720654.html"
+      "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-15-d1502ya-nj007w-amd-ryzen7-7730u-8gb-ram-ddr4-3200-512nvme-amd-radeon-graphics-15.6fhd-win-11-quiet-blue-114720654.html",
+      "noon":"https://www.noon.com/egypt-ar/asus-vivobook-d1502ya-nj007w-laptop-15-6-inch-fhd-amd-ryzen-r7-7730u-8gb-ram-512gb-ssd-amd-radeon-graphics-windows-11-english-arabic-quiet-blue/N70089313V/p/?o=e00762b10728054a&shareId=5a32a1ea-93e6-4b57-a48b-d692d1364d92"
     },
     "inStock": true,
     "inStockText": "Only 3 left – order now.",
@@ -6321,11 +5435,13 @@
     "title": "HP Victus Gaming Laptop 16-r0043ne, 13th Gen Intel Core i7-13700H (14 Cores), 16GB DDR5-5200 RAM, 1TB SSD, 16.1\" FHD 1920x1080 144Hz IPS, NVIDIA GeForce RTX 4060 6GB GDDR6, Blue, DOS",
     "asin": "B0DF62LZD6",
     "originalAsin": "B0DF62LZD6",
-    "priceAmazon": 61999,
-    "priceJumia": 70380,
+    "priceAmazon":61229,
+    "priceJumia":69360.00 ,
+    "priceNoon":44999,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DF62LZD6",
-      "jumia": "https://www.jumia.com.eg/ar/hp-victus-16-r0068ne-gaming-laptop-intelr-coretm-i7-13700h-nvidiar-geforce-rtxtm-4060-8gb-16gb-ram-1tb-ssd-16.1-qhd-win11-blue-130865818.html"
+      "jumia": "https://www.jumia.com.eg/ar/hp-victus-16-r0068ne-gaming-laptop-intelr-coretm-i7-13700h-nvidiar-geforce-rtxtm-4060-8gb-16gb-ram-1tb-ssd-16.1-qhd-win11-blue-130865818.html",
+      "noon":"https://www.noon.com/egypt-ar/hp-victus-15-fa1097ne-gaming-13th-intel-i7-13700h-14-cores-6gb-gddr6-nvidia-geforce-rtx-4050-graphics-16gb-ram-512gb-ssd-15-6-fhd-1920x1080-144hz-ips-backlit-keyboard-dos-mica-silver-english-arabic-black/N70120730V/p/?o=a6cb8476eb6422ab&shareId=3686d3bd-2041-49af-bf55-caa0f4e88d88"
     },
     "inStock": true,
     "inStockText": "Only 2 left - Order now.",
@@ -6674,11 +5790,13 @@
     "title": "HP ProBook 450 G10 Laptop (859W0EA) - Intel Core i5-1335U, 8GB RAM, 512GB SSD, NVIDIA GeForce RTX 2050 4GB GDDR6, 15.6\" FHD IPS Display 250 nits, Fingerprint Reader, Silver, DOS",
     "asin": "B0DHZ9845F",
     "originalAsin": "B0DHZ9845F",
-    "priceAmazon": 36011,
-    "priceJumia": 36999,
+    "priceAmazon": 34989,
+    "priceJumia":36999.00 ,
+    "priceNoon":28999.00,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0DHZ9845F",
-      "jumia": "https://www.jumia.com.eg/ar/hp-probook-450-g10-859w0ea-core-i5-1335u-10-cores-8gb-ddr4-hard-512gb-ssd-gpu-nvidia-rtx-2050-4gb-display-15.6-fhd-ips-backlit-kyb-os-dos-color-silver-118401691.html"
+      "jumia": "https://www.jumia.com.eg/ar/hp-probook-450-g10-859w0ea-core-i5-1335u-10-cores-8gb-ddr4-hard-512gb-ssd-gpu-nvidia-rtx-2050-4gb-display-15.6-fhd-ips-backlit-kyb-os-dos-color-silver-118401691.html",
+      "noon":"https://www.noon.com/egypt-ar/hp-probook-450-g10-intel-core-i5-1335u-8gb-ddr4-ssd-512gb-nvme-rtx-2050-4gb-graphics-15-6fhd-backlit-kb-silver-dos-english-silver/N70119613V/p/?o=f30cee5862558b4d&shareId=1d0b1300-a64a-481f-8baf-24e5cd93acf2"
     },
     "inStock": true,
     "inStockText": "Available",
@@ -6973,10 +6091,12 @@
     "asin": "B0D92BX5W7",
     "originalAsin": "B0D92BX5W7",
     "priceAmazon": 56949,
-    "priceJumia": 56949,
+    "priceJumia":56949,
+    "priceNoon":56940.00,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0D92BX5W7",
-      "jumia": "https://www.jumia.com.eg/ar/msi-prestige-13-ai-evo-a1mg-intel-core-ultra-7-155h-13.3-uhd-oled-16gb-ddr5-512gb-ssd-intelr-arc-win-11..bage-free-112295255.html"
+      "jumia": "https://www.jumia.com.eg/ar/msi-prestige-13-ai-evo-a1mg-intel-core-ultra-7-155h-13.3-uhd-oled-16gb-ddr5-512gb-ssd-intelr-arc-win-11..bage-free-112295255.html",
+      "noon":"https://www.noon.com/egypt-ar/prestige-13-ai-evo-ultrabook-with-13-3-inch-display-core-ultra7-155h-processor-16gb-ram-512gb-ssd-intel-arc-graphics-windows-11-home-english-arabic-grey/N70089249V/p/?o=ea373c7aa248bada&shareId=63fa0f70-a243-44ab-9687-782a5404dd02"
     },
     "inStock": true,
     "inStockText": "Only 1 left - order now.",
@@ -7378,11 +6498,13 @@
   "asin": "B0DQCLL1JR",
   "originalAsin": "B0DQCLL1JR",
 
-  "priceAmazon": 28902,
-  "priceJumia": 31599,
+  "priceAmazon": 28079,
+  "priceJumia":31599.00,
+  "priceNoon":28720.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DQCLL1JR",
-    "jumia": "https://www.jumia.com.eg/ar/msi-thin-15-b12ucx-i5-12450h-8gb-512gb-ssd-nvidiar-geforce-rtx-2050-4gb-15.6-fhd-144hz-123947458.html"
+    "jumia": "https://www.jumia.com.eg/ar/msi-thin-15-b12ucx-i5-12450h-8gb-512gb-ssd-nvidiar-geforce-rtx-2050-4gb-15.6-fhd-144hz-123947458.html",
+    "noon":"https://www.noon.com/egypt-ar/laptop-msi-thin-b12ucx-cpu-alder-lake-i5-12450h-ram-8g-ddr4-3200mhz-512gb-nvme-pcie-ssd-vga-rtx-2050-gddr6-4gb-fhd-144hz-ips-blue-backlit-2-yr-cosmos-gray-9s7-16r831-2616-english-arabic-cosmos-gray/N70144381V/p/?o=a4fb5172b111f8fd&shareId=8c0deaef-a1d2-4636-8612-dbd65e09b951"
   },
   "inStock": true,
   "inStockText": "Available",
@@ -7667,10 +6789,12 @@
 "title": "Modern B13M Gaming Laptop Raptor Lake Intel i7-13620H 8GB DDR4 RAM 512GB NVMe PCIe Gen 3 SSD Iris Xe Graphics Windows 11 Home 15.6-inch Display from MSI - Classic Black",
   "asin": "B0DFMQW8SM",
   "originalAsin": "B0DFMQW8SM",
-  "priceAmazon": 26299,
-  "priceJumia": 27999,
+  "priceAmazon": 27799,
+  "priceJumia": 27999.00,
+  "priceNoon":27799.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DFMQW8SM",
+    "noon":"https://www.noon.com/egypt-ar/msi-modern-15h-b13m-088xeg-intel-core-i7-13620h-intel-graphics-8gb-ddr4-512gb-ssd-dos-classic-black-english-arabic-black/N70107290V/p/?o=c7c7a8091592112a&shareId=5e5eb022-ca04-41db-9b79-59c1be1baff6",
     "jumia": "https://www.jumia.com.eg/ar/msi-modern-15-h-b13m-laptop-intel-core-i7-13620h-8gb-512gb-ssd-intel-iris-xe-graphics-15.6-fhd-classic-black-130116251.html"
   },
   "inStock": true,
@@ -8027,10 +7151,12 @@
     "title": "ASUS TUF Gaming Laptop A15 FA506NFR-HN007W AMD R7 7435HS 8GB RAM 512GB SSD RTX 2050 4GB 15.6\" FHD 144Hz Windows 11 Graphite Black - 90NR0JU7-M000R0",
   "asin": "B0DLH5Z41C",
   "originalAsin": "B0DLH5Z41C",
-  "priceAmazon": 31698,
-  "priceJumia": 31749,
+  "priceAmazon":30390,
+  "priceJumia":38000.00 ,
+  "priceNoon":31699.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DLH5Z41C",
+    "noon":"https://www.noon.com/egypt-ar/asus-tuf-gaming-a15-fa506nfr-hn007w-ryzen-7-7435hs-8gb-512gb-ssd-rtx-2050-4gb-15-6-inch-fhd-144hz-windows-11-english-arabic-graphite-black/N70108925V/p/?o=e529f4b353aa134e&shareId=fa56a65e-981d-4661-8bdc-5d4df7325c77",
     "jumia": "https://www.jumia.com.eg/ar/asus-tuf-gaming-a15-fa506nfr-hn007w-gaming-laptop-amd-r7-7435hs-8gb-ram-512gb-ssd-rtx-2050-4gb-15.6-fhd-144hz-win11-graphite-black-90nr0ju7-m000r0-123017321.html"
   },
   "inStock": true,
@@ -8351,10 +7477,12 @@
     "title": "ASUS TUF Gaming F15 Laptop, Intel Core i7-13620H, 8GB DDR5-4800 ×2, NVIDIA GeForce RTX 4060, 8GB GDDR6, 15.6-inch (1920x1080) 16:10 144HZ, 1TB SSD, Windows 11 (FX507VV-LP156W)",
     "asin": "B0D26JC2HM",
     "originalAsin": "B0D26JC2HM",
-    "priceAmazon": 59900,
-    "priceJumia": 62999,
+    "priceAmazon": 59999,
+    "priceJumia": 62999.00,
+    "priceNoon":57768.90,
     "urls": {
       "amazon": "https://www.amazon.eg/dp/B0D26JC2HM",
+      "noon":"https://www.noon.com/egypt-ar/asus-fx507vv-lp156w-tuf-gaming-f15-intel-core-i7-13620h-ram-16gb-ddr5-1tb-ssd-nvidia-geforce-rtx-4060-8gb-15-6-fhd-srgb-100-144hz-jaeger-gray-90nr0bv8-m009y0-english-arabic-jaeger-gray/N70128131V/p/?o=d6b6690a1fc5b27e&shareId=177b71fe-ec63-4593-a19d-dfb4dca15b68",
       "jumia": "https://www.jumia.com.eg/ar/asus-tuf-gaming-f15-fx507vv-lp156w-90nr0bv8-m009y0-intelr-coretm-i7-13620h-16gb-ddr5-1tb-ssd-nvidiar-rtxtm-4060-8gb-ddr6-15.6fhd-144hz-100srgb-win-11-jaeger-gray-130102996.html"
     },
     "inStock": true,
@@ -8812,14 +7940,13 @@
   "url": "https://www.amazon.eg/dp/B0DFVFHB44",
   "asin": "B0DFVFHB44",
   "originalAsin": "B0DFVFHB44",
-  "price": {
-    "value": 50979,
-    "currency": "EGP"
-  },
-  "priceAmazon": 51500,
-  "priceJumia": 49999,
+  
+  "priceAmazon": 51230,
+  "priceJumia":49999.00 ,
+  "priceNoon":54388.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DFVFHB44",
+    "noon":"https://www.noon.com/egypt-ar/matepad-pro-with-12-2-inch-tablet-paper-matte-edition-premium-gold-12gb-ram-512gb-wifi-middle-east-version-with-white-keyboard-inbox/N70106117V/p/?o=cb8610e07adc4d5c&shareId=f1b11f96-4734-46d0-a1ff-b682a058ddc4",
     "jumia": "https://www.jumia.com.eg/ar/huawei-matepad-pro-12.2-inch-wifi-12gb-ram-512gb-keyboard-gold-130731995.html"
   },
   "inStock": true,
@@ -9163,12 +8290,14 @@
 ,
       "urls": {
           "amazon": "https://www.amazon.eg/dp/B0CP4885Q9",
+          "noon":"https://www.noon.com/egypt-ar/lenovo-ideapad-slim-3-15iah8-2022-laptop-12th-gen-intel-core-i5-12450h-15-6inch-fhd-512gb-ssd-8gb-ram-shared-intel-uhd-graphics-windows-11-home-english-arabic-arctic-grey/N70026614V/p/?o=d68709e4664acebd&shareId=a6916412-8695-4210-bc9d-829777af434e",
           "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-slim-3-15iah8-83er00beed-intelr-coretm-i5-12450h-8cores-ram-16gb-soldered-lpddr5-4800-hard-512gb-ssd-gpu-integrated-intelr-uhd-graphics-display-15.6-fhd-color-arctic-grey-os-windowsr-11-home-bag-131001464.html"
         },
       "asin": "B0CP4885Q9",
       "originalAsin": "B0CP4885Q9",
-      "priceAmazon": 23799,
+      "priceAmazon":24309,
       "priceJumia": 24999,
+      "priceNoon":24309,
       
           "inStock": true,
           "inStockText": "Available",
@@ -9612,12 +8741,14 @@
       "title": "ASUS Vivobook 15|AMD Ryzen 7-7730U|8GB DDR4|AMD Radeon Graphics|15.6 FHD (1920 x 1080) 16:9 aspect ratio 250 Nits 60HZ Referesh Rate|512GB SSD|Windows 11 (D1502YA-NJ007W)1 Year Perfect Warranty",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0D2DD39XR",
+    "noon":"https://www.noon.com/egypt-ar/asus-vivobook-d1502ya-nj007w-laptop-15-6-inch-fhd-amd-ryzen-r7-7730u-8gb-ram-512gb-ssd-amd-radeon-graphics-windows-11-english-arabic-quiet-blue/N70089313V/p/?o=e00762b10728054a&shareId=9336a899-fb61-4f22-b5a1-00eb5c303de4",
     "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-15-d1502ya-nj007w-amd-ryzentm-7-7730u-8gb-ddr4-512gb-ssd-amd-radeon-graphics-15.6-fhd-win-11-home-quiet-blue-130079513.html"
   },
       "asin": "B0D2DD39XR",
       "originalAsin": "B0D2DD39XR",
-      "priceAmazon": 27314,
-      "priceJumia": 26999,
+      "priceAmazon":20729,
+      "priceJumia":26999.00,
+      "priceNoon":26999.00,
       
           "inStock": true,
           "inStockText": "Only 3 left - order now.",
@@ -9956,12 +9087,14 @@
       "title": "Lenovo IdeaPad Gaming 3, AMD Ryzen 7 7735HS, 16GB DDR5-4800, Nvidia GeForce RTX 4050, 15.6 FHD IPS 250nits, 512GB SSD, Windows 11 Home (82SB00MUED) 2 Years Local Warranty by Lenovo",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0CW1KCWGM",
+    "noon":"https://www.noon.com/egypt-ar/ideapad-gaming-3-laptop-with-15-6-inch-fhd-display-amd-ryzen-7-7735hs-processor-16gb-ram-512gb-ssd-nvidia-geforce-rtx-4050-graphics-card-windows-11-english-onyx-grey/N70020524V/p/?o=f837180416c3d63a&shareId=afabddbb-1ba7-4215-a9ca-870756332a37",
     "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-gaming-3-82sb00mued-amd-ryzen-7-7735hs-16gb-512gb-nvidia-geforce-rtx-4050-15.6-fhd-win-11-130073975.html"
   },
       "asin": "B0CW1KCWGM",
       "originalAsin": "B0CW1KCWGM",
-      "priceAmazon":40418,
-      "priceJumia":45999,
+      "priceAmazon":41400,
+      "priceJumia":45999.00,
+      "priceNoon":45999.00,
       
           "inStock": true,
           "inStockText": "Available",
@@ -10205,399 +9338,17 @@
       "input": "https://www.amazon.eg/s?i=electronics&rh=n%3A21832907031&s=popularity-rank&fs=true&language=en_AE&ref=lp_21832907031_sar"
   },
   {
-      "title": "ASUS Vivobook 16X|i5-12500H|8GB DDR4|NVIDIA GeForce RTX 2050 4GB GDDR6|WUXGA (1920 x 1200) 16:10 aspect ratio|512GB M.2 NVMe PCIe 4.0 SSD|Windows 11 Home(K3605ZF-RP005W)1 Year Perfect Warranty by ASUS",
-     "urls": {
-    "amazon": "https://www.amazon.eg/dp/B0CYZQGMYV",
-    "jumia": "https://www.jumia.com.eg/ar/grouhy-gld32nav2-32-inch-led-hd-tv-frameless-120595663.html"
-  },
-      "asin": "B0D2M21XCB",
-      "originalAsin": "B0D2M21XCB",
-      "priceAmazon":29999,
-      "priceJumia":34999,
-      
-          "inStock": true,
-          "inStockText": "Available",
-          "listPrice": null,
-          "brand": "ASUS",
-          "author": null,
-          "shippingPrice": null,
-          "stars": 5,
-          "starsBreakdown": {
-            "5star": 1,
-            "4star": 0,
-            "3star": 0,
-            "2star": 0,
-            "1star": 0
-          },
-          "reviewsCount": 5,
-          "answeredQuestions": null,
-          "breadCrumbs": "Electronics > Computers & Accessories > Laptops > Traditional Laptops",
-          "videosCount": 1,
-          "visitStoreLink": {
-            "text": "Brand: ASUS",
-            "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D8%A7%D8%B3%D9%88%D8%B3"
-          },
-          "thumbnailImage": "https://m.media-amazon.com/images/I/71gznJnkInL.__AC_SX300_SY300_QL70_ML2_.jpg",
-          "galleryThumbnails": [
-            "https://m.media-amazon.com/images/I/31ktMmKHBNL._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/41w--RTajlL._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/31F9eVMR58L._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/31N463AgqgL._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/21NuKMdoW3L._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/2106no27SGL._AC_US.jpg"
-          ],
-          "highResolutionImages": [
-            "https://m.media-amazon.com/images/I/71gznJnkInL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/61y5+cDTlxL._AC_SL1280_.jpg",
-            "https://m.media-amazon.com/images/I/61-pfakm5XL._AC_SL1280_.jpg",
-            "https://m.media-amazon.com/images/I/61Y5SjfRqwL._AC_SL1280_.jpg",
-            "https://m.media-amazon.com/images/I/41BaX5nCFmL._AC_SL1280_.jpg",
-            "https://m.media-amazon.com/images/I/41zAHyb95FL._AC_SL1280_.jpg",
-            "https://m.media-amazon.com/images/I/61Q5Q-qC0GL._AC_SL1280_.jpg",
-            "https://m.media-amazon.com/images/I/61fSnDtNmGL._AC_SL1280_.jpg",
-            "https://m.media-amazon.com/images/I/41u6N0pSqGL._AC_SL1280_.jpg"
-          ],
-          "sustainabilityFeatures": null,
-          "description": "ASUS VivoBook S 14 Flip TN3402YA-LZ005W - Ryzen 5 7530U – 8GB DDR4 – 512GB SSD – AMD Radeon Vega 7 – 14\" WUXGA – Windows 11 – Stylus Pen. ASUS Windows 11 Home – Recommended Windows 11 Pro for business. Aluminum Cool Silver. US MIL-STD 810H Military Grade. 14.0\" WUXGA (1920 × 1200), 16:10 aspect ratio, LED backlight, IPS-level panel, 60Hz refresh rate, 300 nits brightness, 45% NTSC color gamut, glossy, TÜV Rheinland certified. AMD Ryzen 5 7530U processor 2.0GHz (19MB cache, up to 4.5GHz, 6 cores, 12 threads). AMD Radeon Graphics (non-upgradable, requires case removal). 1x DDR4 SO-DIMM slot, 1x M.2 2280 PCIe 3.0×4. 8GB DDR4 onboard (dual channel supported with SO-DIMM). 512GB M.2 NVMe PCIe 3.0 SSD. 1080p FHD camera with privacy shutter. WiFi 6E (802.11ax) dual band 2*2 + Bluetooth 5.3 (*Bluetooth version may vary by OS version). Touchpad supports NumberPad (optional). 1x USB 2.0 Type-A, 1x USB 3.2 Gen 2 Type-A, 1x USB 3.2 Gen 2 Type-C (Display & Power Delivery), 1x HDMI 2.1 TMDS, 1x 3.5mm combo audio jack, 1x DC-in. Smart amplifier technology, built-in speakers and microphone, Harman/Kardon, Cortana voice recognition support. 45W AC adapter, Output: 19V DC, 2.37A, 45W, Input: 100~240V AC 50/60Hz universal. 50Wh, 3-cell Li-ion battery. Chiclet keyboard with backlight. Dimensions: 31.32 × 22.76 × 1.89 cm. Weight: 1.50 kg (1.40 kg without extras). Free 30-day McAfee® trial. TPM firmware. MyASUS: diagnostics, battery health charging, fan profile, WiFi SmartConnect, TaskFirst, Live Update, OLED Care, fast charging, AI noise cancelation, WiFi range boost. ScreenXpert, GlideX. 1-month Adobe Creative Cloud All Apps membership (redeemable from Sep 15, 2021 to Aug 31, 2024). Stylus pen (supports SA200H-MPP1.51 active stylus).",
-          "features": [
-            "Stylus pen (supports SA200H-MPP1.51 active stylus)",
-            "AMD Ryzen 5 7530U 2.3GHz processor (19MB cache, up to 4.5GHz, 6 cores, 12 threads)",
-            "AMD Radeon integrated graphics"
-          ],
-          "attributes": [
-            {
-              "key": "Return Reason / Return Period / Return Policy",
-              "value": ""
-            },
-            {
-              "key": "Brand",
-              "value": "ASUS"
-            },
-            {
-              "key": "Package Dimensions",
-              "value": "45.6 x 28.7 x 6.7 cm; 1.5 kg"
-            },
-            {
-              "key": "Item model number",
-              "value": "TN3402YA-LZ005W"
-            },
-            {
-              "key": "Manufacturer",
-              "value": "ASUS"
-            },
-            {
-              "key": "Series",
-              "value": "VivoBook S 14"
-            },
-            {
-              "key": "Color",
-              "value": "Silver"
-            },
-            {
-              "key": "Form Factor",
-              "value": "Convertible"
-            },
-            {
-              "key": "Display Size",
-              "value": "14 Inches"
-            },
-            {
-              "key": "Display Resolution",
-              "value": "1920 x 1080 pixels"
-            },
-            {
-              "key": "Resolution",
-              "value": "1920 x 1080"
-            },
-            {
-              "key": "Processor Brand",
-              "value": "AMD"
-            },
-            {
-              "key": "Processor Type",
-              "value": "Ryzen 5"
-            },
-            {
-              "key": "Processor Speed",
-              "value": "2 GHz"
-            },
-            {
-              "key": "Processor Count",
-              "value": "6"
-            },
-            {
-              "key": "RAM Size",
-              "value": "8 GB"
-            },
-            {
-              "key": "Memory Technology",
-              "value": "DDR4"
-            },
-            {
-              "key": "Computer Memory Type",
-              "value": "DDR4 SDRAM"
-            },
-            {
-              "key": "Max Supported Memory",
-              "value": "512 GB"
-            },
-            {
-              "key": "Hard Drive Size",
-              "value": "512"
-            },
-            {
-              "key": "Hard Drive Description",
-              "value": "SSD"
-            },
-            {
-              "key": "Hard Drive Interface",
-              "value": "Serial ATA"
-            },
-            {
-              "key": "Audio Details",
-              "value": "Speakers"
-            },
-            {
-              "key": "Speaker Description",
-              "value": "Built-in Speakers"
-            },
-            {
-              "key": "Graphics Coprocessor",
-              "value": "AMD Radeon (integrated)"
-            },
-            {
-              "key": "Graphics Chipset Brand",
-              "value": "AMD"
-            },
-            {
-              "key": "Graphics Card Description",
-              "value": "Integrated"
-            },
-            {
-              "key": "Graphics RAM Type",
-              "value": "DDR DRAM"
-            },
-            {
-              "key": "Graphics RAM Size",
-              "value": "512 GB"
-            },
-            {
-              "key": "Graphics Card Interface",
-              "value": "Integrated"
-            },
-            {
-              "key": "Connectivity Type",
-              "value": "Wi-Fi"
-            },
-            {
-              "key": "Number of USB 2.0 Ports",
-              "value": "1"
-            },
-            {
-              "key": "Number of USB 3.0 Ports",
-              "value": "2"
-            },
-            {
-              "key": "Optical Drive Type",
-              "value": "CD-ROM"
-            },
-            {
-              "key": "Operating System",
-              "value": "Windows 11 Home"
-            },
-            {
-              "key": "Item Weight",
-              "value": "1.5 Kilograms"
-            },
-            {
-              "key": "ASIN",
-              "value": "B0D2M21XCB"
-            },
-            {
-              "key": "Customer Reviews",
-              "value": "5.0 out of 5 stars — 5 ratings"
-            },
-            {
-              "key": "Best Sellers Rank",
-              "value": "#28,647 in Electronics (See Top 100 in Electronics), #60 in Traditional Laptops"
-            },
-            {
-              "key": "Date First Available",
-              "value": "April 1, 2024"
-            }
-          ],
-          "productOverview": [
-            {
-              "key": "Brand",
-              "value": "ASUS"
-            },
-            {
-              "key": "Model Name",
-              "value": "VivoBook S 14"
-            },
-            {
-              "key": "Screen Size",
-              "value": "14 Inches"
-            },
-            {
-              "key": "Color",
-              "value": "Silver"
-            },
-            {
-              "key": "Hard Disk Size",
-              "value": "512"
-            },
-            {
-              "key": "CPU Model",
-              "value": "Ryzen 5"
-            },
-            {
-              "key": "Installed RAM",
-              "value": "8 GB"
-            },
-            {
-              "key": "Operating System",
-              "value": "Windows 11 Home"
-            },
-            {
-              "key": "Special Features",
-              "value": "Flip"
-            },
-            {
-              "key": "Graphics Description",
-              "value": "Integrated"
-            }
-          ]
-        ,
-        
-      "variantAsins": [],
-      "variantDetails": [],
-      "reviewsLink": "https://www.amazon.eg/product-reviews/B0D2M21XCB",
-      "hasReviews": true,
-      "delivery": "الخميس، 17 أبريل",
-      "fastestDelivery": "غداً، 16 أبريل",
-      "returnPolicy": null,
-      "support": null,
-      "variantAttributes": [],
-      "manufacturerAttributes": [],
-      "seller": {
-        "name": "Amazon.eg",
-        "id": null,
-        "url": null,
-        "reviewsCount": null,
-        "averageRating": null
-      },
-      "bestsellerRanks": null,
-      "isAmazonChoice": false,
-      "amazonChoiceText": null,
-      "bookDescription": null,
-      "priceRange": null,
-      "aPlusContent": null,
-      "brandStory": null,
-      "productComparison": null,
-      "aiReviewsSummary": null,
-      "monthlyPurchaseVolume": null,
-      "productPageReviews": [
-        {
-          "username": "Mide",
-          "userId": "amzn1.account.AGZOM4OJ2HFHZSRW3JIVW6ZD2YMQ",
-          "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGZOM4OJ2HFHZSRW3JIVW6ZD2YMQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-          "ratingScore": 5,
-          "reviewTitle": "Perfectly functional",
-          "reviewDescription": "No complaints, flip chrome book, touch is good, pen is decent, battery is okay. Good over all",
-          "date": null,
-          "position": 1,
-          "reviewedIn": "تمت كتابة هذا التقييم في مصر في 13 فبراير 2025",
-          "reviewId": "R3HUT5C2APWGRQ",
-          "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R3HUT5C2APWGRQ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0D2M21XCB",
-          "reviewImages": [],
-          "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": null,
-          "variant": ""
-        },
-        {
-          "username": "Hagar Alamir",
-          "userId": "amzn1.account.AHZ652STTYBSLLOVCSGQIBJD52RA",
-          "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHZ652STTYBSLLOVCSGQIBJD52RA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-          "ratingScore": 5,
-          "reviewTitle": "اللاب ممتاز",
-          "reviewDescription": "اللاب جميل جدا وامكانياته تحفه ويوجد معاه قلم بالداخل وشاحن للقلم",
-          "date": null,
-          "position": 2,
-          "reviewedIn": "تمت كتابة هذا التقييم في مصر في 28 ديسمبر 2024",
-          "reviewId": "R20CE17FQQ9WBS",
-          "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R20CE17FQQ9WBS/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0D2M21XCB",
-          "reviewImages": [],
-          "reviewReaction": "مستخدم واحد وجد هذه المراجعة مفيدة",
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": null,
-          "variant": ""
-        },
-        {
-          "username": "h-prod",
-          "userId": "amzn1.account.AGPX3KCLZQEPAGMS6YUO6QMFMGEQ",
-          "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGPX3KCLZQEPAGMS6YUO6QMFMGEQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-          "ratingScore": 5,
-          "reviewTitle": "ممتاز ما شاء الله",
-          "reviewDescription": "اللاب جميل وسريع للإستخدام العادي، بس محتاج تزودله رامات لأن ٨ جيجا قليلة جدا",
-          "date": null,
-          "position": 3,
-          "reviewedIn": "تمت كتابة هذا التقييم في مصر في 19 نوفمبر 2024",
-          "reviewId": "R3JSI8Z0JAAKX7",
-          "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R3JSI8Z0JAAKX7/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0D2M21XCB",
-          "reviewImages": [],
-          "reviewReaction": "2 مستخدمين وجدوا هذه المراجعة مفيدة",
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": null,
-          "variant": ""
-        },
-        {
-          "username": "Moussa",
-          "userId": "amzn1.account.AHQ2SCYZIJ4XBM77QFSFVSIBBW6A",
-          "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHQ2SCYZIJ4XBM77QFSFVSIBBW6A/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
-          "ratingScore": 5,
-          "reviewTitle": "Very good",
-          "reviewDescription": "Very good 😊",
-          "date": null,
-          "position": 4,
-          "reviewedIn": "تمت كتابة هذا التقييم في مصر في 24 نوفمبر 2024",
-          "reviewId": "R1GBV43JG1W2VC",
-          "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1GBV43JG1W2VC/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0D2M21XCB",
-          "reviewImages": [],
-          "reviewReaction": null,
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": null,
-          "variant": ""
-        }
-      ],
-      "productPageReviewsFromOtherCountries": [],
-      "locationText": "مصر",
-      "loadedCountryCode": "EG",
-      "offers": [],
-      "unNormalizedProductUrl": "https://www.amazon.eg/s?i=electronics&rh=n%3A21832907031&s=popularity-rank&fs=true&language=en_AE&ref=lp_21832907031_sar&page=2",
-      "categoryPageData": {
-        "saleSummary": "10% off with HSBC credit cards",
-        "isSponsored": false,
-        "bestsellerBadge": null,
-        "productPosition": 32
-      },
-      "input": "https://www.amazon.eg/s?i=electronics&rh=n%3A21832907031&s=popularity-rank&fs=true&language=en_AE&ref=lp_21832907031_sar"
-  },
-  {
       "title": "Lenovo IdeaPad 1, CPU: Intel® Core™ i7-1255U, 8GB Soldered DDR4-3200, Display: 15.6 FHD (1920x1080) TN 220nits Anti-glare, 512GB SSD, Windows® 11 Home (82QD00AVED) 2 Years Local Warranty by Lenovo",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0CVMSQSJK",
+    "noon":"https://www.noon.com/egypt-ar/lenovo-ideapad-1-15iau7-15-6-fhd-intel-core-i7-1255u-8gb-ram-512gb-ssd-intel-iris-xe-graphics-win11-english-arabic-blue/N53398746A/p/?o=f7578a1859b5c6ac&shareId=a431bbc7-7046-426e-8b71-7b0c81477fd9",
     "jumia": "https://www.jumia.com.eg/ar/lenovo-laptop-i7-1255u-8g-512gb-iris-xe-15.6-fhd-win-11-abyss-blue-82qd00aved-ideapad-1-108590948.html"
   },
       "asin": "B0CVMSQSJK",
       "originalAsin": "B0CVMSQSJK",
       "priceAmazon":21945,
-      "priceJumia":29580,
+      "priceJumia":28560.00,
+      "priceNoon":32000.00,
       
           "inStock": true,
           "inStockText": "In Stock",
@@ -10852,12 +9603,14 @@
       "title": "MSI Thin 15 B12UCX|i5-12450H| RTX 2050 4GB| 8GB RAM DDR4 3200Mhz | 512GB NVMe Gen4x4| 15.6 IPS FHD 144Hz 45% NTSC Display| Blue Backlit Gaming Keyboard| DOS| Cosmos Gray| 2 Years Local Warranty",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DQCLL1JR",
+    "noon":"https://www.noon.com/egypt-ar/laptop-msi-thin-b12ucx-cpu-alder-lake-i5-12450h-ram-8g-ddr4-3200mhz-512gb-nvme-pcie-ssd-vga-rtx-2050-gddr6-4gb-fhd-144hz-ips-blue-backlit-2-yr-cosmos-gray-9s7-16r831-2616-english-arabic-cosmos-gray/N70144381V/p/?o=a4fb5172b111f8fd&shareId=4364a6ff-5d76-4523-a973-fa46874db1cd",
     "jumia": "https://www.jumia.com.eg/ar/msi-thin-15-b12ucx-i5-12450h-8gb-512gb-ssd-nvidiar-geforce-rtx-2050-4gb-15.6-fhd-144hz-123947458.html"
   },
       "asin": "B0DQCLL1JR",
       "originalAsin": "B0DQCLL1JR",
-     "priceAmazon":28902,
-     "priceJumia": 31599,
+     "priceAmazon":28079,
+     "priceJumia": 31599.00,
+     "priceNoon":28720.00,
      
       "inStock": true,
       "inStockText": "In Stock",
@@ -11144,12 +9897,14 @@
       "title": "MSI Cyborg 15 A13VF - Intel® Core™ i7-13620H Processor Nvidia RTX 4060-8GB GDDR6 Graphics - 16GB DDR5-512 GB SSD - 15.6-Inch FHD Screen - Translucent Black - Local Warranty",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0D92CFH79",
+    "noon":"https://www.noon.com/egypt-ar/cyborg-15-a13v-gaming-ai-laptop-with-15-6-inch-full-hd-ips-144hz-display-core-i7-13620h-processor-16gb-ram-512gb-ssd-windows-11-home-nvidia-geforce-rtx-4060-8gb-english-arabic-black/N70083262V/p/?o=c911c54c77f2fa5c&shareId=cd0a0f68-4e03-4667-8580-f50bafd918fb",
     "jumia": "https://www.jumia.com.eg/ar/msi-nb-msi-cyborg-15-a13vf-882-ci7-13620h-512gb-ssd-16gb-rtx4060-8gb-15.6fhd-dos-bk-130163064.html"
   },
       "asin": "B0D92CFH79",
       "originalAsin": "B0D92CFH79",
       "priceAmazon": 50150,
-      "priceJumia": 50399,
+      "priceJumia":50000.00 ,
+      "priceNoon":51500.00,
       
           "inStock": true,
           "inStockText": "Only 3 left – order now.",
@@ -11559,12 +10314,14 @@
       "title": "HP Victus Gaming Laptop (15-fb0034ne), CPU: Ryzen 7-5800H, 16GB DDR4 2DM 3200 Graphics Card: Nvidia GeForce RTX 3050, VRAM: 4GB, Display: 15.6 FHD IPS 250 nits 144Hz Narrow Border, 512GB, Windows 11",
      "urls": {
     "amazon": "https://www.amazon.eg/dp/B0BM55CQRB",
+    "noon":"https://www.noon.com/egypt-ar/15-fb0033ne-victus-gaming-laptop-with-15-6-inch-fhd-amd-ryzen-7-5800h-16gb-ram-512gb-ssd-nvidia-geforce-rtx-3050-ti-4gb-windows11-english-arabic-mica-silver/N53426403A/p/?o=d1131aac1363316c&shareId=601b4281-7413-45b7-a25c-bdf7b5c3bf23",
     "jumia": "https://www.jumia.com.eg/ar/hp-victus-15-fb0034ne-amd-ryzen-7-5800h-16gb-512gb-ssd-nvidia-geforce-rtx-3050-4gb-15.6-fhd-win11-mica-silver-130115736.html"
   },
       "asin": "B0BM55CQRB",
       "originalAsin": "B0BM55CQRB",
-      "priceAmazon": 54700,
-      "priceJumia":49999,
+      "priceAmazon":47359,
+      "priceJumia":49999.00,
+      "priceNoon":47999.00,
       
           "inStock": true,
           "inStockText": "Available",
@@ -12081,7 +10838,7 @@
   },
       "asin": "B0DC947Z6K",
       "originalAsin": "B0DC947Z6K",
-     "priceAmazon": 49787,
+     "priceAmazon": 48379,
   "priceJumia": 49999,
   
       "inStock": true,
@@ -12402,13 +11159,14 @@
       "title": "ASUS Vivobook Go 15|AMD R3-7320U|4GB LPDDR5 on board|AMD Radeon Graphics|15.6 FHD (1920 x 1080) 16:9 aspect ratio|256GB M.2 NVMe PCIe 3.0 SSD|Free Dos(E1504FA-NJ001)1 Year Perfect Warranty by ASUS",
       "urls": {
           "amazon": "https://www.amazon.eg/dp/B0DM1X21RX",
+          "noon":"https://www.noon.com/egypt-ar/e1504fa-nj001-laptop-15-6-inch-fhd-amd-ryzen-3-7520u-4gb-ram-256gb-ssd-dos-green-grey-english-arabic-grey/N70126055V/p/?o=e87b7d70f43e378b&shareId=0de8e978-28ac-47f8-99be-18ff07bf856f",
           "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-go-15-15-fhd-amd-ryzen-3-7320u-processor-2.4ghz-4gb256gb-ssd-amd-radeon-graphics-freedos-green-grey-121244472.html"
         },
       "asin": "B0DM1X21RX",
       "originalAsin": "B0DM1X21RX",
-      "priceAmazon": 9999,
-  "priceJumia": 4299.0,
-  
+      "priceAmazon": 12999,
+      "priceJumia": 13799.00,
+      "priceNoon":15200.00,
       "inStock": false,
       "inStockText": "",
       "listPrice": null,
@@ -12536,422 +11294,17 @@
       "input": "https://www.amazon.eg/s?i=electronics&rh=n%3A21832907031&s=popularity-rank&fs=true&language=en_AE&ref=lp_21832907031_sar"
   },
   {
-      "title": "Dell Latitude 3420 bussiness Laptop - Intel Core i5-1135G7 Quad Core up to 4.2GHz 8MB Smart Cache, 8GB RAM, 256G SSD, 14 FHD (1920X1080) 250nits Anti-glare, Intel Iris Xe Graphics, FingerPrint, Black",
-      "urls": {
-          "amazon": "https://www.amazon.eg/dp/B0CYZQGMYV",
-          "jumia": "https://www.jumia.com.eg/ar/grouhy-gld32nav2-32-inch-led-hd-tv-frameless-120595663.html"
-        },
-      "asin": "B0CGR7YQGB",
-      "originalAsin": "B0CGR7YQGB",
-      "priceAmazon":24644,
-      "priceJumia":26670,
-      
-          "inStock": true,
-          "inStockText": "Usually ships within 4 to 5 days",
-          "listPrice": null,
-          "brand": "Dell",
-          "author": null,
-          "shippingPrice": {
-            "value": 26,
-            "currency": "EGP"
-          },
-          "stars": 3.9,
-          "starsBreakdown": {
-            "5star": 0.53,
-            "4star": 0.12,
-            "3star": 0.15,
-            "2star": 0.13,
-            "1star": 0.07
-          },
-          "reviewsCount": 69,
-          "answeredQuestions": null,
-          "breadCrumbs": "Electronics > Computers, Components & Accessories > Laptops > Traditional Laptops",
-          "videosCount": 0,
-          "visitStoreLink": {
-            "text": "Brand: Dell",
-            "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D8%AF%D9%8A%D9%84"
-          },
-          "thumbnailImage": "https://m.media-amazon.com/images/I/511igRXhVBL.__AC_SY300_SX300_QL70_ML2_.jpg",
-          "galleryThumbnails": [
-            "https://m.media-amazon.com/images/I/31HmY7uq7kL._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/41XNKRhNXcL._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/51D-6gKHXEL._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/41asv6DNTML._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/21iYo-PBeUL._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/21moJlqhaUL._AC_US.jpg",
-            "https://m.media-amazon.com/images/I/318URov+RZL._AC_US.jpg"
-          ],
-          "highResolutionImages": [
-            "https://m.media-amazon.com/images/I/511igRXhVBL._AC_SL1326_.jpg",
-            "https://m.media-amazon.com/images/I/61TdfSYxnzL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/71DFS7X9YRL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/71e7gZMikML._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/51aRgSQJaKL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/51ZIWCfMERL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/61VCDccxS-L._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/51S3tr1UfGL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/51jfXYbK4CL._AC_SL1500_.jpg"
-          ],
-          "sustainabilityFeatures": null,
-          "description": "Dell Latitude 7490 14-inch FHD (1920x1080) Business Laptop, Intel Core i5 8350U, 16GB DDR4 RAM, 512GB SSD, Webcam, WiFi, Bluetooth, Windows 10 Pro 64-bit (Renewed)",
-          "features": [
-            "Brand: Dell",
-            "Hard Drive Size: 512 GB",
-            "Operating System: Windows 10 Pro"
-          ],
-          "attributes": [
-            {
-              "key": "Return Reason  Return Period  Return Policy",
-              "value": ""
-            },
-            {
-              "key": "Brand",
-              "value": "Dell"
-            },
-            {
-              "key": "Package Dimensions",
-              "value": "41 x 31 x 11.5 cm; 1.95 kg"
-            },
-            {
-              "key": "Batteries",
-              "value": "1 item requires batteries. (Included)"
-            },
-            {
-              "key": "Item Model Number",
-              "value": "Dell Latitude 7490"
-            },
-            {
-              "key": "Manufacturer",
-              "value": "Dell Computers"
-            },
-            {
-              "key": "Series",
-              "value": "Latitude"
-            },
-            {
-              "key": "Form Factor",
-              "value": "Ultra-Portable"
-            },
-            {
-              "key": "Display Size",
-              "value": "14 inches"
-            },
-            {
-              "key": "Screen Resolution",
-              "value": "1920 x 1080 pixels"
-            },
-            {
-              "key": "Display Resolution",
-              "value": "1920 x 1080 Pixels"
-            },
-            {
-              "key": "Processor Brand",
-              "value": "Intel"
-            },
-            {
-              "key": "Number of Processors",
-              "value": "1"
-            },
-            {
-              "key": "RAM Size",
-              "value": "16 GB"
-            },
-            {
-              "key": "Memory Technology",
-              "value": "DDR4"
-            },
-            {
-              "key": "Computer Memory Type",
-              "value": "DDR4 SDRAM"
-            },
-            {
-              "key": "Hard Disk Size",
-              "value": "512 GB"
-            },
-            {
-              "key": "Hard Disk Description",
-              "value": "SSD"
-            },
-            {
-              "key": "Hard Disk Interface",
-              "value": "Solid State"
-            },
-            {
-              "key": "Audio Details",
-              "value": "Speakers"
-            },
-            {
-              "key": "Graphics Coprocessor",
-              "value": "Intel"
-            },
-            {
-              "key": "Graphics Chipset Brand",
-              "value": "Intel"
-            },
-            {
-              "key": "Wireless Type",
-              "value": "Bluetooth"
-            },
-            {
-              "key": "Hardware Platform",
-              "value": "PC"
-            },
-            {
-              "key": "Operating System",
-              "value": "Windows 10 Pro"
-            },
-            {
-              "key": "Are Batteries Included",
-              "value": "Yes"
-            },
-            {
-              "key": "Lithium Battery Energy Content",
-              "value": "42 Watt Hours"
-            },
-            {
-              "key": "Lithium Battery Packaging",
-              "value": "Batteries contained in equipment"
-            },
-            {
-              "key": "Lithium Battery Weight",
-              "value": "180 Grams"
-            },
-            {
-              "key": "Number of Lithium Ion Cells",
-              "value": "3"
-            },
-            {
-              "key": "Item Weight",
-              "value": "1.95 Kilograms"
-            },
-            {
-              "key": "ASIN",
-              "value": "B0CGR7YQGB"
-            },
-            {
-              "key": "Customer Reviews",
-              "value": "3.9 out of 5 stars based on 69 ratings"
-            },
-            {
-              "key": "Best Sellers Rank",
-              "value": "#451,722 in Electronics (See Top 100 in Electronics)   #1,153 in Traditional Laptops"
-            },
-            {
-              "key": "Date First Available",
-              "value": "September 9, 2023"
-            }
-          ],
-          "productOverview": [
-            {
-              "key": "Brand Name",
-              "value": "Dell"
-            },
-            {
-              "key": "Model Name",
-              "value": "Latitude"
-            },
-            {
-              "key": "Screen Size",
-              "value": "14 inches"
-            },
-            {
-              "key": "Hard Disk Size",
-              "value": "512 GB"
-            },
-            {
-              "key": "Installed RAM",
-              "value": "16 GB"
-            },
-            {
-              "key": "Operating System",
-              "value": "Windows 10 Pro"
-            },
-            {
-              "key": "Graphics Processor",
-              "value": "Intel"
-            },
-            {
-              "key": "Hard Disk Description",
-              "value": "SSD"
-            },
-            {
-              "key": "Resolution",
-              "value": "1080p"
-            },
-            {
-              "key": "Item Weight",
-              "value": "1.95 kg"
-            }
-          ]
-        ,
-        
-      "variantAsins": [
-        "B0CGR7YQGB"
-      ],
-      "variantDetails": [
-        {
-          "name": "7490-i5 | 16GB-512GB SSD 14 بوصة",
-          "thumbnail": "https://m.media-amazon.com/images/I/31HmY7uq7kL._AC_US.jpg",
-          "images": [
-            "https://m.media-amazon.com/images/I/511igRXhVBL._AC_SL1326_.jpg",
-            "https://m.media-amazon.com/images/I/61TdfSYxnzL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/71DFS7X9YRL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/71e7gZMikML._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/51aRgSQJaKL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/51ZIWCfMERL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/61VCDccxS-L._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/51S3tr1UfGL._AC_SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/51jfXYbK4CL._AC_SL1500_.jpg"
-          ],
-          "asin": "B0CGR7YQGB",
-          "price": null
-        }
-      ],
-      "reviewsLink": "https://www.amazon.eg/product-reviews/B0CGR7YQGB",
-      "hasReviews": true,
-      "delivery": "أبريل 26 - 27",
-      "fastestDelivery": null,
-      "returnPolicy": null,
-      "support": null,
-      "variantAttributes": [],
-      "manufacturerAttributes": [],
-      "seller": {
-        "name": "CompuMisr2022",
-        "id": "A1R0QV5IW16NB5",
-        "url": "https://www.amazon.eg/sp?seller=A1R0QV5IW16NB5",
-        "reviewsCount": null,
-        "averageRating": null
-      },
-      "bestsellerRanks": null,
-      "isAmazonChoice": false,
-      "amazonChoiceText": null,
-      "bookDescription": null,
-      "priceRange": null,
-      "aPlusContent": null,
-      "brandStory": null,
-      "productComparison": null,
-      "aiReviewsSummary": null,
-      "monthlyPurchaseVolume": null,
-      "productPageReviews": [],
-      "productPageReviewsFromOtherCountries": [
-        {
-          "username": "Scott Harden",
-          "userId": null,
-          "userProfileLink": null,
-          "ratingScore": 5,
-          "reviewTitle": "Fantastic condition and excellent build quality!",
-          "reviewDescription": "I was hesitant to buy a refurbished laptop, but immediately after taking it out of the box I knew I made a good decision. The laptop is really clean and in mint condition. It wouldn't surprise me if I were the first person to have turned on this laptop. My item turned out to have a touch screen even though it was listed as non-touch. The sturdy build quality of the laptop itself exceeded my expectations too. I'm really happy with this purchase!",
-          "date": null,
-          "position": 1,
-          "reviewedIn": "تمت كتابة هذا التقييم في الولايات المتحدة يوم 18 مارس 2023",
-          "reviewId": "R1CAS9P1IGWB0O",
-          "reviewUrl": null,
-          "reviewImages": [],
-          "reviewReaction": null,
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/6682e938-0254-4fcf-84fc-3ca74425cb23._CR0%2C0%2C460%2C460_SX460_.jpg",
-          "variant": ""
-        },
-        {
-          "username": "Hissein Idriss",
-          "userId": null,
-          "userProfileLink": null,
-          "ratingScore": 4,
-          "reviewTitle": "Exactly how advertised",
-          "reviewDescription": "Laptop in excellent condition, specs as advertised",
-          "date": null,
-          "position": 2,
-          "reviewedIn": "تمت كتابة هذا التقييم في كندا يوم 28 يوليو 2024",
-          "reviewId": "RAPFC3ZWS7Y5H",
-          "reviewUrl": null,
-          "reviewImages": [],
-          "reviewReaction": null,
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": null,
-          "variant": ""
-        },
-        {
-          "username": "brilliance",
-          "userId": null,
-          "userProfileLink": null,
-          "ratingScore": 2,
-          "reviewTitle": "Not Happy!!!",
-          "reviewDescription": "The product is good in its configuration. But the functionalities did not work properly especially the mousepad due to which I had to return the product.",
-          "date": null,
-          "position": 3,
-          "reviewedIn": "تمت كتابة هذا التقييم في كندا يوم 4 نوفمبر 2024",
-          "reviewId": "R3QO8I5NBAFVIV",
-          "reviewUrl": null,
-          "reviewImages": [],
-          "reviewReaction": null,
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/fc41f5ce-dfb9-4d0d-bc59-2db8c1f7219c._CR0%2C0%2C600%2C600_SX460_.jpg",
-          "variant": ""
-        },
-        {
-          "username": "Stephanie",
-          "userId": null,
-          "userProfileLink": null,
-          "ratingScore": 5,
-          "reviewTitle": "Stopped working",
-          "reviewDescription": "Computer no longer works, I didn't have a year, what you see in the photos is all that it does, I work at home and this is messing up my work projects. I shouldn't have to pay for something that doesn't work.",
-          "date": null,
-          "position": 4,
-          "reviewedIn": "تمت كتابة هذا التقييم في الولايات المتحدة يوم 19 يونيو 2023",
-          "reviewId": "R4HG3GNUZHC9F",
-          "reviewUrl": null,
-          "reviewImages": [],
-          "reviewReaction": null,
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/89396f6b-ea4e-4df0-ad9f-6eb292a6339f._CR0%2C0%2C1125%2C1125_SX460_.jpg",
-          "variant": ""
-        },
-        {
-          "username": "R Stevens",
-          "userId": null,
-          "userProfileLink": null,
-          "ratingScore": 3,
-          "reviewTitle": "Good, but better QC needed for renewed items",
-          "reviewDescription": "This is a pretty good little laptop when things are functioning correctly. I knew when I was buying it that it was a renewed and not new unit and expected a few hiccups but had a few major issues. Firstly the battery had not been tested and was at 10% health and needed to be replaced. The second and more serious issue was OS failures and thermal runaway caused by physical errors on the SSD. The SSD had three large burnout spots on the bottom of the card when removed. Undoubtedly the resulting OS crash issues are why the original owner sold it back to Amazon in the first place. However better QC should have addressed these issues before it was put up for sale again. Good news is neither of these problems is insurmountable and both are fairly cheap to fix. The battery and new SSD ran me about 150$ all together and the repairs require a bare minimum of tools/talent to carry out. With the new components installed the laptop works great and is a good travel/school pc.",
-          "date": null,
-          "position": 5,
-          "reviewedIn": "تمت كتابة هذا التقييم في الولايات المتحدة يوم 8 سبتمبر 2023",
-          "reviewId": "R2G7HMLTJZKARN",
-          "reviewUrl": null,
-          "reviewImages": [],
-          "reviewReaction": null,
-          "isVerified": false,
-          "isAmazonVine": false,
-          "avatar": null,
-          "variant": ""
-        }
-      ],
-      "locationText": "مصر",
-      "loadedCountryCode": "EG",
-      "offers": [],
-      "unNormalizedProductUrl": "https://www.amazon.eg/s?i=electronics&rh=n%3A21832907031&s=popularity-rank&fs=true&language=en_AE&ref=lp_21832907031_sar&page=4",
-      "categoryPageData": {
-        "saleSummary": "10% off with HSBC credit cards",
-        "isSponsored": false,
-        "bestsellerBadge": null,
-        "productPosition": 88
-      },
-      "input": "https://www.amazon.eg/s?i=electronics&rh=n%3A21832907031&s=popularity-rank&fs=true&language=en_AE&ref=lp_21832907031_sar"
-  },
-  {
       "title": "Lenovo LOQ 15IAX9 Gaming Laptop- Intel Core i5-12450HX, AI Chip: LA1, 4GB GDDR6 NVIDIA GeForce RTX2050, 16GB DDR5 RAM, 512GB SSD, 15.6 FHD (1920x1080) IPS 100% sRGB 144Hz, RGB Mouse",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DB6R617B",
+    "noon":"https://www.noon.com/egypt-ar/loq-gaming-laptop-with-15-6-inch-display-core-i5-12450hx-processor-16gb-ram-512gb-ssd-4gb-nvidia-geforce-rtx-2050-graphics-card-windows-11-english-arabic-luna-grey/N70130028V/p/?o=a25a34b758d5a5ac&shareId=b61f8b90-02ae-47cd-8a39-9efd031d15ba",
     "jumia": "https://www.jumia.com.eg/ar/lenovo-loq-e-15iax9e-laptop-intelr-coretm-i5-12450hx-16gb-ram-512gb-ssd-nvidiar-geforce-rtxtm-3050-6gb-15.6fhd-144hz-windows-11-luna-grey-130700850.html"
   },
       "asin": "B0DB6R617B",
       "originalAsin": "B0DB6R617B",
-      "priceAmazon":34923,
-  "priceJumia":36210,
+      "priceAmazon":33929,
+      "priceJumia":34680.00,
+      "priceNoon":33929,
   
       "inStock": true,
       "inStockText": "Available",
@@ -13292,12 +11645,14 @@
       "title": "Lenovo LOQ 15IAX9E (Essential) Gaming - Intel Core i5-12450HX, NVIDIA GeForce RTX 2050 4GB GDDR6 Graphics, 16GB DDR5 RAM, 512GB SSD, 15.6 FHD (1920x1080) IPS 300nits 100% sRGB 144Hz, Mouse//2 Years//",
      "urls": {
     "amazon": "https://www.amazon.eg/-/en/Lenovo-LOQ-15IAX9E-Essential-Gaming/dp/B0DRZK97JL/ref=sr_1_1?crid=2T8M1LKBAHZ8S&dib=eyJ2IjoiMSJ9.jIfTw_vDo8ovYFvBHf52J2XNPTFEW-CEnK-rIfPxKzSsJOD0vZ10ItOaUwd3G5j10DPj-AhIQwfSs7XCTbVN09wsgHUFZMK2Vf4x3w_JNtussIgdgyM8ehdmK9oc1SM1zZZn6KFgjYrhnLNGG6oPOn0apNG37lWPPbWY6sKt58a-Z_aIDEx_swot0E8wUdvOhbjkPD0aOP62PmhCJFxMiRampLLu83Z5xNFGwzQzdAGbU7hskFgJlh6tcToKz-NnxZZBm9DnmPLKNcPa_d3Scsoqe51vdzFhJDSdYBhBk_c.9LhCVxXq_N__jkLlhzeua4hNmzQI6BCsGfhbdqD6YEg&dib_tag=se&keywords=Lenovo+LOQ-E+15IAX9E+Laptop+Intel%C2%AE+Core%E2%84%A2+i5-&qid=1745065811&sprefix=lenovo+loq-e+15iax9e+laptop+intel+core+i5-%2Caps%2C274&sr=8-1",
+    "noon":"https://www.noon.com/egypt-ar/lenovo-loq-15iax9-intel-core-i5-12450hx-512gb-ssd-8gb-ram-nvidia-geforce-rtx-2050-4gb-15-6-inch-fhd-english-arabic-luna-grey/N70109523V/p/?o=a4fe2698cda5f1ea&shareId=82be530a-7661-4283-835c-eba21965d257",
     "jumia": "https://www.jumia.com.eg/ar/lenovo-loq-e-15iax9e-laptop-intelr-coretm-i5-12450hx-16gb-ram-512gb-ssd-nvidiar-geforce-rtxtm-3050-6gb-15.6fhd-144hz-windows-11-luna-grey-130700850.html"
   },
       "asin": "B0BWBTY5G3",
       "originalAsin": "B0BWBTY5G3",
-     "priceAmazon":33836,
-  "priceJumia": 36210,
+     "priceAmazon":32879,
+  "priceJumia": 34680.00,
+  "priceNoon":32499.00,
   
       "inStock": true,
       "inStockText": "Available",
@@ -13930,12 +12285,14 @@
       "title": "Lenovo IdeaPad Slim 3 15IRH8 Laptop - 13th Intel Core i7-13620H, 16 GB DDR5-4800 MHz, 512 GB SSD, Integrated Intel UHD Graphics, 15.6 FHD (1920x1080) IPS 300nits Anti-glare, Dos - Arctic Grey",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0CWG78C3L",
+    "noon":"https://www.noon.com/egypt-ar/lenovo-ideapad-slim-3-15irh8-upgraded-version-laptop-13th-intel-core-i7-13620h-16-gb-ddr5-4800-mhz-512-gb-ssd-integrated-intel-uhd-graphics-15-6-fhd-1920x1080-ips-300nits-anti-glare-windows11-arctic-grey-english-arabic-grey/N70080516V/p/?o=fe37e60371398ada&shareId=5e840137-07f9-4993-b514-5172f9c8f17b",
     "jumia": "https://www.jumia.com.eg/ar/lenovo-ideapad-slim-3-15irh8-intelr-coretm-i5-13420h-ram-16gb-lpddr5-hard-512gb-ssd-gpu-integrated-intelr-uhd-display-15.6fhd-os-dos-color-arctic-grey-lenovo-bag-120518626.html"
   },
       "asin": "B0CWG78C3L",
       "originalAsin": "B0CWG78C3L",
-      "priceAmazon":25899,
-      "priceJumia":26299,
+      "priceAmazon":32342.3,
+      "priceJumia":29299,
+      "priceNoon":32999.00,
   
       "inStock": true,
       "inStockText": "Only 1 left - order now.",
@@ -14170,12 +12527,14 @@
       "title": "HP ProBook 450 G10 (859W0EA) Core i5-1335U 10 Cores - 8GB DDR4-512GB SSD - NVIDIA RTX 2050 4GB - 15.6 FHD IPS - Fingerprint - Backlit KYB - DOS",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DCC7C8ZR",
+    "noon":"https://www.noon.com/egypt-ar/hp-probook-450-g10-intel-core-i5-1335u-8gb-ddr4-ssd-512gb-nvme-rtx-2050-4gb-graphics-15-6fhd-backlit-kb-silver-dos-english-silver/N70119613V/p/?o=f30cee5862558b4d&shareId=99fdee06-393d-4bfa-9f8f-b4be4f8b1b5d",
     "jumia": "https://www.jumia.com.eg/ar/hp-probook-450-g10-859w0ea-core-i5-1335u-10-cores-8gb-ddr4-hard-512gb-ssd-gpu-nvidia-rtx-2050-4gb-display-15.6-fhd-ips-backlit-kyb-os-dos-color-silver-118401691.html"
   },
       "asin": "B0DCC7C8ZR",
       "originalAsin": "B0DCC7C8ZR",
-     "priceAmazon":36862,
-  "priceJumia": 36999,
+     "priceAmazon":35819,
+  "priceJumia":36999.00,
+  "priceNoon":28999.00,
   
       "inStock": true,
       "inStockText": "Only 4 left - order now.",
@@ -14326,12 +12685,14 @@
       "title": "HP Victus Gaming Laptop (15-fa1009ne), CPU: Core i5-13500H, 8GB DDR4 1DM 3200 Graphics Card: Nvidia GeForce RTX 3050, VRAM: 6GB, Display: 15.6 FHD IPS 250 nits 144Hz Narrow Border, 1TB, Windows 11",
      "urls": {
     "amazon": "https://www.amazon.eg/-/en/HP-Victus-Gaming-Laptop-15-fa1009ne/dp/B0BX4J6ZVP/ref=sr_1_1?crid=1TJDZVCLEKZ7K&dib=eyJ2IjoiMSJ9.zlHIroZefa68Vc4fcN0j_m5b25tvRlWHzIhUPtEAEarwstumDcxnVGr5dgTQyFiXwqNTl3QzUe2w6piOrekvpBv90FUjw-W4gPM2l5PFgeVWp6-zIehSc6Qgp79eK6ObW9f9yw_OSLncK7QGoLftujdJhIBkUjWZBve6EOuZVSjMnddaPYzUgUO3S0iREJ13aWx0inCvjl97rVP7uzNasdLnbCLFS5uNidYSKE_SChqWibObE7aWpMMEZ52z2JbxiT4eesXTQ0awxf8Aj-AP4O4Gbhg4dpamaSAncyVRNqA.4Pnfz9asXm6KCLmGdKKd7BcoWO9_Ls1IdlW_k2rqWoE&dib_tag=se&keywords=Victus+15-fa1009ne&qid=1745067973&sprefix=victus+15-fa1009ne%2Caps%2C258&sr=8-1",
-    "jumia": "https://www.jumia.com.eg/ar/hp-victus-15-fa1009ne-laptop-intel-core-i5-13500h-8gb-1tb-ssd-nvidia-geforce-rtx-3050-6gb-15.6-fhd-win11-performance-blue-130929094.html"
+    "jumia": "https://www.jumia.com.eg/ar/hp-victus-15-fa1009ne-laptop-intel-core-i5-13500h-8gb-1tb-ssd-nvidia-geforce-rtx-3050-6gb-15.6-fhd-win11-performance-blue-130929094.html",
+    "noon":"https://www.noon.com/egypt-ar/victus-gaming-15-fa1009ne-laptop-with-15-6-inch-led-core-i5-13500h-8gb-ram-1tb-ssd-6gb-nvidia-geforce-rtx-series-3050-windows-11-english-arabic-blue/N70017280V/p/?o=f9dc60c9759887ea&shareId=ae1d2744-952d-4aea-b537-903a8e6e14e5"
   },
       "asin": "B0DDRSBLDW",
       "originalAsin": "B0DDRSBLDW",
-      "priceAmazon":43575,
+      "priceAmazon":35575,
   "priceJumia":39999,
+  "priceNoon":43500.00,
   
       "inStock": true,
       "inStockText": "Only 4 left - order now.",
@@ -14956,12 +13317,14 @@
       "title": "Dell Latitude 5440- Intel 13Th Generation Intel Core I5-1335U- 8Gb Ram- 512Gb Gray-M001",
       "urls": {
     "amazon": "https://www.amazon.eg/-/en/Dell-Latitude-Generation-I5-1335U-Gray-M001/dp/B0D672FRZS/ref=sr_1_1?crid=3T1GBPN8I7071&dib=eyJ2IjoiMSJ9.N6lAiZGsak1Q0pfHebAnTqffSBxxv3-UOZQobnNV0s43W9jvlJjsV_TYpTDrVu2paFQjMgrDIbIOtwHUqXHuLKtSJlvsJxBUipusfzgOLjkMQad8x4pJcBs3T84j2ETIFrOCe6kBMiSOH_sOiqGoxJKXoRfa61W0ohgAv_T78X5gxoLdjTyJ4rcebA-b_gkNqKR4lLT89yVINJyVMQcmALIQ8cxjt0yhidzsMc-s9efzo99f19cNHisWRLaUYwyE_K8Ou5fQu5OuVHSAFbtWsNLquoVmoPHSEZf60EsT8_o.0IIlXN0qx2nrNGrU97pOgMZ3s07-_kif4IP2-NAZS2I&dib_tag=se&keywords=ELL+Latitude+5440+%28+Core+i5-1335U-8G+Ram+DDR4-3200-+512GB+NVMe-14.0%22+FHD-FingerPrint-+KB+Backlit+%29+3Yr+Warranty&qid=1745068391&sprefix=ell+latitude+5440+core+i5-1335u-8g+ram+ddr4-3200-+512gb+nvme-14.0%22+fhd-fingerprint-+kb+backlit+3yr+warranty%2Caps%2C172&sr=8-1",
+    "noon":"https://www.noon.com/egypt-ar/latitude-5540-xcto-base-intel-core-i5-1335u-13th-generation-intel-vpro-essentials-technology-enabled-8gb-ram-ddr4-512gb-m-2storage-3y-prosupport-and-next-business-day-onsite-service-extension-english-arabic-grey/N70111920V/p/?o=d5823470f039a54a&shareId=8c530e5f-a67c-42b8-a831-0b319cb0465a",
     "jumia": "https://www.jumia.com.eg/ar/dell-latitude-5440-core-i5-1335u-8g-ram-ddr4-3200-512gb-nvme-14.0-fhd-fingerprint-kb-backlit-3yr-warranty-125189306.html"
   },
       "asin": "B0CNMRVM5L",
       "originalAsin": "B0CNMRVM5L",
       "priceAmazon": 43450 ,
-  "priceJumia": 44440 ,
+  "priceJumia":50900.00 ,
+  "priceNoon":59850.00,
   
       "inStock": true,
       "inStockText": "Available",
@@ -15184,12 +13547,14 @@
       "title": "Asus Vivobook 15 X1502ZA-BQ007W: Ci7-12700H, 8GB, 512GB SSD, UHD Graphics, 15.6 FHD-250nits, A/E KB, Win11, Blue",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DFWXVYRT",
+    "noon":"https://www.noon.com/egypt-ar/asus-vivobook-15-x1502za-bq007w-upgraded-version-laptop-intel-ci7-12700h-8gb-ram-512gb-ssd-15-6-fhd-intel-uhd-graphics-win11-quiet-blue-90nb0vx1-m036b0-english-arabic-quiet-blue/N70108926V/p/?o=d39087e4c750cbff&shareId=b3530f9f-80d0-435a-a82b-58ee3337b9fb",
     "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-15-x1502za-bq007w-laptop-intel-core-i7-12700h-8gb-ram-ddr4-512gb-ssd-15.6-fhd-display-intel-uhd-graphics-windows-11-quiet-blue-model-90nb0vx1-m036b0-130128755.html"
   },
       "asin": "B0DFWXVYRT",
       "originalAsin": "B0DFWXVYRT",
       "priceAmazon":26850,
-      "priceJumia":31999,
+      "priceJumia":31999.00,
+      "priceNoon":26840.00,
   
       "inStock": true,
       "inStockText": "Only 1 left – order now.",
@@ -15489,12 +13854,14 @@
       "title": "DELL Vostro 3520 Laptop - 12th Intel core i7-1255U 10-Cores, 8GB RAM, 512 GB SSD PCIe NVMe, Intel Iris Xe Graphics, 15.6 FHD (1920x1080) 250 nits WVA Anti- Glare, Backlit KB, UBUNTU - Carbon Black",
       "urls": {
     "amazon": "https://www.amazon.eg/dp/B0C3TP44BF",
+    "noon":"https://www.noon.com/egypt-ar/vostro-3520-laptop-with-15-6-inch-display-core-i7-1255u-8gb-ram-512gb-ssd-intel-iris-graphics-ubuntu-english-arabic-carbon-black/N53414220A/p/?o=a1c1e3dc31e17afc&shareId=93fce453-b7ef-4324-8480-41ab70c0e87a",
     "jumia": "https://www.jumia.com.eg/ar/dell-vostro-3520-e002-intel-core-i7-1255u-16gb-ram-512gb-ssd-iris-xe-graphics-15.6-inches-fhd-black-129502711.html"
   },
       "asin": "B0C3TP44BF",
       "originalAsin": "B0C3TP44BF",
       "priceAmazon": 25999,
-      "priceJumia": 30600,
+      "priceJumia":27540.00,
+      "priceNoon":27999.00,
       
           "inStock": true,
           "inStockText": "Only 4 left - order now.",
@@ -16151,15 +14518,438 @@
       "input": "https://www.amazon.eg/s?i=electronics&rh=n%3A21832907031&s=popularity-rank&fs=true&language=en_AE&ref=lp_21832907031_sar"
   },
   {
+    "title": "Lenovo IdeaPad 1. CPU: Intel Core i7-1255U, 8GB DDR4, 3200, Screen: 15.6-inch FHD (1920×1080) TN with 220 nits Anti-glare Brightness, 512GB SSD, Windows® 11 Home (82QD00AVED)",
+    "asin": "B0CVMSQSJK",
+    "originalAsin": "B0CVMSQSJK",
+    "priceAmazon": 27945,
+    "priceJumia": 28560.00 ,
+    "priceNoon":32000.00,
+    "urls": {
+      "amazon": "https://www.amazon.eg/dp/B0CVMSQSJK",
+      "noon":"https://www.noon.com/egypt-ar/lenovo-ideapad-1-15iau7-15-6-fhd-intel-core-i7-1255u-8gb-ram-512gb-ssd-intel-iris-xe-graphics-win11-english-arabic-blue/N53398746A/p/?o=f7578a1859b5c6ac&shareId=c5d671a7-07ee-4587-a090-9712be4c65cc",
+      "jumia": "https://www.jumia.com.eg/ar/lenovo-laptop-i7-1255u-8g-512gb-iris-xe-15.6-fhd-win-11-abyss-blue-82qd00aved-ideapad-1-108590948.html"
+    },
+    "inStock": true,
+    "inStockText": "Available",
+    "listPrice": null,
+    "brand": "Lenovo",
+    "author": null,
+    "shippingPrice": null,
+    "stars": null,
+    "starsBreakdown": {
+      "5star": 0,
+      "4star": 0,
+      "3star": 0,
+      "2star": 0,
+      "1star": 0
+    },
+    "reviewsCount": null,
+    "answeredQuestions": null,
+    "breadCrumbs": "Electronics > Computers & Accessories > Laptops > Traditional Laptops",
+    "videosCount": 0,
+    "visitStoreLink": {
+      "text": "Visit Lenovo Store",
+      "url": "https://www.amazon.eg/stores/Lenovo/page/918BB4BC-D4B4-4FF2-B44F-7CE9EF70EF65?lp_asin=B0CVMSQSJK&ref_=ast_bln"
+    },
+    "thumbnailImage": "https://m.media-amazon.com/images/I/41LYrUswjjL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "galleryThumbnails": [
+      "https://m.media-amazon.com/images/I/41LYrUswjjL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/41NQbzqeynL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/31unfK1FVML._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/212cPsGmpfL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/41H7K+-CwmL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/21tahDVb1aL._AC_US.jpg",
+      "https://m.media-amazon.com/images/I/41BDFtiGiBL._AC_US.jpg"
+    ],
+    "highResolutionImages": [
+      "https://m.media-amazon.com/images/I/61OmNS7aS3L._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51bme3eeb+L._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/41Efnw5oC0L._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/31OgpZYd+XL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/31wofvVoGSL._AC_SL1000_.jpg"
+    ],
+    "sustainabilityFeatures": null,
+    "description": "Lenovo Laptop 82QD00AVED Intel Core i7-1255U 10 cores 12MB/8GB RAM 512GB SSD 15.6-inch FHD Windows 11 IdeaPad 1 is a budget-friendly laptop ideal for everyday tasks such as browsing the web, checking emails, and working on documents. Powered by the Intel Core i7-1255U processor from the 12th generation, with 10 cores and 4 threads. It also comes with 8GB DDR4 RAM and a 512GB PCIe SSD storage. The 15.6-inch TN HD display is not the best quality but is sufficient for most basic tasks. The laptop comes with Windows 11 S mode, meaning you can only install apps from the Microsoft Store. This laptop combines elegance and portability with ease of use, making it perfect for home, office, or on-the-go use.",
+    "features": [
+      "Powerful Intel Core i7-1255U processor",
+      "Vibrant 15.6-inch HD display",
+      "Sleek and portable design",
+      "Includes long-lasting battery",
+      "Perfect laptop for completing basic online tasks"
+    ],
+    "attributes": [
+      {
+        "key": "Return Reason Return Period Return Policy",
+        "value": ""
+      },
+      {
+        "key": "Brand",
+        "value": "Lenovo"
+      },
+      {
+        "key": "Shipping Dimensions",
+        "value": "53.2 x 33.29 x 7.2 cm; 1.5 kg"
+      },
+      {
+        "key": "Batteries",
+        "value": "1 Lithium-Ion battery required. (Included)"
+      },
+      {
+        "key": "Item Model Number",
+        "value": "82QD00AVED"
+      },
+      {
+        "key": "Manufacturer",
+        "value": "Lenovo"
+      },
+      {
+        "key": "Series",
+        "value": "IdeaPad 1"
+      },
+      {
+        "key": "Color",
+        "value": "White"
+      },
+      {
+        "key": "Form Factor",
+        "value": "Laptop"
+      },
+      {
+        "key": "Display Size",
+        "value": "15.6 inches"
+      },
+      {
+        "key": "Screen Resolution",
+        "value": "1920 x 1080 pixels"
+      },
+      {
+        "key": "Resolution",
+        "value": "1920x1080 Pixels"
+      },
+      {
+        "key": "Processor Brand",
+        "value": "Intel"
+      },
+      {
+        "key": "Processor Type",
+        "value": "Intel Core i7"
+      },
+      {
+        "key": "Processor Count",
+        "value": "1"
+      },
+      {
+        "key": "Memory Technology",
+        "value": "DDR4"
+      },
+      {
+        "key": "Computer Memory Type",
+        "value": "DDR4 SDRAM"
+      },
+      {
+        "key": "Maximum Supported Memory",
+        "value": "512 GB"
+      },
+      {
+        "key": "Memory Speed",
+        "value": "3200 MHz"
+      },
+      {
+        "key": "Hard Drive Size",
+        "value": "512 GB"
+      },
+      {
+        "key": "Hard Drive Description",
+        "value": "SSD"
+      },
+      {
+        "key": "Hard Drive Interface",
+        "value": "PCI Express x4"
+      },
+      {
+        "key": "Sound Details",
+        "value": "High-definition (HD) Audio"
+      },
+      {
+        "key": "Speaker Description",
+        "value": "Stereo speakers, 1.5W x 2, Dolby® Audio"
+      },
+      {
+        "key": "Dedicated Graphics Processor",
+        "value": "Intel Iris Xe Graphics"
+      },
+      {
+        "key": "Graphics Chip Brand",
+        "value": "Intel"
+      },
+      {
+        "key": "Graphics Card Description",
+        "value": "Integrated"
+      },
+      {
+        "key": "Graphics RAM Type",
+        "value": "DDR4 SDRAM"
+      },
+      {
+        "key": "Graphics Card Interface",
+        "value": "Integrated"
+      },
+      {
+        "key": "Connectivity Type",
+        "value": "Wi-Fi® 6, 11ax 2x2 + Bluetooth 5.1"
+      },
+      {
+        "key": "Wireless Type",
+        "value": "Bluetooth, 802.11ax"
+      },
+      {
+        "key": "USB 2.0 Ports",
+        "value": "1"
+      },
+      {
+        "key": "USB 3.0 Ports",
+        "value": "1"
+      },
+      {
+        "key": "HDMI Ports",
+        "value": "1"
+      },
+      {
+        "key": "Voltage",
+        "value": "24 volts"
+      },
+      {
+        "key": "Operating System",
+        "value": "Windows 11"
+      },
+      {
+        "key": "Are Batteries Included",
+        "value": "Yes"
+      },
+      {
+        "key": "Lithium Battery Energy Content",
+        "value": "45 Wh"
+      },
+      {
+        "key": "Lithium Battery Packaging",
+        "value": "Batteries included in equipment"
+      },
+      {
+        "key": "Lithium Battery Weight",
+        "value": "187 grams"
+      },
+      {
+        "key": "Lithium Ion Battery Cells",
+        "value": "3"
+      },
+      {
+        "key": "Item Weight",
+        "value": "1.5 Kilograms"
+      },
+      {
+        "key": "ASIN",
+        "value": "B0CVMSQSJK"
+      },
+      {
+        "key": "Best Seller Rank",
+        "value": "#4765 in Electronics (See Top 100 in Electronics)   #10 in Traditional Laptops"
+      },
+      {
+        "key": "First Available Date",
+        "value": "May 16, 2023"
+      }
+    ],
+    "productOverview": [
+      {
+        "key": "Brand Name",
+        "value": "Lenovo"
+      },
+      {
+        "key": "Model Name",
+        "value": "IdeaPad 1"
+      },
+      {
+        "key": "Screen Size",
+        "value": "15.6 inches"
+      },
+      {
+        "key": "Color",
+        "value": "White"
+      },
+      {
+        "key": "Hard Drive Size",
+        "value": "512GB"
+      },
+      {
+        "key": "CPU Model",
+        "value": "Intel Core i7"
+      },
+      {
+        "key": "Installed RAM",
+        "value": "8GB"
+      },
+      {
+        "key": "Operating System",
+        "value": "Windows 11"
+      },
+      {
+        "key": "Special Features",
+        "value": ""
+      },
+      {
+        "key": "Graphics Description",
+        "value": "Integrated"
+      }
+    ],
+    "variantAsins": [],
+    "variantDetails": [],
+    "reviewsLink": "https://www.amazon.eg/product-reviews/B0CVMSQSJK",
+    "hasReviews": false,
+    "delivery": "غداً، 17 أبريل",
+    "fastestDelivery": null,
+    "returnPolicy": null,
+    "support": null,
+    "variantAttributes": [],
+    "manufacturerAttributes": [],
+    "seller": {
+      "name": "Amazon.eg",
+      "id": null,
+      "url": null,
+      "reviewsCount": null,
+      "averageRating": null
+    },
+    "bestsellerRanks": null,
+    "isAmazonChoice": false,
+    "amazonChoiceText": null,
+    "bookDescription": null,
+    "priceRange": null,
+    "aPlusContent": null,
+    "brandStory": {
+      "title": "من العلامة التجارية",
+      "image": {
+        "name": null,
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2f7c4787-fb2c-4809-ad0e-e3b64198f7ca.__CR79,0,1476,630_PT0_SX1464_V1___.png"
+      },
+      "items": [
+        {
+          "title": null,
+          "text": "الاستدامة \nفي لينوفو، نركز على توفير تكنولوجيا أكثر ذكاءً تبني مستقبلًا أكثر إشراقًا واستدامة لعملائنا وزملائنا ومجتمعاتنا وكوكبنا.",
+          "url": null,
+          "image": {
+            "name": null,
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0b3d4871-4dfb-4e55-a9be-505bb7057c68.__CR0,412,5000,2302_PT0_SX315_V1___.png"
+          },
+          "items": []
+        },
+        {
+          "title": "الأكثر مبيعًا",
+          "text": "زيارة المتجر",
+          "url": "https://www.amazon.eg/stores/page/1231E2FA-449A-44E4-BDF0-AB6A9281CF41?store_ref=storeRecs_dp_aplus",
+          "image": {
+            "name": "Lenovo IdeaPad 1 15IGL7 - Intel Celeron N4020 up to 2.8GHz, 8GB RAM, 256GB SSD M.2 2242 PCIe 4.0x...",
+            "url": "https://m.media-amazon.com/images/I/31Vn0QG56TL.__AC_SR166,182___.jpg"
+          },
+          "items": [
+            {
+              "url": "https://www.amazon.eg/dp/B0D3CWC9X7/ref=emc_bcc_2_i",
+              "image": {
+                "name": "Lenovo IdeaPad 1 15IGL7 - Intel Celeron N4020 up to 2.8GHz, 8GB RAM, 256GB SSD M.2 2242 PCIe 4.0x...",
+                "url": "https://m.media-amazon.com/images/I/31Vn0QG56TL.__AC_SR166,182___.jpg"
+              }
+            },
+            {
+              "url": "https://www.amazon.eg/dp/B0D6MFK2HN/ref=emc_bcc_2_i",
+              "image": {
+                "name": "Lenovo IdeaPad 1 15IAU7 Laptop - 12th Intel Core i3-1215U, 8GB RAM, 256GB SSD, Integrated Intel U...",
+                "url": "https://m.media-amazon.com/images/I/51X94iF8QbL.__AC_SR166,182___.jpg"
+              }
+            },
+            {
+              "url": "https://www.amazon.eg/dp/B0CC1Q6XKS/ref=emc_bcc_2_i",
+              "image": {
+                "name": "Lenovo IdeaPad 3 15ALC6 Laptop - Ryzen 7 5700U 8 Cores, 8GB RAM, 512 GB PCIe NVMe, Integrated AMD...",
+                "url": "https://m.media-amazon.com/images/I/41e4IKAo6sL.__AC_SR166,182___.jpg"
+              }
+            },
+            {
+              "url": "https://www.amazon.eg/dp/B0CM21FM87/ref=emc_bcc_2_i",
+              "image": {
+                "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
+                "url": "https://m.media-amazon.com/images/I/41TcdKT5WHL.__AC_SR166,182___.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "title": "الأكثر شعبية",
+          "text": "زيارة المتجر",
+          "url": "https://www.amazon.eg/stores/page/1231E2FA-449A-44E4-BDF0-AB6A9281CF41?store_ref=storeRecs_dp_aplus",
+          "image": {
+            "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
+            "url": "https://m.media-amazon.com/images/I/31TV%2B21jCDL.__AC_SR166,182___.jpg"
+          },
+          "items": [
+            {
+              "url": "https://www.amazon.eg/dp/B0CM228DZV/ref=emc_bcc_2_i",
+              "image": {
+                "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
+                "url": "https://m.media-amazon.com/images/I/31TV%2B21jCDL.__AC_SR166,182___.jpg"
+              }
+            },
+            {
+              "url": "https://www.amazon.eg/dp/B0CKY9R28N/ref=emc_bcc_2_i",
+              "image": {
+                "name": "Lenovo IdeaPad 3 15ALC6 Laptop - Ryzen 7 5700U 8 Cores, 8GB RAM, 1TB HDD + 256GB SSD, Integrated ...",
+                "url": "https://m.media-amazon.com/images/I/41CWb84h%2B7L.__AC_SR166,182___.jpg"
+              }
+            },
+            {
+              "url": "https://www.amazon.eg/dp/B0D6MFK2HN/ref=emc_bcc_2_i",
+              "image": {
+                "name": "Lenovo IdeaPad 1 15IAU7 Laptop - 12th Intel Core i3-1215U, 8GB RAM, 256GB SSD, Integrated Intel U...",
+                "url": "https://m.media-amazon.com/images/I/51X94iF8QbL.__AC_SR166,182___.jpg"
+              }
+            },
+            {
+              "url": "https://www.amazon.eg/dp/B0C1VTSYG5/ref=emc_bcc_2_i",
+              "image": {
+                "name": "Lenovo IdeaPad 5 Pro - 82L9001WED intel Core i7-11370H, 16GB Ram, 1TB SSD, MX450, 16\" 2.5K - Stor...",
+                "url": "https://m.media-amazon.com/images/I/41HqdkthGeL.__AC_SR166,182___.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "productComparison": null,
+    "aiReviewsSummary": null,
+    "monthlyPurchaseVolume": null,
+    "productPageReviews": [],
+    "productPageReviewsFromOtherCountries": [],
+    "locationText": "مصر",
+    "loadedCountryCode": "EG",
+    "offers": [],
+    "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2&s=popularity-rank&page=2",
+    "categoryPageData": {
+      "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
+      "isSponsored": false,
+      "bestsellerBadge": null,
+      "productPosition": 39
+    },
+    "input": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2"
+  },
+  {
       "title": "HP Victus 15-fa1097ne Intel® Core™ i7-13700H RTX™ 4050 6GB 16GB 512GB SSD 15.6 FHD Free Dos Silver 86J65EA",
       "urls": {
     "amazon": "https://www.amazon.eg/-/en/HP-Victus-15-fa1097ne-i7-13700H-86J65EA/dp/B0D2M11XBS/ref=sr_1_3?crid=2GMS10T9NJ7F4&dib=eyJ2IjoiMSJ9.BqkaZITuMoPn9tU3tkZOaxzHPOckFllN2svCG4X5eEAKimh2vs_Yi8mxIs8fJkGy4b6scKke9Gwfy3guGuyP07dMPq5AUDjLzcSG3HSpdGNJLnUqGeTuqBEZWA9UrZQpa8W7xwzvpGZjTzXDsjOTifH3Ur9od1e-Q11EAiYi83wSxrjqFLdb7666t6ORH-3WLZA1gsRxNgb1IYEcfTHzGkX1hTNaqRUi0028vBROEYbToxsFXj3DgRyH3muOBaPPlDOogCu5-kFOTOIofAwxlXli_L852tB4bC2tgwTuZI0._CRmUgD_cSRKYq18Uw8v4HnbBrlBy6yltYxPBJ1LQ0w&dib_tag=se&keywords=HP%2BVictus%2Bfa1001ne%2BGaming%2BIntel%2BCore-i7-13700H&qid=1745070229&sprefix=hp%2Bvictus%2Bfa1001ne%2Bgaming%2Bintel%2Bcore-i7-13700h%2Caps%2C119&sr=8-3&th=1",
+    "noon":"https://www.noon.com/egypt-ar/hp-victus-gaming-15-fa1096ne-laptop-intel-core-i7-13700h-16gb-ddr4-5600-2x8gb-512gb-m-2-ssd-nvidia-geforce-rtx-4050-6gb-15-6-fhd-english-arabic-performance-blue/N70108701V/p/?o=f15e404d8201e20b&shareId=676a724d-f36b-4aa0-b99e-1919a2ea0dee",
     "jumia": "https://www.jumia.com.eg/ar/hp-victus-fa1001ne-gaming-intel-core-i7-13700h-16gb-ram-1-tb-ssd-15.6-inch-fhd-144hz-ips-geforce-rtx-4050-6gb-gddr6-graphics-backlit-keyboard-windows-11-mica-silver-130777021.html"
   },
       "asin": "B0DJHN73WL",
       "originalAsin": "B0DJHN73WL",
-      "priceAmazon":55799,
-      "priceJumia": 53745,
+      "priceAmazon":53559,
+      "priceJumia":50999.00,
+      "priceNoon":44999.00,
       
           "inStock": true,
           "inStockText": "Available",
@@ -16565,12 +15355,15 @@
       "title": "LENOVO THINKPAD E14 GEN 5 21JK008NED- i5 1335U– 8GB– 512GB SSD– MX550 2GB– 14 WUXGA IPS– ARB KYB Backlit- BAG- 2Y WARRANTY",
       "urls": {
     "amazon": "https://www.amazon.eg/-/en/LENOVO-THINKPAD-21JK008NED-Backlit-WARRANTY/dp/B0DKFTDFRP/ref=sr_1_6?crid=2OL7H5BXHIIGS&dib=eyJ2IjoiMSJ9.HXuSEJBT9WhPd1z9P2XfBLMoVSVynIL8S3scsGg-g5whwDPuXFpvdm6UyvhjzD6I4ASmKtDy37-SM3cEbnv60Q9nTS9a44-AlhsEPJ8EoKrb6rKNAzMSPvBh8Fb7ogtJq0z9uFX1jhw3Tff1Fw3eUa9PJt4q6eufPy8RBwL0z3H4UbIkBag4bKdWIzm8saeaFDSY7-Py_IUqMms9admA87Cx55B175oaJ-PFwh8doggh6Qkqgqq4yFtTBlGAtzs3j4HRhRHgjDu2FVu1bvV1jJA0nh1gHzN-516HA20QPfo.QoCED7vGYAv8cojV2oodQ4Z29QtTlWbBdNFUlUmczCg&dib_tag=se&keywords=Lenovo+ThinkPad+E15+Gen+2&qid=1745070784&sprefix=lenovo+thinkpad+e15+gen+2%2Caps%2C128&sr=8-6",
-    "jumia": "https://www.jumia.com.eg/ar/lenovo-thinkpad-e14-gen-5-21jk000ngrintelr-coretm-i5-1335u-ram-8gb-hard-512gb-ssd-gpu-nvidiar-geforce-mx550-2gb-display-14-wuxga-ips-os-dos-color-graphite-black-60735696.html"
+    "jumia": "https://www.jumia.com.eg/ar/lenovo-thinkpad-e14-gen-5-21jk000ngrintelr-coretm-i5-1335u-ram-8gb-hard-512gb-ssd-gpu-nvidiar-geforce-mx550-2gb-display-14-wuxga-ips-os-dos-color-graphite-black-60735696.html",
+    "noon":"https://www.noon.com/egypt-ar/thinkpad-e14-gen-5-21jk001ygr-upgraded-version-laptop-with-14-inch-display-core-i5-1335u-processor-16gb-ram-512gb-ssd-windows-11-pro-intel-iris-xe-graphics-english-black/N70052648V/p/?o=fbe02b229951d35e&shareId=645f7542-0fb0-4cc0-b87d-42a6c0a49bbd"
   },
       "asin": "B0CY3PTRLK",
       "originalAsin": "B0CY3PTRLK",
       "priceAmazon":41182,
-      "priceJumia":39999,
+      "priceJumia":39999.00,
+      "priceNoon":44750.00,
+
       
           "inStock": true,
           "inStockText": "Available",
@@ -16867,12 +15660,14 @@
       "title": "HP 15-fd0371nia laptop, 13Th gen intel core i7-1355U, 8GB ram, 512GB SSD, Nvidia MX570 2GB, 15.6″ FHD, Win 11 pro, Natural silver, Eng-Backlit keyboard (Upgraded)",
       "urls": {
     "amazon": "https://www.amazon.eg/-/en/HP-15-fd0371nia-i7-1355U-Eng-Backlit-keyboard/dp/B0DC24855R/ref=pd_sbs_d_sccl_3_7/258-4506929-1032509?pd_rd_w=ZPk45&content-id=amzn1.sym.9702d57d-7d87-4933-a4e1-84f075353237&pf_rd_p=9702d57d-7d87-4933-a4e1-84f075353237&pf_rd_r=X2DCHDVSEJHTT212TK8Z&pd_rd_wg=lF5hm&pd_rd_r=5ddd091e-8064-4070-a460-e389216afa24&pd_rd_i=B0DC24855R&psc=1",
+    "noon":"https://www.noon.com/egypt-ar/latitude-3440-notebook-laptop-13th-gen-intel-i7-1355u-ram-8gb-ddr4-m-2-512gb-ssd-integrated-intel-iris-xe-or-uhd-graphics-14-0-1920x1080-fhd-fhd-cam-win-11-pro-english-arabic-grey/N70034946V/p/?o=c9560aa6c617d7bf&shareId=1691d2b4-ddd5-4736-8424-8f486f388464",
     "jumia": "https://www.jumia.com.eg/ar/hp-15-fd0371nia-intelr-coretmi7-1355u-8gbram-512-gb-mx570-15.6-fhd-silver-131440828.html"
   },
       "asin": "B0DKFRSNSY",
       "originalAsin": "B0DKFRSNSY",
-     "priceAmazon":32499,
-  "priceJumia":35900,
+     "priceAmazon":32999,
+  "priceJumia":33660.00,
+  "priceNoon":45600.00,
   
       "inStock": true,
       "inStockText": "Available",
@@ -17181,12 +15976,15 @@
       "title": "Asus Vivobook 16X K3605VV-N1116W Intel Core i7-13700H DDR4 16GB RAM 512GB M.2 NVMe PCIe 4.0 SSD Intel UHD Graphics Windows 11 16-Inch WUXGA Laptop",
       "urls": {
     "amazon": "https://www.amazon.eg/Asus-Vivobook-K3605VV-N1116W-i7-13700H-Graphics/dp/B0DM1TYLK1/ref=sr_1_1_sspa?crid=3KQ7BJXP68LXX&dib=eyJ2IjoiMSJ9.N75KXnqD1nLEdovHtxhoZB-efaKcz2gxvHTDT3POf5XTt6mcwvxI0RZMA07bNaJtZYonfwwhPPYBYDyFIO6BpvIQ2WexUz3b2J_nKACodIc.9RFmPALF-V2qzFbeiB9evpPw8gsAph9iegUuZEWvfZk&dib_tag=se&keywords=Asus+Vivobook+16X+K3605VV+N1116W+Laptop+Intel&qid=1745071839&sprefix=asus+vivobook+16x+k3605vv+n1116w+laptop+intel%2Caps%2C121&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
-    "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-16x-k3605vv-n1116w-laptop-intel-core-i7-13700h-16g-ram-512gb-nvme-ssd-geforce-rtx-4060-8gb-16-inch-fhd-ips-120hz-100-srgb-windows-11-indie-black-130163197.html"
+    "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-16x-k3605vv-n1116w-laptop-intel-core-i7-13700h-16g-ram-512gb-nvme-ssd-geforce-rtx-4060-8gb-16-inch-fhd-ips-120hz-100-srgb-windows-11-indie-black-130163197.html",
+    "noon":"https://www.noon.com/egypt-ar/asus-vivobook-16x-k3605-i7-13700h-ddr4-16gb-512gb-m-2-ssd-nvidia-geforce-rtx-4060-wuxga-windows-11-english-arabic-indie-black/N70128055V/p/?o=f0250b6497b670ee&shareId=de6896c3-d1f0-4f1f-8da5-25374688b59d"
   },
       "asin": "B0D1R75733",
       "originalAsin": "B0D1R75733",
-      "priceAmazon":53499,
+      "priceAmazon":53450,
   "priceJumia":52999,
+  "priceNoon":52999.00,
+
   
       "inStock": true,
       "inStockText": "Only 3 left - order now.",
@@ -17512,12 +16310,14 @@
       "title": "MSI Modern 15 F13MG|i5-1335U| Iris Xe Graphics| 8GB RAM DDR4 3200Mhz| 512GB NVMe Gen4x4| 15.6 IPS FHD 60Hz 45% NTSC Display|Single backlight Keyboard(White)|DOS|Urban Silver| 2 Years Local Warranty",
       "urls": {
           "amazon": "https://www.amazon.eg/dp/B0DT41C1M7",
+          "noon":"https://www.noon.com/egypt-ar/laptop-msi-9s7-15s122-057-modern-15-f13mg-cpu-raptor-lake-i5-1335u-ram-onboard-ddr4-8gb-3200mhz-hdd-512-gb-ssd-uhd-intel-iris-uhd-graphics-single-backlight-kb-white-14-fhd-1920-1080-60hz-ips-level-english-arabic-silver/N70146808V/p/?o=bb2580e17ddce70c&shareId=a8ec0c81-0dd7-4419-ae2f-57abd2bfa834",
           "jumia": "https://www.jumia.com.eg/ar/msi-modern-15-f13mg-laptop-intel-core-i5-1335u-8gb-512gb-ssd-intel-iris-xe-graphics-15.6-fhd-urban-silver-130115757.html"
         },
       "asin": "B0DT41C1M7",
       "originalAsin": "B0DT41C1M7",
-      "priceAmazon":21625,
-  "priceJumia":20999,
+      "priceAmazon":21110,
+      "priceJumia":20999.00,
+      "priceNoon":21110.00,
   
       "inStock": true,
       "inStockText": "Available",
@@ -17787,12 +16587,14 @@
       "title": "DELL Vostro 3520 Laptop - 12th Intel core i7-1255U 10 Cores, 16GB RAM, 512 GB SSD PCIe NVMe, Intel Iris Xe Graphics, 15.6 FHD (1920x1080) 250 nits WVA Anti- Glare, UBUNTU - Carbon Black",
       "urls": {
           "amazon": "https://www.amazon.eg/-/en/DELL-Vostro-3520-Laptop-1920x1080/dp/B0C3TQNX18/ref=sr_1_1?crid=1UI3T47LCWTRJ&dib=eyJ2IjoiMSJ9.rMNYo2Q1tnhLeZvOovDThn57eFKwSk_QbXSf_TbwA3TwNHSeBJc35catxBi_gevAp2iX-eLz-Ei5lgrYckstOoxkuV6tn1F0K5T2CUgTcdzn9qXyAGVKvv2Qa_XhF_zZJceo9K5UAOGdFrSeUeRHoOZlFrcgx9X01319i_ZcAkCj1fG3uLpyGGrNHC22R0CEnNbuuWf5FRsAAbvvUzONEx6nCDt__TyU8nz61RC2UwjrizPBi7uORBmkxD1SNEOc7clr152BfiPMADu4MvM4QHfODnqpsOdz3U77018uK5Y.mO-ZHMdP761Jo63lcVdO5GzLRAiRKIK8IndRZTN7tks&dib_tag=se&keywords=DELL%2BVostro%2B3520-E002&qid=1745072729&sprefix=dell%2Bvostro%2B3520-e002%2B%2Caps%2C120&sr=8-1&th=1",
+          "noon":"https://www.noon.com/egypt-ar/vostro-3520-upgraded-version-laptop-with-15-6-inch-full-hd-display-intel-core-i7-1255u-processor-16gb-ram-512gb-ssd-dos-without-windows-intel-iris-xe-graphics-english-arabic-black/N53381606A/p/?o=c504513454b9502f&shareId=e5d6cd2e-7d16-4414-b56c-3de1faa887ac",
           "jumia": "https://www.jumia.com.eg/ar/dell-vostro-3520-e002-intel-core-i7-1255u-16gb-ram-512gb-ssd-iris-xe-graphics-15.6-inches-fhd-black-129502711.html"
         },
       "asin": "B0DVSYZNZR",
       "originalAsin": "B0DVSYZNZR",
-      "priceAmazon":55799,
-      "priceJumia":53745,
+      "priceAmazon":27540,
+      "priceJumia":27540.00,
+      "priceNoon":23999.00,
       
           "inStock": true,
           "inStockText": "Available",
@@ -18095,12 +16897,15 @@
       "title": "ASUS ROG Strix G16 (2024) Gaming Laptop, 16 FHD 16:10 Display, 165Hz FHD Display, NVIDIA® GeForce RTX™ 4060, Intel Core i7-13650HX, 16GB DDR5, 1TB PCIe Gen4 SSD",
       "urls": {
     "amazon": "https://www.amazon.eg/-/en/ASUS-ROG-Strix-Gaming-Laptop/dp/B0CRDCXRK2/ref=sr_1_1?crid=1PEQK372QGP87&dib=eyJ2IjoiMSJ9.cYsDsXNKu1CgOR-YPXqD2usv_fhyWq35IkEY5tAJDTTGjHj071QN20LucGBJIEps.pEOInHs4ZcrOgnmMB9xErZ-fZYFRFi0zV_9ElyT8DD0&dib_tag=se&keywords=ROG%2BStrix%2BG16%2BG614JV-N3487W&qid=1745074344&sprefix=rog%2Bstrix%2Bg16%2Bg614jv-n3487w%2Caps%2C111&sr=8-1&th=1",
+    "noon":"https://www.noon.com/egypt-ar/rog-zephyrus-g16-gaming-laptop-with-16-inch-oled-display-core-ultra-9-185h-processor-32gb-ram-2tb-ssd-16gb-nvidia-geforce-rtx-4090-graphics-card-windows-11-home-hyperx-cirro-gaming-earbuds-english-arabic-eclipse-grey/N70059177V/p/?o=c13f47a5c645bf9c&shareId=8c5b40b6-a843-4736-8bc1-2ea1a9e01710",
     "jumia": "https://www.jumia.com.eg/ar/asus-rog-strix-g16-g614jv-n3487w-laptop-intel-core-i7-13650hx-16gb-1tb-ssd-nvidia-geforce-rtx-4060-8gb-16-fhd-win11-eclipse-gray-130953987.html"
   },
       "asin": "B0B46WQ2GX",
       "originalAsin": "B0B46WQ2GX",
       "priceAmazon":75899,
-  "priceJumia":74499,
+      "priceJumia":74499,
+      "priceNoon":186000.00,
+
   
       "inStock": true,
       "inStockText": "Only 1 left - order now.",
@@ -18521,13 +17326,14 @@
       "title": "Lenovo Legion Pro 5 16IRX9 - i7-14650HX 16Cores, AI Chip:LA1, NVIDIA GeForce RTX 4060 8GB GDDR6 Graphics, 16GB DDR5-5600Mhz RAM, 1TB SSD, 16 WQXGA (2560x1600) IPS 500nits 240Hz, 4-Zone RGB Backlit",
       "urls": {
     "amazon": "https://www.amazon.eg/-/en/Lenovo-Legion-Pro-16IRX9-DDR5-5600Mhz/dp/B0D3CV6HT4/ref=sr_1_1?crid=1A5EAYGPGHU9S&dib=eyJ2IjoiMSJ9.LbQm2HQgjURSgXE8O22FbE7fs1cjG1mGFkboJ1hOST35N_HGlKKgaR1_pFwmff6wZ5HYjMRhH5TOJE2VbPeq33P_x54tx1h4YO_qt3eAJ5QOX5HK6ADg-wptLrJUX8QhGEKbhK3jH0S_XmzeRmu9-76TlB4tgmH6DMvY1DQ5oyPPUhoPxLwBGIz4iA2-iFYbMOyfODXNqg8wQQzGeUDFVMf5dnXi07HPcnsXzBYvV1vr3XTxiKVh1t9lkL7gc7sUfHLLqqZvDm662mRkDrXKTMy3Vm2d5i5nnIckdjZTy9w.KozDrGgThtaNTGHDc6cbbkGhTmZ3-EImzijCI9L7Yk8&dib_tag=se&keywords=Lenovo%2B%D9%84%D9%8A%D9%86%D9%88%D9%81%D9%88%2B%D9%84%D9%8A%D8%AC%D9%88%D9%86%2B5%2B%D8%A8%D8%B1%D9%88%2B16IRX9&qid=1745075110&sprefix=lenovo%2B%D9%84%D9%8A%D9%86%D9%88%D9%81%D9%88%2B%D9%84%D9%8A%D8%AC%D9%88%D9%86%2B5%2B%D8%A8%D8%B1%D9%88%2B16irx9%2Caps%2C111&sr=8-1&th=1",
+    "noon":"https://www.noon.com/egypt-ar/legion-pro-5-16irx9-upgraded-version-laptop-with-16-inch-display-core-i7-14650hx-processor-16gb-ram-1tb-ssd-nvidia-geforce-rtx-4060-graphics-card-windows-11-english-arabic-black/N70044731V/p/?o=b25a1c4529711f8c&shareId=a604e695-0fe0-4e67-aad1-ecfc3c4f7a5a",
     "jumia": "https://www.jumia.com.eg/ar/lenovo-legion-pro-5-16irx9-83df00kfed-intelr-coretm-i7-14650hx-16-cores-ram-16gb-ddr5-hard-1tb-ssd-gpu-nvidiar-geforce-rtxtm-4060-8gb-display-16-wqxga-2560x1600-ips-500nits-100srgb-240hz-color-onyx-grey-os-dos-2y-warranty-130979810.html"
   },
       "asin": "B0C1VTKHFV",
       "originalAsin": "B0C1VTKHFV",
       "priceAmazon":86401,
-  "priceJumia":79666 ,
-  
+      "priceJumia":79666.00,
+       "priceNoon":86000.00,
       "inStock": true,
       "inStockText": "Available",
       "listPrice": null,
@@ -18939,12 +17745,14 @@
       "title": "LENOVO LEGION 5 16IRX9 83DG004WED CORE I7-14650HX 16 CORES – 16GB DDR5 – RTX 4060 8GB – 1TB SSD – 16″ WQXGA IPS 500NITS 100% SRGB 240HZ – WIN 11 – 2Y Premium Warranty plus LENOVO GAMING PAD",
       "urls": {
     "amazon": "https://www.amazon.eg/-/en/LENOVO-LEGION-16IRX9-83DG004WED-I7-14650HX/dp/B0D2M13NPZ/ref=sr_1_6?crid=N8WURZPNPK57&dib=eyJ2IjoiMSJ9.LbQm2HQgjURSgXE8O22FbF0x1WotTpl4TIaXc4DCQjf48DNsFmFWBYXwmVlac2SIKmngAONlmOAWgr29-uj-nTJsd-wwASYD-sU_fWifL5U0Apsss29Wf0IBBhocSfPnuOxxKXlV9jo1DiIAAdt24p4cuuh6tRQMD-pkC0I8kFEiMiXJJpWKbULIqUlr2aDrDLnB_bLBazl2Zer1LHjp87gF6TP3R1E3ntJIDDGEfqBEU99HciUethxTHBPi6PBP-NLvGgmdJWn6_BxOgf-CTKBqX3uHzTQ0gvMLnX2Vltg.PzuWbTXxznwL24GOx3ZMLl8jeWjDA3cq_d8wxWEeFLw&dib_tag=se&keywords=Lenovo%2BLegion%2BPro%2B5%2B16IRX9&qid=1745088514&sprefix=lenovo%2Blegion%2Bpro%2B5%2B16irx9%2Caps%2C259&sr=8-6&th=1",
+    "noon":"https://www.noon.com/egypt-ar/legion-pro-5-16irx9-upgraded-version-laptop-with-16-inch-display-core-i7-14650hx-processor-16gb-ram-1tb-ssd-nvidia-geforce-rtx-4060-graphics-card-windows-11-english-arabic-black/N70044731V/p/?o=b25a1c4529711f8c&shareId=a604e695-0fe0-4e67-aad1-ecfc3c4f7a5a",
     "jumia": "https://www.jumia.com.eg/ar/lenovo-legion-pro-5-16irx9-83df00kfed-intelr-coretm-i7-14650hx-16-cores-ram-16gb-ddr5-hard-1tb-ssd-gpu-nvidiar-geforce-rtxtm-4060-8gb-display-16-wqxga-2560x1600-ips-500nits-100srgb-240hz-color-onyx-grey-os-dos-2y-warranty-130979810.html"
   },
       "asin": "B0CM22SFSP",
       "originalAsin": "B0CM22SFSP",
-      "priceAmazon":83899,
-      "priceJumia":79666,
+      "priceAmazon":81309,
+      "priceJumia":79666.00,
+      "priceNoon":86000.00,
       
           "inStock": true,
           "inStockText": "Available",
@@ -19340,230 +18148,15 @@
       "input": "https://www.amazon.eg/s?i=electronics&rh=n%3A21832907031&s=popularity-rank&fs=true&language=en_AE&ref=lp_21832907031_sar"
   },
 {
-  "title": "Dell Latitude 3420 Business Laptop - Intel Core i5-1135G7 Quad-Core up to 4.2GHz 8MB Smart Cache 8GB RAM 256GB SSD 14\" FHD (1920x1080) Intel Iris Xe Graphics Fingerprint Black",
-  "asin": "B0DF4VLZL2",
-  "originalAsin": "B0DF4VLZL2",
-  "priceAmazon": 24644.07,
-  "priceJumia": 26670,
-  "urls": {
-    "amazon": "https://www.amazon.eg/dp/B0DF4VLZL2",
-    "jumia": "https://www.jumia.com.eg/ar/dell-latitude-3420-intelr-coretmi5-1135g7-ram-8gb-256gb-ssd-intelr-irisr-xe-14-fhd-black-130031698.html"
-  },
-  "inStock": true,
-  "inStockText": "Available",
-  "listPrice": null,
-  "brand": "Dell",
-  "author": null,
-  "shippingPrice": null,
-  "stars": null,
-  "starsBreakdown": {
-    "5star": 0,
-    "4star": 0,
-    "3star": 0,
-    "2star": 0,
-    "1star": 0
-  },
-  "reviewsCount": null,
-  "answeredQuestions": null,
-  "breadCrumbs": "Electronics > Computers, Components & Accessories > Laptops > Traditional Laptop",
-  "videosCount": 0,
-  "visitStoreLink": {
-    "text": "Brand: Dell",
-    "url": "https://www.amazon.eg/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=%D8%AF%D9%8A%D9%84"
-  },
-  "thumbnailImage": "https://m.media-amazon.com/images/I/716MBvhJp7L.__AC_SY300_SX300_QL70_ML2_.jpg",
-  "galleryThumbnails": [
-    "https://m.media-amazon.com/images/I/41mSq+jrEiL._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/41ZTtarv0WL._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/418Xc6ZM+3L._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/31qiJ71yZ+L._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/31KUCb5dwML._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/41ujDgT7kpL._AC_US.jpg",
-    "https://m.media-amazon.com/images/I/3139eEQJSQL._AC_US.jpg"
-  ],
-  "highResolutionImages": [
-    "https://m.media-amazon.com/images/I/716MBvhJp7L._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/514HFKk12yL._AC_SL1000_.jpg",
-    "https://m.media-amazon.com/images/I/41NTQO1gDOL._AC_SL1000_.jpg",
-    "https://m.media-amazon.com/images/I/41N9tY9dY-L._AC_SL1000_.jpg",
-    "https://m.media-amazon.com/images/I/51fkEJ6teHL._AC_SL1000_.jpg",
-    "https://m.media-amazon.com/images/I/41kYGjWoNXL._AC_SL1000_.jpg",
-    "https://m.media-amazon.com/images/I/41z3aQLxyjL._AC_SL1000_.jpg"
-  ],
-  "sustainabilityFeatures": null,
-  "description": "Model: Latitude 3420, Processor: 11th Gen Intel Core i5-1135G7 (8MB Cache, up to 4.2 GHz, Quad-Core), Memory: 8GB DDR4-3200 SODIMM, Storage: 256GB PCIe NVMe SSD, Graphics: Intel Iris Xe, Display: 14\" FHD (1920 x 1080) Anti-glare, 250 nits, Battery: 3-Cell 41Wh (Integrated), Keyboard: English Arabic, Connectivity: Intel Dual Band Wi-Fi 6 AX201 2x2, 802.11ax, 160MHz, Bluetooth 5.1",
-  "features": [
-    "11th Gen Intel Core i5-1135G7 (8MB Cache, up to 4.2 GHz, Quad-Core)",
-    "8GB DDR4 3200MHz",
-    "256GB M.2 PCIe NVMe SSD",
-    "Fingerprint Reader"
-  ],
-  "attributes": [
-    { "key": "Return Reason Return Period Return Policy", "value": "" },
-    { "key": "Brand", "value": "Dell" },
-    { "key": "Package Dimensions", "value": "40.5 x 34.2 x 6.4 cm; 1.52 Kilograms" },
-    { "key": "Item Model Number", "value": "LAT3420 i5 8G 256G" },
-    { "key": "Manufacturer", "value": "Dell" },
-    { "key": "Series", "value": "Dell Latitude 3420" },
-    { "key": "Color", "value": "Black" },
-    { "key": "Form Factor", "value": "Laptop" },
-    { "key": "Display Size", "value": "14 Inches" },
-    { "key": "Screen Resolution", "value": "1920 x 1080 pixels" },
-    { "key": "Display Resolution", "value": "1920x1080 Pixels" },
-    { "key": "Processor Brand", "value": "Intel" },
-    { "key": "Processor Type", "value": "Intel Core i5-1135G7" },
-    { "key": "Processor Speed", "value": "4.2" },
-    { "key": "Number of Processors", "value": "4" },
-    { "key": "Memory Technology", "value": "DDR4" },
-    { "key": "Computer Memory Type", "value": "DDR4 SDRAM" },
-    { "key": "Maximum Supported Memory", "value": "16 GB" },
-    { "key": "Hard Drive Size", "value": "256 GB" },
-    { "key": "Hard Drive Description", "value": "SSD" },
-    { "key": "Hard Drive Interface", "value": "PCI Express x4" },
-    { "key": "Audio Details", "value": "Headphones" },
-    { "key": "Graphics Coprocessor", "value": "Intel Iris Xe Graphics" },
-    { "key": "Graphics Card Brand", "value": "Intel" },
-    { "key": "Graphics Card Description", "value": "Integrated" },
-    { "key": "Graphics RAM Type", "value": "DDR4 SDRAM" },
-    { "key": "Graphics Card Interface", "value": "Integrated" },
-    { "key": "Wireless Type", "value": "Bluetooth, 802.11ax" },
-    { "key": "Number of USB 2.0 Ports", "value": "1" },
-    { "key": "Number of USB 3.0 Ports", "value": "2" },
-    { "key": "Number of HDMI Ports", "value": "1" },
-    { "key": "Voltage", "value": "240 Volts" },
-    { "key": "Operating System", "value": "Ubuntu" },
-    { "key": "Lithium Battery Energy Content", "value": "41 Watt Hours" },
-    { "key": "Lithium Battery Packaging", "value": "Batteries contained in equipment" },
-    { "key": "Item Weight", "value": "1.52 Kilograms" },
-    { "key": "ASIN", "value": "B0DF4VLZL2" },
-    { "key": "Best Sellers Rank", "value": "#75,112 in Electronics (See Top 100 in Electronics) #203 in Traditional Laptops" },
-    { "key": "Date First Available", "value": "August 23, 2024" }
-  ],
-  "productOverview": [
-    { "key": "Brand Name", "value": "Dell" },
-    { "key": "Model Name", "value": "Dell Latitude 3420" },
-    { "key": "Screen Size", "value": "14 Inches" },
-    { "key": "Color", "value": "Black" },
-    { "key": "Hard Disk Size", "value": "256 GB" },
-    { "key": "CPU Model", "value": "Intel Core i5-1135G7" },
-    { "key": "Installed RAM", "value": "8 GB" },
-    { "key": "Operating System", "value": "Ubuntu" },
-    { "key": "Special Features", "value": "" },
-    { "key": "Graphics Description", "value": "Integrated" }
-  ],
-  "variantAsins": [],
-  "variantDetails": [],
-  "reviewsLink": "https://www.amazon.eg/product-reviews/B0DF4VLZL2",
-  "hasReviews": false,
-  "delivery": "غداً، 17 أبريل",
-  "fastestDelivery": null,
-  "returnPolicy": null,
-  "support": null,
-  "variantAttributes": [],
-  "manufacturerAttributes": [],
-  "seller": {
-    "name": "Amazon.eg",
-    "id": null,
-    "url": null,
-    "reviewsCount": null,
-    "averageRating": null
-  },
-  "bestsellerRanks": null,
-  "isAmazonChoice": false,
-  "amazonChoiceText": null,
-  "bookDescription": null,
-  "priceRange": null,
-  "aPlusContent": null,
-  "brandStory": {
-    "title": "من العلامة التجارية",
-    "image": {
-      "name": null,
-      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c6e09d6a-9195-4c99-a1b3-9d66932c25df.__CR195,0,1504,642_PT0_SX1464_V1___.png"
-    },
-    "items": [
-      {
-        "title": null,
-        "text": "عن \nنحن من بين شركات التكنولوجيا الرائدة في العالم التي تساعد على تغيير حياة الناس بقدرات استثنائية. بدءًا من الحلول السحابية الهجينة وحتى الحوسبة عالية الأداء وحتى المبادرات الاجتماعية الطموحة ومبادرات الاستدامة، فإن ما نقوم به يؤثر على الجميع في كل مكان.",
-        "url": null,
-        "image": {
-          "name": null,
-          "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/88708c61-617f-4993-b30c-ae35ee8e520e.__CR0,206,463,213_PT0_SX315_V1___.jpg"
-        },
-        "items": []
-      },
-      {
-        "title": null,
-        "text": null,
-        "url": null,
-        "image": null,
-        "items": []
-      },
-      {
-        "title": "الأكثر مبيعًا",
-        "text": null,
-        "url": null,
-        "image": {
-          "name": "Dell Inspiron 3520 Laptop - 12th Intel Core i3-1215U 6-Cores, 8GB RAM, 256GB SSD, Intel UHD Graph...",
-          "url": "https://m.media-amazon.com/images/I/415GAhwBsoL.__AC_SR166,182___.jpg"
-        },
-        "items": [
-          {
-            "url": "https://www.amazon.eg/dp/B0CR8NJXG6/ref=emc_bcc_2_i",
-            "image": {
-              "name": "Dell Inspiron 3520 Laptop - 12th Intel Core i3-1215U 6-Cores, 8GB RAM, 256GB SSD, Intel UHD Graph...",
-              "url": "https://m.media-amazon.com/images/I/415GAhwBsoL.__AC_SR166,182___.jpg"
-            }
-          },
-          {
-            "url": "https://www.amazon.eg/dp/B0CQFCNBT4/ref=emc_bcc_2_i",
-            "image": {
-              "name": "Dell Vostro 3520 Laptop - 12th Intel Core i5-1235U 10-Cores, 8GB RAM, 512GB SSD, Intel UHD Graphi...",
-              "url": "https://m.media-amazon.com/images/I/41PPxyJSpkL.__AC_SR166,182___.jpg"
-            }
-          },
-          {
-            "url": "https://www.amazon.eg/dp/B098TXDJVW/ref=emc_bcc_2_i",
-            "image": {
-              "name": "Dell Montor Dell -IPS -23.8\"- Model -S2421HN",
-              "url": "https://m.media-amazon.com/images/I/51M53Yb8WoL.__AC_SR166,182___.jpg"
-            }
-          },
-          {
-            "url": "https://www.amazon.eg/dp/B0CQYB57RG/ref=emc_bcc_2_i",
-            "image": {
-              "name": "DELL G15 5530 Gaming Laptop - 13th Intel Core i7-13650HX 14 Cores, NVIDIA GeForce RTX 3050 6GB GD...",
-              "url": "https://m.media-amazon.com/images/I/31JUOc8eKGL.__AC_SR166,182___.jpg"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "productComparison": null,
-  "aiReviewsSummary": null,
-  "monthlyPurchaseVolume": null,
-  "productPageReviews": [],
-  "productPageReviewsFromOtherCountries": [],
-  "locationText": "مصر",
-  "loadedCountryCode": "EG",
-  "offers": [],
-  "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2&s=popularity-rank&page=10",
-  "categoryPageData": {
-    "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
-    "isSponsored": false,
-    "bestsellerBadge": null,
-    "productPosition": 225
-  },
-  "input": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2"
-},
-{
   "title": "HP Victus Gaming Laptop, Model (15-fa1001ne), CPU: Core i7-13700H, RAM: 16GB DDR4 2DM 3200, GPU: NVIDIA GeForce RTX 4050 6GB VRAM, Display: 15.6\"",
   "asin": "B0BX4GL9GQ",
   "originalAsin": "B0BX4GL9GQ",
-  "priceAmazon": 54500,
-  "priceJumia": 54999,
+  "priceAmazon": 50999,
+  "priceJumia":54999.00,
+  "priceNoon":58999.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0BX4GL9GQ",
+    "noon":"https://www.noon.com/egypt-ar/15-fa1003ne-victus-gaming-laptop-with-15-6-inch-fhd-core-i7-13700h-16gb-ram-1tb-ssd-6g-geforce-rtx-3050-windows-english-arabic-blue/N70059719V/p/?o=f832ddd8030a324f&shareId=797b3264-e7ce-4d07-af53-338f4dcbb021",
     "jumia": "https://www.jumia.com.eg/ar/hp-victus-15-fa1001ne-intel-core-i7-13700h-16gb-1tb-ssd-rtx-4050-6gb-15.6-fhd-win11-natural-silver-130238685.html"
   },
   "inStock": true,
@@ -20185,10 +18778,12 @@
   "title": "Laptop Core i7-13700H [771S8AV] 16GB DDR4 2DM 3200 [599L7AV] 512 PCIe 4×4 [5D0M7AV] NVIDIA GeForce RTX 3050 6GB Victus",
   "asin": "B0BX4K32M9",
   "originalAsin": "B0BX4K32M9",
-  "priceAmazon": 48666,
-  "priceJumia": 49185,
+  "priceAmazon":47999,
+  "priceJumia": 47999.00,
+  "priceNoon":47999.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0BX4K32M9",
+    "noon":"https://www.noon.com/egypt-ar/victus-gaming-15-fa1006ne-laptop-with-15-6-inch-led-core-i7-13700h-16gb-ram-512gb-ssd-6gb-nvidia-geforce-rtx-series-3050-windows-11-english-arabic-blue/N70017259V/p/?o=a41869c214ec903f&shareId=91bac1e1-94ad-4220-bb04-6b3786ae3878",
     "jumia": "https://www.jumia.com.eg/ar/hp-victus-15-fa1006ne-gaming-core-i7-13700h-14-cores-16gb-512-gb-ssd-15.6-fhd-144hz-ips-geforce-rtx-3050-6gb-gddr6-graphics-backlit-keyboard-windows-11-blue-130777050.html"
   },
   "inStock": true,
@@ -20598,10 +19193,12 @@
   "title": "Lenovo LOQ 15IAX9 Gaming Laptop - Intel Core i5-12450HX CPU, LA1 AI Chip, NVIDIA GeForce RTX3050 GPU, 8GB DDR5 RAM, SSD, DOS",
   "asin": "B0DF6F2SJ6",
   "originalAsin": "B0DF6F2SJ6",
-  "priceAmazon": 38161,
+  "priceAmazon": 37079,
   "priceJumia": 37999,
+  "priceNoon":35999.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DF6F2SJ6",
+    "noon":"https://www.noon.com/egypt-ar/loq-3-15iax9-laptop-with-15-6-inch-fhd-display-core-i5-12450hx-processor-12gb-ram-512gb-ssd-6gb-nvidia-geforce-rtx-3050-graphics-card-windows-11-english-arabic-luna-grey/N70112916V/p/?o=fd0b9ccd10399a3d&shareId=4a241c4c-98d3-4af0-9c71-bb0b4da7c56a",
     "jumia": "https://www.jumia.com.eg/ar/lenovo-loq-15iax9intelr-coretm-i5-12450hx-ram-8gb-ddr5-hard-512gb-ssd-nvidiar-rtxtm-3050-6gb-15.6-fhd-ips-100-srgb-144hz-os-dos-luna-grey-keyboard-white-backlit-96760707.html"
   },
   "inStock": true,
@@ -20856,14 +19453,14 @@
 },
 {
   "title": "HP Envy x360 2-in-1 Laptop, 512GB SSD, Intel Graphics, 14-inch FHD (1920×1080) Touchscreen, Fingerprint Sensor, Backlit Keyboard, Windows 11, Aluminum Body, Natural Silver, 14-es1013dx",
-  
   "asin": "B0DRFSV79D",
   "originalAsin": "B0DRFSV79D",
-
-  "priceAmazon": 36499,
-  "priceJumia": 37999,
+  "priceAmazon":35999,
+  "priceJumia":37999.00,
+  "priceNoon":38000.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DRFSV79D",
+    "noon":"https://www.noon.com/egypt-ar/envy-x360-2-in-1-upgraded-version-laptop-with-14-inch-display-core-ultra-5-120u-processor-8gb-ram-512gb-ssd-intel-uhd-graphics-windows-11-home-english-silver/N70100515V/p/?o=e03636fd7182820c&shareId=0dfbf4da-59d3-41fa-81b3-b5762244bb84",
     "jumia": "https://www.jumia.com.eg/ar/hp-envy-x360-14-es1013dx-laptop-intel-core-5-120u-14-inch-fhd-touch-display-512-gb-ssd-8-gb-ram-lpddr4x-intel-iris-xe-graphics-win11-keyboard-backlit-english-us-meteor-silver-9r8r2ua-130188465.html"
   },
   "inStock": true,
@@ -21137,13 +19734,511 @@
   "input": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2"
 },
 {
+  "title": "Lenovo IdeaPad 1. CPU: Laptop with Intel Core i3-1215U Processor and DDR4 - 3200 RAM (4GB), Display: 15.6-inch FHD (768×1366) 220-nit Anti-glare, 256GB SSD, and Operating System",
+ "asin": "B0CVRYT2C1",
+ "originalAsin": "B0CVRYT2C1",
+ "priceAmazon": 17469,
+ "priceJumia": 16950,
+ "urls": {
+   "amazon": "https://www.amazon.eg/dp/B0CVRYT2C1",
+   "jumia": "https://www.jumia.com.eg/ar/lenovo-laptop-i3-1215u-4g-256gb-ssd-uhd-graphics-15.6-hd-win-11-cloud-grey-82qd00aued-ideapad-1-15iau7-108586760.html"
+ },
+ "inStock": true,
+ "inStockText": "Available",
+ "listPrice": null,
+ "brand": "Lenovo",
+ "author": null,
+ "shippingPrice": null,
+ "stars": 3.1,
+ "starsBreakdown": {
+   "5star": 0.35,
+   "4star": 0.17,
+   "3star": 0.05,
+   "2star": 0.14,
+   "1star": 0.29
+ },
+ "reviewsCount": 25,
+ "answeredQuestions": null,
+ "breadCrumbs": "Electronics > Computers & Components > Laptops > Traditional Laptop",
+ "videosCount": 0,
+ "visitStoreLink": {
+   "text": "Visit Lenovo Store",
+   "url": "https://www.amazon.eg/stores/Lenovo/page/918BB4BC-D4B4-4FF2-B44F-7CE9EF70EF65?lp_asin=B0CVRYT2C1&ref_=ast_bln"
+ },
+ "thumbnailImage": "https://m.media-amazon.com/images/I/512xlVG4eJL.__AC_SY300_SX300_QL70_ML2_.jpg",
+ "galleryThumbnails": [
+   "https://m.media-amazon.com/images/I/31J5TkHwl0L._AC_US.jpg",
+   "https://m.media-amazon.com/images/I/3135NH56mVL._AC_US.jpg",
+   "https://m.media-amazon.com/images/I/21lB+x+IO0L._AC_US.jpg",
+   "https://m.media-amazon.com/images/I/21ByT6psyFL._AC_US.jpg",
+   "https://m.media-amazon.com/images/I/31L04AxVFPL._AC_US.jpg",
+   "https://m.media-amazon.com/images/I/31FbNirZI9L._AC_US.jpg",
+   "https://m.media-amazon.com/images/I/41DyezWwBcL._AC_US.jpg"
+ ],
+ "highResolutionImages": [
+   "https://m.media-amazon.com/images/I/512xlVG4eJL._AC_SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/61Uba+yY-8L._AC_SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/518wLRca94L._AC_SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/41CkuDuB+yL._AC_SL1060_.jpg",
+   "https://m.media-amazon.com/images/I/61ZjOKV3IVL._AC_SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/61kKq7EtWEL._AC_SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/719JBX5jDoL._AC_SL1500_.jpg"
+ ],
+ "sustainabilityFeatures": null,
+ "description": "Lenovo laptop with Intel Core i3-1215U hexa-core processor, 10MB/4GB RAM, 256GB SSD, 15.6\" HD display, and Windows 11. The IdeaPad 1 is a budget-friendly laptop ideal for daily tasks like browsing the web, checking emails, and working on documents (82QD00AUED). It features a 12th Gen Intel Core i3-1215U processor with 6 cores and 4 threads, 4GB DDR4 RAM, and 256GB PCIe SSD storage. The 15.6-inch HD TN panel isn’t the best quality but is sufficient for most basic tasks. The laptop comes with Windows 11 S mode, meaning you can only install apps from the Microsoft Store. This laptop offers elegant design, portability, and comfort, making it great for use at home, in the office, or on the go.",
+ "features": [
+   "Powerful Intel Core i3-1215U processor",
+   "Vibrant 15.6-inch HD display",
+   "Sleek and portable design",
+   "Long-lasting battery life",
+   "Ideal for completing basic internet tasks"
+ ],
+ "attributes": [
+   { "key": "Return Reason Return Period Return Policy", "value": "" },
+   { "key": "Brand", "value": "Lenovo" },
+   { "key": "Package Dimensions", "value": "48.7 x 33.29 x 12.2 cm; 1.5 Kilograms" },
+   { "key": "Batteries", "value": "1 Lithium Ion batteries required. (included)" },
+   { "key": "Item Model Number", "value": "82QD00AUED" },
+   { "key": "Manufacturer", "value": "Lenovo" },
+   { "key": "Series", "value": "IdeaPad 1" },
+   { "key": "Color", "value": "Gray" },
+   { "key": "Form Factor", "value": "Laptop" },
+   { "key": "Display Size", "value": "15.6 inches" },
+   { "key": "Screen Resolution", "value": "1366 × 768" },
+   { "key": "HD Resolution", "value": "1280x720" },
+   { "key": "Processor Brand", "value": "Intel" },
+   { "key": "Processor Type", "value": "Intel Core i3" },
+   { "key": "Number of Processors", "value": "1" },
+   { "key": "RAM Size", "value": "4 GB" },
+   { "key": "Memory Technology", "value": "DDR4" },
+   { "key": "Computer Memory Type", "value": "DDR4 SDRAM" },
+   { "key": "Maximum Supported Memory", "value": "256 GB" },
+   { "key": "Hard Disk Size", "value": "256 GB" },
+   { "key": "Hard Drive Description", "value": "SSD" },
+   { "key": "Hard Drive Interface", "value": "Serial ATA" },
+   { "key": "Audio Details", "value": "Headphones" },
+   { "key": "Graphics Coprocessor", "value": "Intel UHD Graphics" },
+   { "key": "Graphics Chipset Brand", "value": "Intel" },
+   { "key": "Graphics Card Description", "value": "Integrated" },
+   { "key": "Graphics RAM Type", "value": "DDR4 SDRAM" },
+   { "key": "Graphics RAM Size", "value": "4 GB" },
+   { "key": "Graphics Card Interface", "value": "Integrated" },
+   { "key": "Connectivity Type", "value": "Wi-Fi" },
+   { "key": "Wireless Type", "value": "802.11ax" },
+   { "key": "Number of USB 2.0 Ports", "value": "1" },
+   { "key": "Number of USB 3.0 Ports", "value": "1" },
+   { "key": "Voltage", "value": "12 Volts" },
+   { "key": "Operating System", "value": "Windows 11" },
+   { "key": "Are Batteries Included", "value": "Yes" },
+   { "key": "Lithium Battery Energy Content", "value": "42 Watt Hours" },
+   { "key": "Lithium Battery Packaging", "value": "Batteries contained in equipment" },
+   { "key": "Lithium Battery Weight", "value": "187 Grams" },
+   { "key": "Number of Lithium Ion Cells", "value": "3" },
+   { "key": "Item Weight", "value": "1.5 Kilograms" },
+   { "key": "ASIN", "value": "B0CVRYT2C1" },
+   { "key": "Customer Reviews", "value": "3.1 out of 5 stars (25 ratings)" },
+   {
+     "key": "Best Sellers Rank",
+     "value": "#26,794 in Electronics (See Top 100 in Electronics), #57 in Traditional Laptops"
+   },
+   { "key": "Date First Available", "value": "February 8, 2024" }
+ ],
+ "productOverview": [
+   { "key": "Brand Name", "value": "Lenovo" },
+   { "key": "Model Name", "value": "IdeaPad 1" },
+   { "key": "Screen Size", "value": "15.6 inches" },
+   { "key": "Color", "value": "Gray" },
+   { "key": "Hard Disk Size", "value": "256 GB" },
+   { "key": "CPU Model", "value": "Intel Core i3" },
+   { "key": "Installed RAM", "value": "4 GB" },
+   { "key": "Operating System", "value": "Windows 11" },
+   { "key": "Special Features", "value": "Portable" },
+   { "key": "Graphics Description", "value": "Integrated" }
+ ],
+   "variantAsins": [
+     "B0D6MFK2HN",
+     "B0CVRYT2C1",
+     "B0C5F41H34",
+     "B0D3CWC9X7",
+     "B0BTDDL8SY",
+     "B0DC9BLBHM",
+     "B0CW1KWRGX",
+     "B0CVNBRCL9"
+   ],
+   "variantDetails": [
+     {
+       "name": "12th iCore i3-1215U 8 GB 256GB SSD - Integrated Intel UHD Graphics Abyss Blue - 15.6HD - 220nits Anti-glare + 2Y Warranty - Briefcase",
+       "images": [],
+       "thumbnail": null,
+       "asin": "B0D6MFK2HN",
+       "price": null
+     },
+     {
+       "name": "12th iCore i3-1215U 4 GB 256GB SSD - Integrated Intel UHD Graphics WIN 11-Gray",
+       "images": [],
+       "thumbnail": null,
+       "asin": "B0CVRYT2C1",
+       "price": null
+     },
+     {
+       "name": "12th iCore i7-1255U 8 GB 512GB SSD - Intel Iris Xe Graphics WIN 11 Home-Abyss Blue",
+       "images": [],
+       "thumbnail": null,
+       "asin": "B0C5F41H34",
+       "price": null
+     },
+     {
+       "name": "Intel Celeron N4020 8 GB 256GB SSD - RTX 4060 Abyss Blue - 15.6HD - 220nits Anti-glare",
+       "images": [],
+       "thumbnail": null,
+       "asin": "B0D3CWC9X7",
+       "price": null
+     },
+     {
+       "name": "12th iCore i7-1255U 8 GB 512GB SSD - Intel Iris Xe Graphics WIN 11-Abyss Blue - 15.6FHD",
+       "images": [],
+       "thumbnail": null,
+       "asin": "B0BTDDL8SY",
+       "price": null
+     },
+     {
+       "name": "12th iCore i3-1215U 8 GB 256GB SSD - Integrated Intel UHD Graphics Abyss Blue - 15.6HD - 220nits Anti-glare",
+       "images": [],
+       "thumbnail": null,
+       "asin": "B0DC9BLBHM",
+       "price": null
+     },
+     {
+       "name": "Ryzen 3-7320U 4 GB 256 GB SSD - AMD Radeon Graphics WIN 11-Gray",
+       "images": [],
+       "thumbnail": null,
+       "asin": "B0CW1KWRGX",
+       "price": null
+     },
+     {
+       "name": "12th iCore i7-1255U 8 GB 512GB SSD - Intel Iris Xe Graphics WIN 11 Home-Cloud Grey",
+       "images": [],
+       "thumbnail": null,
+       "asin": "B0CVNBRCL9",
+       "price": null
+     }
+   ],
+   "reviewsLink": "https://www.amazon.eg/product-reviews/B0CVRYT2C1",
+   "hasReviews": true,
+   "delivery": "الاثنين، 21 أبريل",
+   "fastestDelivery": null,
+   "returnPolicy": null,
+   "support": null,
+   "variantAttributes": [
+     {
+       "key": "وحدة المعالجة المركزية",
+       "value": "12th iCore i3-1215U"
+     },
+     {
+       "key": "Computer memory size",
+       "value": "4 GB"
+     },
+     {
+       "key": "السعة",
+       "value": "256GB SSD - Integrated Intel UHD Graphics"
+     },
+     {
+       "key": "النمط",
+       "value": "WIN 11-Gray"
+     }
+   ],
+   "manufacturerAttributes": [],
+   "seller": {
+     "name": "Amazon.eg",
+     "id": null,
+     "url": null,
+     "reviewsCount": null,
+     "averageRating": null
+   },
+   "bestsellerRanks": null,
+   "isAmazonChoice": false,
+   "amazonChoiceText": null,
+   "bookDescription": null,
+   "priceRange": null,
+   "aPlusContent": null,
+   "brandStory": {
+     "title": "من العلامة التجارية",
+     "image": {
+       "name": null,
+       "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2f7c4787-fb2c-4809-ad0e-e3b64198f7ca.__CR79,0,1476,630_PT0_SX1464_V1___.png"
+     },
+     "items": [
+       {
+         "title": null,
+         "text": "الاستدامة \nفي لينوفو، نركز على توفير تكنولوجيا أكثر ذكاءً تبني مستقبلًا أكثر إشراقًا واستدامة لعملائنا وزملائنا ومجتمعاتنا وكوكبنا.",
+         "url": null,
+         "image": {
+           "name": null,
+           "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0b3d4871-4dfb-4e55-a9be-505bb7057c68.__CR0,412,5000,2302_PT0_SX315_V1___.png"
+         },
+         "items": []
+       },
+       {
+         "title": "الأكثر مبيعًا",
+         "text": "زيارة المتجر",
+         "url": "https://www.amazon.eg/stores/page/1231E2FA-449A-44E4-BDF0-AB6A9281CF41?store_ref=storeRecs_dp_aplus",
+         "image": {
+           "name": "Lenovo IdeaPad 1 15IGL7 - Intel Celeron N4020 up to 2.8GHz, 8GB RAM, 256GB SSD M.2 2242 PCIe 4.0x...",
+           "url": "https://m.media-amazon.com/images/I/31Vn0QG56TL.__AC_SR166,182___.jpg"
+         },
+         "items": [
+           {
+             "url": "https://www.amazon.eg/dp/B0D3CWC9X7/ref=emc_bcc_2_i",
+             "image": {
+               "name": "Lenovo IdeaPad 1 15IGL7 - Intel Celeron N4020 up to 2.8GHz, 8GB RAM, 256GB SSD M.2 2242 PCIe 4.0x...",
+               "url": "https://m.media-amazon.com/images/I/31Vn0QG56TL.__AC_SR166,182___.jpg"
+             }
+           },
+           {
+             "url": "https://www.amazon.eg/dp/B0D6MFK2HN/ref=emc_bcc_2_i",
+             "image": {
+               "name": "Lenovo IdeaPad 1 15IAU7 Laptop - 12th Intel Core i3-1215U, 8GB RAM, 256GB SSD, Integrated Intel U...",
+               "url": "https://m.media-amazon.com/images/I/51X94iF8QbL.__AC_SR166,182___.jpg"
+             }
+           },
+           {
+             "url": "https://www.amazon.eg/dp/B0CC1Q6XKS/ref=emc_bcc_2_i",
+             "image": {
+               "name": "Lenovo IdeaPad 3 15ALC6 Laptop - Ryzen 7 5700U 8 Cores, 8GB RAM, 512 GB PCIe NVMe, Integrated AMD...",
+               "url": "https://m.media-amazon.com/images/I/41e4IKAo6sL.__AC_SR166,182___.jpg"
+             }
+           },
+           {
+             "url": "https://www.amazon.eg/dp/B0CM21FM87/ref=emc_bcc_2_i",
+             "image": {
+               "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
+               "url": "https://m.media-amazon.com/images/I/41TcdKT5WHL.__AC_SR166,182___.jpg"
+             }
+           }
+         ]
+       },
+       {
+         "title": "الأكثر شعبية",
+         "text": "زيارة المتجر",
+         "url": "https://www.amazon.eg/stores/page/1231E2FA-449A-44E4-BDF0-AB6A9281CF41?store_ref=storeRecs_dp_aplus",
+         "image": {
+           "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
+           "url": "https://m.media-amazon.com/images/I/31TV%2B21jCDL.__AC_SR166,182___.jpg"
+         },
+         "items": [
+           {
+             "url": "https://www.amazon.eg/dp/B0CM228DZV/ref=emc_bcc_2_i",
+             "image": {
+               "name": "Lenovo IdeaPad 3 15.6 Inch Laptop - Ryzen 7 5700U 8 Cores, 8GB DDR4-3200 RAM, 1TB HDD, Integrated...",
+               "url": "https://m.media-amazon.com/images/I/31TV%2B21jCDL.__AC_SR166,182___.jpg"
+             }
+           },
+           {
+             "url": "https://www.amazon.eg/dp/B0CKY9R28N/ref=emc_bcc_2_i",
+             "image": {
+               "name": "Lenovo IdeaPad 3 15ALC6 Laptop - Ryzen 7 5700U 8 Cores, 8GB RAM, 1TB HDD + 256GB SSD, Integrated ...",
+               "url": "https://m.media-amazon.com/images/I/41CWb84h%2B7L.__AC_SR166,182___.jpg"
+             }
+           },
+           {
+             "url": "https://www.amazon.eg/dp/B0D6MFK2HN/ref=emc_bcc_2_i",
+             "image": {
+               "name": "Lenovo IdeaPad 1 15IAU7 Laptop - 12th Intel Core i3-1215U, 8GB RAM, 256GB SSD, Integrated Intel U...",
+               "url": "https://m.media-amazon.com/images/I/51X94iF8QbL.__AC_SR166,182___.jpg"
+             }
+           },
+           {
+             "url": "https://www.amazon.eg/dp/B0C1VTSYG5/ref=emc_bcc_2_i",
+             "image": {
+               "name": "Lenovo IdeaPad 5 Pro - 82L9001WED intel Core i7-11370H, 16GB Ram, 1TB SSD, MX450, 16\" 2.5K - Stor...",
+               "url": "https://m.media-amazon.com/images/I/41HqdkthGeL.__AC_SR166,182___.jpg"
+             }
+           }
+         ]
+       }
+     ]
+   },
+   "productComparison": null,
+   "aiReviewsSummary": null,
+   "monthlyPurchaseVolume": null,
+  "productPageReviews": [
+   {
+       "username": "Ibrahim",
+       "userId": "amzn1.account.AHM5LNFFBKGTSWSR7HV2TT32YR3A",
+       "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHM5LNFFBKGTSWSR7HV2TT32YR3A/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+       "ratingScore": 5,
+       "reviewTitle": "As Described",
+       "reviewDescription": "As Described - Seller Amazon EgyptGreat as always",
+       "date": null,
+       "position": 1,
+       "reviewedIn": "This review was written in Egypt on February 15, 2025",
+       "reviewId": "RBM6CNGUHFX3A",
+       "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RBM6CNGUHFX3A/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
+       "reviewImages": [],
+       "reviewReaction": "2 users found this review helpful",
+       "isVerified": false,
+       "isAmazonVine": false,
+       "avatar": null,
+       "variant": "CPU: 12th iCore i3-1215U, Computer memory size: 8 GB, Capacity: 256GB SSD - Integrated Intel UHD Graphics, Style: Abyss Blue - 15.6HD - 220nits Anti-glare + 2Y Warranty - Briefcase"
+   },
+   {
+       "username": "I am so sorry I didn't read the reviews before purchasing! The reviews are true this product is faulty & should be removed from the market place. It would not go past the setup page. This item is crap & very disappointing for a Lenovo!",
+       "userId": "amzn1.account.AHYFB4I2CZG4FK33TBRG7DKDQRCA",
+       "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHYFB4I2CZG4FK33TBRG7DKDQRCA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+       "ratingScore": 1,
+       "reviewTitle": "SO many people cannot be a coincidence.",
+       "reviewDescription": "The product cannot be used. It does not boot up as other customers have mentioned. I am sorry I did not read the reviews prior to purchasing. DO NOT PURCHASE THIS ITEM!",
+       "date": null,
+       "position": 2,
+       "reviewedIn": "This review was written in Egypt on February 4, 2025",
+       "reviewId": "R1SB7FNUTK43EA",
+       "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1SB7FNUTK43EA/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
+       "reviewImages": [],
+       "reviewReaction": "2 users found this review helpful",
+       "isVerified": false,
+       "isAmazonVine": false,
+       "avatar": null,
+       "variant": "CPU: Ryzen 3-7320U, Computer memory size: 4 GB, Capacity: 256 GB SSD - AMD Radeon Graphics, Style: WIN 11-Gray"
+   },
+   {
+       "username": "Soso",
+       "userId": "amzn1.account.AF6V76BTZFP2PGG6UG34OEARZ3CQ",
+       "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AF6V76BTZFP2PGG6UG34OEARZ3CQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+       "ratingScore": 2,
+       "reviewTitle": "Incorrect Information",
+       "reviewDescription": "I bought the Ideapad 1 laptop. When I received it, it was supposed to have Windows 11 as described, but it did not have Windows. I had to go to a service center to install Windows 11, which cost me 200 EGP. Also, when I checked the warranty, I found it only had 6 months left, not a year. The only good thing is that the delivery was fast, and it arrived in a sealed box from Amazon.",
+       "date": null,
+       "position": 3,
+       "reviewedIn": "This review was written in Egypt on January 26, 2025",
+       "reviewId": "RB2CBFRI0LWQY",
+       "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RB2CBFRI0LWQY/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
+       "reviewImages": [],
+       "reviewReaction": "1 user found this review helpful",
+       "isVerified": false,
+       "isAmazonVine": false,
+       "avatar": null,
+       "variant": "CPU: 12th iCore i3-1215U, Computer memory size: 8 GB, Capacity: 256GB SSD - Integrated Intel UHD Graphics, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
+   },
+   {
+       "username": "Ahmed NEGM",
+       "userId": "amzn1.account.AEDET772UZ64LJDVSYH6F4BVT7CQ",
+       "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AEDET772UZ64LJDVSYH6F4BVT7CQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+       "ratingScore": 1,
+       "reviewTitle": "The laptop does not reboot",
+       "reviewDescription": "I bought the Levono laptop online from Amazon.eg, but it does not boot or reboot and does not start! Not recommended.. and the return process was very unreliable.",
+       "date": null,
+       "position": 4,
+       "reviewedIn": "This review was written in Egypt on November 20, 2024",
+       "reviewId": "RQ35R0IE88DIH",
+       "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/RQ35R0IE88DIH/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
+       "reviewImages": [],
+       "reviewReaction": "4 users found this review helpful",
+       "isVerified": false,
+       "isAmazonVine": false,
+       "avatar": null,
+       "variant": "CPU: 12th iCore i3-1215U, Computer memory size: 8 GB, Capacity: 256GB SSD - Integrated Intel UHD Graphics, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
+   },
+   {
+       "username": "islam elhanafy",
+       "userId": "amzn1.account.AHSFODWRES6KTRJV5HVJFFETVQBQ",
+       "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AHSFODWRES6KTRJV5HVJFFETVQBQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+       "ratingScore": 2,
+       "reviewTitle": "Unmentioned Specifications",
+       "reviewDescription": "The device came with a modified and poor Windows version that only allows one language to be selected. The device only has two USB ports, the sound is very weak, and the batteries cannot be replaced. The device's outer frame is very weak. The value does not match the price.",
+       "date": null,
+       "position": 5,
+       "reviewedIn": "This review was written in Egypt on November 10, 2024",
+       "reviewId": "R1EZEXPYVXNU7D",
+       "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R1EZEXPYVXNU7D/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
+       "reviewImages": [],
+       "reviewReaction": "4 users found this review helpful",
+       "isVerified": false,
+       "isAmazonVine": false,
+       "avatar": null,
+       "variant": "CPU: 12th iCore i7-1255U, Computer memory size: 8 GB, Capacity: 512GB SSD - Intel Iris Xe Graphics, Style: WIN 11 Home-Cloud Grey"
+   },
+   {
+       "username": "Elisabetta D.",
+       "userId": "amzn1.account.AGVIXLXATT3CECTWQV2XBYHYXEYQ",
+       "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGVIXLXATT3CECTWQV2XBYHYXEYQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+       "ratingScore": 1,
+       "reviewTitle": "It does not work",
+       "reviewDescription": "I bought 2 of these and returned both because they didn't work. Boot failure.",
+       "date": null,
+       "position": 6,
+       "reviewedIn": "This review was written in Egypt on November 19, 2024",
+       "reviewId": "R27JM5QVOYQIU2",
+       "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R27JM5QVOYQIU2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
+       "reviewImages": [],
+       "reviewReaction": "5 users found this review helpful",
+       "isVerified": false,
+       "isAmazonVine": false,
+       "avatar": null,
+       "variant": "CPU: Intel Celeron N4020, Computer memory size: 8 GB, Capacity: 256GB SSD - RTX 4060, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
+   },
+   {
+       "username": "Basma E.",
+       "userId": "amzn1.account.AGBNW7KGMNMCD6TNXHNIJXMC677Q",
+       "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGBNW7KGMNMCD6TNXHNIJXMC677Q/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+       "ratingScore": 1,
+       "reviewTitle": "No Version",
+       "reviewDescription": "Arrived without a Windows version and the boot is failing.",
+       "date": null,
+       "position": 7,
+       "reviewedIn": "This review was written in Egypt on December 10, 2024",
+       "reviewId": "R353J5T0KIJRV1",
+       "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R353J5T0KIJRV1/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
+       "reviewImages": [],
+       "reviewReaction": "3 users found this review helpful",
+       "isVerified": false,
+       "isAmazonVine": false,
+       "avatar": null,
+       "variant": "CPU: Intel Celeron N4020, Computer memory size: 8 GB, Capacity: 256GB SSD - RTX 4060, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
+   },
+   {
+       "username": "Johny E.",
+       "userId": "amzn1.account.AGGWUF6FMTBI2ESPCD47RCG6ORSA",
+       "userProfileLink": "https://www.amazon.eg/gp/profile/amzn1.account.AGGWUF6FMTBI2ESPCD47RCG6ORSA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+       "ratingScore": 1,
+       "reviewTitle": "Don't buy",
+       "reviewDescription": "Doesn't boot up",
+       "date": null,
+       "position": 8,
+       "reviewedIn": "This review was written in Egypt on September 11, 2024",
+       "reviewId": "R3GHVYO1SH9N4Z",
+       "reviewUrl": "https://www.amazon.eg/gp/customer-reviews/R3GHVYO1SH9N4Z/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B0CVRYT2C1",
+       "reviewImages": [],
+       "reviewReaction": "13 users found this review helpful",
+       "isVerified": false,
+       "isAmazonVine": false,
+       "avatar": null,
+       "variant": "CPU: Intel Celeron N4020, Computer memory size: 8 GB, Capacity: 256GB SSD - RTX 4060, Style: Abyss Blue - 15.6HD - 220nits Anti-glare"
+   }
+]
+,
+   "productPageReviewsFromOtherCountries": [],
+   "locationText": "مصر",
+   "loadedCountryCode": "EG",
+   "offers": [],
+   "unNormalizedProductUrl": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2&s=popularity-rank",
+   "categoryPageData": {
+     "saleSummary": "خصم 10% مع بطاقات HSBC الائتمانية",
+     "isSponsored": false,
+     "bestsellerBadge": null,
+     "productPosition": 16
+   },
+   "input": "https://www.amazon.eg/s?k=%D9%84%D8%A7%D8%A8+%D8%AA%D9%88%D8%A8&i=electronics&crid=3F0SALL0WZIHI&qid=1744769658&sprefix=%D9%84%D8%A7%D8%A8%2Celectronics%2C122&xpid=5G3ZkU4wgSVcs&ref=sr_pg_2"
+ },
+{
   "title": "Vivobook 15 X1502ZA-BQ007W Laptop - Core i7 12700H, 512GB SSD, 8GB DDR4 RAM, 15.6 FHD, Intel UHD Graphics, Windows 11, Quiet Blue - 90NB0VX1-M036B0",
   "asin": "B0DFWXVYRT",
   "originalAsin": "B0DFWXVYRT",
   "priceAmazon": 26850,
-  "priceJumia": 27999,
+  "priceJumia": 27999.00,
+  "priceNoon":31999.00,
   "urls": {
     "amazon": "https://www.amazon.eg/dp/B0DFWXVYRT",
+    "noon":"https://www.noon.com/egypt-ar/90nb0vx1-m036b0-laptop-with-15-6-inch-fhd-core-i7-12700h-8-gb-ram-512-gb-ssd-intel-uhd-graphics-windows-11-home-english-arabic-quiet-blue-english-arabic-quiet-blue/N70106742V/p/?o=a15bec516728582b&shareId=3e00f475-84d4-4f30-896d-7bde2ee4166f",
     "jumia": "https://www.jumia.com.eg/ar/asus-vivobook-15-x1502za-bq007w-15.6-fhd-intel-ci7-12700h-8gb-ram-512gb-ssd-intel-uhd-win11..-112295266.html"
   },
   "inStock": true,
