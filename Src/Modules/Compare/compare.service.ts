@@ -345,7 +345,11 @@ export const compareProducts = async (
     
     TV Attributes:
     ${tvAttributes.map((attr) => `- ${attr}`).join("\n")}
-    
+    Price Attributes:
+- priceAmazon
+- priceJumia
+- priceNoon
+    - For price attributes, the lower the price the better. Assign “1” to the device(s) with the lowest price on each platform, and “0” to the rest.
     - Use each object’s “id” as the key in "comparisonTable".
     - For each attribute, assign “1” to the device(s) that are best for that attribute, and “0” to the others.
     - If more than one device ties, assign “1” to each.
