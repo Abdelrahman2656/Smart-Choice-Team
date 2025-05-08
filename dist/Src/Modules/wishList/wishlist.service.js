@@ -65,7 +65,6 @@ const addWishList = async (req, res, next) => {
             userUpdate,
         });
     }
-    //update
 };
 exports.addWishList = addWishList;
 //---------------------------------------------------get wishlist --------------------------------------------------------------

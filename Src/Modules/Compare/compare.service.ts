@@ -1,4 +1,4 @@
-import { Laptop, Mobile, Tablet, Tv } from "../../../Database"; // Assuming you have TV model in your DB
+import { Laptop, Mobile, Tablet, Tv } from "../../../Database"; 
 import { AppNext, AppRequest, AppResponse } from "../../Utils/type";
 import { Types } from "mongoose";
 import { GoogleGenAI } from "@google/genai";
@@ -17,7 +17,7 @@ interface Product extends Document {
 }
 
 interface TVProduct extends Product {
-  productOverview: Attribute[]; // Adding TV-specific productOverview
+  productOverview: Attribute[]; 
 }
 const isTVProduct = (product: any): product is TVProduct => {
   return (product as TVProduct).productOverview !== undefined;
@@ -109,10 +109,10 @@ export const compareProducts = async (
       "Battery Power Rating",
      
       "Item Weight",
-      "ASIN",
-      "User Reviews",
-      "Best Seller Rank",
-      "First Available Date",
+  
+     
+    
+     
     
       "Operating System",
       "Installed RAM",
@@ -161,9 +161,9 @@ export const compareProducts = async (
       "Operating System",
       "Battery Charging Time (hours)",
       "Item Weight",
-      "ASIN",
-      "User Reviews",
-      "Best Sellers Rank",
+     
+     
+ 
      
       "Screen Size",
     
@@ -222,10 +222,7 @@ export const compareProducts = async (
       "Lithium Battery Packaging",
       "Number of Lithium Ion Cells",
       "Item Weight",
-     
-      "Customer Reviews",
-      "Best Sellers Rank",
-      "Date First Available",
+   
      
       "Model Name",
       "Screen Size",
@@ -258,25 +255,25 @@ export const compareProducts = async (
     // تحديد الـ attributes بناءً على الكاتيجوري
     if (category === "Mobile") {
       mobileAttributes.forEach((key) => {
-        importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); // مثال: "Operating System" -> "operatingSystem"
+        importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); 
       });
     }
 
     if (category === "Tablet") {
       tabletAttributes.forEach((key) => {
-        importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); // مثال: "Return Reason" -> "returnReason"
+        importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); 
       });
     }
 
     if (category === "Laptop") {
       laptopAttributes.forEach((key) => {
-        importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); // مثال: "RAM Size" -> "ramSize"
+        importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); 
       });
     }
 
     if (category === "Television") {
       tvAttributes.forEach((key) => {
-        importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); // مثال: "Screen Size" -> "screenSize"
+        importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); 
       });
     }
 

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.compareProducts = void 0;
-const Database_1 = require("../../../Database"); // Assuming you have TV model in your DB
+const Database_1 = require("../../../Database");
 const mongoose_1 = require("mongoose");
 const genai_1 = require("@google/genai");
 const isTVProduct = (product) => {
@@ -83,10 +83,6 @@ const compareProducts = async (req, res, next) => {
             "Color",
             "Battery Power Rating",
             "Item Weight",
-            "ASIN",
-            "User Reviews",
-            "Best Seller Rank",
-            "First Available Date",
             "Operating System",
             "Installed RAM",
             "Memory Storage Capacity",
@@ -133,9 +129,6 @@ const compareProducts = async (req, res, next) => {
             "Operating System",
             "Battery Charging Time (hours)",
             "Item Weight",
-            "ASIN",
-            "User Reviews",
-            "Best Sellers Rank",
             "Screen Size",
             "Model Name",
             "Memory Storage Capacity",
@@ -189,9 +182,6 @@ const compareProducts = async (req, res, next) => {
             "Lithium Battery Packaging",
             "Number of Lithium Ion Cells",
             "Item Weight",
-            "Customer Reviews",
-            "Best Sellers Rank",
-            "Date First Available",
             "Model Name",
             "Screen Size",
             "Hard Disk Size",
@@ -218,22 +208,22 @@ const compareProducts = async (req, res, next) => {
         // تحديد الـ attributes بناءً على الكاتيجوري
         if (category === "Mobile") {
             mobileAttributes.forEach((key) => {
-                importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); // مثال: "Operating System" -> "operatingSystem"
+                importantKeys[key] = key.replace(/\s+/g, "").toLowerCase();
             });
         }
         if (category === "Tablet") {
             tabletAttributes.forEach((key) => {
-                importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); // مثال: "Return Reason" -> "returnReason"
+                importantKeys[key] = key.replace(/\s+/g, "").toLowerCase();
             });
         }
         if (category === "Laptop") {
             laptopAttributes.forEach((key) => {
-                importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); // مثال: "RAM Size" -> "ramSize"
+                importantKeys[key] = key.replace(/\s+/g, "").toLowerCase();
             });
         }
         if (category === "Television") {
             tvAttributes.forEach((key) => {
-                importantKeys[key] = key.replace(/\s+/g, "").toLowerCase(); // مثال: "Screen Size" -> "screenSize"
+                importantKeys[key] = key.replace(/\s+/g, "").toLowerCase();
             });
         }
         const comparisonData = products.map((product) => {

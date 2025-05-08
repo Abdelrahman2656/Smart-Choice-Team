@@ -11,7 +11,7 @@ import { globalErrorHandling } from "./Middleware/asyncHandler";
 import { compareRouter, contactRouter, mobileRouter, productRouter, tabletRouter, televisionRouter, userRouter, wishlistRouter } from "./Modules";
 
 
- const bootstrap = async ( // ✅ إضافة async هنا
+ const bootstrap = async ( 
   app: Application,
   express: typeof import("express")
 ) => {
