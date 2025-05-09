@@ -45,11 +45,11 @@ const televisionRouter = (0, express_1.Router)();
 // 🟢 إنشاء منتج (متاح فقط للمسؤولين)
 televisionRouter.post("/", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(televisionService.createTelevision));
 // 🟢 جلب كل المنتجات (متاح للجميع)
-televisionRouter.get("/amazon-television", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(televisionService.getAllTelevisions));
+televisionRouter.get("/amazon-television", (0, asyncHandler_1.asyncHandler)(televisionService.getAllTelevisions));
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
-televisionRouter.get("/amazon-television/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(televisionService.getTelevisionById));
+televisionRouter.get("/amazon-television/:id", (0, asyncHandler_1.asyncHandler)(televisionService.getTelevisionById));
 //get recommend Mobile
-televisionRouter.get("/recommend-television/:tvId", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, validation_1.isValid)(televisionValidation.getRecommendTv), (0, asyncHandler_1.asyncHandler)(televisionService.getRecommendTelevision));
+televisionRouter.get("/recommend-television/:tvId", (0, validation_1.isValid)(televisionValidation.getRecommendTv), (0, asyncHandler_1.asyncHandler)(televisionService.getRecommendTelevision));
 // 🟢 تحديث منتج معين (متاح فقط لـ ADMIN)
 televisionRouter.put("/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(televisionService.updateTelevision));
 // 🟢 حذف منتج معين (متاح فقط لـ ADMIN)

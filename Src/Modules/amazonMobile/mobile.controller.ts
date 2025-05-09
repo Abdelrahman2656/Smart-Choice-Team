@@ -20,23 +20,20 @@ mobileRouter.post(
 // 🟢 جلب كل المنتجات (متاح للجميع)
 mobileRouter.get(
   "/amazon-mobile",
-  isAuthentication,
-  isAuthorization([roles.USER]),
+
   asyncHandler(mobileService.getAllMobiles)
 );
 
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
 mobileRouter.get(
   "/:id",
-  isAuthentication,
-  isAuthorization([roles.USER]),
+
   asyncHandler(mobileService.getMobileById)
 );
 //get recommend Mobile
 mobileRouter.get(
   "/recommend-mobile/:mobileId",
-  isAuthentication,
-  isAuthorization([roles.USER]),
+  
   isValid(mobileValidation.getRecommendMobile),
   asyncHandler(mobileService.getRecommendMobile)
 );

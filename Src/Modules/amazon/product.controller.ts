@@ -20,17 +20,17 @@ productRouter.post(
 
 // 🟢 جلب كل المنتجات (متاح للجميع)
 productRouter.get(
-  "/all-amazon-laptop",isAuthentication,isAuthorization([roles.USER]),
+  "/all-amazon-laptop",
   asyncHandler(productService.getAllProducts)
 );
 
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
 productRouter.get(
-  "/amazon-laptop/:id",isAuthentication,isAuthorization([roles.USER]),
+  "/amazon-laptop/:id",
   asyncHandler(productService.getProductById)
 );
 //get recommend product
-productRouter.get("/recommend-laptop/:productId",isAuthentication,isAuthorization([roles.USER]),isValid(productValidation.getRecommendLaptop),asyncHandler(productService.getRecommendLaptop))
+productRouter.get("/recommend-laptop/:productId",isValid(productValidation.getRecommendLaptop),asyncHandler(productService.getRecommendLaptop))
 // 🟢 تحديث منتج معين (متاح فقط لـ ADMIN)
 productRouter.put(
   "/:id",

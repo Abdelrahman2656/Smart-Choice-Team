@@ -35,11 +35,8 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const compareService = __importStar(require("./compare.service"));
-const authentication_1 = require("../../Middleware/authentication");
-const authorization_1 = require("../../Middleware/authorization");
-const enum_1 = require("../../Utils/constant/enum");
 const asyncHandler_1 = require("../../Middleware/asyncHandler");
 const compareRouter = (0, express_1.Router)();
 //compare product 
-compareRouter.post("/", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(compareService.compareProducts));
+compareRouter.post("/", (0, asyncHandler_1.asyncHandler)(compareService.compareProducts));
 exports.default = compareRouter;

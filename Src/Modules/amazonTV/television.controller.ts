@@ -20,20 +20,19 @@ const televisionRouter = Router();
 
 // 🟢 جلب كل المنتجات (متاح للجميع)
  televisionRouter.get(
-  "/amazon-television",isAuthentication,isAuthorization([roles.USER]),
+  "/amazon-television",
   asyncHandler(televisionService.getAllTelevisions)
 );
 
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
  televisionRouter.get(
-  "/amazon-television/:id",isAuthentication,isAuthorization([roles.USER]),
+  "/amazon-television/:id",
   asyncHandler(televisionService.getTelevisionById)
 );
 //get recommend Mobile
 televisionRouter.get(
   "/recommend-television/:tvId",
-  isAuthentication,
-  isAuthorization([roles.USER]),
+  
   isValid(televisionValidation.getRecommendTv),
   asyncHandler(televisionService.getRecommendTelevision)
 );

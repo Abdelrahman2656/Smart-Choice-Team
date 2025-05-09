@@ -45,11 +45,11 @@ const productRouter = (0, express_1.Router)();
 // 🟢 إنشاء منتج (متاح فقط للمسؤولين)
 productRouter.post("/", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(productService.createProduct));
 // 🟢 جلب كل المنتجات (متاح للجميع)
-productRouter.get("/all-amazon-laptop", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(productService.getAllProducts));
+productRouter.get("/all-amazon-laptop", (0, asyncHandler_1.asyncHandler)(productService.getAllProducts));
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
-productRouter.get("/amazon-laptop/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, asyncHandler_1.asyncHandler)(productService.getProductById));
+productRouter.get("/amazon-laptop/:id", (0, asyncHandler_1.asyncHandler)(productService.getProductById));
 //get recommend product
-productRouter.get("/recommend-laptop/:productId", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.USER]), (0, validation_1.isValid)(productValidation.getRecommendLaptop), (0, asyncHandler_1.asyncHandler)(productService.getRecommendLaptop));
+productRouter.get("/recommend-laptop/:productId", (0, validation_1.isValid)(productValidation.getRecommendLaptop), (0, asyncHandler_1.asyncHandler)(productService.getRecommendLaptop));
 // 🟢 تحديث منتج معين (متاح فقط لـ ADMIN)
 productRouter.put("/:id", authentication_1.isAuthentication, (0, authorization_1.isAuthorization)([enum_1.roles.ADMIN]), (0, asyncHandler_1.asyncHandler)(productService.updateProduct));
 // 🟢 حذف منتج معين (متاح فقط لـ ADMIN)

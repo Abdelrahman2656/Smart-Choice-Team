@@ -20,20 +20,19 @@ const tabletRouter = Router();
 
 // 🟢 جلب كل المنتجات (متاح للجميع)
  tabletRouter.get(
-  "/amazon-tablet",isAuthentication,isAuthorization([roles.USER]),
+  "/amazon-tablet",
   asyncHandler(tabletService.getAllTablets)
 );
 
 // 🟢 جلب منتج معين حسب الـ ID (متاح للجميع)
  tabletRouter.get(
-  "/amazon-tablet/:id",isAuthentication,isAuthorization([roles.USER]),
+  "/amazon-tablet/:id",
   asyncHandler(tabletService.getTabletById)
 );
 //get recommend tablet
 tabletRouter.get(
   "/recommend-tablet/:tabletId",
-  isAuthentication,
-  isAuthorization([roles.USER]),
+
   isValid(tableValidation.getRecommendTablet),
   asyncHandler(tabletService.getRecommendTablet)
 );
