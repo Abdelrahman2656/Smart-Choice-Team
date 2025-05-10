@@ -5,6 +5,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
+// import rateLimit from 'express-rate-limit';
+// import morgan from 'morgan';
 const path_1 = __importDefault(require("path"));
 const dbconnection_1 = __importDefault(require("../Database/dbconnection"));
 const seed_1 = require("../Database/seed");
@@ -13,6 +15,8 @@ const seedTablet_1 = require("../Database/seedTablet");
 const seedTv_1 = require("../Database/seedTv");
 const asyncHandler_1 = require("./Middleware/asyncHandler");
 const Modules_1 = require("./Modules");
+// import { AppNext, AppRequest, AppResponse } from './Utils/type';
+// import { AppError } from './Utils/AppError/AppError';
 const bootstrap = async (app, express) => {
     //-----------------------------------------------rater limit------------------------------------------------------------
     // app.use(rateLimit({
