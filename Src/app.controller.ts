@@ -30,10 +30,10 @@ import { AppError } from './Utils/AppError/AppError';
     }
   }))
   //-----------------------------------------------morgan------------------------------------------------------------
-if (process.env.MODE === "DEV") {
-  app.use(morgan("dev"));
-  console.log(`mode: ${process.env.MODE}`);
-}
+// if (process.env.MODE === "DEV") {
+//   app.use(morgan("dev"));
+//   console.log(`mode: ${process.env.MODE}`);
+// }
   //-----------------------------------------------parse------------------------------------------------------------
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));

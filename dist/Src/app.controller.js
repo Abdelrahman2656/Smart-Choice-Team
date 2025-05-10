@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const express_rate_limit_1 = __importDefault(require("express-rate-limit"));
-const morgan_1 = __importDefault(require("morgan"));
 const path_1 = __importDefault(require("path"));
 const dbconnection_1 = __importDefault(require("../Database/dbconnection"));
 const seed_1 = require("../Database/seed");
@@ -28,10 +27,10 @@ const bootstrap = async (app, express) => {
         }
     }));
     //-----------------------------------------------morgan------------------------------------------------------------
-    if (process.env.MODE === "DEV") {
-        app.use((0, morgan_1.default)("dev"));
-        console.log(`mode: ${process.env.MODE}`);
-    }
+    // if (process.env.MODE === "DEV") {
+    //   app.use(morgan("dev"));
+    //   console.log(`mode: ${process.env.MODE}`);
+    // }
     //-----------------------------------------------parse------------------------------------------------------------
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
