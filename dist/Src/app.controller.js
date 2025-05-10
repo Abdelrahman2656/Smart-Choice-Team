@@ -5,7 +5,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
-const express_rate_limit_1 = __importDefault(require("express-rate-limit"));
 const path_1 = __importDefault(require("path"));
 const dbconnection_1 = __importDefault(require("../Database/dbconnection"));
 const seed_1 = require("../Database/seed");
@@ -14,18 +13,17 @@ const seedTablet_1 = require("../Database/seedTablet");
 const seedTv_1 = require("../Database/seedTv");
 const asyncHandler_1 = require("./Middleware/asyncHandler");
 const Modules_1 = require("./Modules");
-const AppError_1 = require("./Utils/AppError/AppError");
 const bootstrap = async (app, express) => {
     //-----------------------------------------------rater limit------------------------------------------------------------
-    app.use((0, express_rate_limit_1.default)({
-        windowMs: 1 * 60 * 1000,
-        limit: 50,
-        message: "Too many requests from this IP, please try again later",
-        statusCode: 400,
-        handler: (req, res, next, options) => {
-            return next(new AppError_1.AppError(options.message, options.statusCode));
-        }
-    }));
+    // app.use(rateLimit({
+    //   windowMs:1 * 60 * 1000, 
+    //   limit:50,
+    //   message:"Too many requests from this IP, please try again later",
+    //   statusCode:400,
+    //   handler:(req:AppRequest,res:AppResponse,next:AppNext,options)=>{
+    //     return next(new AppError(options.message,options.statusCode))
+    //   }
+    // }))
     //-----------------------------------------------morgan------------------------------------------------------------
     // if (process.env.MODE === "DEV") {
     //   app.use(morgan("dev"));

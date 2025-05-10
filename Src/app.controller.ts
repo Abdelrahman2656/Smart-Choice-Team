@@ -20,15 +20,15 @@ import { AppError } from './Utils/AppError/AppError';
   express: typeof import("express")
 ) => {
     //-----------------------------------------------rater limit------------------------------------------------------------
-  app.use(rateLimit({
-    windowMs:1 * 60 * 1000, 
-    limit:50,
-    message:"Too many requests from this IP, please try again later",
-    statusCode:400,
-    handler:(req:AppRequest,res:AppResponse,next:AppNext,options)=>{
-      return next(new AppError(options.message,options.statusCode))
-    }
-  }))
+  // app.use(rateLimit({
+  //   windowMs:1 * 60 * 1000, 
+  //   limit:50,
+  //   message:"Too many requests from this IP, please try again later",
+  //   statusCode:400,
+  //   handler:(req:AppRequest,res:AppResponse,next:AppNext,options)=>{
+  //     return next(new AppError(options.message,options.statusCode))
+  //   }
+  // }))
   //-----------------------------------------------morgan------------------------------------------------------------
 // if (process.env.MODE === "DEV") {
 //   app.use(morgan("dev"));
